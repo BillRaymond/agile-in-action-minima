@@ -1,0 +1,142 @@
+---
+label: Podcast Post
+hide_body: false
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  description: Used to determine how to display the post. Do not change.
+  hidden: true
+  default: podcast-post
+- name: categories
+  type: text
+  config:
+    required: false
+  label: categories
+  description: Used to determine how to display the post. Do not modify.
+  default: agile-in-action-podcast
+  hidden: true
+- name: date
+  type: datetime
+  label: Publish date
+  description: Select the day the podcast goes live
+  config:
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
+- name: author
+  type: select
+  default: Bill Raymond
+  config:
+    required: false
+    options:
+    - Bill Raymond
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Podcast host
+  hidden: true
+  description: Select the name of the person hosting the podcast. The person will
+    also be listed as the author in the website.
+- name: title
+  type: text
+  config:
+    required: true
+  label: Podcast title
+  description: A short title to describe the podcast
+- name: twitter-text
+  type: text
+  config:
+    required: false
+    min: 0
+    max: 250
+  label: Twitter text
+  description: Type the text to appear in a tweet. The URL and a listen now emoji
+    will send, so do not add those here.
+- name: guest-details
+  type: field_group_list
+  fields:
+  - name: guest-name
+    type: text
+    config:
+      required: false
+    label: Guest name
+    description: 'Type the guest''s name, or name and title. Like this: "Sarah Smith"
+      or "Sarah Smith, Vice President Technology at Acme Corp".'
+  - name: guest-title
+    type: text
+    config:
+      required: false
+    label: Guest title
+    description: 'Type the person''s title and other pertinent information. ex: Jo
+      Smith, CIO Acme Corp, and agile practitioner'
+  - name: guest-photo
+    type: file
+    config:
+      maxSize: 64
+    label: Guest photo
+  - name: guest-links
+    type: field_group_list
+    fields:
+    - name: guest-link-label
+      type: text
+      config:
+        required: false
+      label: Link label
+      description: Type a label for the link, like LinkedIn, Twitter, Amazon Book,
+        etc.
+    - name: guest-link-url
+      type: text
+      config:
+        required: false
+      label: Link url
+      description: Type a url for the link, like https://www.mybook.com.
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Guest links
+    description: Add links, like LinkedIn and others for each guest.
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Guest details
+  description: Select the guest's photo and their name. There must be at least one
+    guest and not more than four guests.
+- name: libsynUrl
+  type: text
+  config:
+    required: false
+  label: Libsyn directory url
+  description: After you publish a post, Libsyn will provide a "Libsyn Directory URL".
+    Paste that link into this field.
+pages:
+- _posts/2021-08-10-getting-in-the-agile-zone-with-the-fluency-model.md
+- _posts/2021-08-31-introducing-agile-for-finance.md
+- _posts/2021-10-26-improve-team-morale-and-performance-by-addressing-technical-debt.md
+- _posts/2021-11-02-from-complicated-chaos-to-value-and-velocity-with-flow-engineering-and-value-stream-mapping.md
+- _posts/2021-11-09-let-s-talk-about-safe.md
+- _posts/2021-11-30-an-introduction-to-agile-team-planning-and-velocity.md
+- _posts/2021-12-07-agile-estimating-and-planning-with-mike-cohn.md
+- _posts/2022-01-04-agile-in-policy-development.md
+- _posts/2022-01-18-dealing-with-ambiguity-in-the-workplace.md
+- _posts/2022-01-25-setting-and-achieving-corporate-objectives-okrs.md
+- _posts/2022-02-01-from-project-to-product-refocusing-your-organization-and-culture.md
+- _posts/2022-02-08-introducing-organizational-agility.md
+- _posts/2022-02-15-an-agile-approach-to-knowledge-services.md
+- _posts/2022-02-22-are-roadmaps-causing-feature-factories.md
+- _posts/2022-03-08-avoid-being-your-own-worst-enemy.md
+- _posts/2022-03-29-introducing-objectives-and-key-results-okrs.md
+- _posts/2022-04-05-risk-driven-security-in-agile-software-development.md
+- _posts/2022-05-09-outcome-driven-design-and-team-behaviors.md
+- _posts/2022-05-16-successful-globally-distributed-teams.md
+- _posts/2022-06-07-building-a-culture-of-psychological-safety.md
+- _posts/test-date-time.md
+- _posts/the-art-and-science-of-facilitation.md

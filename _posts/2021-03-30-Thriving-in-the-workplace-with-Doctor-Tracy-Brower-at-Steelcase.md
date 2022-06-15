@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: podcast-post
 categories: agile-in-action-podcast
 date: 2021-03-30T01:00:00.000-07:00
 author: Bill Raymond

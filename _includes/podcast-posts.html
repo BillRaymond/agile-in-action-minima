@@ -1,0 +1,29 @@
+
+{% comment %} Display the first post {% endcomment %}
+{%- assign podcastPosts = site.posts 
+  | where_exp: 'podcastPost', 'podcastPost.date <= site.time' 
+  | where_exp: 'podcastPost', 'podcastPost.guest-details != nil' -%}
+{%- if podcastPosts.size > 0 -%}
+  <ul class="post-list">
+    {%- for podcastPost in podcastPosts limit: podcastLimit offset: podcastOffset -%}
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- assign cardFileName = podcastPost.path | split: '/' | last | split: '.' | first | append: '.png' | prepend: '/uploads/' | relative_url -%}
+      {%- assign cardLink = podcastPost.url | relative_url -%}
+      {%- assign podcastTitle = podcastPost.title | escape -%}
+      {%- assign guestDetails = podcastPost.guest-details -%}
+      <li>
+        <a href="{{- cardLink -}}"><img src="{{- cardFileName -}}" alt="{{- podcastTitle.title -}}"></a>
+        <h3>
+          <a class="post-link" href="{{ podcastPost.url | relative_url }}">
+                {{ podcastTitle }}
+          </a>
+        </h3>
+        {%- if guestDetails.size > 0 -%}
+          {%- for guestDetail in guestDetails -%}                
+            with <span class="guest-name" itemprop="name">{{guestDetail.guest-name}}</span><br>
+          {%- endfor -%}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

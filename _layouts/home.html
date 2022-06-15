@@ -9,8 +9,15 @@ layout: default
 
   {{ content }}
 
-{%- include posts-latest.html -%}
-{%- include posts-all.html -%}
+{% comment %} {%- include posts-minima.html -%} {% endcomment %}
+<h2 class="post-list-heading">{{ page.list_title | default: "Latest podcast" }}</h2>
+{%- assign podcastLimit = 1 -%}
+{%- assign podcastOffset = 0 -%}
+{%- include podcast-posts.html -%}
+<h2 class="post-list-heading">{{ page.list_title | default: "All podcasts" }}</h2>
+{%- assign podcastLimit = null -%}
+{%- assign podcastOffset = 1 -%}
+{%- include podcast-posts.html -%}
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>

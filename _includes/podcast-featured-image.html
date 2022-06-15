@@ -1,0 +1,7 @@
+{% comment %}
+    Display the featured image for a podcast post
+{% endcomment %}
+    <div class="header-featured">
+        {%- assign card-filename = page.path | split: '/' | last | split: '.' | first | append: '-no-play-icon' | append: '.png' | prepend: '/uploads/' | relative_url -%}
+        <a href="{{- card-link -}}"><img src="{{- card-filename -}}" alt="{{- page.title -}}"></a>
+    </div>

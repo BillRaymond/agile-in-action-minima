@@ -1,7 +1,7 @@
 {%- comment -%}
     Display a list of podcast players for the user to select
 {%- endcomment -%}
-<div class="post-content podcast-badges" itemprop="podcastBadges">
+<div class="podcast-badges" itemprop="podcastBadges">
     {%- assign badges = site.data.podcast-badges.items | sort: "orderby" -%}
     {%- for badge in badges -%}
         <a href="{{- badge.url | relative_url -}}" class="podcast-badge-link" target="_blank">
@@ -9,3 +9,4 @@
         </a>
     {%- endfor -%}
 </div>
+<p></p>

@@ -1,24 +1,24 @@
 // Layout to display any podcast badges
 
-.post-content.podcast-badges {
+.podcast-badges {
     display: grid;
     grid-template-columns: repeat(auto-fill, 130px);
     justify-content: start;
     gap: 5px;
 }
 
-.post-content.podcast-badge {
+.podcast-badge {
   display: grid;
   width: auto;
 }
 
 // /* uncomment for a visual representation of the grid */
-// .podcast-badges * {
+// .post-content.podcast-badges * {
 //     border: 1px solid red;
 //     position: relative;
 // }
   
-// .podcast-badges *:after {
+// .post-content.podcast-badges *:after {
 //     content:attr(class);
 //     color: red;
 //     position: absolute;

@@ -1,0 +1,24 @@
+{%- comment -%}
+Display the podcast player
+If no player, add a title stating as such
+{%- endcomment -%}
+    <div class="post-content e-content" itemprop="audioPlayer"></div>
+        {%- assign player-id = page.libsynUrl | split: '/' | last -%}
+        {%- if player-id -%}
+        <h2>Listen now</h2>
+            <iframe class="podcast-player"
+                style="border: none" 
+                src="//html5-player.libsyn.com/embed/episode/id/{{player-id}}/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/f49f1c/"
+                height="90" 
+                width="100%" 
+                scrolling="no"  
+                allowfullscreen 
+                webkitallowfullscreen 
+                mozallowfullscreen 
+                oallowfullscreen 
+                msallowfullscreen>
+            </iframe>
+        {%- else -%}
+            <h2>No audio link found</h2>
+        {%- endif -%}
+    </div>

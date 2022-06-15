@@ -18,9 +18,9 @@ layout: default
   {% include podcast-featured-image.html %}
   {% include podcast-player.html %}
   {% include podcast-badges.html %}
-
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+    {% include podcast-guest-links.html %}
   </div>
 
   {%- if site.disqus.shortname -%}

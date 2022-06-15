@@ -1,0 +1,16 @@
+    <h2>Links</h2>
+    {%- assign podcastGuests = page.guest-details -%}
+    {%- if podcastGuests.size > 0 -%}
+        {%- for guest in podcastGuests -%}
+            <h3>{{- guest.guest-name -}}</h3>
+            <ul>
+            {%- for link in guest.guest-links -%}
+                <li>
+                    <a href="{{- link.guest-link-url -}}" target="blank">
+                        {{- link.guest-link-label -}}
+                    </a>
+                </li>
+            {%- endfor -%}
+            </ul>
+        {%- endfor -%}
+    {%- endif -%}

@@ -5,7 +5,7 @@
     {%- assign badges = site.data.podcast-badges.items | sort: "orderby" -%}
     {%- for badge in badges -%}
         <a href="{{- badge.url | relative_url -}}" class="podcast-badge-link" target="_blank">
-            <img class="podcast-badge" src="{{- badge.imageUrl |relative_url -}}" alt="alt">
+            <img class="podcast-badge" itemprop="podcastBadge" src="{{- badge.imageUrl |relative_url -}}" alt="alt">
         </a>
     {%- endfor -%}
 </div>

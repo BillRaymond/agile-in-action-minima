@@ -2,7 +2,7 @@
 Display the podcast player
 If no player, add a title stating as such
 {%- endcomment -%}
-    <div class="post-content e-content" itemprop="audioPlayer"></div>
+    <div class="post-content e-content" itemprop="audioPlayer">
         {%- assign player-id = page.libsynUrl | split: '/' | last -%}
         {%- if player-id -%}
         <h2>Listen now</h2>

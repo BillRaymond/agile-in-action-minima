@@ -1,0 +1,4 @@
+## Site-wide configuration settings. Avoid using _config.yml because that requires a restart when testing locally.",
+
+# Agile in Action logos
+logo-large-horizontal: "/assets/agile-in-action-logos/agile-in-action-large-horizontal.png"

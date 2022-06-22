@@ -1,0 +1,13 @@
+/**
+ * Site navigation
+ */
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    // column-gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    margin: 0;
+}

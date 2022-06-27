@@ -3,6 +3,8 @@ layout: page
 title: Become a guest
 permalink: /become-a-guest/
 ---
+👉 [Propose your topic](https://calendly.com/billraymond/30min){:target="_blank"}
+
 ### 🎙 About the Agile in Action Podcast with Bill Raymond
 The Agile in Action podcast serves our listeners with unique and timely views of the people working tirelessly to modernize how teams work. The podcast is committed to building a passionate community for people ready to make positive changes in their organizations.
 
@@ -19,7 +21,7 @@ cultural change • agile frameworks • team flow • technology enablement •
 ### 🙋 How to become a guest
 We will hold a short, 30-minute meeting to discuss the topic and theme for the podcast and then another 1-hour, audio-only web meeting to record the conversation.
 
-Propose your topic at https://calendly.com/billraymond/30min
+👉 [Propose your topic](https://calendly.com/billraymond/30min){:target="_blank"}
 
 
 ### 💫 A unique opportunity

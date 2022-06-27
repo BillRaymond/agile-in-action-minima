@@ -4,15 +4,13 @@ title: Contact Us
 permalink: /contact/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+You can reach Bill Raymond a number of ways:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### 🗓 By appointment
+[Book a 30-minute introduction with Bill](https://calendly.com/billraymond/30min){:target="_blank"}
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### 🪪 On LinkedIn
+[Connect with Bill on LinkedIn](https://www.linkedin.com/in/williamraymond/){:target="_blank"}
 
-
-[jekyll-organization]: https://github.com/jekyll
+### 🐦 On Twitter
+[Follow Bill on Twitter](https://twitter.com/billraymonde){:target="_blank"}

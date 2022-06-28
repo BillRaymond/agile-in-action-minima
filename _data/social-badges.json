@@ -1,0 +1,32 @@
+{
+    "attribute": "Social badges",
+    "items": [
+        {
+            "title": "Twitter",
+            "url": "https://twitter.com/billraymonde",
+            "alt": "Folllow Bill Raymond on Twitter",
+            "type": "png",
+            "imageUrl": "/assets/social-badges/badge-twitter.png",
+            "display": true,
+            "orderby": 1
+        },
+        {
+            "title": "LinkedIn",
+            "url": "https://www.linkedin.com/in/williamraymond/",
+            "alt": "Follow Bill on LinkedIn",
+            "type": "png",
+            "imageUrl": "/assets/social-badges/badge-linkedin.png",
+            "display": true,
+            "orderby": 2
+        },
+        {
+            "title": "LinkedIn Podcast Page",
+            "url": "https://www.linkedin.com/company/agile-in-action-with-bill-raymond-podcast",
+            "alt": "Follow the Agile in Action Podcast with Bill Raymond LinkedIn page",
+            "type": "png",
+            "imageUrl": "/assets/social-badges/badge-linkedin.png",
+            "display": true,
+            "orderby": 3
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+    {%- assign socials = site.data.social-badges.items | where: "display", "true" | sort: "orderby" -%}
+    {%- if socials.size > 0 -%}
+        <div class="social-badges" itemprop="socialBadges">
+            {%- for social in socials -%}
+                <img src="{{social.imageUrl | relative_url}}" alt="social.imageUrl">
+                <a href="{{social.url}}" target="_blank">{{social.title}}</a>
+            {%- endfor -%}
+        </div>
+    {%- endif -%}

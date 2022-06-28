@@ -11,22 +11,31 @@
             "orderby": 1
         },
         {
-            "title": "LinkedIn",
-            "url": "https://www.linkedin.com/in/williamraymond/",
-            "alt": "Follow Bill on LinkedIn",
+            "title": "By appointment",
+            "url": "https://calendly.com/billraymond/30min?month=2022-06",
+            "alt": "Book a 30-minute meting with Bill Raymond",
             "type": "png",
-            "imageUrl": "/assets/social-badges/badge-linkedin.png",
+            "imageUrl": "/assets/social-badges/badge-calendar.png",
             "display": true,
             "orderby": 2
         },
         {
-            "title": "LinkedIn Podcast Page",
-            "url": "https://www.linkedin.com/company/agile-in-action-with-bill-raymond-podcast",
-            "alt": "Follow the Agile in Action Podcast with Bill Raymond LinkedIn page",
+            "title": "LinkedIn",
+            "url": "https://www.linkedin.com/in/williamraymond",
+            "alt": "Follow Bill on LinkedIn",
             "type": "png",
             "imageUrl": "/assets/social-badges/badge-linkedin.png",
             "display": true,
             "orderby": 3
+        },
+        {
+            "title": "LinkedIn Podcast Page",
+            "url": "https://www.linkedin.com/company/agile-in-action-with-bill-raymond-podcast",
+            "alt": "Follow the Agile in Action Podcast LinkedIn page",
+            "type": "png",
+            "imageUrl": "/assets/social-badges/badge-linkedin.png",
+            "display": true,
+            "orderby": 4
         }
     ]
 }

@@ -8,7 +8,7 @@ permalink: /become-a-guest/
 ### 🎙 About the Agile in Action Podcast with Bill Raymond
 The Agile in Action podcast serves our listeners with unique and timely views of the people working tirelessly to modernize how teams work. The podcast is committed to building a passionate community for people ready to make positive changes in their organizations.
 
-### ⬇️ Download a PDF copy of this guest guide
+### ⬇️ Download a PDF copy of our guest guide
 <a href="{{- "/assets/guest-guide/agile-in-action-guest-guide.pdf" | relative_url -}}" target="blank" ><img src="{{- "/assets/guest-guide/agile-in-action-guest-guide.png" | relative_url -}}" alt="Agile in Action Guest Guide"></a>
 
 ### ℹ️ Call for topics

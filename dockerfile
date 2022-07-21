@@ -16,7 +16,9 @@ ENV env_user_site_repository=${user_site_repository}
 # APK reference: https://wiki.alpinelinux.org/wiki/Package_management
 RUN apk update
 
-RUN apk add --no-cache build-base gcc bash cmake git python3
+RUN apk add --no-cache build-base gcc bash cmake git python3 imagemagick
+
+# sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick"
 
 RUN echo "env_workspace_directory"
 RUN echo ${env_workspace_directory}

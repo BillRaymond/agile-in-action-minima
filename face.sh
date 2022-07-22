@@ -14,31 +14,30 @@ magick convert face.png \( +clone -background black -shadow 60x5+6+6 \) \
 magick convert template.png face.png -geometry +250+212.50 -composite face.png
 
 # Add the "PODCAST" title
-magick convert face.png -size 616x \
+magick convert face.png \
     -font './share-card-creator/fonts/ProximaNovaA-Bold.ttf' \
     -fill '#f49f1c' -background none \
-    -size 600x40 caption:'PODCAST' \
+    -size 580x40 caption:'PODCAST' \
     -geometry +550+46 \
     -composite face.png
 
 
-# Add the title of the podcast at 580x x 96y with a size of 580x300
-# magick convert face.png -pointsize 30 -annotate +525+100 'Hello' face.png
-# magick convert -font './share-card-creator/fonts/ProximaNovaA-Bold.ttf' -pointsize 60 -fill white -draw 'text 550,150 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt a pariatur eius, autem expedita molestiae, vero sed mollitia ullam excepturi sit esse cum dolor? Totam."' face.png face.png
-# Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt a pariatur eius, autem expedita molestiae, vero sed mollitia ullam.
-magick convert face.png -size 616x \
+# Add the TITLE of the podcast
+# The title will appear under the word "PODCAST" and before the play icon
+magick convert face.png \
     -font './share-card-creator/fonts/ProximaNovaA-Bold.ttf' \
     -fill white -background none \
-    -size 580x300 caption:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt a pariatur eius, autem expedita molestiae, vero sed mollitia ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt a pariatur eius, autem expedita molestiae, vero sed mollitia ullam.' \
+    -size 580x340 caption:'Outcome-driven design and team behaviors' \
     -geometry +550+96 \
     -composite face.png
 
-# Add the "with" text
-# magick convert face.png -pointsize 30 -annotate +525+100 'Hello' face.png
-magick convert face.png -size 616x \
+# Add the GUEST text
+# The guest text will appear under the TITLE and to the left of the play icon
+# Text will resize automatically
+magick convert face.png \
     -font './share-card-creator/fonts/ProximaNovaA-Regular.ttf' \
     -fill white -background none \
-    -size 580x300 caption:'with Bill Raymond, Sandy Mamoli, John Stein, and Mary Poppendieck' \
-    -geometry +550+96 \
+    -size 405x195 caption:'with Josh Selden, Designer, Product Guy, and author' \
+    -geometry +550+446 \
     -composite face.png
 

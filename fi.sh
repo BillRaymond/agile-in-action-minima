@@ -1,7 +1,56 @@
 # Create a featured image from a template
 # There are three columns to the template:
 #  | Logo and Bill | Guest Photos | Text and optional Play icon
+# Specs for GUESTS
+#
+# 1-UP
+#  Size: 282x282
+#  Position: 256x205
+# 2-UP
+#  Size: 282x282
+#  Position: 256x37
+#  Position: 256x375
+# 3-UP
+#  Size: 200x200
+#  Position: 295x41
+#  Position: 295x246
+#  Position: 295x451
+# 4-UP
+#  Size: 150x150
+#  Position: 315x41
+#  Position: 315x193
+#  Position: 315x346
+#  Position: 315x497
+#
+# Specs for text
+#  PODCAST: size: 580x40 position: +550+46
+#  Title: size: 580x340 position: +550+96
+#  Guest names: 405x195 position: +550+446
 
+
+# Featured image for one guest
+magick convert sc-template.png `# load template background image`\
+    \( face.png -resize 282x282 -set page +256+205 \) \
+    -layers flatten `# merge the template, play, and guests layers`\
+    -font './share-card-creator/fonts/ProximaNovaA-Bold.ttf' `# load the font`\
+    -fill '#f49f1c' -background none `# The podcast title dos not have a background`\
+    -size 580x40 caption:'PODCAST' `# Add the word PODCAST to the template`\
+    -geometry +550+46 `# Set the x and y position for the PODCAST text`\
+    -composite `# Add text to the image`\
+    -fill white -background none `# The title for the podcast does not have a background`\
+    -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+    -geometry +550+96 `# Set the x and y location for the podcast title`\
+    -composite `# Add the podcast's title to the image`\
+    -fill white -background none `# the guest names do not have a background`\
+    -size 405x195 caption:'with A Cool Person and Another Cool Person' `# List the guest names for the podcast`\
+    -geometry +550+446 `# Set the x and y position of the guest names`\
+    -composite `# Add guest names to the image`\
+    +write sc-no-play.png \
+    -page +972+448 sc-play.png `# load play icon image`\
+    -layers flatten \
+    sc-play.png
+
+read -p "press any key to resume"
 
 # Featured image for one guest
 magick convert sc-template.png `# load template background image`\

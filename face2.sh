@@ -27,6 +27,7 @@ magick convert face.png \( +clone -background black -shadow 60x5+6+6 \) \
 magick convert face2.png \( +clone -background black -shadow 60x5+6+6 \) \
     +swap -background none -layers merge +repage face2.png
 
+exit
 # Place photo over image
 magick convert template.png face.png \
 -geometry +250+212.50 -composite face.png

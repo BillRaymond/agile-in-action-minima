@@ -44,6 +44,9 @@ RUN gem update bundler && gem install bundler jekyll
 RUN echo "#################################################"
 RUN echo "set the default branch to main"
 RUN git config --global init.defaultBranch main
+RUN git config --global user.name "Bill Raymond"
+RUN git config --global user.email "bill.raymond@cambermast.com"
+
 
 RUN echo "#################################################"
 RUN echo "Copy the GitHub repo to the Docker container"

@@ -27,9 +27,6 @@ MAIL="${GITHUB_ACTOR}@users.noreply.github.com"
 
 echo "${USER_NAME} - ${MAIL}"
 
-git submodule init
-git submodule update
-
 sh -c "chmod 777 $env_workspace_directory/*"
 sh -c "chmod 777 $env_workspace_directory/.*"
 
@@ -45,29 +42,21 @@ sh -c "jekyll build --future"
 
 echo "#################################################"
 echo "Add $env_workspace_directory/_site as submodule"
-
+git submodule init
+git submodule update
 git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site
+echo "cd $env_workspace_directory/_site"
 cd $env_workspace_directory/_site
+echo "git checkout main"
 git checkout main
+echo "git pull"
 git pull
-
-echo "#################################################"
-echo "Added submodule"
-
 cd ..
 sh -c "chmod 777 $env_workspace_directory/*"
 sh -c "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
-echo "Starting the Jekyll Action a second time"
-sh -c "jekyll build --future"
-
-echo "#################################################"
-echo "Second Jekyll build done"
-
-echo "#################################################"
 echo "Now publishing"
-
 ls -ltar
 cd $env_workspace_directory/_site
 ls -ltar

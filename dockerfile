@@ -1,7 +1,4 @@
-RUN echo "#################################################"
-RUN echo "use a Ruby Alping image and name it jekyll"
 FROM ruby:alpine as jekyll
-
 
 RUN echo "#################################################"
 RUN echo "set default environment variables"

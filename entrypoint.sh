@@ -27,24 +27,28 @@ MAIL="${GITHUB_ACTOR}@users.noreply.github.com"
 
 echo "${USER_NAME} - ${MAIL}"
 
-gem install bundler
+echo "bundle install"
+bundle install
+echo "bundle update"
+bundle update
+
 
 git submodule init
 git submodule update
 
-echo "#################################################"
-echo "Make some files executable"
-SCRIPTS_DIR="share-card-creator"
-SHELL_FILE="shell.sh"
-# SHELL_FILE_NO_PLAY="shell-no-play.sh"
+# echo "#################################################"
+# echo "Make some files executable"
+# SCRIPTS_DIR="share-card-creator"
+# SHELL_FILE="shell.sh"
+## SHELL_FILE_NO_PLAY="shell-no-play.sh"
 
-echo "#################################################"
-echo "Install imagemagick"
+# echo "#################################################"
+# echo "Install imagemagick"
 
-sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick"
+# sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick"
 
-echo "#################################################"
-echo "workspace_directory: $env_workspace_directory"
+# echo "#################################################"
+# echo "workspace_directory: $env_workspace_directory"
 
 sh -c "chmod 777 $env_workspace_directory/*"
 sh -c "chmod 777 $env_workspace_directory/.*"

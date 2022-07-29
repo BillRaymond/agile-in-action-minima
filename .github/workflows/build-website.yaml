@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v3 # pull the code
         with:
           ref: main # pull from the main branch
-      - uses: ./dockerfile # run the Dockerfile, which can call entrypoint.sh
+      - uses: ./ # run the Dockerfile, which can call entrypoint.sh the assumed filename to start is "Dockerfile" with a capital D
         env:
           USER_SITE_REPOSITORY: BillRaymond/agile-in-action-minima-website #target repo
           GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }} #personal access token of the source repository

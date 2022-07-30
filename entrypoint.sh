@@ -27,9 +27,6 @@ MAIL="${GITHUB_ACTOR}@users.noreply.github.com"
 
 echo "${USER_NAME} - ${MAIL}"
 
-sh -c "chmod 777 $env_workspace_directory/*"
-sh -c "chmod 777 $env_workspace_directory/.*"
-
 echo "#################################################"
 echo "Starting the Jekyll Action"
 
@@ -39,6 +36,11 @@ echo "bundle update"
 sh -c "bundle update"
 echo "jekyll build --future"
 sh -c "jekyll build --future"
+
+echo "#################################################"
+echo "Remove the /_site folder so it can be rebuilt"
+echo "rm -rf $env_workspace_directory/_site"
+rm -rf $env_workspace_directory/_site
 
 echo "#################################################"
 echo "Add $env_workspace_directory/_site as submodule"

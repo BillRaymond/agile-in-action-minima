@@ -52,6 +52,8 @@ RUN echo "#################################################"
 RUN echo "Copy the GitHub repo to the Docker container"
 RUN echo "COPY . ${env_workspace_directory}"
 COPY . ${env_workspace_directory}
+RUN echo "apk add --no-cache git"
+RUN apk add --no-cache git
 
 RUN echo "#################################################"
 RUN echo "Run the entrypoint shell to perform additional steps"

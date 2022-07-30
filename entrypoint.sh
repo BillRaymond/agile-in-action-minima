@@ -43,9 +43,15 @@ echo "rm -rf $env_workspace_directory/_site"
 rm -rf $env_workspace_directory/_site
 
 echo "#################################################"
-echo "Add $env_workspace_directory/_site as submodule"
+echo "configure git"
+git config --global init.defaultBranch main
+git config --global user.name "${USER_NAME}"
+git config --global user.email "${MAIL}"
 git submodule init
 git submodule update
+
+echo "#################################################"
+echo "Add $env_workspace_directory/_site as submodule"
 echo "git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site"
 git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site
 echo "cd $env_workspace_directory/_site"

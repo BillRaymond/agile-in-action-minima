@@ -60,13 +60,20 @@ echo "git checkout main"
 git checkout main
 echo "git pull"
 git pull
+
+echo "#################################################"
+echo "Added submodule"
 cd ..
+
+echo "sh -c "chmod 777 $env_workspace_directory/*""
 sh -c "chmod 777 $env_workspace_directory/*"
+echo "sh -c "chmod 777 $env_workspace_directory/.*""
 sh -c "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
 echo "Now publishing"
 ls -ltar
+echo "cd $env_workspace_directory/_site"
 cd $env_workspace_directory/_site
 ls -ltar
 git log -2

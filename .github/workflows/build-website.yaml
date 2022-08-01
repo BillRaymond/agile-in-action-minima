@@ -20,3 +20,16 @@ jobs:
         env:
           USER_SITE_REPOSITORY: BillRaymond/agile-in-action-minima-website #target repo
           GITHUB_TOKEN: ${{ secrets.JEKYLLNEW_PAT }} #personal access token of the source repository
+
+## How to install this workflow
+#   1. Place this file in the root of your Jekyll repo /.github/workflows
+#   2. Create a new personal access token (PAT) in GitHub
+#       Github->Your account->Setttings->Developer settings->
+#       Personal access tokens->"JEKYLL_PAT" (or something similar)
+#       Select: "Repo" (all items) and "Workflow"
+#   3. Copy the generated token to your clipboard
+#   4. Add the the token to your repo
+#       Github->Repositories->[your repo]->Settings->
+#       Secrets->Actions->New repository secret->
+#       Name: same as the PAT (ex JEKYLL_PAT)
+#       Value: Paste the generated token into the value

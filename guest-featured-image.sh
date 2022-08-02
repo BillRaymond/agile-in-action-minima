@@ -1,6 +1,6 @@
 # Create a featured image from a template
 # There are three columns to the template:
-#  | Logo and Bill | Guest Photos | Text and optional Play icon
+#  | Logo and Bill's photo | Guest Photo(s) | Text and optional Play icon
 # Specs for GUESTS
 #
 # 1-UP

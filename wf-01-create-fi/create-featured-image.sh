@@ -30,11 +30,11 @@ note: make sure to run chmod +x script-name in the final solution.sh
         -geometry +550+96 &#96;# Set the x and y location for the podcast title&#96;&#92;
         -composite &#96;# Add the podcast&#39;s title to the image&#96;&#92;
         -fill white -background none &#96;# the guest names do not have a background&#96;&#92;
-        -size 405x195 caption:&#39;with A Cool Person and Another Cool Person&#39; &#96;# List the guest names for the podcast&#96;&#92;
+        -size 405x195 caption:&#39;with A Cool Person\nand Another Cool Person\nAnd yet another very cool person we are excited to have on the podcast&#39; &#96;# List the guest names for the podcast&#96;&#92;
         -geometry +550+446 &#96;# Set the x and y position of the guest names&#96;&#92;
         -composite &#96;# Add guest names to the image&#96;&#92;
-        +write ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}} &#92;
+        +write ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '-no-play.png'}} &#92;
         -page +972+448 sc-play.png &#96;# load play icon image&#96;&#92;
         -layers flatten &#92;
-        ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '-no-play' | append: '.png'}}
+        ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}
 {% endfor %}

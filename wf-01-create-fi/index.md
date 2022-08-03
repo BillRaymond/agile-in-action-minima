@@ -56,15 +56,18 @@ magick convert sc-template.png `# load template background image`\
 ### 1-UP
 * Size: 282x282
 * Position: 256x205
+
 ### 2-UP
 * Size: 282x282
 * Position: 256x37
 * Position: 256x375
+
 ### 3-UP
 * Size: 200x200
 * Position: 295x41
 * Position: 295x246
 * Position: 295x451
+
 ### 4-UP
 * Size: 150x150
 * Position: 315x41
@@ -91,35 +94,33 @@ Value to get: {{valuetoget}}
 * Title: size: 580x340 position: +550+96
 * Guest names: 405x195 position: +550+446
 
-## Code to build list of photos
+## Testing code
 This section creates the variables to use depending on the number of guests and guest titles
-{% assign podcastTitle = '' %}
-{% assign podcastNumGuests = '' %}
-{% assign podcastGuests = '' %}
-{% assign guestPhotos = '' %}
-
+{% assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' %}
 {% assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' %}
 {% for post in posts %}
-    {% assign podcastTitle = post.title %}
-    {% assign numGuests = post.guest-details.size %}
+    {% assign introText = "with " %}
+    {% assign allGuests = "" | prepend: introText %}
+    All guests: {{allGuests}}
+    {% assign guestSize = post.guest-details.size %}
+    Size: {{guestSize}}
     {% for guestDetail in post.guest-details %}
-        forloop Index: {{forloop.index}}
-        {% assign guestIndex = numGuests | minus: 1 %}
-        {% assign valueIndex = forloop.index | minus: 1 %}
-        {% assign imagePlacement = site.data.wf-data-fi[guestIndex].items[valueIndex].value %}
-        {% assign guestPhotos = guestDetail.guest-photo |
-            prepend: '../wf-guest-images-fi' |
-            prepend: "&#92;( " |
-            append: imagePlacement |
-            append: " &#92;) &#92;"
-        %}
-        guest-photo: {{detail.guest-photo | relative_url }}
-        filename: {{detail.guest-photo | split: '/' | last }}
+        {% if guestSize == 1 %}
+            {% assign guestName = guestDetail.guest-name | escape %}
+            guestName: {{guestName}}
+            {% assign guestTitle = guestDetail.guest-title | escape %}
+            {% assign allGuests = allGuests | 
+                append: guestName | 
+                append: ", " | 
+                append: guestTitle %}
+        {% endif %}
+        {% if guestSize > 1 %}
+            
+        {% endif %}
+    Guest title: {{allGuests}}
     {% endfor %}
-    podcastTitle: {{podcastTitle}}
-    podcastNumGuests: {{podcastNumGuests}}
-    guestPhotos: {{guestPhotos}}
 {% endfor %}
+
 
 {% assign photoOne = post.guest-details[0].guest-photo | prepend: '../wf-guest-images-fi' | prepend: "&#92;( " | append: '&#10;&#10;' %}
 

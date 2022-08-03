@@ -1,0 +1,27 @@
+# This code allows you to set the size and location for guest images
+# within a featured image
+
+# The first number is the number of guests (like 1 guest, 2 guests, ... )
+# The second numbmer is the value of the index in a for loop (like 1, 2, 3, 4)
+
+# ** Important **
+# These values are only retrieved by index number, not the name of the values
+# Be careful to leave these in exact order or adjust the codes indexes
+- oneGuestIndexZero:
+  items:
+    - value: "-resize 282x282 -set page +256+205"
+- twoGuestsIndexOne:
+  items:
+    - value: "-resize 282x282 -set page +256+37"
+    - value: "-resize 282x282 -set page +256+375"
+- threeGuestsIndexTwo:
+  items:
+    - value: "-resize 200x200 -set page +295+41"
+    - value: "-resize 200x200 -set page +295+246"
+    - value: "-resize 200x200 -set page +295+451"
+- fourGuestsIndexThree:
+  items:
+    - value: "-resize 150x150 -set page +315+41"
+    - value: "-resize 150x150 -set page +315+193"
+    - value: "-resize 150x150 -set page +315+346"
+    - value: "-resize 150x150 -set page +315+497"

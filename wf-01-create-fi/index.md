@@ -16,6 +16,7 @@ The code contained in this folder will read guest images and perform various ste
 4. Save a version with and without a play button
 
 ## Dependencies
+* /_data/wf-data-fi.yaml
 * Imagemagick (should be in the dockerfile)
 * ProximaNovaA-Bold.ttf (font)
 * Jekyll 4.x (untested with 3.x, but could work)
@@ -73,10 +74,61 @@ magick convert sc-template.png `# load template background image`\
 * Position: 315x346
 * Position: 315x497
 
+## Code to get guest image size and placement
+Get the values for the image from a data file
+{% assign numGuests = 3 %}
+{% assign guestIndex = numGuests | minus: 1 %}
+{% assign valueIndex = 1 | minus: 1 %}
+Number of guests: {{numGuests}}
+
+Guest index: {{numGuests}}
+
+ValueIndex: {{valueIndex}}
+{% assign imagePlacement = site.data.wf-data-fi[guestIndex].items[valueIndex].value %}
+
+Value to get: {{valuetoget}}
+
 ### Text
 * PODCAST: size: 580x40 position: +550+46
 * Title: size: 580x340 position: +550+96
 * Guest names: 405x195 position: +550+446
+
+## Code to build list of photos
+This section creates the variables to use depending on the number of guests and guest titles
+{% assign podcastTitle = '' %}
+{% assign podcastNumGuests = '' %}
+{% assign podcastGuests = '' %}
+{% assign guestPhotos = '' %}
+
+{% assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' %}
+{% for post in posts %}
+    {% assign podcastTitle = post.title %}
+    {% assign numGuests = post.guest-details.size %}
+    {% for guestDetail in post.guest-details %}
+        forloop Index: {{forloop.index}}
+        {% assign guestIndex = numGuests | minus: 1 %}
+        {% assign valueIndex = forloop.index | minus: 1 %}
+        {% assign imagePlacement = site.data.wf-data-fi[guestIndex].items[valueIndex].value %}
+        {% assign guestPhotos = guestDetail.guest-photo |
+            prepend: '../wf-guest-images-fi' |
+            prepend: "&#92;( " |
+            append: imagePlacement |
+            append: " &#92;) &#92;"
+        %}
+        guest-photo: {{detail.guest-photo | relative_url }}
+        filename: {{detail.guest-photo | split: '/' | last }}
+    {% endfor %}
+    podcastTitle: {{podcastTitle}}
+    podcastNumGuests: {{podcastNumGuests}}
+    guestPhotos: {{guestPhotos}}
+{% endfor %}
+
+{% assign photoOne = post.guest-details[0].guest-photo | prepend: '../wf-guest-images-fi' | prepend: "&#92;( " | append: '&#10;&#10;' %}
+
+
+
+
+
 
 ## Test code
 This section can be used to debug locally before adjusting the shell script.
@@ -93,3 +145,4 @@ This section can be used to debug locally before adjusting the shell script.
         filename: {{detail.guest-photo | split: '/' | last }}
     {% endfor %}
 {% endfor %}
+

@@ -10,10 +10,8 @@ The code contained in this folder will read guest images and perform various ste
 * address problem with the dropshadow being black
 * Rename the guest filename so it is 
 
-1. Open a featured image template
-2. Add photos
-3. Add text
-4. Save a version with and without a play button
+1. Add title text
+2. Add guest text
 
 ## Dependencies
 * /_data/wf-data-fi.yaml

@@ -3,6 +3,7 @@ layout: shell
 ---
 {% comment %}
 {%- assign posts = site.posts | where_exp: "item", "item.title == 'How team self-selection helps people excel'" -%}
+note: make sure to run chmod +x script-name in the final solution.sh
 {% endcomment %}
 {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' -%} 
     {%- for post in posts limit: 10 -%}
@@ -25,7 +26,7 @@ layout: shell
         -geometry +550+46 &#96;# Set the x and y position for the PODCAST text&#96;&#92;
         -composite &#96;# Add text to the image&#96;&#92;
         -fill white -background none &#96;# The title for the podcast does not have a background&#96;&#92;
-        -size 580x340 caption:&#39;Outcome-driven design and team behaviors&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
+        -size 580x340 caption:&#39;{{post.title | escape}}&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
         -geometry +550+96 &#96;# Set the x and y location for the podcast title&#96;&#92;
         -composite &#96;# Add the podcast&#39;s title to the image&#96;&#92;
         -fill white -background none &#96;# the guest names do not have a background&#96;&#92;

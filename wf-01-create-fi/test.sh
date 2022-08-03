@@ -7,7 +7,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+46 `# Set the x and y position for the PODCAST text`\
         -composite `# Add text to the image`\
         -fill white -background none `# The title for the podcast does not have a background`\
-        -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+        -size 580x340 caption:'Exciting Agile in Action podcast news' `# Podcast title as it appears on the website`\
         -geometry +550+96 `# Set the x and y location for the podcast title`\
         -composite `# Add the podcast's title to the image`\
         -fill white -background none `# the guest names do not have a background`\
@@ -27,7 +27,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+46 `# Set the x and y position for the PODCAST text`\
         -composite `# Add text to the image`\
         -fill white -background none `# The title for the podcast does not have a background`\
-        -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+        -size 580x340 caption:'What it means to become nimble' `# Podcast title as it appears on the website`\
         -geometry +550+96 `# Set the x and y location for the podcast title`\
         -composite `# Add the podcast's title to the image`\
         -fill white -background none `# the guest names do not have a background`\
@@ -47,7 +47,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+46 `# Set the x and y position for the PODCAST text`\
         -composite `# Add text to the image`\
         -fill white -background none `# The title for the podcast does not have a background`\
-        -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+        -size 580x340 caption:'Building a culture of psychological safety' `# Podcast title as it appears on the website`\
         -geometry +550+96 `# Set the x and y location for the podcast title`\
         -composite `# Add the podcast's title to the image`\
         -fill white -background none `# the guest names do not have a background`\
@@ -67,7 +67,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+46 `# Set the x and y position for the PODCAST text`\
         -composite `# Add text to the image`\
         -fill white -background none `# The title for the podcast does not have a background`\
-        -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+        -size 580x340 caption:'Successful globally distributed teams' `# Podcast title as it appears on the website`\
         -geometry +550+96 `# Set the x and y location for the podcast title`\
         -composite `# Add the podcast's title to the image`\
         -fill white -background none `# the guest names do not have a background`\
@@ -107,7 +107,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+46 `# Set the x and y position for the PODCAST text`\
         -composite `# Add text to the image`\
         -fill white -background none `# The title for the podcast does not have a background`\
-        -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+        -size 580x340 caption:'The Art and Science of Facilitation' `# Podcast title as it appears on the website`\
         -geometry +550+96 `# Set the x and y location for the podcast title`\
         -composite `# Add the podcast's title to the image`\
         -fill white -background none `# the guest names do not have a background`\
@@ -127,7 +127,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+46 `# Set the x and y position for the PODCAST text`\
         -composite `# Add text to the image`\
         -fill white -background none `# The title for the podcast does not have a background`\
-        -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+        -size 580x340 caption:'Risk-driven security in agile software development' `# Podcast title as it appears on the website`\
         -geometry +550+96 `# Set the x and y location for the podcast title`\
         -composite `# Add the podcast's title to the image`\
         -fill white -background none `# the guest names do not have a background`\
@@ -147,7 +147,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+46 `# Set the x and y position for the PODCAST text`\
         -composite `# Add text to the image`\
         -fill white -background none `# The title for the podcast does not have a background`\
-        -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+        -size 580x340 caption:'Introducing Objectives and Key Results (OKRs)' `# Podcast title as it appears on the website`\
         -geometry +550+96 `# Set the x and y location for the podcast title`\
         -composite `# Add the podcast's title to the image`\
         -fill white -background none `# the guest names do not have a background`\
@@ -168,7 +168,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+46 `# Set the x and y position for the PODCAST text`\
         -composite `# Add text to the image`\
         -fill white -background none `# The title for the podcast does not have a background`\
-        -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+        -size 580x340 caption:'How team self-selection helps people excel' `# Podcast title as it appears on the website`\
         -geometry +550+96 `# Set the x and y location for the podcast title`\
         -composite `# Add the podcast's title to the image`\
         -fill white -background none `# the guest names do not have a background`\
@@ -188,7 +188,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+46 `# Set the x and y position for the PODCAST text`\
         -composite `# Add text to the image`\
         -fill white -background none `# The title for the podcast does not have a background`\
-        -size 580x340 caption:'Outcome-driven design and team behaviors' `# Podcast title as it appears on the website`\
+        -size 580x340 caption:'The planet is also the customer: Agile and sustainability' `# Podcast title as it appears on the website`\
         -geometry +550+96 `# Set the x and y location for the podcast title`\
         -composite `# Add the podcast's title to the image`\
         -fill white -background none `# the guest names do not have a background`\

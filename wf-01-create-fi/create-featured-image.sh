@@ -6,7 +6,7 @@ layout: shell
 {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' -%} 
 note: make sure to run chmod +x script-name in the final solution.sh
 {% endcomment %}
-{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details.size < 2' -%}
+{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' -%} 
     {%- for post in posts limit: 10 -%}
         magick convert sc-template.png &#96;# load template background image&#96;&#92;&#10;
         {%- assign numGuests = post.guest-details.size -%}

@@ -5,8 +5,8 @@ author: Bill Raymond
 date: 2022-04-05
 title: Risk-driven security in agile software development
 guest-details:
-- guest-name: Dan Ionita, Consultant and Trainer
-  guest-title: ''
+- guest-name: Dan Ionita
+  guest-title: 'Consultant and Trainer'
   guest-photo: "/uploads/ionitia.jpg"
   guest-links:
   - guest-link-label: Article

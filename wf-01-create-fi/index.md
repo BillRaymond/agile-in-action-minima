@@ -99,25 +99,20 @@ This section creates the variables to use depending on the number of guests and 
 {% assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' %}
 {% assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' %}
 {% for post in posts %}
+    Title: {{post.title}}
     {% assign introText = "with " %}
     {% assign allGuests = "" | prepend: introText %}
-    All guests: {{allGuests}}
     {% assign guestSize = post.guest-details.size %}
-    Size: {{guestSize}}
     {% for guestDetail in post.guest-details %}
         {% if guestSize == 1 %}
+            {% comment %} Display the name and title for one person {% endcomment %}
             {% assign guestName = guestDetail.guest-name | escape %}
-            guestName: {{guestName}}
             {% assign guestTitle = guestDetail.guest-title | escape %}
             {% assign allGuests = allGuests | 
                 append: guestName | 
-                append: ", " | 
+                append: "\n" | 
                 append: guestTitle %}
         {% endif %}
-        {% if guestSize > 1 %}
-            
-        {% endif %}
-    Guest title: {{allGuests}}
     {% endfor %}
 {% endfor %}
 

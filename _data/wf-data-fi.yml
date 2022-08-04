@@ -25,3 +25,6 @@
     - value: "-resize 150x150 -set page +315+193"
     - value: "-resize 150x150 -set page +315+346"
     - value: "-resize 150x150 -set page +315+497"
+- guests:
+  items:
+    - value: "-size 405x195"

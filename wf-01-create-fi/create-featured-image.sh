@@ -3,9 +3,10 @@ layout: shell
 ---
 {% comment %}
 {%- assign posts = site.posts | where_exp: "item", "item.title == 'How team self-selection helps people excel'" -%}
+{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' -%} 
 note: make sure to run chmod +x script-name in the final solution.sh
 {% endcomment %}
-{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' -%} 
+{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details.size < 2' -%}
     {%- for post in posts limit: 10 -%}
         magick convert sc-template.png &#96;# load template background image&#96;&#92;&#10;
         {%- assign numGuests = post.guest-details.size -%}
@@ -29,8 +30,37 @@ note: make sure to run chmod +x script-name in the final solution.sh
         -size 580x340 caption:&#39;{{post.title | escape}}&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
         -geometry +550+96 &#96;# Set the x and y location for the podcast title&#96;&#92;
         -composite &#96;# Add the podcast&#39;s title to the image&#96;&#92;
-        -fill white -background none &#96;# the guest names do not have a background&#96;&#92;
-        -size 405x195 caption:&#39;with A Cool Person\nand Another Cool Person\nAnd yet another very cool person we are excited to have on the podcast&#39; &#96;# List the guest names for the podcast&#96;&#92;
+        -fill white -background none &#96;# the guest names do not have a background&#96;&#92;&#10;
+        {%- assign introText = "with " -%}
+        {%- assign allGuests = "" -%}
+        {% assign guestSize = post.guest-details.size %}
+        {%- for guestDetail in post.guest-details -%}
+            {% if guestSize == 1 %}
+                {% comment %} Display the name and title for one person {% endcomment %}
+                {% assign guestName = guestDetail.guest-name | escape %}
+                {% assign guestTitle = guestDetail.guest-title | escape %}
+                {% assign allGuests = allGuests | 
+                    prepend: introText |
+                    append: guestName | 
+                    append: "\n" | 
+                    append: guestTitle %}
+            {% endif %}
+            {% if guestSize > 1 %}
+                {% comment %} Only display names for multiple guests {% endcomment %}
+                {% assign guestName = guestDetail.guest-name | escape %}
+                {% assign guestName = guestName | prepend: introText %}
+                {% assign loopIndex = forloop.index %}
+                {% if guestSize != loopIndex %}
+                    {% assign allGuests = allGuests | 
+                    append: guestName | 
+                    append: "\n" %}
+                {% else %}
+                    {% assign allGuests = allGuests | 
+                    append: guestName %}
+                {% endif %}
+            {% endif %}
+        {%- endfor -%}
+        -size 405x195 caption:&#39;{{allGuests}}&#39; &#96;# List the guest names for the podcast&#96;&#92;
         -geometry +550+446 &#96;# Set the x and y position of the guest names&#96;&#92;
         -composite &#96;# Add guest names to the image&#96;&#92;
         +write ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '-no-play.png'}} &#92;

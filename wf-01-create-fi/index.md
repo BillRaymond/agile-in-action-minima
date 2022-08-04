@@ -5,13 +5,7 @@ title: Create featured images
 The code contained in this folder will read guest images and perform various steps to create a featured image
 
 ## TODO:
-* Fix the photo filename in create-featured-image.sh so it points to the correct filename
-* Create a single image for all guests
-* address problem with the dropshadow being black
-* Rename the guest filename so it is 
-
-1. Add title text
-2. Add guest text
+* Only update latest podcasts with switch to do all
 
 ## Dependencies
 * /_data/wf-data-fi.yaml

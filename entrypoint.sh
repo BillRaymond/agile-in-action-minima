@@ -33,10 +33,10 @@ git submodule update
 
 echo "#################################################"
 echo "Define custom script files"
-WF_GUEST_IMAGES_DIR="wf-00-guest-images-fi"
+WF_GUEST_IMAGES_DIR="$env_workspace_directory/wf-00-guest-images-fi"
 WF_GUEST_IMAGES_FILE="guest-featured-images.sh"
 WF_GUEST_IMAGES_SITE=$env_workspace_directory/_site/$WF_GUEST_IMAGES_DIR/$WF_GUEST_IMAGES_FILE
-WF_GUEST_IMAGES_OUTPUT_DIR="/uploads/wf-guest-images-fi"
+WF_GUEST_IMAGES_OUTPUT_DIR="$env_workspace_directory/uploads/wf-guest-images-fi"
 
 
 echo "#################################################"
@@ -58,12 +58,7 @@ echo "Create the workflow OUPTUT folder if it does not exist"
 if [ ! -d $WF_GUEST_IMAGES_OUTPUT_DIR ]; then
   mkdir -p $WF_GUEST_IMAGES_OUTPUT_DIR;
 fi
-echo "test going into the output directory called $WF_GUEST_IMAGES_OUTPUT_DIR"
-cd $WF_GUEST_IMAGES_OUTPUT_DIR
-echo "then leave the folder and return to the Jekyll root folder"
-cd ..
-cd ..
-echo "Copy that script file to the workflow folder so it can be run"
+echo "Copy the generated $WF_GUEST_IMAGES_SITE to $WF_GUEST_IMAGES_DIR"
 cp -f $WF_GUEST_IMAGES_SITE $WF_GUEST_IMAGES_DIR
 echo "Go into the $WF_GUEST_IMAGES_DIR shell script folder"
 cd $WF_GUEST_IMAGES_DIR

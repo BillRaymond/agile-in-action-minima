@@ -9,9 +9,31 @@ layout: shell
 
 {% for post in posts %}
 {% for detail in post.guest-details %}
-{% assign photosrc = detail.guest-photo %}
-{% assign phototarget = detail.guest-photo | remove_last: '/' %}
-magick convert ..{{detail.guest-photo}} `` ` ``# the guest image`` ` `` \\\\
+{% comment %}
+    Set the location of the source image
+        1. pre-pend with two dots ".." 
+           since so the shell goes a level above this folder
+{% endcomment %}
+{% assign photoSource = detail.guest-photo %}
+
+{% comment %}
+    Set the target location for the final file
+        1. Get the filename of the source photo
+        2. Remove the file extension
+        3. Add the png extension
+        4. Pre-pend with the location to store the image
+{% endcomment %} 
+{% assign photoTarget = detail.guest-photo 
+    | split: '/' | last 
+    | split: '.' | first
+    | append: '.png' 
+    | prepend: '../uploads/wf-guest-images-fi/'
+    %}
+
+
+{% comment %} *** START guest image conversion process *** {% endcomment%}
+echo "Converting guest image: {{photoSource}}"
+magick convert ..{{photoSource}} `` ` ``# the guest image`` ` `` \\\\
     -resize 250x250^ `` ` ``# resize the image, but keep aspect ratio`` ` `` \\\\
     -gravity center \\\\
     -background transparent \\\\
@@ -20,7 +42,8 @@ magick convert ..{{detail.guest-photo}} `` ` ``# the guest image`` ` `` \\\\
     -border 6 `` ` ``# Create a border around the image`` ` `` \\\\
     \\\( +clone -background black -shadow 60x5+6+6 \\\) \\\\
     +swap -background none -layers merge +repage `` ` ``# merge the layers`` ` `` \\\\
-    ../uploads/wf-guest-images-fi/{{detail.guest-photo | split: '/' | last}} `` ` ``# save the guest image`` ` ``
+    {{photoTarget}} `` ` ``# save the guest image`` ` ``
+echo "converted guest image to: {{photoTarget}}"
 {% endfor %}
 {% endfor %}
 

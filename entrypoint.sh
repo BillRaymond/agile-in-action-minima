@@ -27,21 +27,15 @@ MAIL="${GITHUB_ACTOR}@users.noreply.github.com"
 
 echo "${USER_NAME} - ${MAIL}"
 
-gem install bundler
-
 git submodule init
 git submodule update
 
-# echo "#################################################"
-# echo "Make some files executable"
-# SCRIPTS_DIR="share-card-creator"
-# SHELL_FILE="shell.sh"
-# # SHELL_FILE_NO_PLAY="shell-no-play.sh"
+echo "#################################################"
+echo "Define custom script files"
+WF_GUEST_IMAGES_DIR="wf-00-guest-images-fi"
+WF_GUEST_IMAGES_FILE="guest-featured-images.sh"
+WF_GUEST_IMAGES_SITE=$env_workspace_directory/_site/$WF_GUEST_IMAGES_DIR/$WF_GUEST_IMAGES_FILE
 
-# echo "#################################################"
-# echo "Install imagemagick"
-
-# sh -c "apk add --no-cache --virtual .build-deps libxml2-dev shadow autoconf g++ make && apk add --no-cache imagemagick-dev imagemagick"
 
 echo "#################################################"
 echo "workspace_directory: $env_workspace_directory"
@@ -50,93 +44,21 @@ sh -c "chmod 777 $env_workspace_directory/*"
 sh -c "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
-echo "Starting the Jekyll Action"
-
-sh -c "bundle install"
+echo "Build the Jekyll site so it can generate shell scripts that use Liquid"
 sh -c "bundle update"
 sh -c "jekyll build --future"
 
-# cp -f $env_workspace_directory/_site/share-card-creator/shell.sh $SCRIPTS_DIR
-# sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE"
-# sh -c "chmod +x $SCRIPTS_DIR/script.py"
-# # cp -f _site/share-card-creator/shell-no-play.sh $SCRIPTS_DIR
-# # sh -c "chmod +x $SCRIPTS_DIR/$SHELL_FILE_NO_PLAY"
-# sh -c "chmod +x $SCRIPTS_DIR/script-no-play.py"
-
-
-# echo "#################################################"
-# cd $SCRIPTS_DIR
-# sh -c "pwd"
-# sh -c "ls -lta"
-# cat $SHELL_FILE
-# echo "Execute $SHELL_FILE"
-# sh -c "./$SHELL_FILE"
-# # cat $SHELL_FILE_NO_PLAY
-# # echo "Execute $SHELL_FILE_NO_PLAY"
-# # sh -c "./$SHELL_FILE_NO_PLAY"
-
-# cd ..
-
 echo "#################################################"
-echo "Publishing all images"
-git add uploads/\*
-git status
+echo "Build guest images"
+echo "Since the Jekyll site has been built, the shell script was built from Liquid"
 
-echo "Set user data."
-git config --global user.name "${USER_NAME}"
-git config --global user.email "${MAIL}"
-
-git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action - add images' && echo "Push." && git push origin
-
-git reset --hard
-
-rm -rf $SCRIPTS_DIR
-rm -rf $env_workspace_directory/_site
-
-echo "#################################################"
-echo "Add $env_workspace_directory/_site as submodule"
-echo "git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site"
-git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site
-cd $env_workspace_directory/_site
-git checkout main
-git pull
-
-echo "#################################################"
-echo "Added submodule"
-
+echo "Copy that script file to the workflow folder so it can be run"
+cp -f $WF_GUEST_IMAGES_SITE $WF_GUEST_IMAGES_DIR
+echo "Go into the $WF_GUEST_IMAGES_DIR folder"
+cd $WF_GUEST_IMAGES_DIR
+echo "Make the guest images script executable"
+sh -c "chmod +x $WF_GUEST_IMAGES_DIR/$WF_GUEST_IMAGES_FILE"
+echo "run the guest images workflow"
+sh -c "$WF_GUEST_IMAGES_FILE"
+echo "return to the root Jekyll code folder"
 cd ..
-echo "sh -c "chmod 777 $env_workspace_directory/*""
-sh -c "chmod 777 $env_workspace_directory/*"
-echo "sh -c "chmod 777 $env_workspace_directory/.*""
-sh -c "chmod 777 $env_workspace_directory/.*"
-
-echo "#################################################"
-echo "Starting the Jekyll Action a second time"
-sh -c "jekyll build --future"
-
-echo "#################################################"
-echo "Second Jekyll build done"
-
-echo "#################################################"
-echo "Now publishing"
-
-ls -ltar
-cd $env_workspace_directory/_site
-ls -ltar
-git log -2
-git remote -v
-
-# Create CNAME file for redirect to this repository
-if [[ "${CNAME}" ]]; then
-  echo ${CNAME} > CNAME
-fi
-
-touch .nojekyll
-echo "Add all files."
-git add -f -A -v
-git status
-
-git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action' && echo "Push." && git push origin
-
-echo "#################################################"
-echo "Published"

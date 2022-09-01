@@ -59,8 +59,8 @@ echo "Create the workflow OUPTUT folder if it does not exist"
 if [ ! -d $WF_GUEST_IMAGES_OUTPUT_DIR ]; then
   mkdir -p $WF_GUEST_IMAGES_OUTPUT_DIR;
 fi
-echo "Copy the generated $WF_GUEST_IMAGES_SITE to $WF_GUEST_IMAGES_DIR"
-cp -f $WF_GUEST_IMAGES_SITE $WF_GUEST_IMAGES_DIR
+echo "Copy the generated $WF_GUEST_IMAGES_SITE/$WF_GUEST_IMAGES_FILE to $WF_GUEST_IMAGES_DIR/$WF_GUEST_IMAGES_FILE"
+cp -f $WF_GUEST_IMAGES_SITE/$WF_GUEST_IMAGES_FILE $WF_GUEST_IMAGES_DIR/$WF_GUEST_IMAGES_FILE
 echo "Go into the $WF_GUEST_IMAGES_DIR shell script folder"
 cd $WF_GUEST_IMAGES_DIR
 echo "Make the guest images script executable"

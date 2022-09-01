@@ -35,11 +35,8 @@ RUN apk add --no-cache build-base gcc bash cmake git imagemagick
 
 RUN echo "#################################################"
 RUN echo "Install bundler and jekyll"
-# install both bundler 1.x and 2.x incase you're running
-# old gem files
-# https://bundler.io/guides/bundler_2_upgrade.html#faq
-RUN echo "gem update bundler && gem install bundler jekyll"
-RUN gem update bundler && gem install bundler jekyll
+RUN echo "gem install bundler jekyll"
+RUN gem install bundler jekyll
 
 RUN echo "#################################################"
 RUN echo "Copy the GitHub repo to the Docker container"

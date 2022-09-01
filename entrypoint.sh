@@ -31,13 +31,6 @@ echo "${USER_NAME} - ${MAIL}"
 git submodule init
 git submodule update
 
-echo "#################################################"
-echo "Define custom script files"
-WF_GUEST_IMAGES_DIR="$env_workspace_directory/wf-00-guest-images-fi"
-WF_GUEST_IMAGES_FILE="guest-featured-images.sh"
-WF_GUEST_IMAGES_SITE=$env_workspace_directory/_site/$WF_GUEST_IMAGES_DIR/$WF_GUEST_IMAGES_FILE
-WF_GUEST_IMAGES_OUTPUT_DIR="$env_workspace_directory/uploads/wf-guest-images-fi"
-
 
 echo "#################################################"
 echo "workspace_directory: $env_workspace_directory"
@@ -49,6 +42,14 @@ echo "#################################################"
 echo "Build the Jekyll site so it can generate shell scripts that use Liquid"
 sh -c "bundle update"
 sh -c "jekyll build --future"
+
+
+echo "#################################################"
+echo "Define script variables for the Guest Image Creator script"
+WF_GUEST_IMAGES_DIR="$env_workspace_directory/wf-00-guest-images-fi" #the workflow folder the code will run from
+WF_GUEST_IMAGES_FILE="guest-featured-images.sh" #the shell filename to run
+WF_GUEST_IMAGES_SITE=$env_workspace_directory/_site/wf-00-guest-images-fi #The location of the Jekyll-generated folder
+WF_GUEST_IMAGES_OUTPUT_DIR="$env_workspace_directory/uploads/wf-guest-images-fi" #The script will output images to this folder
 
 echo "#################################################"
 echo "Build guest images"

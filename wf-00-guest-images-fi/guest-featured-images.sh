@@ -1,6 +1,11 @@
 ---
 layout: shell
 ---
+#!/bin/bash
+# -e Exit immediately if a command exits with a non-zero status
+# -x Echo all the commands as they run, not just echos
+set -e -x
+
 {% comment %} note: make sure to run chmod +x script-name in the final solution.sh {% endcomment %}
 {% comment %} create guest images for reuse on featured images {% endcomment %}
 {% comment %} Resize and crop the guest image so it is square, has a border, and has a shadow {% endcomment %}

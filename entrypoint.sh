@@ -57,7 +57,7 @@ cp -f $WF_GUEST_IMAGES_SITE $WF_GUEST_IMAGES_DIR
 echo "Go into the $WF_GUEST_IMAGES_DIR folder"
 cd $WF_GUEST_IMAGES_DIR
 echo "Make the guest images script executable"
-sh -c "chmod +x $WF_GUEST_IMAGES_DIR/$WF_GUEST_IMAGES_FILE"
+sh -c "chmod +x $WF_GUEST_IMAGES_FILE"
 echo "run the guest images workflow"
 sh -c "$WF_GUEST_IMAGES_FILE"
 echo "return to the root Jekyll code folder"

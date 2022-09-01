@@ -33,7 +33,7 @@ git submodule update
 
 echo "#################################################"
 echo "Define custom script files"
-WF_GUEST_IMAGES_DIR="/wf-00-guest-images-fi"
+WF_GUEST_IMAGES_DIR="wf-00-guest-images-fi"
 WF_GUEST_IMAGES_FILE="guest-featured-images.sh"
 WF_GUEST_IMAGES_SITE=$env_workspace_directory/_site/$WF_GUEST_IMAGES_DIR/$WF_GUEST_IMAGES_FILE
 WF_GUEST_IMAGES_OUTPUT_DIR="/uploads/wf-guest-images-fi"
@@ -54,20 +54,21 @@ echo "#################################################"
 echo "Build guest images"
 echo "Since the Jekyll site has been built, the shell script was built from Liquid"
 
-echo "Copy that script file to the workflow folder so it can be run"
-cp -f $WF_GUEST_IMAGES_SITE $WF_GUEST_IMAGES_DIR
-echo "Go into the $WF_GUEST_IMAGES_DIR folder"
-cd $WF_GUEST_IMAGES_DIR
-echo "Make the guest images script executable"
-sh -c "chmod +x $WF_GUEST_IMAGES_FILE"
-echo "Create the workflow folder if it does not exist"
+echo "Create the workflow OUPTUT folder if it does not exist"
 if [ ! -d $WF_GUEST_IMAGES_OUTPUT_DIR ]; then
   mkdir -p $WF_GUEST_IMAGES_OUTPUT_DIR;
 fi
 echo "test going into the output directory called $WF_GUEST_IMAGES_OUTPUT_DIR"
 cd $WF_GUEST_IMAGES_OUTPUT_DIR
-echo "afer testing going to the ouptut folder, return to the workflow shell"
+echo "then leave the folder and return to the Jekyll root folder"
+cd ..
+cd ..
+echo "Copy that script file to the workflow folder so it can be run"
+cp -f $WF_GUEST_IMAGES_SITE $WF_GUEST_IMAGES_DIR
+echo "Go into the $WF_GUEST_IMAGES_DIR shell script folder"
 cd $WF_GUEST_IMAGES_DIR
+echo "Make the guest images script executable"
+sh -c "chmod +x $WF_GUEST_IMAGES_FILE"
 echo "run the guest images workflow"
 sh $WF_GUEST_IMAGES_FILE
 echo "return to the root Jekyll code folder"

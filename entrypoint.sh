@@ -1,6 +1,7 @@
 #!/bin/bash
-# Exit immediately if a command exits with a non-zero status.
-set -e
+# -e Exit immediately if a command exits with a non-zero status
+# -x Echo all the commands as they run, not just echos
+set -e -x
 
 # configure git
 echo "Run a command required by GitHub Actions"
@@ -40,13 +41,13 @@ WF_GUEST_IMAGES_SITE=$env_workspace_directory/_site/$WF_GUEST_IMAGES_DIR/$WF_GUE
 echo "#################################################"
 echo "workspace_directory: $env_workspace_directory"
 
-sh -c "chmod 777 $env_workspace_directory/*"
-sh -c "chmod 777 $env_workspace_directory/.*"
+sh "chmod 777 $env_workspace_directory/*"
+sh "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
 echo "Build the Jekyll site so it can generate shell scripts that use Liquid"
-sh -c "bundle update"
-sh -c "jekyll build --future"
+sh "bundle update"
+sh "jekyll build --future"
 
 echo "#################################################"
 echo "Build guest images"
@@ -57,8 +58,8 @@ cp -f $WF_GUEST_IMAGES_SITE $WF_GUEST_IMAGES_DIR
 echo "Go into the $WF_GUEST_IMAGES_DIR folder"
 cd $WF_GUEST_IMAGES_DIR
 echo "Make the guest images script executable"
-sh -c "chmod +x $WF_GUEST_IMAGES_FILE"
+sh "chmod +x $WF_GUEST_IMAGES_FILE"
 echo "run the guest images workflow"
-sh -c "$WF_GUEST_IMAGES_FILE"
+sh "$WF_GUEST_IMAGES_FILE"
 echo "return to the root Jekyll code folder"
 cd ..

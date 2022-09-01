@@ -1,7 +1,7 @@
 # note: make sure to run chmod +x script-name in the final solution.sh
 
 # Resize and crop the guest image so it is square, has a border, and has a shadow
-magick convert face.jpg `# the guest image`\
+magick convert albert.jpg `# the guest image`\
     -resize 250x250^ `# resize the image, but keep aspect ratio`\
     -gravity Center \
     -background transparent \

@@ -35,10 +35,13 @@ magick convert sc-template.png &#96;# load template background image&#96;&#92;&#
 {{imageMagickImage}}&#10;
 {%- comment -%} add each guest image to the featured image {%- endcomment -%}
 {%- endfor -%}
-{%- comment -%} ** STEP 3: Merge layers and  {%- endcomment -%}
--layers flatten &#96;# merge the template and guest photos&#96;&#92;
+
+{%- comment -%} ** STEP 3: Merge featured image with guest images {%- endcomment -%}
+-layers flatten &#96;# merge the template and guest photos&#96;&#92;&#10;
+
+{%- comment -%} ** STEP 4: Load font and add titles {%- endcomment -%}
 -font &#39;fonts/ProximaNovaA-Bold.ttf&#39; &#96;# load the font&#96;&#92;
--fill &#39;#f49f1c&#39; -background none &#96;# The podcast title dos not have a background&#96;&#92;
+-fill &#39;#f49f1c&#39; -background none &#96;# The podcast title does not have a background&#96;&#92;
 -size 580x40 caption:&#39;PODCAST&#39; &#96;# Add the word PODCAST to the template&#96;&#92;
 -geometry +550+46 &#96;# Set the x and y position for the PODCAST text&#96;&#92;
 -composite &#96;# Add text to the image&#96;&#92;
@@ -56,50 +59,48 @@ magick convert sc-template.png &#96;# load template background image&#96;&#92;&#
 -fill white -background none &#96;# The title for the podcast does not have a background&#96;&#92;
 -size 580x340 caption:&#39;{{post.title | escape}}&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
 -geometry +550+96 &#96;# Set the x and y location for the podcast title&#96;&#92;
--composite &#96;# Add the podcast&#39;s title to the image&#96;&#92;
+-composite &#96;# Add the podcast&#39;s title to the image&#96;&#92;&#10;
+
+{%- comment -%} ** STEP 5: Add the guest names {%- endcomment -%}
 -fill white -background none &#96;# the guest names do not have a background&#96;&#92;&#10;
+{%- assign introText = "with " -%}
+{%- assign allGuests = "" -%}
+{% assign guestSize = post.guest-details.size %}
+{%- for detail in post.guest-details -%}
+{% if guestSize == 1 %}
+{% comment %} Display the name and title for one person {% endcomment %}
+{% assign guestName = detail.guest-name | escape %}
+{% assign guestTitle = detail.guest-title | escape %}
+{% assign allGuests = allGuests | 
+    prepend: introText |
+    append: guestName | 
+    append: "\n" | 
+    append: guestTitle %}
+{% endif %}
+{% if guestSize > 1 %}
+{% comment %} Only display names for multiple guests {% endcomment %}
+{% assign guestName = detail.guest-name | escape %}
+{% assign guestName = guestName | prepend: introText %}
+{% assign loopIndex = forloop.index %}
+{% if guestSize != loopIndex %}
+    {% assign allGuests = allGuests | 
+    append: guestName | 
+    append: "\n" %}
+{% else %}
+    {% assign allGuests = allGuests | 
+    append: guestName %}
+{% endif %}
+{% endif %}
+{%- endfor -%}
+-size 405x195 caption:&#39;{{allGuests}}&#39; &#96;# List the guest names for the podcast&#96;&#92;
+-geometry +550+446 &#96;# Set the x and y position of the guest names&#96;&#92;
+-composite &#96;# Add guest names to the image&#96;&#92;&#10;
 
+{%- comment -%} ** STEP 6: Save a version without a play icon  {%- endcomment -%}
++write ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '-no-play.png'}} &#92;&#10;
 
-{%- comment -%} ** STEP FINAL: Save the file  {%- endcomment -%}
+{%- comment -%} ** STEP FINAL: Save the file with a play icon {%- endcomment -%}
+-page +972+448 sc-play.png &#96;# load play icon image&#96;&#92;
+-layers flatten &#92;
 ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}
 {%- endfor -%}
-
-{% comment %}
-        {%- assign introText = "with " -%}
-        {%- assign allGuests = "" -%}
-        {% assign guestSize = post.guest-details.size %}
-        {%- for detail in post.guest-details -%}
-            {% if guestSize == 1 %}
-                {% comment %} Display the name and title for one person {% endcomment %}
-                {% assign guestName = detail.guest-name | escape %}
-                {% assign guestTitle = detail.guest-title | escape %}
-                {% assign allGuests = allGuests | 
-                    prepend: introText |
-                    append: guestName | 
-                    append: "\n" | 
-                    append: guestTitle %}
-            {% endif %}
-            {% if guestSize > 1 %}
-                {% comment %} Only display names for multiple guests {% endcomment %}
-                {% assign guestName = detail.guest-name | escape %}
-                {% assign guestName = guestName | prepend: introText %}
-                {% assign loopIndex = forloop.index %}
-                {% if guestSize != loopIndex %}
-                    {% assign allGuests = allGuests | 
-                    append: guestName | 
-                    append: "\n" %}
-                {% else %}
-                    {% assign allGuests = allGuests | 
-                    append: guestName %}
-                {% endif %}
-            {% endif %}
-        {%- endfor -%}
-        -size 405x195 caption:&#39;{{allGuests}}&#39; &#96;# List the guest names for the podcast&#96;&#92;
-        -geometry +550+446 &#96;# Set the x and y position of the guest names&#96;&#92;
-        -composite &#96;# Add guest names to the image&#96;&#92;
-        +write ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '-no-play.png'}} &#92;
-        -page +972+448 sc-play.png &#96;# load play icon image&#96;&#92;
-        -layers flatten &#92;
-        ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}
-{%- endfor -%}
-{% endcomment %}

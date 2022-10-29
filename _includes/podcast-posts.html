@@ -7,7 +7,7 @@
   <ul class="post-list">
     {%- for podcastPost in podcastPosts limit: podcastLimit offset: podcastOffset -%}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- assign cardFileName = podcastPost.path | split: '/' | last | split: '.' | first | append: '.png' | prepend: '/uploads/' | relative_url -%}
+      {%- assign cardFileName = podcastPost.path | split: '/' | last | split: '.' | first | append: '.png' | prepend: '/uploads/wf-featured-images/' | relative_url -%}
       {%- assign cardLink = podcastPost.url | relative_url -%}
       {%- assign podcastTitle = podcastPost.title | escape -%}
       {%- assign guestDetails = podcastPost.guest-details -%}

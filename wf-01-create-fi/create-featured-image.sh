@@ -14,7 +14,8 @@ set -e -x
 {%- comment -%} only get posts where there are guest details {%- endcomment -%}
 {%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' -%} 
 {%- comment -%} ** STEP 1: start ImageMagick {%- endcomment -%}
-{%- for post in posts limit: 1 -%}
+{%- comment -%} Reduce system resources by using a limit, like this: for post in posts limit: 1 {%- endcomment -%}
+{%- for post in posts limit: 10 -%}
 magick convert sc-template.png &#96;# load template background image&#96;&#92;&#10;
 {%- comment -%} add each guest imagie to the imagemagick line with size and location {%- endcomment -%}
 
@@ -102,5 +103,5 @@ magick convert sc-template.png &#96;# load template background image&#96;&#92;&#
 {%- comment -%} ** STEP FINAL: Save the file with a play icon {%- endcomment -%}
 -page +972+448 sc-play.png &#96;# load play icon image&#96;&#92;
 -layers flatten &#92;
-../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}
+../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}&#10;&#10;
 {%- endfor -%}

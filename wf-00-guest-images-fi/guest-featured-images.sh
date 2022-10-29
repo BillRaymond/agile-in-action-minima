@@ -33,7 +33,7 @@ set -e -x
     | split: '.' | first
     | append: '.png' 
     | prepend: '../uploads/wf-guest-images-fi/'
-    %}
+%}
 
 
 {% comment %} *** START guest image conversion process *** {% endcomment%}

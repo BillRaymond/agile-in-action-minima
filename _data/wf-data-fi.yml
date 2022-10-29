@@ -6,7 +6,23 @@
 
 # ** Important **
 # These values are only retrieved by index number, not the name of the values
-# Be careful to leave these in exact order or adjust the codes indexes
+# Be careful to leave these in exact order or adjust the code's indexes
+
+# ** Example **
+# Let's say you want:
+#  The size of the guest's image for 3 guests
+#  The placement of the image for the first guest
+#
+# These indexes start at 0, but Liquid indexes start at 1
+#
+# Psuedo code looks like this:
+#   site.data.wf-data-fi[2].items[0].value
+# Value looks like this:
+#   value: "-resize 200x200 -set page +295+41"
+
+# Due to the indexes, assign values like this:
+#   assign numGuests = post.guest-details.size | minus: 1
+
 - oneGuestIndexZero:
   items:
     - value: "-resize 282x282 -set page +256+205"

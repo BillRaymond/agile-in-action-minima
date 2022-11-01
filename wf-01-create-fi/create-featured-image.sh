@@ -16,8 +16,10 @@ set -e -x
 {%- comment -%} ** STEP 1: start ImageMagick {%- endcomment -%}
 {%- comment -%} Reduce system resources by using a limit, like this: for post in posts limit: 1 {%- endcomment -%}
 {%- for post in posts limit: 10 -%}
+{%- assign postTitle = post.title | escape -%}
+echo "* START Creating featured image for: {{postTitle}}"
 magick convert sc-template.png &#96;# load template background image&#96;&#92;&#10;
-{%- comment -%} add each guest imagie to the imagemagick line with size and location {%- endcomment -%}
+{%- comment -%} add each guest image to the imagemagick line with size and location {%- endcomment -%}
 
 {%- comment -%} ** STEP 2: Size and place images {%- endcomment -%}
 {%- for detail in post.guest-details -%}
@@ -47,7 +49,7 @@ magick convert sc-template.png &#96;# load template background image&#96;&#92;&#
 -geometry +550+46 &#96;# Set the x and y position for the PODCAST text&#96;&#92;
 -composite &#96;# Add text to the image&#96;&#92;
 -fill white -background none &#96;# The title for the podcast does not have a background&#96;&#92;
--size 580x340 caption:&#39;{{post.title | escape}}&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
+-size 580x340 caption:&#39;{{postTitle}}&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
 -geometry +550+96 &#96;# Set the x and y location for the podcast title&#96;&#92;
 -composite &#96;# Add the podcast&#39;s title to the image&#96;&#92;
 -fill white -background none &#96;# the guest names do not have a background&#96;&#92;
@@ -58,7 +60,7 @@ magick convert sc-template.png &#96;# load template background image&#96;&#92;&#
 -geometry +550+46 &#96;# Set the x and y position for the PODCAST text&#96;&#92;
 -composite &#96;# Add text to the image&#96;&#92;
 -fill white -background none &#96;# The title for the podcast does not have a background&#96;&#92;
--size 580x340 caption:&#39;{{post.title | escape}}&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
+-size 580x340 caption:&#39;{{postTitle | escape}}&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
 -geometry +550+96 &#96;# Set the x and y location for the podcast title&#96;&#92;
 -composite &#96;# Add the podcast&#39;s title to the image&#96;&#92;&#10;
 
@@ -104,4 +106,5 @@ magick convert sc-template.png &#96;# load template background image&#96;&#92;&#
 -page +972+448 sc-play.png &#96;# load play icon image&#96;&#92;
 -layers flatten &#92;
 ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}&#10;&#10;
+echo "* FINISH Creating featured image for: {{postTitle}}"
 {%- endfor -%}

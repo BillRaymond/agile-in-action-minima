@@ -31,9 +31,7 @@
       <li>
         <a href="{{- cardLink -}}"><img src="{{- cardFileName -}}" alt="{{- podcastTitle -}}"></a>
         <h3>
-          <a class="post-link" href="{{cardLink}}">
-                {{ podcastTitle }}
-          </a>
+          <a class="post-link" href="{{cardLink}}">{{podcastTitle}}</a>
         </h3>
         {%- if guestDetails.size > 0 -%}
           {%- for guestDetail in guestDetails -%}                

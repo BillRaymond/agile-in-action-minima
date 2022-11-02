@@ -1,4 +1,4 @@
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/balloons2.png -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -15,10 +15,10 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-08-02-exciting-agile-in-action-podcast-news-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-08-02-exciting-agile-in-action-podcast-news.png
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/wodtke.jpg -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -35,10 +35,10 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-06-14-what-it-means-to-become-nimble-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-06-14-what-it-means-to-become-nimble.png
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/alla.jpg -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -55,10 +55,10 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-06-07-building-a-culture-of-psychological-safety-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-06-07-building-a-culture-of-psychological-safety.png
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/kilby-photo.jpg -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -75,10 +75,10 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-05-16-successful-globally-distributed-teams-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-05-16-successful-globally-distributed-teams.png
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/seiden-1.jpg -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -95,10 +95,10 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-05-09-outcome-driven-design-and-team-behaviors-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-05-09-outcome-driven-design-and-team-behaviors.png
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/marsha-acker.png -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -115,10 +115,10 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-04-12-the-art-and-science-of-facilitation-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-04-12-the-art-and-science-of-facilitation.png
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/ionitia.jpg -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -135,10 +135,10 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-04-05-risk-driven-security-in-agile-software-development-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-04-05-risk-driven-security-in-agile-software-development.png
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/gothelf-square.png -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -155,10 +155,10 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-03-29-introducing-objectives-and-key-results-okrs-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-03-29-introducing-objectives-and-key-results-okrs.png
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/jutta.jpg -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -175,10 +175,10 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-03-15-the-planet-is-also-the-customer-agile-and-sustainabilty-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-03-15-the-planet-is-also-the-customer-agile-and-sustainabilty.png
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
 \( ../uploads/wf-guest-images-fi/becky.png -resize 282x282 -set page +256+205 \) `# load a guest photo`\
 -layers flatten `# merge the template and guest photos`\
         -font 'fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -195,7 +195,7 @@ magick convert sc-template.png `# load template background image`\
         -geometry +550+446 `# Set the x and y position of the guest names`\
         -composite `# Add guest names to the image`\
         +write ../uploads/wf-featured-images/2022-03-08-avoid-being-your-own-worst-enemy-no-play.png \
-        -page +972+448 sc-play.png `# load play icon image`\
+        -page +972+448 fi-play-icon.png `# load play icon image`\
         -layers flatten \
         ../uploads/wf-featured-images/2022-03-08-avoid-being-your-own-worst-enemy.png
 

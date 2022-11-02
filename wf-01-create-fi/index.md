@@ -24,7 +24,7 @@ The following code may change, but the general idea is to use Imagemagic to resi
 # note: make sure to run chmod +x script-name in the final solution.sh
 
 # The following code is for four guests. The code will adjust for one, two, three, or four (no more than 4)
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
     \( face.png -resize 282x282 -set page +256+205 \) \
     -layers flatten `# merge the template, play, and guests layers`\
     -font './share-card-creator/fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -41,9 +41,9 @@ magick convert sc-template.png `# load template background image`\
     -geometry +550+446 `# Set the x and y position of the guest names`\
     -composite `# Add guest names to the image`\
     +write sc-no-play.png \
-    -page +972+448 sc-play.png `# load play icon image`\
+    -page +972+448 fi-play-icon.png `# load play icon image`\
     -layers flatten \
-    sc-play.png
+    fi-play-icon.png
 ```
 
 ## Specs for GUESTS

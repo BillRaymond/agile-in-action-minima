@@ -20,7 +20,7 @@ layout: shell
 {%- assign postTitleForEcho = post.title | escape | smartify | replace: "(" | replace: ")" -%}
 
 echo "* START {{postTitleForEcho}}"
-magick convert sc-template.png &#96;# load template background image&#96;&#92;&#10;
+magick convert fi-template.png &#96;# load template background image&#96;&#92;&#10;
 {%- comment -%} ** STEP 2: Size and place guest images {%- endcomment -%}
 {%- for detail in post.guest-details -%}
 {%- comment -%} Get the zero-based index for number of guests and current loop index {%- endcomment -%}
@@ -94,7 +94,7 @@ magick convert sc-template.png &#96;# load template background image&#96;&#92;&#
 +write ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '-no-play.png'}} &#92;&#10;
 
 {%- comment -%} ** STEP FINAL: Save the file with a play icon {%- endcomment -%}
--page +972+448 sc-play.png &#96;# load play icon image&#96;&#92;
+-page +972+448 fi-play-icon.png &#96;# load play icon image&#96;&#92;
 -layers flatten &#92;
 ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}&#10;
 echo "* FINISH {{postTitleForEcho}}"&#10;&#10;

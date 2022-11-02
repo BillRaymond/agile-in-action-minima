@@ -29,7 +29,7 @@
 
 
 # Featured image for one guest
-magick convert sc-template.png `# load template background image`\
+magick convert fi-template.png `# load template background image`\
     \( face.png -resize 282x282 -set page +256+205 \) \
     -layers flatten `# merge the template, play, and guests layers`\
     -font './share-card-creator/fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -46,15 +46,15 @@ magick convert sc-template.png `# load template background image`\
     -geometry +550+446 `# Set the x and y position of the guest names`\
     -composite `# Add guest names to the image`\
     +write sc-no-play.png \
-    -page +972+448 sc-play.png `# load play icon image`\
+    -page +972+448 fi-play-icon.png `# load play icon image`\
     -layers flatten \
-    sc-play.png
+    fi-play-icon.png
 
 read -p "press any key to resume"
 
 # Featured image for one guest
-magick convert sc-template.png `# load template background image`\
-    -page +972+448 sc-play.png `# load play icon image`\
+magick convert fi-template.png `# load template background image`\
+    -page +972+448 fi-play-icon.png `# load play icon image`\
     \( face.png -resize 282x282 -set page +256+205 \) \
     -layers flatten `# merge the template, play, and guests layers`\
     -font './share-card-creator/fonts/ProximaNovaA-Bold.ttf' `# load the font`\
@@ -74,8 +74,8 @@ magick convert sc-template.png `# load template background image`\
 read -p "press any key to resume"
 
 # Featured image for two guests
-magick convert sc-template.png `# load template background image`\
-    -page +972+448 sc-play.png `# load play icon image`\
+magick convert fi-template.png `# load template background image`\
+    -page +972+448 fi-play-icon.png `# load play icon image`\
     \( face.png -resize 282x282 -set page +256+37 \) \
     \( face.png -resize 282x282 -set page +256+375 \) \
     -layers flatten `# merge the template, play, and guests layers`\
@@ -96,8 +96,8 @@ magick convert sc-template.png `# load template background image`\
 read -p "press any key to resume"
 
 # Featured image for three guests
-magick convert sc-template.png `# load template background image`\
-    -page +972+448 sc-play.png `# load play icon image`\
+magick convert fi-template.png `# load template background image`\
+    -page +972+448 fi-play-icon.png `# load play icon image`\
     -layers flatten `# combine layers`\
     \( face.png -resize 200x200 -set page +295+41 \) \
     \( face.png -resize 200x200 -set page +295+246 \) \
@@ -120,8 +120,8 @@ magick convert sc-template.png `# load template background image`\
 read -p "press any key to resume"
 
 # Featured image for four guests
-magick convert sc-template.png `# load template background image`\
-    -page +972+448 sc-play.png `# load play icon image`\
+magick convert fi-template.png `# load template background image`\
+    -page +972+448 fi-play-icon.png `# load play icon image`\
     \( face.png -resize 150x150 -set page +315+41 \) \
     \( face.png -resize 150x150 -set page +315+193 \) \
     \( face.png -resize 150x150 -set page +315+346 \) \

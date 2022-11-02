@@ -2,9 +2,9 @@
 layout: shell
 ---
 #!/bin/bash
-# -e Exit immediately if a command exits with a non-zero status
-# -x Echo all the commands as they run, not just echos
-set -e -x
+ -e Exit immediately if a command exits with a non-zero status
+ -x Echo all the commands as they run, not just echos
+ set -e -x
 
 {% comment %}
     note: make sure to run chmod +x script-name in the final solution.sh
@@ -12,16 +12,16 @@ set -e -x
 {% endcomment %}
 
 {%- comment -%} only get posts where there are guest details {%- endcomment -%}
-{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' -%} 
+{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' | where_exp: 'post', 'post.title contains "Untapped Agility"' -%}
 {%- comment -%} ** STEP 1: start ImageMagick {%- endcomment -%}
 {%- comment -%} Reduce system resources by using a limit, like this: for post in posts limit: 1 {%- endcomment -%}
-{%- for post in posts limit: 10 -%}
-{%- assign postTitle = post.title | escape -%}
-echo "* START Creating featured image for: {{postTitle}}"
-magick convert sc-template.png &#96;# load template background image&#96;&#92;&#10;
-{%- comment -%} add each guest image to the imagemagick line with size and location {%- endcomment -%}
+{%- for post in posts -%}
+{%- assign postTitle = post.title | escape | smartify -%}
+{%- assign postTitleForEcho = post.title | escape | smartify | replace: "(" | replace: ")" -%}
 
-{%- comment -%} ** STEP 2: Size and place images {%- endcomment -%}
+echo "* START {{postTitleForEcho}}"
+magick convert sc-template.png &#96;# load template background image&#96;&#92;&#10;
+{%- comment -%} ** STEP 2: Size and place guest images {%- endcomment -%}
 {%- for detail in post.guest-details -%}
 {%- comment -%} Get the zero-based index for number of guests and current loop index {%- endcomment -%}
 {%- assign numGuests = post.guest-details.size | minus: 1 -%}
@@ -42,27 +42,18 @@ magick convert sc-template.png &#96;# load template background image&#96;&#92;&#
 {%- comment -%} ** STEP 3: Merge featured image with guest images {%- endcomment -%}
 -layers flatten &#96;# merge the template and guest photos&#96;&#92;&#10;
 
-{%- comment -%} ** STEP 4: Load font and add titles {%- endcomment -%}
+{%- comment -%} ** STEP 4: Load font and add the PODCAST and post titles {%- endcomment -%}
 -font &#39;fonts/ProximaNovaA-Bold.ttf&#39; &#96;# load the font&#96;&#92;
 -fill &#39;#f49f1c&#39; -background none &#96;# The podcast title does not have a background&#96;&#92;
 -size 580x40 caption:&#39;PODCAST&#39; &#96;# Add the word PODCAST to the template&#96;&#92;
 -geometry +550+46 &#96;# Set the x and y position for the PODCAST text&#96;&#92;
--composite &#96;# Add text to the image&#96;&#92;
+-composite &#96;# Add the text layer to the image&#96;&#92;
 -fill white -background none &#96;# The title for the podcast does not have a background&#96;&#92;
 -size 580x340 caption:&#39;{{postTitle}}&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
 -geometry +550+96 &#96;# Set the x and y location for the podcast title&#96;&#92;
 -composite &#96;# Add the podcast&#39;s title to the image&#96;&#92;
 -fill white -background none &#96;# the guest names do not have a background&#96;&#92;
 -layers flatten &#96;# merge the template and guest photos&#96;&#92;
--font &#39;fonts/ProximaNovaA-Bold.ttf&#39; &#96;# load the font&#96;&#92;
--fill &#39;#f49f1c&#39; -background none &#96;# The podcast title dos not have a background&#96;&#92;
--size 580x40 caption:&#39;PODCAST&#39; &#96;# Add the word PODCAST to the template&#96;&#92;
--geometry +550+46 &#96;# Set the x and y position for the PODCAST text&#96;&#92;
--composite &#96;# Add text to the image&#96;&#92;
--fill white -background none &#96;# The title for the podcast does not have a background&#96;&#92;
--size 580x340 caption:&#39;{{postTitle | escape}}&#39; &#96;# Podcast title as it appears on the website&#96;&#92;
--geometry +550+96 &#96;# Set the x and y location for the podcast title&#96;&#92;
--composite &#96;# Add the podcast&#39;s title to the image&#96;&#92;&#10;
 
 {%- comment -%} ** STEP 5: Add the guest names {%- endcomment -%}
 -fill white -background none &#96;# the guest names do not have a background&#96;&#92;&#10;
@@ -105,6 +96,6 @@ magick convert sc-template.png &#96;# load template background image&#96;&#92;&#
 {%- comment -%} ** STEP FINAL: Save the file with a play icon {%- endcomment -%}
 -page +972+448 sc-play.png &#96;# load play icon image&#96;&#92;
 -layers flatten &#92;
-../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}&#10;&#10;
-echo "* FINISH Creating featured image for: {{postTitle}}"
+../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}&#10;
+echo "* FINISH {{postTitleForEcho}}"&#10;&#10;
 {%- endfor -%}

@@ -6,7 +6,7 @@ date: 2022-09-06
 title: Editor's Pick! Embracing a remote work culture
 twitter-text: ''
 guest-details:
-- guest-name: Sarah Sewell
+- guest-name: Sarah Shewell
   guest-title: ''
   guest-photo: "/uploads/sarah-shewell.jpg"
   guest-links:

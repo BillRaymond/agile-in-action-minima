@@ -7,7 +7,7 @@ title: The 2-year anniversary Agile in Action podcast retrospective
 twitter-text: ''
 guest-details:
 - guest-name: Reama Dagasan
-  guest-title: " CEO of PastaBiz, an Emilio Miti company and Executive Producer of
+  guest-title: "CEO of PastaBiz, an Emilio Miti company and Executive Producer of
     the Agile in Action podcast"
   guest-photo: "/uploads/reama-dagasan.jpeg"
   guest-links:

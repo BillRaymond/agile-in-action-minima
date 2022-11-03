@@ -2,6 +2,25 @@
     Display the featured image for a podcast post
 {% endcomment %}
     <div class="header-featured">
-        {%- assign card-filename = page.path | split: '/' | last | split: '.' | first | append: '-no-play-icon' | append: '.png' | prepend: '/uploads/' | relative_url -%}
-        <a href="{{- card-link -}}"><img src="{{- card-filename -}}" alt="{{- page.title -}}"></a>
+        {% comment %} {%- assign card-filename = page.path | split: '/' | last | split: '.' | first | append: '-no-play-icon' | append: '.png' | prepend: '/uploads/' | relative_url -%}
+        <a href="{{- card-link -}}"><img src="{{- card-filename -}}" alt="{{- page.title -}}"></a> {% endcomment %}
+
+        {%- comment -%}
+        The following code will remove the extension of the post, like .md or .markdown
+        and rename the file with a .png extesion. To rename, you need to get the
+        size of the filename and the size of the extension, then you
+        remove the original extension and replace with a new one.
+        {%- endcomment -%}
+        {%- assign cardFileName = page.path 
+            | split: '/' 
+            | last 
+            | prepend: '/uploads/wf-featured-images/' 
+            | relative_url
+        -%}
+        {%- assign cardExtension = cardFileName.size | split: '.' | last | size -%}
+        {%- assign cardFileSize = cardFileName.size -%}
+        {%- assign cardFileExtensionSize = cardFileName | split: '.' | last | size -%}
+        {%- assign cardFileSizeNoExtension = cardFileSize | minus: cardFileExtensionSize | minus: 1 -%}
+        {%- assign cardFileName = cardFileName | slice: 0,cardFileSizeNoExtension | append: "-no-play" | append: ".png" -%}
+        <img src="{{- cardFileName -}}" alt="{{- page.title -}}">
     </div>

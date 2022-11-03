@@ -12,7 +12,7 @@ layout: shell
 {% endcomment %}
 
 {%- comment -%} only get posts where there are guest details {%- endcomment -%}
-{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' | where_exp: 'post', 'post.title contains "Untapped Agility"' -%}
+{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' -%}
 {%- comment -%} ** STEP 1: start ImageMagick {%- endcomment -%}
 {%- comment -%} Reduce system resources by using a limit, like this: for post in posts limit: 1 {%- endcomment -%}
 {%- for post in posts -%}
@@ -45,7 +45,7 @@ magick convert fi-template.png &#96;# load template background image&#96;&#92;&#
 {%- comment -%} ** STEP 4: Load font and add the PODCAST and post titles {%- endcomment -%}
 -font &#39;fonts/ProximaNovaA-Bold.ttf&#39; &#96;# load the font&#96;&#92;
 -fill &#39;#f49f1c&#39; -background none &#96;# The podcast title does not have a background&#96;&#92;
--size 580x40 caption:&#39;PODCAST&#39; &#96;# Add the word PODCAST to the template&#96;&#92;
+-size 580x40 caption:&#39;AGILE IN ACTION PODCAST&#39; &#96;# Add the word PODCAST to the template&#96;&#92;
 -geometry +550+46 &#96;# Set the x and y position for the PODCAST text&#96;&#92;
 -composite &#96;# Add the text layer to the image&#96;&#92;
 -fill white -background none &#96;# The title for the podcast does not have a background&#96;&#92;

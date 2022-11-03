@@ -127,6 +127,6 @@ magick convert fi-template.png &#96;# load template background image&#96;&#92;&#
 {%- comment -%} ** STEP FINAL: Save the file with a play icon {%- endcomment -%}
 -page +972+448 fi-play-icon.png &#96;# load play icon image&#96;&#92;
 -layers flatten &#92;
-{{cardFileName | append: '.png'}}&#10;
+{{cardFileNameNoExtension | append: '.png'}}&#10;
 echo "* FINISH {{postTitleForEcho}}"&#10;&#10;
 {%- endfor -%}

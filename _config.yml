@@ -21,15 +21,15 @@
 timezone: America/Los_Angeles
 
 title: The Agile in Action Podcast with Bill Raymond
-email: your-email@example.com
+email: bill.raymond@agileinaction.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Agile in Action Podcast with Bill Raymond serves listeners 
   with unique perspectives of the people working tirelessly to modernize 
   how teams work.
 baseurl: "/agile-in-action-minima" # the subpath of your site, e.g. /blog
 url: "https://billraymond.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: billraymonde
+github_username:  BillRaymond
 
 # Build settings
 # theme: minima

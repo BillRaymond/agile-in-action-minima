@@ -26,12 +26,14 @@
       {%- assign cardExtension = cardFileName.size | split: '.' | last | size -%}
       {%- assign cardFileSize = cardFileName.size -%}
       {%- assign cardFileExtensionSize = cardFileName | split: '.' | last | size -%}
-      {%- assign cardFileSizeNoExtension = cardFileSize | minus: cardFileExtensionSize -%}
-      {%- assign cardFileName = cardFileName | slice: 0,cardFileSizeNoExtension | append: "png" -%}
+      {%- assign cardFileSizeNoExtension = cardFileSize | minus: cardFileExtensionSize | minus: 1 -%}
+      {%- assign cardFileName = cardFileName | slice: 0,cardFileSizeNoExtension | append: ".png" -%}
+    
       <li>
         {%- if displaySmall -%}
             {%- if guestDetails.size > 0 -%}
               <div class="small-guest-boxes">
+                <a href="{{cardLink}}"><h3>{{podcastTitle}}</h3></a>
                 <div class="podcast-player" itemprop="podcastPlayer">
                     {%- assign player-id = podcastPost.libsynUrl | split: '/' | last -%}
                     {%- if player-id -%}
@@ -52,7 +54,7 @@
                     {%- endif -%}
               </div>
               {%- for guestDetail in guestDetails -%}
-                {%- assign guestPhoto = guestDetail.guest-photo | split: "/" | last | split: "." | first | | append: '.png'-%}
+                {%- assign guestPhoto = guestDetail.guest-photo | split: "/" | last | split: "." | first | append: '.png'-%}
                 {%- assign guestImage = "/uploads/wf-guest-images-fi/" | append: guestPhoto | relative_url -%}
                 <img src="{{guestImage}}" alt="{{guestDetail.guest-name | escape}}" class="small-guest-box">
               {%- endfor -%}

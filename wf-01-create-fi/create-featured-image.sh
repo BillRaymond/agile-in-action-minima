@@ -8,17 +8,48 @@ set -e -x
 
 {% comment %}
     note: make sure to run chmod +x script-name in the final solution.sh
-    TODO: Write up what the code does
+    When Jekyll builds this file, it will create a shell script that a
+    GitHub Action can use to build featured images for each podcast post.
+
+    Dpendencies
+    1. ImageMagick
+    2. There is another workflow called wf-00-guest-images (or similar) 
+       in this site that must be run first. If not, guest photos will not
+       display in the featured images
 {% endcomment %}
 
-{%- comment -%} only get posts where there are guest details {%- endcomment -%}
-{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details != nil' -%}
-{%- comment -%} ** STEP 1: start ImageMagick {%- endcomment -%}
-{%- comment -%} Reduce system resources by using a limit, like this: for post in posts limit: 1 {%- endcomment -%}
-{%- for post in posts -%}
-{%- assign postTitle = post.title | escape | smartify -%}
-{%- assign postTitleForEcho = post.title | escape | smartify | replace: "(" | replace: ")" -%}
+{%- comment -%} only get posts where there are guest details (guest photos) {%- endcomment -%}
+    {%- assign posts = site.posts 
+        | where_exp: 'post', 'post.guest-details != nil'
+        | where_exp: 'post', 'post.title contains "What makes SCRUM work when done correctly"' 
+    -%}
 
+{%- comment -%} You can reduce processing time by using a limit, like this: for post in posts limit: 1 {%- endcomment -%}
+{%- for post in posts -%}
+
+{%- comment -%} ** STEP 0: Set re-usable variables {%- endcomment -%}
+{%- comment -%}
+    escape, smartify and parenthesis are problems with BASH, so fix them before starting
+    Other special characters may need fixing as well. If so, update this area.
+{%- endcomment -%}
+    {%- assign postTitle = post.title | escape | smartify -%}
+    {%- assign postTitleForEcho = post.title | escape | smartify | replace: "(" | replace: ")" -%}
+
+{%- comment -%} Create the featured image card filename without an extension {%- endcomment -%}
+      {%- assign cardFileName = post.path 
+        | split: '/' 
+        | last 
+        | prepend: '../uploads/wf-featured-images/' 
+      -%}
+      {%- assign cardExtension = cardFileName.size | split: '.' | last | size -%}
+      {%- assign cardFileSize = cardFileName.size -%}
+      {%- assign cardFileExtensionSize = cardFileName | split: '.' | last | size -%}
+      {%- assign cardFileSizeNoExtension = cardFileSize | minus: cardFileExtensionSize | minus: 1 -%}
+      {%- assign cardFileNameNoExtension = cardFileName | slice: 0,cardFileSizeNoExtension -%}
+
+
+
+{%- comment -%} ** STEP 1: start ImageMagick {%- endcomment -%}
 echo "* START {{postTitleForEcho}}"
 magick convert fi-template.png &#96;# load template background image&#96;&#92;&#10;
 {%- comment -%} ** STEP 2: Size and place guest images {%- endcomment -%}
@@ -91,11 +122,11 @@ magick convert fi-template.png &#96;# load template background image&#96;&#92;&#
 -composite &#96;# Add guest names to the image&#96;&#92;&#10;
 
 {%- comment -%} ** STEP 6: Save a version without a play icon  {%- endcomment -%}
-+write ../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '-no-play.png'}} &#92;&#10;
++write {{cardFileNameNoExtension | append: '-no-play.png'}} &#92;&#10;
 
 {%- comment -%} ** STEP FINAL: Save the file with a play icon {%- endcomment -%}
 -page +972+448 fi-play-icon.png &#96;# load play icon image&#96;&#92;
 -layers flatten &#92;
-../uploads/wf-featured-images/{{post.path | split: '/' | last | split: '.md' | first | append: '.png'}}&#10;
+{{cardFileName | append: '.png'}}&#10;
 echo "* FINISH {{postTitleForEcho}}"&#10;&#10;
 {%- endfor -%}

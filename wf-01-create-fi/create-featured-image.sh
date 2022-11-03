@@ -2,9 +2,9 @@
 layout: shell
 ---
 #!/bin/bash
- -e Exit immediately if a command exits with a non-zero status
- -x Echo all the commands as they run, not just echos
- set -e -x
+# -e Exit immediately if a command exits with a non-zero status
+# -x Echo all the commands as they run, not just echos
+set -e -x
 
 {% comment %}
     note: make sure to run chmod +x script-name in the final solution.sh

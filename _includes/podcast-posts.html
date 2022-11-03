@@ -29,13 +29,42 @@
       {%- assign cardFileSizeNoExtension = cardFileSize | minus: cardFileExtensionSize -%}
       {%- assign cardFileName = cardFileName | slice: 0,cardFileSizeNoExtension | append: "png" -%}
       <li>
-        <a href="{{- cardLink -}}"><img src="{{- cardFileName -}}" alt="{{- podcastTitle -}}"></a>
-        <h3>
-          <a class="post-link" href="{{cardLink}}">{{podcastTitle}}</a>
-        </h3>
+        {%- if displaySmall -%}
+            {%- if guestDetails.size > 0 -%}
+              <div class="small-guest-boxes">
+                <div class="podcast-player" itemprop="podcastPlayer">
+                    {%- assign player-id = podcastPost.libsynUrl | split: '/' | last -%}
+                    {%- if player-id -%}
+                        <iframe class="podcast-player"
+                            style="border: none" 
+                            src="//html5-player.libsyn.com/embed/episode/id/{{player-id}}/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/f49f1c/"
+                            height="90" 
+                            width="100%" 
+                            scrolling="no"  
+                            allowfullscreen 
+                            webkitallowfullscreen 
+                            mozallowfullscreen 
+                            oallowfullscreen 
+                            msallowfullscreen>
+                        </iframe>
+                    {%- else -%}
+                        <h2>No audio link found</h2>
+                    {%- endif -%}
+              </div>
+              {%- for guestDetail in guestDetails -%}
+                {%- assign guestPhoto = guestDetail.guest-photo | split: "/" | last | split: "." | first | | append: '.png'-%}
+                {%- assign guestImage = "/uploads/wf-guest-images-fi/" | append: guestPhoto | relative_url -%}
+                <img src="{{guestImage}}" alt="{{guestDetail.guest-name | escape}}" class="small-guest-box">
+              {%- endfor -%}
+              </div>
+            {%- endif -%}
+        {%- else -%}
+          <a href="{{- cardLink -}}"><img src="{{- cardFileName -}}" alt="{{- podcastTitle -}}"></a>
+          <h3><a class="post-link" href="{{cardLink}}">{{podcastTitle}}</a></h3>
+        {%- endif -%}
         {%- if guestDetails.size > 0 -%}
           {%- for guestDetail in guestDetails -%}                
-            with <span class="guest-name" itemprop="name">{{guestDetail.guest-name}}</span><br>
+            with <span class="guest-name" itemprop="name">{{guestDetail.guest-name | escape}}</span><br>
           {%- endfor -%}
         {%- endif -%}
       </li>

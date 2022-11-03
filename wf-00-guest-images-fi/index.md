@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Workflow for featured images
 ---
+## Workflow for featured images
 The code contained in this folder will read uploaded guest images and perform various steps to prepare for creating custom featured images for the website. Some of the functions include:
 
 1. Resize and crop guest images so they are a perfect square

@@ -9,12 +9,16 @@ layout: default
 
   {{ content }}
 
+{%- comment -%} Display the featured post {%- endcomment -%}
+<h2 class="post-list-heading">{{ page.list_title | default: "Latest" }}</h2>
 {%- assign podcastLimit = 1 -%}
 {%- assign podcastOffset = 0 -%}
 {%- include podcast-posts.html -%}
-<h2 class="post-list-heading">{{ page.list_title | default: "All podcasts" }}</h2>
+{%- comment -%} Display all posts {%- endcomment -%}
+<h2 class="post-list-heading">{{ page.list_title | default: "Previous" }}</h2>
 {%- assign podcastLimit = null -%}
 {%- assign podcastOffset = 1 -%}
+{%- assign displaySmall = true -%}
 {%- include podcast-posts.html -%}
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>

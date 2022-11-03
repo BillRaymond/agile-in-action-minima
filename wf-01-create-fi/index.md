@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Create featured images
 ---
+## Create featured images
+
 The code contained in this folder will read guest images and perform various steps to create a featured image
 
 ## TODO:

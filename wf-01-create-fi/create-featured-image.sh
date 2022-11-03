@@ -21,7 +21,6 @@ set -e -x
 {%- comment -%} only get posts where there are guest details (guest photos) {%- endcomment -%}
     {%- assign posts = site.posts 
         | where_exp: 'post', 'post.guest-details != nil'
-        | where_exp: 'post', 'post.title contains "What makes SCRUM work when done correctly"' 
     -%}
 
 {%- comment -%} You can reduce processing time by using a limit, like this: for post in posts limit: 1 {%- endcomment -%}

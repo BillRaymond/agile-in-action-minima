@@ -28,7 +28,6 @@
       {%- assign cardFileExtensionSize = cardFileName | split: '.' | last | size -%}
       {%- assign cardFileSizeNoExtension = cardFileSize | minus: cardFileExtensionSize | minus: 1 -%}
       {%- assign cardFileName = cardFileName | slice: 0,cardFileSizeNoExtension | append: ".png" -%}
-    
       <li>
         {%- if displaySmall -%}
             {%- if guestDetails.size > 0 -%}

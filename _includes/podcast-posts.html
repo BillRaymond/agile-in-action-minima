@@ -1,9 +1,18 @@
 
 {% comment %} Display the first post {% endcomment %}
-{%- assign podcastPosts = site.posts 
-  | where_exp: 'podcastPost', 'podcastPost.date <= site.time' 
-  | where_exp: 'podcastPost', 'podcastPost.guest-details != nil' 
--%}
+{% comment %} If this is an admin page, display future posts {% endcomment %}
+{%- if page.url contains "admin" -%}
+  {%- assign podcastPosts = site.posts
+    | where_exp: 'podcastPost', 'podcastPost.guest-details != nil' 
+  -%}
+  <a href="{{"/" | relative_url}}"><< This is an admin page that shows future podcasts. Select this link to return to the home page</a>
+{%- else -%}
+  {%- assign podcastPosts = site.posts 
+    | where_exp: 'podcastPost', 'podcastPost.date <= site.time' 
+    | where_exp: 'podcastPost', 'podcastPost.guest-details != nil' 
+  -%}    
+{%- endif -%}
+
 {%- if podcastPosts.size > 0 -%}
   <ul class="post-list">
     {%- for podcastPost in podcastPosts limit: podcastLimit offset: podcastOffset -%}

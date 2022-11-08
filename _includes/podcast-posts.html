@@ -5,7 +5,7 @@
   {%- assign podcastPosts = site.posts
     | where_exp: 'podcastPost', 'podcastPost.guest-details != nil' 
   -%}
-  <a href="{{"/" | relative_url}}"><< This is an admin page that shows future podcasts. Select this link to return to the home page</a>
+  <a href="{{"/" | relative_url}}"><< ⚠️ This is an admin page that shows future podcasts. Return to the home page. ⚠️</a>
 {%- else -%}
   {%- assign podcastPosts = site.posts 
     | where_exp: 'podcastPost', 'podcastPost.date <= site.time' 
@@ -13,6 +13,7 @@
   -%}    
 {%- endif -%}
 
+{%- comment -%}Display podcast posts{%- endcomment -%}
 {%- if podcastPosts.size > 0 -%}
   <ul class="post-list">
     {%- for podcastPost in podcastPosts limit: podcastLimit offset: podcastOffset -%}
@@ -73,8 +74,13 @@
           <h3><a class="post-link" href="{{cardLink}}">{{podcastTitle}}</a></h3>
         {%- endif -%}
         {%- if guestDetails.size > 0 -%}
-          {%- for guestDetail in guestDetails -%}                
-            with <span class="guest-name" itemprop="name">{{guestDetail.guest-name | escape}}</span><br>
+          {%- for guestDetail in guestDetails -%}
+            {%- assign guestName = guestDetail.guest-name | escape -%}
+            {%- assign guestTitle = guestDetail.guest-title | escape | strip  -%}
+            {%- if guestTitle.size > 0 -%}
+              {%- assign guestName = guestName | append: ", " | append: guestTitle -%}
+            {%- endif -%}
+            with </strong><span class="guest-name" itemprop="name">{{guestName}}</span><br>
           {%- endfor -%}
         {%- endif -%}
       </li>

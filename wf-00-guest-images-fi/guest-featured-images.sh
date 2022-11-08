@@ -10,7 +10,18 @@ set -e -x&#10;
 {%- comment -%} create guest images for reuse on featured images {% endcomment %}
 {%- comment -%} Resize and crop the guest image so it is square, has a border, and has a shadow {% endcomment %}
 {%- comment -%} Make sure you have a root folder structure like this: /uploads/wf-guest-images-fi {% endcomment %}
-{%- assign posts = site.posts | where_exp: 'post', 'post.guest-details !=nil' -%} 
+
+{%- comment -%} only get posts where there are guest details (guest photos) {%- endcomment -%}
+    {%- assign validPosts = site.posts 
+        | where_exp: 'post', 'post.guest-details != nil' -%}
+
+{%- comment -%} decide what posts to update (all or current date and future date) {%- endcomment -%}
+    {%- if recreateAllFi == true -%}
+            {%- assign posts = validPosts -%}
+    {%- else -%}
+            {%- assign posts = validPosts 
+                | where_exp: 'post', 'post.date >= site.time' -%}
+    {%- endif -%}
 
 {%- for post in posts -%}
 {%- for detail in post.guest-details -%}

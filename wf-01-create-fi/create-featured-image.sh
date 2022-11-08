@@ -18,10 +18,20 @@ set -e -x
        display in the featured images
 {% endcomment %}
 
+{%- comment -%} Determine if the script should only build nonexistent featured images or all of them {%- endcomment -%}
+    {%- assign recreateAllFi = site.data.configs.wfRecreateFeaturedImages -%}
+
 {%- comment -%} only get posts where there are guest details (guest photos) {%- endcomment -%}
-    {%- assign posts = site.posts 
-        | where_exp: 'post', 'post.guest-details != nil'
-    -%}
+    {%- assign validPosts = site.posts 
+        | where_exp: 'post', 'post.guest-details != nil' -%}
+
+{%- comment -%} decide what posts to update (all or current date and future date) {%- endcomment -%}
+    {%- if recreateAllFi == true -%}
+            {%- assign posts = validPosts -%}
+    {%- else -%}
+            {%- assign posts = validPosts 
+                | where_exp: 'post', 'post.date >= site.time' -%}
+    {%- endif -%}
 
 {%- comment -%} You can reduce processing time by using a limit, like this: for post in posts limit: 1 {%- endcomment -%}
 {%- for post in posts -%}
@@ -35,22 +45,34 @@ set -e -x
     {%- assign postTitleForEcho = post.title | escape | smartify | replace: "(" | replace: ")" -%}
 
 {%- comment -%} Create the featured image card filename without an extension {%- endcomment -%}
-      {%- assign cardFileName = post.path 
-        | split: '/' 
-        | last 
-        | prepend: '../uploads/wf-featured-images/' 
-      -%}
-      {%- assign cardExtension = cardFileName.size | split: '.' | last | size -%}
-      {%- assign cardFileSize = cardFileName.size -%}
-      {%- assign cardFileExtensionSize = cardFileName | split: '.' | last | size -%}
-      {%- assign cardFileSizeNoExtension = cardFileSize | minus: cardFileExtensionSize | minus: 1 -%}
-      {%- assign cardFileNameNoExtension = cardFileName | slice: 0,cardFileSizeNoExtension -%}
+    {%- assign cardFileName = post.path 
+    | split: '/' 
+    | last 
+    | prepend: '../uploads/wf-featured-images/' 
+    -%}
+    {%- assign cardExtension = cardFileName.size | split: '.' | last | size -%}
+    {%- assign cardFileSize = cardFileName.size -%}
+    {%- assign cardFileExtensionSize = cardFileName | split: '.' | last | size -%}
+    {%- assign cardFileSizeNoExtension = cardFileSize | minus: cardFileExtensionSize | minus: 1 -%}
+    {%- assign cardFileNameNoExtension = cardFileName | slice: 0,cardFileSizeNoExtension -%}
+    {%- assign cardFileNamePlay = cardFileNameNoExtension | append: ".png" -%}
+    {%- assign cardFileNameNoPlay = cardFileNameNoExtension | append: '-no-play.png' -%}
 
+
+{%- comment -%} ** Before starting, determine what featured images to create {%- endcomment -%}
+    {%- assign staticFiles = 
+            site.static_files 
+            | where_exp: "item", 
+                "item.path == cardFileNamePlay" -%}
+    {%- if staticFiles.size > 0 and recreateAllFi == false -%}
+        {%- continue -%}
+    {%- endif -%}
 
 
 {%- comment -%} ** STEP 1: start ImageMagick {%- endcomment -%}
 echo "* START {{postTitleForEcho}}"
 magick convert fi-template.png &#96;# load template background image&#96;&#92;&#10;
+
 {%- comment -%} ** STEP 2: Size and place guest images {%- endcomment -%}
 {%- for detail in post.guest-details -%}
 {%- comment -%} Get the zero-based index for number of guests and current loop index {%- endcomment -%}
@@ -59,10 +81,8 @@ magick convert fi-template.png &#96;# load template background image&#96;&#92;&#
 {%- comment -%} imagemagick uses slashes, parens, and backticks. Define those here {%- endcomment -%}
 {%- assign imagePrepend = "&#92;( " -%}
 {%- assign imageAppend = " &#92;) &#96;# load a guest photo&#96;&#92;" -%}
-
-{%- comment -%} define the size and placement for the images {%- endcomment -%}
 {%- assign photoPlacement = site.data.wf-data-fi[numGuests].items[currGuestIndex].value -%}
-{%- comment -%} all photos must end in png and be located in a specific folder {%- endcomment -%}
+{%- comment -%} all photos must end in .png and be located in a specific folder {%- endcomment -%}
 {%- assign guestPhoto = detail.guest-photo | split: '/' | last | split: '.' | first | append: '.png' | prepend: '../uploads/wf-guest-images-fi/' -%}
 {%- assign imageMagickImage = guestPhoto | prepend: imagePrepend | append: " " | append: photoPlacement | append: imageAppend -%}
 {{imageMagickImage}}&#10;

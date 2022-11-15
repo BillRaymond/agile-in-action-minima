@@ -15,6 +15,9 @@ set -e -x&#10;
     {%- assign validPosts = site.posts 
         | where_exp: 'post', 'post.guest-details != nil' -%}
 
+{%- comment -%} Determines whether to rebuild all featured images or just recents {%- endcomment -%}
+    {%- assign recreateAllFi = site.data.configs.wfRecreateGuestImages -%}
+
 {%- comment -%} decide what posts to update (all or current date and future date) {%- endcomment -%}
     {%- if recreateAllFi == true -%}
             {%- assign posts = validPosts -%}

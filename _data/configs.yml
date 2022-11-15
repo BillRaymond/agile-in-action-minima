@@ -5,8 +5,8 @@ logo-large-horizontal: "/assets/agile-in-action-logos/agile-in-action-large-hori
 logo-favicon: "/assets/agile-in-action-logos/agile-in-action-favicon.ico"
 
 # Allow a workflow process to re-create all guest photos?
-wfRecreateGuestImages: false
+wfRecreateGuestImages: true
 
 # Allow a workflow process to re-create all featured images?
-wfRecreateFeaturedImages: false
+wfRecreateFeaturedImages: true
 

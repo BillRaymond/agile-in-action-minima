@@ -9,7 +9,7 @@ guest-details:
 - guest-name: Hrishikesh Karekar
   guest-title: Senior Director, India Agile Community Leader at Capgemini, enterprise
     agile coach, and author
-  guest-photo: "/uploads/1667225105007.jpeg"
+  guest-photo: "/uploads/Hrishikesh-Karekar.jpeg"
   guest-links:
   - guest-link-label: Hrishikesh on LinkedIn
     guest-link-url: https://www.linkedin.com/in/hkarekar/

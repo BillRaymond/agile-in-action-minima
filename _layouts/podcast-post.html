@@ -3,6 +3,9 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
+    {% include podcast-featured-image.html %}
+    {% include podcast-player.html %}
+    {% include podcast-badges.html %}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -13,19 +16,13 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
-  
-
-  {% include podcast-featured-image.html %}
-  {% include podcast-player.html %}
-  {% include podcast-badges.html %}
   {% include podcast-guest-links.html %}
   <div class="post-content e-content" itemprop="articleBody">
+    <h2>About this podcast episode</h2>
     {{ content }}
   </div>
-
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

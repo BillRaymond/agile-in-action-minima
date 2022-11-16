@@ -5,7 +5,8 @@ If no player, add a title stating as such
     <div class="podcast-player" itemprop="podcastPlayer">
         {%- assign player-id = page.libsynUrl | split: '/' | last -%}
         {%- if player-id -%}
-        <h2>Listen now</h2>
+        {% comment %} <h2>Listen now</h2> {% endcomment %}
+        <br>
             <iframe class="podcast-player"
                 style="border: none" 
                 src="//html5-player.libsyn.com/embed/episode/id/{{player-id}}/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/f49f1c/"

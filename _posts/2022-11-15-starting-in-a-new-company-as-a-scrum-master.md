@@ -25,7 +25,7 @@ guest-details:
   - guest-link-url: https://www.spokeandwheel.co/assess
     guest-link-label: Mention the Agile in Action podcast for 10% off a psychological
       safety assessment
-- guest-name: Season's of Scrum
+- guest-name: Seasons of Scrum
   guest-title: ''
   guest-photo: "/uploads/seasons-of-scrum.png"
 libsynUrl: https://directory.libsyn.com/episode/index/id/24959592

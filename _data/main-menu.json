@@ -1,0 +1,23 @@
+{
+    "attribute": "Menu items",
+    "items": [
+        {
+            "title": "Home",
+            "url": "/index",
+            "display": true,
+            "sortBy": 1
+        },
+        {
+            "title": "Learn More",
+            "url": "/learn-more",
+            "display": true,
+            "sortBy": 2
+        },
+        {
+            "title": "Sponsors",
+            "url": "/sponsors",
+            "display": true,
+            "sortBy": 3
+        }
+    ]
+}

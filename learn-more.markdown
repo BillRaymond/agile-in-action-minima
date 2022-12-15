@@ -1,8 +1,15 @@
 ---
 layout: page
-title: Guests
-permalink: /become-a-guest/
+title: Learn More
+permalink: /learn-more/
 ---
+## About
+The weekly Agile in Action Podcast with Bill Raymond serves our listeners with unique and timely views of the people working tirelessly to modernize how teams work. The podcast is committed to building a passionate community for people ready to make positive changes in their organizations.
+<p></p>
+
+{%- include podcast-badges.html -%}
+
+## For guests
 Want to be a guest on the Agile in Action podcast?
 
 👉 [Propose your topic](https://calendly.com/billraymond/working-session){:target="_blank"}

@@ -8,17 +8,13 @@
     </a>
 
     {% comment %} Create a navigation pane {% endcomment %}
-    {%- if page_paths -%}
       <nav>
         <ul>
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-              <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{- my_page.title | escape -}}</a></li>
-            {%- endif -%}
+          {%- assign menuItems = site.data.main-menu.items -%}
+          {%- for menu in menuItems -%}
+              <li><a class="page-link" href="{{ menu.url | relative_url }}">{{- menu.title | escape -}}</a></li>
           {%- endfor -%}
             </ul>
       </nav>
-    {%- endif -%}
   </div>
 </header>

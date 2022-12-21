@@ -29,11 +29,11 @@ set -e -x&#10;
 {%- for post in posts -%}
 {%- for detail in post.guest-details -%}
 {%- comment -%}
-    Set the location of the source image
-        1. pre-pend with two dots ".." 
-           since so the shell goes a level above this folder
+    Set the location of the source (original) image
+    The file will start with a slash (/), so remove that
 {%- endcomment -%}
-{%- assign photoSource = detail.guest-photo -%}
+{%- assign photoSource = detail.guest-photo 
+    | remove_first: "/" -%}
 
 {%- comment -%}
     Set the target location for the final file
@@ -46,12 +46,12 @@ set -e -x&#10;
     | split: '/' | last 
     | split: '.' | first
     | append: '.png' 
-    | prepend: '../uploads/wf-guest-images-fi/'
+    | prepend: 'uploads/wf-guest-images-fi/'
 -%}
 
 {%- comment -%} *** START guest photo conversion process *** {%-endcomment-%}
 echo "* START Converting guest photo: {{photoSource}}"
-magick convert ..{{photoSource}} &#96;# load the guest's photo&#96;&#92;
+magick convert {{photoSource}} &#96;# load the guest's photo&#96;&#92;
     -resize 250x250^ &#96;# load template background image&#96;&#92;
     -gravity center &#96;# Set the center of gravity for the photo&#96;&#92;
     -background transparent &#96;# Background should be transparent&#96;&#92;

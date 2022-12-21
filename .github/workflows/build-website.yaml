@@ -3,32 +3,38 @@ on:
     branches:
       - main # trigger the workflow when changes are pushed on the `main` branch
   schedule:
-    - cron: '30 7 * * *' # trigger every day at 00:30
-  workflow_dispatch: # trigger workflow manually
+    - cron: '30 7 * * *' # trigger every day at 00:30 ex 12:30 am
+  workflow_dispatch: # allow the ability to trigger the workflow manually
 name: publish on push and schedule
+
+concurrency: 
+  group: ${{ github.head_ref }}
+  cancel-in-progress: true # If the same workflow is already running, cancel it and start the new one
 
 jobs:
 
   build:
-    name: generate and push
+    name: Jekyll build and push
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3 # pull the code
+      - uses: actions/checkout@v3 # checks-out your repository under $GITHUB_WORKSPACE, so the workflow can access it
         with:
-          ref: main # pull from the main branch
+          ref: main # pull code from the "main" branch
       - uses: ./ # run the Dockerfile, which can call entrypoint.sh the assumed filename to start is "Dockerfile" with a capital D
         env:
-          USER_SITE_REPOSITORY: BillRaymond/agile-in-action-minima-website #target repo
+          USER_SITE_REPOSITORY: BillRaymond/agile-in-action-minima-website # target repo that hosts the Jekyll website
           GITHUB_TOKEN: ${{ secrets.JEKYLLNEW_PAT }} #personal access token of the source repository
 
 ## How to install this workflow
 #   1. Place this file in the root of your Jekyll repo /.github/workflows
 #   2. Create a new personal access token (PAT) in GitHub
 #       Github->Your account->Setttings->Developer settings->
-#       Personal access tokens->"JEKYLL_PAT" (or something similar)
+#       Personal access tokens (old)->"JEKYLL_PAT" (or something similar)
 #       Select: "Repo" (all items) and "Workflow"
+#       Note: If you are forced to use the new token, allow access to the 
+#             source and target repos and use the same settings as defined above
 #   3. Copy the generated token to your clipboard
-#   4. Add the the token to your repo
+#   4. Add the the token to your source repo
 #       Github->Repositories->[your repo]->Settings->
 #       Secrets->Actions->New repository secret->
 #       Name: same as the PAT (ex JEKYLL_PAT)

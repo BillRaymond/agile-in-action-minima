@@ -1,9 +1,16 @@
 FROM ruby:alpine as jekyll
+# Change the above line to use specific versions of Ruby running on Alpine
 
 RUN echo "#################################################"
 RUN echo "set default environment variables"
+RUN echo "ARG is accessible only when building the image"
+RUN echo "ENV is accessible before and after building the image"
+
 # default values for environment variables
 # they can be overriden while building an image:
+
+# env_workspace_directory is the GitHub main branch
+# as defined by the workspace_directory
 ARG workspace_directory=/github/workspace
 ENV env_workspace_directory=$workspace_directory
 ARG github_actor=""
@@ -30,8 +37,8 @@ RUN apk update
 RUN echo "#################################################"
 RUN echo "Install packages required for this Jekyll environment"
 RUN echo "apk add --no-cache build-base gcc bash cmake git imagemagick"
+# Partial reference: https://jekyllrb.com/docs/installation/
 RUN apk add --no-cache build-base gcc bash cmake git imagemagick
-
 
 RUN echo "#################################################"
 RUN echo "Install bundler and jekyll"

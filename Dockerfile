@@ -1,16 +1,9 @@
 FROM ruby:3.1.3-alpine3.17
-# Change the above line to use specific versions of Ruby running on Alpine
-
-RUN echo "#################################################"
-RUN echo "set default environment variables"
-RUN echo "ARG is accessible only when building the image"
-RUN echo "ENV is accessible before and after building the image"
 
 # default values for environment variables
 # they can be overriden while building an image:
-
-# env_workspace_directory is the GitHub main branch
-# as defined by the workspace_directory
+# example:
+# docker build --build-arg workspace_directory=/usr/src/app --build-arg github_actor=BillRaymond --build-arg github_token=yourGHtoken --build-arg user_site_repsitory=BillRaymond/agile-in-action-podcast-website -t jekyll:alpine .
 ARG workspace_directory=/github/workspace
 ENV env_workspace_directory=$workspace_directory
 ARG github_actor=""
@@ -19,46 +12,35 @@ ARG github_token=""
 ENV env_github_token=${github_token}
 ARG user_site_repository=""
 ENV env_user_site_repository=${user_site_repository}
-ENV JEKYLL_ENV: production
-WORKDIR ${env_workspace_directory}
+
+# APK reference: https://wiki.alpinelinux.org/wiki/Package_management
+RUN apk update
+RUN apk add --no-cache build-base gcc bash cmake git imagemagick
+
 RUN echo "env_workspace_directory"
 RUN echo ${env_workspace_directory}
 RUN echo "workspace_directory"
 RUN echo ${workspace_directory}
-RUN echo ${JEKYLL_ENV}
-RUN echo ${WORKDIR}
 
-RUN echo "#################################################"
-RUN echo "Get the latest available Alpine packages"
-# APK reference: https://wiki.alpinelinux.org/wiki/Package_management
-RUN echo "apk update"
-RUN apk update
-
-RUN echo "#################################################"
-RUN echo "Install packages required for this Jekyll environment"
-RUN echo "apk add --no-cache build-base gcc bash cmake git imagemagick"
-# Partial reference: https://jekyllrb.com/docs/installation/
-RUN apk add --no-cache build-base gcc bash cmake git imagemagick
-
-RUN echo "#################################################"
-RUN echo "Install both bundler 1.x and 2.x incase you're running"
-RUN echo "Old gem files"
-RUN echo "https://bundler.io/guides/bundler_2_upgrade.html#faq"
-RUN echo "RUN gem update bundler && gem install bundler jekyll"
+# install both bundler 1.x and 2.x incase you're running
+# old gem files
+# https://bundler.io/guides/bundler_2_upgrade.html#faq
+RUN echo "gem update bundler && gem install bundler jekyll"
 RUN gem update bundler && gem install bundler jekyll
 
-RUN echo "#################################################"
-RUN echo "Copy the GitHub repo to the Docker container"
+ENV JEKYLL_ENV: production
+WORKDIR ${env_workspace_directory}
+
 RUN echo "COPY . ${env_workspace_directory}"
 COPY . ${env_workspace_directory}
 
-RUN echo "#################################################"
-RUN echo "Run the entrypoint shell to perform additional steps"
-RUN echo "Note: entrypoint should run on GitHub workflows"
+RUN echo "apk add --no-cache git"
+RUN apk add --no-cache git
+
 RUN echo "ADD entrypoint.sh /"
 ADD entrypoint.sh /
 RUN echo "RUN chmod +x /entrypoint.sh"
 RUN chmod +x /entrypoint.sh
+
 RUN echo "ENTRYPOINT entrypoint.sh"
 ENTRYPOINT ["/entrypoint.sh"]
-

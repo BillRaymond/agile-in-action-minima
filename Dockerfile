@@ -15,7 +15,7 @@ ENV env_user_site_repository=${user_site_repository}
 
 # APK reference: https://wiki.alpinelinux.org/wiki/Package_management
 RUN apk update
-RUN apk add --no-cache build-base gcc bash cmake git imagemagick
+RUN apk add --no-cache build-base gcc bash cmake git imagemagick ruby-dev
 
 RUN echo "env_workspace_directory"
 RUN echo ${env_workspace_directory}

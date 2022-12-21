@@ -34,6 +34,7 @@ If you set this option to `true`:
     * Want to build all the images for the first time
     * Want to re-build the images because of a change to the script
     * Want to test the script's functionality on a lot of images
+* Whether you use true or false, if the image(s) already exist, the script will overwrite them
 
 If you set this option to `false`:
 * The script will only geneate guest images that belong to today's post or in the future
@@ -41,6 +42,7 @@ If you set this option to `false`:
 * The benefit of this option is when you:
     * Only want to create guest images for current or new posts
     * Want to optimize the build time for your site
+* Whether you use true or false, if the image(s) already exist, the script will overwrite them
 
 ## To test the code
 1. Run `bundle exec jekyll build --livereload --future`

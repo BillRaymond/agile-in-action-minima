@@ -1,4 +1,4 @@
-FROM ruby:alpine as jekyll
+FROM ruby:3.1.3-alpine3.17
 # Change the above line to use specific versions of Ruby running on Alpine
 
 RUN echo "#################################################"

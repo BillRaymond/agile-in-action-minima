@@ -5,11 +5,11 @@ on:
   schedule:
     - cron: '30 7 * * *' # trigger every day at 00:30 ex 12:30 am
   workflow_dispatch: # allow the ability to trigger the workflow manually
-name: publish on push and schedule
+name: publish on push
 
-concurrency: 
-  group: ${{ github.head_ref }}
-  cancel-in-progress: true # If the same workflow is already running, cancel it and start the new one
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
 

@@ -44,10 +44,8 @@ RUN echo "#################################################"
 RUN echo "Install both bundler 1.x and 2.x incase you're running"
 RUN echo "Old gem files"
 RUN echo "https://bundler.io/guides/bundler_2_upgrade.html#faq"
-
-RUN echo "Update current bundler and also install the latest bundler"
-RUN echo "gem update bundle && install bundler jekyll"
-RUN gem update bundle && install bundler jekyll
+RUN echo "RUN gem update bundler && gem install bundler jekyll"
+RUN gem update bundler && gem install bundler jekyll
 
 RUN echo "#################################################"
 RUN echo "Copy the GitHub repo to the Docker container"

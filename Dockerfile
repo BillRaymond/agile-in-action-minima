@@ -44,3 +44,4 @@ RUN chmod +x /entrypoint.sh
 
 RUN echo "ENTRYPOINT entrypoint.sh"
 ENTRYPOINT ["/entrypoint.sh"]
+

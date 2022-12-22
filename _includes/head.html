@@ -2,6 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{site.title | escape}}</title>
   {% comment %} begin seo {% endcomment %}
   {%- assign card-filename = page.path | split: '/' | last | split: '.' | first | append: '.png' | prepend: '/uploads/' | absolute_url -%}
   {%- if card-filename -%}

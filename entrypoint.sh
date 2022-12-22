@@ -87,7 +87,7 @@ echo "Define script variables for the Featured Image Creator script"
 WF_FI_IMAGES_DIR="$env_workspace_directory/wf-01-create-fi" # the workflow folder the code will run from
 WF_FI_IMAGES_SITE="$env_workspace_directory/_site/wf-01-create-fi" #The location of the Jekyll-generated script
 WF_FI_IMAGES_FILE="create-featured-image.sh" # the script filename
-WF_FI_IMAGES_SCRIPT="$WF_FI_IMAGES_SITE/$WF_GUEST_IMAGES_FILE" # the full script folder and filename
+WF_FI_IMAGES_SCRIPT="$WF_FI_IMAGES_SITE/$WF_FI_IMAGES_FILE" # the full script folder and filename
 WF_FI_IMAGES_OUTPUT_DIR="$env_workspace_directory/uploads/wf-01-create-fi" # the script will output images to this folder
 
 echo "#################################################"

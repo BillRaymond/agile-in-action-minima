@@ -57,6 +57,7 @@ sh -c "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
 echo "Experimental Ruby 3.1 YJIT feature to improve liquid template rendering"
+echo "If the setting is not available, it will be skipped"
 
 export RUBYOPT="--enable=yjit"
 
@@ -92,3 +93,66 @@ echo "Make the script that creates the guest images executable"
 sh -c "chmod +x $WF_GUEST_IMAGES_SCRIPT"
 echo "Run the guest images workflow"
 sh $WF_GUEST_IMAGES_SCRIPT
+
+
+echo "#################################################"
+echo "Publishing all images"
+git add uploads/\*
+git status
+
+echo "#################################################"
+echo "Commit changes from Jekyll build"
+echo "Use --quiet so the commit does not trigger another workflow"
+git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action - add images' && echo "Push." && git push origin
+git reset --hard
+rm -rf $env_workspace_directory/_site
+
+echo "#################################################"
+echo "Add $env_workspace_directory/_site as submodule"
+echo "git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site"
+git submodule add -f https://${GITHUB_TOKEN}@github.com/${USER_SITE_REPOSITORY}.git ./_site
+cd $env_workspace_directory/_site
+git checkout main
+git pull
+
+echo "#################################################"
+echo "Added submodule"
+
+cd ..
+echo "sh -c "chmod 777 $env_workspace_directory/*""
+sh -c "chmod 777 $env_workspace_directory/*"
+echo "sh -c "chmod 777 $env_workspace_directory/.*""
+sh -c "chmod 777 $env_workspace_directory/.*"
+
+echo "#################################################"
+echo "The script ran and created new files"
+echo "So therefore, rebuild the Jekyll site"
+
+sh -c "bundle exec jekyll build --future"
+
+echo "#################################################"
+echo "Second Jekyll build done"
+
+echo "#################################################"
+echo "Now publishing"
+
+ls -ltar
+cd $env_workspace_directory/_site
+ls -ltar
+git log -2
+git remote -v
+
+# # Create CNAME file for redirect to this repository
+# if [[ "${CNAME}" ]]; then
+#   echo ${CNAME} > CNAME
+# fi
+
+touch .nojekyll
+echo "Add all files."
+git add -f -A -v
+git status
+
+git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action' && echo "Push." && git push origin
+
+echo "#################################################"
+echo "Published"

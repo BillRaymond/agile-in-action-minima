@@ -4,7 +4,7 @@
 set -e -x
 
 echo "#################################################"
-echo "# This script performss the following steps:"
+echo "# This script performs the following steps:"
 echo "#  - Configure GIT"
 echo "#  - Build the Jekyll website"
 echo "#  - Run an ImageMagick script to create useable thumbnails for guests"
@@ -83,17 +83,40 @@ WF_GUEST_IMAGES_SCRIPT="$WF_GUEST_IMAGES_SITE/$WF_GUEST_IMAGES_FILE" # the full 
 WF_GUEST_IMAGES_OUTPUT_DIR="$env_workspace_directory/uploads/wf-guest-images-fi" # the script will output images to this folder
 
 echo "#################################################"
-echo "Run a script to build guest images"
+echo "Define script variables for the Featured Image Creator script"
+WF_FI_IMAGES_DIR="$env_workspace_directory/wf-01-create-fi" # the workflow folder the code will run from
+WF_FI_IMAGES_SITE="$env_workspace_directory/_site/wf-01-create-fi" #The location of the Jekyll-generated script
+WF_FI_IMAGES_FILE="create-featured-image.sh" # the script filename
+WF_FI_IMAGES_SCRIPT="$WF_FI_IMAGES_SITE/$WF_GUEST_IMAGES_FILE" # the full script folder and filename
+WF_FI_IMAGES_OUTPUT_DIR="$env_workspace_directory/uploads/wf-01-create-fi" # the script will output images to this folder
 
-echo "Create the workflow OUPTUT folder if it does not exist"
+echo "#################################################"
+echo "Create the workflow OUPTUT folders if they do not exist"
+
 if [ ! -d $WF_GUEST_IMAGES_OUTPUT_DIR ]; then
   mkdir -p $WF_GUEST_IMAGES_OUTPUT_DIR;
 fi
-echo "Make the script that creates the guest images executable"
+
+if [ ! -d $WF_FI_IMAGES_OUTPUT_DIR ]; then
+  mkdir -p $WF_FI_IMAGES_OUTPUT_DIR;
+fi
+
+echo "#################################################"
+echo "Make the workflow scripts executable"
 sh -c "chmod +x $WF_GUEST_IMAGES_SCRIPT"
-echo "Run the guest images workflow"
+sh -c "chmod +x $WF_FI_IMAGES_SCRIPT"
+
+echo "#################################################"
+echo "Run the guest images workflow script"
 sh $WF_GUEST_IMAGES_SCRIPT
 
+echo "#################################################"
+echo "Run the featured image workflow script"
+echo "This script contains artifacts in the folder, so"
+echo "cd into the workflow folder and then cd .. after"
+cd $WF_FI_IMAGES_DIR
+sh $WF_FI_IMAGES_SCRIPT
+cd ..
 
 echo "#################################################"
 echo "Publishing all images"
@@ -105,6 +128,9 @@ echo "Commit changes from Jekyll build"
 echo "Use --quiet so the commit does not trigger another workflow"
 git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action - add images' && echo "Push." && git push origin
 git reset --hard
+
+echo "#################################################"
+echo "The workflow is going to rebuld Jekyll, so remove _site"
 rm -rf $env_workspace_directory/_site
 
 echo "#################################################"
@@ -134,7 +160,7 @@ echo "#################################################"
 echo "Second Jekyll build done"
 
 echo "#################################################"
-echo "Now publishing"
+echo "Now publishing to remote repo"
 
 ls -ltar
 cd $env_workspace_directory/_site
@@ -155,4 +181,4 @@ git status
 git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll build from Action' && echo "Push." && git push origin
 
 echo "#################################################"
-echo "Published"
+echo "Published to remote repo"

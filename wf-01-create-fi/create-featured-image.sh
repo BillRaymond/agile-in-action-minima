@@ -71,7 +71,7 @@ set -e -x
 
 {%- comment -%} ** STEP 1: start ImageMagick {%- endcomment -%}
 echo "* START {{postTitleForEcho}}"
-magick convert fi-template.png &#96;# load template background image&#96;&#92;&#10;
+convert fi-template.png &#96;# load template background image&#96;&#92;&#10;
 
 {%- comment -%} ** STEP 2: Size and place guest images {%- endcomment -%}
 {%- for detail in post.guest-details -%}

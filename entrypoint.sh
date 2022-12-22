@@ -4,8 +4,8 @@
 set -e -x
 
 echo "#################################################"
-echo "This script performss the following steps:"
-echo "- Build the Jekyll website"
+echo "# This script performss the following steps:"
+echo "#  - Build the Jekyll website"
 echo "#  - Run an ImageMagick script to create useable thumbnails for guests"
 echo "#  - Run an ImageMagick script to create featured images for posts"
 echo "#  - Copy the newly generated Jekyll site to a GitHub Pages repo"

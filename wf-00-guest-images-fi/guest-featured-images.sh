@@ -51,7 +51,7 @@ set -e -x&#10;
 
 {%- comment -%} *** START guest photo conversion process *** {%-endcomment-%}
 echo "* START Converting guest photo: {{photoSource}}"
-magick convert {{photoSource}} &#96;# load the guest's photo&#96;&#92;
+convert {{photoSource}} &#96;# load the guest's photo&#96;&#92;
     -resize 250x250^ &#96;# load template background image&#96;&#92;
     -gravity center &#96;# Set the center of gravity for the photo&#96;&#92;
     -background transparent &#96;# Background should be transparent&#96;&#92;

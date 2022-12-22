@@ -5,17 +5,21 @@ set -e -x
 
 echo "#################################################"
 echo "# This script performss the following steps:"
+echo "#  - Configure GIT"
 echo "#  - Build the Jekyll website"
 echo "#  - Run an ImageMagick script to create useable thumbnails for guests"
 echo "#  - Run an ImageMagick script to create featured images for posts"
 echo "#  - Copy the newly generated Jekyll site to a GitHub Pages repo"
 echo "#################################################"
 
-# configure git
+echo "#################################################"
+echo "configure git for GitHub"
 echo "Run a command required by GitHub Actions"
 git config --global --add safe.directory /github/workspace
 
-# if arguments aren't set, the environment variables are expected to be set
+echo "#################################################"
+echo "Configure required Git username and email"
+
 if [ -z "${GITHUB_ACTOR}" ];
 then
 GITHUB_ACTOR=$env_github_actor
@@ -34,14 +38,19 @@ fi
 USER_NAME="${GITHUB_ACTOR}"
 MAIL="${GITHUB_ACTOR}@users.noreply.github.com"
 
+git config --global user.name "${USER_NAME}"
+git config --global user.email "${MAIL}"
 echo "${USER_NAME} - ${MAIL}"
 
+
+echo "#################################################"
+echo "Finalize Git settings"
 git submodule init
 git submodule update
 
 echo "#################################################"
-echo "workspace_directory: $env_workspace_directory"
 echo "allow full access to files and folders"
+echo "workspace_directory: $env_workspace_directory"
 
 sh -c "chmod 777 $env_workspace_directory/*"
 sh -c "chmod 777 $env_workspace_directory/.*"

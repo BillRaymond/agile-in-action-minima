@@ -88,7 +88,7 @@ WF_FI_IMAGES_DIR="$env_workspace_directory/wf-01-create-fi" # the workflow folde
 WF_FI_IMAGES_SITE="$env_workspace_directory/_site/wf-01-create-fi" #The location of the Jekyll-generated script
 WF_FI_IMAGES_FILE="create-featured-image.sh" # the script filename
 WF_FI_IMAGES_SCRIPT="$WF_FI_IMAGES_SITE/$WF_FI_IMAGES_FILE" # the full script folder and filename
-WF_FI_IMAGES_OUTPUT_DIR="$env_workspace_directory/uploads/wf-01-create-fi" # the script will output images to this folder
+WF_FI_IMAGES_OUTPUT_DIR="$env_workspace_directory/uploads/wf-featured-images" # the script will output images to this folder
 
 echo "#################################################"
 echo "Create the workflow OUPTUT folders if they do not exist"

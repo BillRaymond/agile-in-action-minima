@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Learn More
-permalink: /learn-more/
+permalink: /learn-more
 ---
 ## About
 The weekly Agile in Action Podcast with Bill Raymond serves our listeners with unique and timely views of the people working tirelessly to modernize how teams work. The podcast is committed to building a passionate community for people ready to make positive changes in their organizations.

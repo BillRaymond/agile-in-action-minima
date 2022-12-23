@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sponsorship opportunities
-permalink: /sponsors/
+permalink: /sponsors
 ---
 
 ## Become a sponsor

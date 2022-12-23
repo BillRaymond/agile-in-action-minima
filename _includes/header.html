@@ -1,5 +1,4 @@
 <header class="site-header" role="banner">
-
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -12,9 +11,13 @@
         <ul>
           {%- assign menuItems = site.data.main-menu.items -%}
           {%- for menu in menuItems -%}
+            {%- if menu.url == page.permalink -%}
+              <li><a class="page-link-current" href="{{ menu.url | relative_url }}">{{- menu.title | escape -}}</a></li>
+            {%- else -%}
               <li><a class="page-link" href="{{ menu.url | relative_url }}">{{- menu.title | escape -}}</a></li>
+            {%- endif -%}
           {%- endfor -%}
-            </ul>
+        </ul>
       </nav>
   </div>
 </header>

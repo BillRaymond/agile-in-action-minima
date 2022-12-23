@@ -10,6 +10,11 @@ nav ul {
     justify-items: center;
     list-style-type: none;
     margin: 0;
+
+    .page-link-current {
+        color: $cambermastAltDarkBlue;
+        font-weight: bold;
+    }
 }
 
 .small-guest-boxes {

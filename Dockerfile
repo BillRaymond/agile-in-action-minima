@@ -26,9 +26,34 @@ RUN echo ${WORKDIR}
 RUN echo "apt-get update -y"
 RUN apt-get update -y
 
-# Install Jekyll prerequisites
+# Install Jekyll and Ruby prerequisites
 RUN echo "apt-get install -y git ruby-full build-essential zlib1g-dev apt-utils"
-RUN apt-get install -y git ruby-full build-essential zlib1g-dev apt-utils
+RUN apt-get install -y git curl build-essential zlib1g-dev apt-utils
+
+# Install rbenv to install a specific version of Ruby
+RUN echo "curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash"
+RUN curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+
+# Add $HOME/.rbenv/bin to your PATH environment variable to start using Rbenv
+RUN echo "'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc"
+RUN echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+RUN echo "'eval "$(rbenv init -)"' >> ~/.bashrc"
+RUN echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+RUN echo "source ~/.bashrc"
+RUN source ~/.bashrc
+
+# Install Ruby
+RUN echo "rbenv install 3.0.2"
+RUN rbenv install 3.1.2
+
+# Set the newly installed versio of Ruby as the global version
+RUN echo "rbenv global 3.1.2"
+RUN rbenv global 3.1.2
+
+# Display the current version of Ruby
+RUN echo "ruby --version"
+RUN ruby --version
+
 
 # Install prerequisites for this repo
 RUN echo "apt-get install -y imagemagick"

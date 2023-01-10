@@ -1,16 +1,10 @@
-FROM ruby:3.1.3-alpine3.17
-# Change the above line to use specific versions of Ruby running on Alpine
+FROM ubuntu:latest
 
 RUN echo "#################################################"
 RUN echo "set default environment variables"
 RUN echo "ARG is accessible only when building the image"
 RUN echo "ENV is accessible before and after building the image"
-
-# default values for environment variables
-# they can be overriden while building an image:
-
-# env_workspace_directory is the GitHub main branch
-# as defined by the workspace_directory
+RUN echo "yyy_workspace_directory is the GitHub main branch"
 ARG workspace_directory=/github/workspace
 ENV env_workspace_directory=$workspace_directory
 ARG github_actor=""
@@ -28,37 +22,29 @@ RUN echo ${workspace_directory}
 RUN echo ${JEKYLL_ENV}
 RUN echo ${WORKDIR}
 
-RUN echo "#################################################"
-RUN echo "Get the latest available Alpine packages"
-# APK reference: https://wiki.alpinelinux.org/wiki/Package_management
-RUN echo "apk update"
-RUN apk update
+# Get the latest APT packages
+RUN echo "apt-get update -y"
+RUN apt-get update -y
 
-RUN echo "#################################################"
-RUN echo "Install packages required for this Jekyll environment"
-RUN echo "apk add --no-cache build-base gcc bash cmake git imagemagick"
-# Partial reference: https://jekyllrb.com/docs/installation/
-RUN apk add --no-cache build-base gcc bash cmake git imagemagick
+# Install Jekyll prerequisites
+RUN echo "apt-get install -y git ruby-full build-essential zlib1g-dev apt-utils"
+RUN apt-get install -y git ruby-full build-essential zlib1g-dev apt-utils
 
-RUN echo "#################################################"
-RUN echo "Install both bundler 1.x and 2.x incase you're running"
-RUN echo "Old gem files"
-RUN echo "https://bundler.io/guides/bundler_2_upgrade.html#faq"
-RUN echo "RUN gem update bundler && gem install bundler jekyll"
-RUN gem update bundler && gem install bundler jekyll
+# Install prerequisites for this repo
+RUN echo "apt-get install -y imagemagick"
+RUN apt-get install -y imagemagick
 
-RUN echo "#################################################"
-RUN echo "Copy the GitHub repo to the Docker container"
+# Install Jekyll and bundler
+RUN echo "gem install jekyll bundler"
+RUN gem install jekyll bundler
+
 RUN echo "COPY . ${env_workspace_directory}"
 COPY . ${env_workspace_directory}
 
-RUN echo "#################################################"
-RUN echo "Run the entrypoint shell to perform additional steps"
-RUN echo "Note: entrypoint should run on GitHub workflows"
 RUN echo "ADD entrypoint.sh /"
 ADD entrypoint.sh /
 RUN echo "RUN chmod +x /entrypoint.sh"
 RUN chmod +x /entrypoint.sh
+
 RUN echo "ENTRYPOINT entrypoint.sh"
 ENTRYPOINT ["/entrypoint.sh"]
-

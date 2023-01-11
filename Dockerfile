@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM --platform=arm64 ubuntu:22.04
 
 RUN echo "#################################################"
 RUN echo "set default environment variables"
@@ -22,28 +22,35 @@ RUN echo ${workspace_directory}
 RUN echo ${JEKYLL_ENV}
 RUN echo ${WORKDIR}
 
-
-# Get the latest APT packages
+RUN echo "#################################################"
+RUN echo "Get the latest APT packages"
 RUN echo "apt-get update"
 RUN apt-get update
 
-# # From: https://phoenixnap.com/kb/install-ruby-ubuntu
-# RUN apt-get -y install git curl autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev
-# RUN curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
-# RUN echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-# RUN echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+RUN echo "#################################################"
+RUN echo "Install Jekyll pre-requisites"
+RUN echo "Partially based on https://gist.github.com/jhonnymoreira/777555ea809fd2f7c2ddf71540090526"
+RUN echo "apt-get -y install git curl autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev"
+RUN apt-get -y install git curl autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev
+RUN echo "ENV RBENV_ROOT /usr/local/src/rbenv"
+ENV RBENV_ROOT /usr/local/src/rbenv
+RUN echo "ENV RUBY_VERSION 3.1.2"
+ENV RUBY_VERSION 3.1.2
+RUN echo "ENV PATH ${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:$PATH"
+ENV PATH ${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:$PATH
+
+RUN git clone https://github.com/rbenv/rbenv.git ${RBENV_ROOT} \
+  && git clone https://github.com/rbenv/ruby-build.git \
+    ${RBENV_ROOT}/plugins/ruby-build \
+  && ${RBENV_ROOT}/plugins/ruby-build/install.sh \
+  && echo 'eval "$(rbenv init -)"' >> /etc/profile.d/rbenv.sh
+
+RUN rbenv install ${RUBY_VERSION} \
+  && rbenv global ${RUBY_VERSION}
 
 
-# Install Jekyll pre-requisites
-RUN apt-get -y install git rbenv
-RUN curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
-RUN echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-RUN rbenv install 3.1.2
-RUN rbenv local 3.1.2
-RUN eval "$(rbenv init -)"
-
-# # Install Jekyll and bundler
-# RUN echo "gem install jekyll bundler"
+# Install Jekyll and bundler
+RUN echo "gem install jekyll bundler"
 RUN gem install jekyll bundler
 
 # # Install custom prerequisites for this repo

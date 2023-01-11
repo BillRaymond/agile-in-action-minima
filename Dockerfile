@@ -52,7 +52,6 @@ RUN echo "Install ruby and set the global version"
 RUN rbenv install ${RUBY_VERSION} \
   && rbenv global ${RUBY_VERSION}
 
-
 RUN echo "#################################################"
 RUN echo "Install Jekyll and bundler"
 RUN echo "gem install jekyll bundler"
@@ -60,7 +59,6 @@ RUN gem install jekyll bundler --no-document
 
 RUN echo "#################################################"
 RUN echo "Install custom prerequisites for this repo"
-# 
 RUN echo "RUN apt-get install -y imagemagick"
 RUN apt-get install -y imagemagick
 

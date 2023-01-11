@@ -39,31 +39,41 @@ ENV RUBY_VERSION 3.1.2
 RUN echo "ENV PATH ${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:$PATH"
 ENV PATH ${RBENV_ROOT}/bin:${RBENV_ROOT}/shims:$PATH
 
+RUN echo "#################################################"
+RUN echo ""
 RUN git clone https://github.com/rbenv/rbenv.git ${RBENV_ROOT} \
   && git clone https://github.com/rbenv/ruby-build.git \
     ${RBENV_ROOT}/plugins/ruby-build \
   && ${RBENV_ROOT}/plugins/ruby-build/install.sh \
   && echo 'eval "$(rbenv init -)"' >> /etc/profile.d/rbenv.sh
 
+RUN echo "#################################################"
+RUN echo "Install ruby and set the global version"
 RUN rbenv install ${RUBY_VERSION} \
   && rbenv global ${RUBY_VERSION}
 
 
-# Install Jekyll and bundler
+RUN echo "#################################################"
+RUN echo "Install Jekyll and bundler"
 RUN echo "gem install jekyll bundler"
-RUN gem install jekyll bundler
+RUN gem install jekyll bundler --no-document
 
-# # Install custom prerequisites for this repo
-# RUN echo "apt-get install -y imagemagick"
-# RUN apt-get install -y imagemagick
+RUN echo "#################################################"
+RUN echo "Install custom prerequisites for this repo"
+# 
+RUN echo "RUN apt-get install -y imagemagick"
+RUN apt-get install -y imagemagick
 
-# RUN echo "COPY . ${env_workspace_directory}"
-# COPY . ${env_workspace_directory}
+RUN echo "#################################################"
+RUN echo "Copy local code to the docker container"
+RUN echo "COPY . ${env_workspace_directory}"
+COPY . ${env_workspace_directory}
 
-# RUN echo "ADD entrypoint.sh /"
-# ADD entrypoint.sh /
-# RUN echo "RUN chmod +x /entrypoint.sh"
-# RUN chmod +x /entrypoint.sh
-
-# RUN echo "ENTRYPOINT entrypoint.sh"
-# ENTRYPOINT ["/entrypoint.sh"]
+RUN echo "#################################################"
+RUN echo "Enable the entrypoint.sh file to run and then set it as the entrypoint"
+RUN echo "ADD entrypoint.sh /"
+ADD entrypoint.sh /
+RUN echo "RUN chmod +x /entrypoint.sh"
+RUN chmod +x /entrypoint.sh
+RUN echo "ENTRYPOINT ["/entrypoint.sh"]"
+ENTRYPOINT ["/entrypoint.sh"]

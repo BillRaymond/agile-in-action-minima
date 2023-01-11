@@ -22,54 +22,41 @@ RUN echo ${workspace_directory}
 RUN echo ${JEKYLL_ENV}
 RUN echo ${WORKDIR}
 
+
 # Get the latest APT packages
-RUN echo "apt-get update -y"
-RUN apt-get update -y
+RUN echo "apt-get update"
+RUN apt-get update
 
-# Install Jekyll and Ruby prerequisites
-RUN echo "apt-get install -y git ruby-full build-essential zlib1g-dev apt-utils"
-RUN apt-get install -y git curl build-essential zlib1g-dev apt-utils
+# # From: https://phoenixnap.com/kb/install-ruby-ubuntu
+# RUN apt-get -y install git curl autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev
+# RUN curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+# RUN echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+# RUN echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
-# Install rbenv to install a specific version of Ruby
-RUN echo "curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash"
+
+# Install Jekyll pre-requisites
+RUN apt-get -y install git rbenv
 RUN curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
-
-# Add $HOME/.rbenv/bin to your PATH environment variable to start using Rbenv
-RUN echo "'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc"
 RUN echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-RUN echo "'eval "$(rbenv init -)"' >> ~/.bashrc"
-RUN echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-RUN echo "source ~/.bashrc"
-RUN source ~/.bashrc
-
-# Install Ruby
-RUN echo "rbenv install 3.0.2"
 RUN rbenv install 3.1.2
+RUN rbenv local 3.1.2
+RUN eval "$(rbenv init -)"
 
-# Set the newly installed versio of Ruby as the global version
-RUN echo "rbenv global 3.1.2"
-RUN rbenv global 3.1.2
-
-# Display the current version of Ruby
-RUN echo "ruby --version"
-RUN ruby --version
-
-
-# Install prerequisites for this repo
-RUN echo "apt-get install -y imagemagick"
-RUN apt-get install -y imagemagick
-
-# Install Jekyll and bundler
-RUN echo "gem install jekyll bundler"
+# # Install Jekyll and bundler
+# RUN echo "gem install jekyll bundler"
 RUN gem install jekyll bundler
 
-RUN echo "COPY . ${env_workspace_directory}"
-COPY . ${env_workspace_directory}
+# # Install custom prerequisites for this repo
+# RUN echo "apt-get install -y imagemagick"
+# RUN apt-get install -y imagemagick
 
-RUN echo "ADD entrypoint.sh /"
-ADD entrypoint.sh /
-RUN echo "RUN chmod +x /entrypoint.sh"
-RUN chmod +x /entrypoint.sh
+# RUN echo "COPY . ${env_workspace_directory}"
+# COPY . ${env_workspace_directory}
 
-RUN echo "ENTRYPOINT entrypoint.sh"
-ENTRYPOINT ["/entrypoint.sh"]
+# RUN echo "ADD entrypoint.sh /"
+# ADD entrypoint.sh /
+# RUN echo "RUN chmod +x /entrypoint.sh"
+# RUN chmod +x /entrypoint.sh
+
+# RUN echo "ENTRYPOINT entrypoint.sh"
+# ENTRYPOINT ["/entrypoint.sh"]

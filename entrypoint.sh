@@ -18,8 +18,11 @@ echo "Run a command required by GitHub Actions"
 git config --global --add safe.directory /github/workspace
 
 echo "#################################################"
-echo "Configure required Git username and email"
+echo "configure the default branch name (used to suppress a warning)"
+git config --global init.defaultBranch main
 
+echo "#################################################"
+echo "Configure required Git username and email"
 if [ -z "${GITHUB_ACTOR}" ];
 then
 GITHUB_ACTOR=$env_github_actor
@@ -51,19 +54,16 @@ git submodule update
 echo "#################################################"
 echo "allow full access to files and folders"
 echo "workspace_directory: $env_workspace_directory"
-
 sh -c "chmod 777 $env_workspace_directory/*"
 sh -c "chmod 777 $env_workspace_directory/.*"
 
 echo "#################################################"
 echo "Experimental Ruby 3.1 YJIT feature to improve liquid template rendering"
 echo "If the setting is not available, it will be skipped"
-
 export RUBYOPT="--enable=yjit"
 
 echo "#################################################"
 echo "Install and update bundles"
-
 sh -c "bundle install"
 sh -c "bundle update"
 
@@ -71,7 +71,6 @@ echo "#################################################"
 echo "Build the Jekyll website, including future posts"
 echo "future allows for the generation of upcoming posts,"
 echo "guests, and featured images"
-
 sh -c "bundle exec jekyll build --future"
 
 echo "#################################################"
@@ -119,7 +118,7 @@ sh $WF_FI_IMAGES_SCRIPT
 cd ..
 
 echo "#################################################"
-echo "Publishing all images"
+echo "Publish all images created by the scripts"
 git add uploads/\*
 git status
 
@@ -130,7 +129,8 @@ git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll b
 git reset --hard
 
 echo "#################################################"
-echo "The workflow is going to rebuild Jekyll, so remove _site"
+echo "The site was built once so scripts can create new images"
+echo "remove _site so Jekyll can create a clean build a second time"
 rm -rf $env_workspace_directory/_site
 
 echo "#################################################"
@@ -143,7 +143,6 @@ git pull
 
 echo "#################################################"
 echo "Added submodule"
-
 cd ..
 echo "sh -c "chmod 777 $env_workspace_directory/*""
 sh -c "chmod 777 $env_workspace_directory/*"
@@ -153,7 +152,6 @@ sh -c "chmod 777 $env_workspace_directory/.*"
 echo "#################################################"
 echo "The script ran and created new files"
 echo "So therefore, rebuild the Jekyll site"
-
 sh -c "bundle exec jekyll build --future"
 
 echo "#################################################"
@@ -161,7 +159,6 @@ echo "Second Jekyll build done"
 
 echo "#################################################"
 echo "Now publishing to remote repo"
-
 ls -ltar
 cd $env_workspace_directory/_site
 ls -ltar

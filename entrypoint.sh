@@ -130,7 +130,7 @@ git diff-index --quiet HEAD || echo "Commit changes." && git commit -m 'Jekyll b
 git reset --hard
 
 echo "#################################################"
-echo "The workflow is going to rebuld Jekyll, so remove _site"
+echo "The workflow is going to rebuild Jekyll, so remove _site"
 rm -rf $env_workspace_directory/_site
 
 echo "#################################################"

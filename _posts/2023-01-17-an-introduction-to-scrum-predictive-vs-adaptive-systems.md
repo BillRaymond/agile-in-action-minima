@@ -8,7 +8,7 @@ twitter-text: ''
 guest-details:
 - guest-name: Nader K. Rad
   guest-title: Author, speaker, and trainer
-  guest-photo: "/uploads/1539456079199.jpeg"
+  guest-photo: "/uploads/nader-k-rad.jpeg"
   guest-links:
   - guest-link-label: Nader on LinnkedIn
     guest-link-url: https://www.linkedin.com/in/naderkrad/

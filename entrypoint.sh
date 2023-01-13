@@ -165,10 +165,10 @@ ls -ltar
 git log -2
 git remote -v
 
-# # Create CNAME file for redirect to this repository
-# if [[ "${CNAME}" ]]; then
-#   echo ${CNAME} > CNAME
-# fi
+# Create CNAME file for redirect to this repository
+if [[ "${CNAME}" ]]; then
+  echo ${CNAME} > CNAME
+fi
 
 touch .nojekyll
 echo "Add all files."

@@ -22,8 +22,10 @@ jobs:
           ref: main # pull code from the "main" branch
       - uses: ./ # run the Dockerfile, which can call entrypoint.sh the assumed filename to start is "Dockerfile" with a capital D
         env:
-          USER_SITE_REPOSITORY: BillRaymond/agile-in-action-minima-website # target repo that hosts the Jekyll website
+          USER_SITE_REPOSITORY: BillRaymond/agile-in-action-podcast-website # target repo that hosts the Jekyll website
           GITHUB_TOKEN: ${{ secrets.JEKYLLNEW_PAT }} #personal access token of the source repository
+
+
 
 ## How to install this workflow
 #   1. Place this file in the root of your Jekyll repo /.github/workflows

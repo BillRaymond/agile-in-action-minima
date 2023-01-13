@@ -5,14 +5,14 @@ logo-large-horizontal: "/assets/agile-in-action-logos/agile-in-action-large-hori
 logo-favicon: "/assets/agile-in-action-logos/agile-in-action-favicon.ico"
 
 # Allow a workflow process to re-create all guest photos?
-# True generates (or regenerates) all guest images, overwriting any that migth already exist
+# True generates/regenerates all guest images, overwriting any that might already exist
 # False means only generate images for today's date or future dated posts
-wfRecreateGuestImages: true
+wfRecreateGuestImages: false
 
 # Allow a workflow process to re-create all featured images?
-# True generates (or regenerates) all featured images, overwriting any that migth already exist
+# True generates/regenerates) all featured images, overwriting any that might already exist
 # False means only generate images for today's date or future dated posts
-wfRecreateFeaturedImages: true
+wfRecreateFeaturedImages: false
 
 # This website uses Libsyn to display podcast posts. This is the RSS feed to share with users
 rssFeed: "https://feeds.libsyn.com/257606/rss?_ga=2.185818153.1879997348.1668636242-117077834.1667517838"

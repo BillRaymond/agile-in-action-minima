@@ -1,7 +1,5 @@
 FROM billraymond/agile-in-action-minima-docker-image:latest
 
-# FROM --platform=arm64 ubuntu:22.04
-
 RUN echo "#################################################"
 RUN echo "set default environment variables"
 RUN echo "ARG is accessible only when building the image"

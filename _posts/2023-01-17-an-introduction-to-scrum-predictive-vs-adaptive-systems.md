@@ -16,10 +16,8 @@ guest-details:
     guest-link-url: https://www.scrum.org/resources/scrum-guide
   - guest-link-label: DSDM
     guest-link-url: https://www.agilebusiness.org/business-agility/what-is-dsdm.html
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/25604910
 
 ---
-
-
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)

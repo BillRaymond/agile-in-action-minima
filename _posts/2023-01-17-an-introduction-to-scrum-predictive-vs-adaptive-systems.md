@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2023-01-17
-title: 'An Introduction to Scrum: Predictive vs Adaptive Systems'
+title: 'An Introduction to Scrum, Part 1: Predictive vs Adaptive Systems'
 twitter-text: ''
 guest-details:
 - guest-name: Nader K. Rad

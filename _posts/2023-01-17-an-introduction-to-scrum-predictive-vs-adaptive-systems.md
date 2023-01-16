@@ -10,18 +10,24 @@ guest-details:
   guest-title: Author, speaker, and trainer
   guest-photo: "/uploads/nader-k-rad.jpeg"
   guest-links:
-  - guest-link-label: Nader on LinnkedIn
+  - guest-link-label: Nader's website
+    guest-link-url: https://nader.pm
+  - guest-link-label: Nader on LinkedIn
     guest-link-url: https://www.linkedin.com/in/naderkrad/
   - guest-link-label: The Agile Scrum Handbook (Scrum Guide)
     guest-link-url: https://www.scrum.org/resources/scrum-guide
   - guest-link-label: DSDM
     guest-link-url: https://www.agilebusiness.org/business-agility/what-is-dsdm.html
+- guest-name: Seasons of SCRUM
+  guest-photo: "/uploads/seaasons-of-scrum-winter.png"
 libsynUrl: https://directory.libsyn.com/episode/index/id/25604910
 
 ---
 ## Transcript
-
 (transcripts are auto-generated, so please excuse the brevity)
+
+### Introductions
+
 **Bill Raymond:** Hi and welcome to the podcast. Today, I'm joined by Nader K Rad. Author, speaker, and trainer. Hi, Nader, how are you today? 
 
 **Nader K Rad:** Hi Bill. Thanks, I'm fine. Thanks for having me here.
@@ -140,7 +146,7 @@ But you know what she did say is, where these types of ideas can come in handy i
 
 **Nader K Rad:** We get together with the team members, think about everything you've done during the sprints and the ways you can improve your way of work for the next sprint. It's a really good idea. Each time in each cycle you have, you pause for a moment, you think about everything that happened and you think, okay, what's the one thing I can do differently next time to be better?
 
-**Nader K Rad:** And then you do that in the next sprint. One or two things. Yeah, so that's how it works. You go to the next sprint, create the next version of the product. There are details, there are sometimes variations depending on the source that you have in mind for a SCRUM and so on. There are also a few roles that may be interesting for people.
+**Nader K Rad:** then you do that in the next sprint. One or two things. Yeah, so that's how it works. You go to the next sprint, create the next version of the product. There are details, there are sometimes variations depending on the source that you have in mind for a SCRUM and so on. There are also a few roles that may be interesting for people.
 
 
 ### Feedback Will Become Features
@@ -189,23 +195,18 @@ But you know what she did say is, where these types of ideas can come in handy i
 
 **Bill Raymond:** And then just to make sure that we're all on track and that we're all making sure that we're closing out issues and keeping things going, we have a SCRUM master to support that. 
 
-**Bill Raymond:** This has been a great conversation, I really appreciate it. And this is again, part one of the conversation. We're going to get into how you actually implement this in the next conversation.
+As we talked about in a SCRUM, we have only the developers, the product owner and the SCRUM master and we don't have a 
 
-**Bill Raymond:** But before we wrap up, Nader, is there some way that people can reach you? 
 
-**Nader K Rad:** Yeah, sure. But before that, I think I should mention something else. Do we have time? Two minutes? 
+### 
 
-**Bill Raymond:** Sure. 
-
-**Nader K Rad:** All right. So, because you said that many of your audience are project managers. There's something important here. As we talked about in a SCRUM, we have only the developers, the product owner and the SCRUM master and we don't have a project manager.
+**Nader K Rad:** project manager.
 
 **Nader K Rad:** And what happens here, doesn't mean that we don't have project management, it means that there's no single person who's responsible for project management. But the project management's responsibilities are distributed among those three roles. And a SCRUM doesn't want to have a project manager. But that's only SCRUM, that's not agile. And many people mistake it.
 
-**Nader K Rad:** When people think that when you are agile, you should not have a project manager, which is absolutely wrong. That's because the only thing people know about that agile is SCRUM. There is nothing wrong with having a project manager in an agile method. And for example, DSDM has a project manager, xFi didn't have any problem with project managers.
+**Nader K Rad:** When people think that when you are agile, you should not have a project manager, which is absolutely wrong. That's because the only thing people know about that agile is SCRUM. There is nothing wrong with having a project manager in an agile method. And for example, DSDM has a project manager, There are different methods and for people who are interested, I really recommend learning about more than one of them.
 
-There are different methods and for people who are interested, I really recommend learning about more than one of them.
-
-**Bill Raymond:** Yeah, that makes sense. I think that's really important, you know, the roles and the purpose of the roles sometimes change dramatically, depending on the type of work that you're doing, but it does not say, well, this is some new way of doing things, so therefore your role is now obsolete. That doesn't happen in this agile space.
+**Bill Raymond:** that makes sense. I think that's really important, you know, the roles and the purpose of the roles sometimes change dramatically, depending on the type of work that you're doing, but it does not say, well, this is some new way of doing things, so therefore your role is now obsolete. That doesn't happen in this agile space.
 
 **Bill Raymond:** However, the what you do, the actions that you take, the expectations that are on you, could change quite a bit.
 
@@ -215,17 +216,11 @@ There are different methods and for people who are interested, I really recommen
 
 **Nader K Rad:** Yeah, sure. I'm relatively active on LinkedIn, and that's probably the best way of contacting me. I'm not active in Twitter or other places like that or Facebook. Just LinkedIn for me. And there's also my website. People who prefer to send an email or something like that, they can find it in my website.
 
-**Bill Raymond:** Yeah, and we found out about you, of course, I'm almost going to call you a serial author. I think you have written 40 or 50 books or something like that, but actually we found out about you by your book. It's called Agile SCRUM Handbook and I think you're on the second edition now, is that correct? 
+**Bill Raymond:** Yeah, and we found out about you, of course, I'm almost going to call you a serial author. I think you have written 40 or 50 books or something like that, but actually we found out about you by your book. It's called Agile SCRUM Handbook an excellent book, and it's a great introduction to all of the concepts that we're talking about here today. 
 
-**Nader K Rad:** Um, that's third edition.
+**Bill Raymond:** So we'll provide a link to your LinkedIn account, your book and of course your website, and I'll make sure that those are on the AgileInAction.com website. Just look up the conversation with Nader K Rad, and it will also be right there in your podcast app that you're using right now. Just scroll down to the show notes or the description, and you'll see those links there. Nader, thank you, and until the next podcast, have a great great day. day 
 
-**Bill Raymond:** Oh, third edition, I'm sorry. Yes, the third edition. I apologize for that. I have that written down wrong. But yes, it's an excellent book, and it's a great introduction to all of the concepts that we're talking about here today. 
-
-**Bill Raymond:** So we'll provide a link to your LinkedIn account, your book and of course your website, and I'll make sure that those are on the AgileInAction.com website. Just look up the conversation with Nader K Rad, and it will also be right there in your podcast reader app that you're using right now. Just scroll down to the show notes or the description, and you'll see those links there. Nader, thank you, and until the next podcast, a great great 
-
-**Nader K Rad:** Bill, it was great talking to you. 
-
-**Bill Raymond:** Thank you, good bye. 
+**Nader K Rad:** Thanks Bill, it was great talking to you
 
 
 

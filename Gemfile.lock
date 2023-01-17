@@ -70,6 +70,7 @@ PLATFORMS
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (= 4.3.1)
+  jekyll-sass-converter
   kramdown-parser-gfm (~> 1.1)
   tzinfo (~> 1.2)
   tzinfo-data

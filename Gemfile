@@ -32,3 +32,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.7"
 
 gem "kramdown-parser-gfm", "~> 1.1"
+
+gem "jekyll-sass-converter"

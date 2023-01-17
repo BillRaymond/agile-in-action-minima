@@ -23,6 +23,16 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25604910
 
 ---
+Scrum and project management are not at odds with each other. Today, Nader K Rad introduces Scrum and the differences between predictive and adaptive systems on the Agile in Action with Bill Raymond podcast. 
+
+While sharing these concepts, Bill and Nader share stories and examples that will help you learn:
+
+✅ The basic concepts of Scrum
+✅ How Scrum compares to predictive systems
+✅ Scrum ceremonies
+✅ Scrum roles
+✅ How to choose between predictive and adaptive systems
+
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)
 

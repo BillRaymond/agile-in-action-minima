@@ -28,9 +28,13 @@ Scrum and project management are not at odds with each other. Today, Nader K Rad
 While sharing these concepts, Bill and Nader share stories and examples that will help you learn:
 
 ✅ The basic concepts of Scrum
+
 ✅ How Scrum compares to predictive systems
+
 ✅ Scrum ceremonies
+
 ✅ Scrum roles
+
 ✅ How to choose between predictive and adaptive systems
 
 ## Transcript

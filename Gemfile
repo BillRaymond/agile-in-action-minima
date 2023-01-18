@@ -33,4 +33,4 @@ gem "webrick", "~> 1.7"
 
 gem "kramdown-parser-gfm", "~> 1.1"
 
-gem "jekyll-sass-converter"
+gem "jekyll-sass-converter", "< 3.0"

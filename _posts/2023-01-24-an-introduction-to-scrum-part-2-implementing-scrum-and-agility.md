@@ -9,6 +9,8 @@ guest-details:
 - guest-name: Nader K Rad
   guest-photo: "/uploads/nader-k-rad.jpeg"
   guest-links:
+  - guest-link-label: An Introduction to Scrum, Part 1
+    guest-link-url: https://agileinaction.com/agile-in-action-podcast/2023/01/17/an-introduction-to-scrum-predictive-vs-adaptive-systems.html
   - guest-link-label: Nader's website
     guest-link-url: https://nader.pm/
   - guest-link-label: Nader on LinkedIn
@@ -25,6 +27,18 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25664133
 
 ---
+Whether you are delivering products or projects, agile delivery with Scrum can work. But how do you do it successfully?
+
+Today's podcast is the second of a 2-part series with Nader K Rad, who shares the core concepts of Scrum.
+
+Bill and Nader share ideas and stories to help you learn:
+
+✅ A recap of the primary Scrum roles, artifacts, and meetings
+✅ How to know if Scrum will work for your organization
+✅ The importance of leadership in the change process
+✅ Common challenges you will face
+✅ Important takeaways if you want to start your Scrum journey
+
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)
 

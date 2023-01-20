@@ -23,7 +23,7 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25664919
 
 ---
-Agile change is not something you can only deploy in your organization. Setting goals, building relationships, and collaborating are critical to agile transformations.
+Agile change is not something you can deploy in your organization. Setting goals, building relationships, and collaborating are critical to agile transformations.
 
 In today's podcast, Michal Idzikowski shares how you can successfully introduce agile change into your organization.
 

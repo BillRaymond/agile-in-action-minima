@@ -7,18 +7,18 @@ title: Effective, not glamorous agile change
 twitter-text: ''
 guest-details:
 - guest-name: Michal Idzikowski
-  guest-title: Agile Coach at Huuge Games and leader of the Scrum Master team
-  guest-photo: "/uploads/1558518858324.jpeg"
+  guest-title: Agile Coach at Huuuge Games and leader of the Scrum Master team
+  guest-photo: "/uploads/idzik_img.png"
   guest-links:
   - guest-link-label: Michal on LinkedIn
     guest-link-url: https://www.linkedin.com/in/michał-idzikowski-36502427/
   - guest-link-label: Michal on Medium
     guest-link-url: https://huuugegames.medium.com/effective-not-glamorous-agile-change-how-to-use-peoples-relations-and-overcome-resistance-8b9f230c2212
-  - guest-link-label: Huuge Games
+  - guest-link-label: Huuuge Games
     guest-link-url: https://huuugegames.com
-  - guest-link-label: Huuge Games on Medium
+  - guest-link-label: Huuuge Games on Medium
     guest-link-url: https://huuugegames.medium.com
-  - guest-link-label: Huuge Games on LinkedIn
+  - guest-link-label: Huuuge Games on LinkedIn
     guest-link-url: https://www.linkedin.com/company/huuugegames/
 libsynUrl: https://directory.libsyn.com/episode/index/id/25664919
 

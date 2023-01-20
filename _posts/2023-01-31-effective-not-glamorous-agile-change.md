@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2023-01-31
-title: Effective, not glamorous Agile change
+title: Effective, not glamorous agile change
 twitter-text: ''
 guest-details:
 - guest-name: Michal Idzikowski
@@ -23,7 +23,25 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25664919
 
 ---
-Content goes here...
+Agile change is not something you can only deploy in your organization. Setting goals, building relationships, and collaborating are critical to agile transformations.
+
+In today's podcast, Michal Idzikowski shares how you can successfully introduce agile change into your organization.
+
+Michal and Bill share stories and examples that will help you learn:
+
+✅ What is an agile organization
+
+✅ What effective agile organizational change looks like
+
+✅ Competencies versus roles
+
+✅ Reducing complexity
+
+✅ Mistakes to avoid
+
+✅ Using a Scrum Studio for greenfield agile adoption
+
+✅ Working with agile supporters and detractors
 
 ## Transcript
 

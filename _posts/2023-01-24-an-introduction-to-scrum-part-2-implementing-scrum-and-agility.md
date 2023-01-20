@@ -22,7 +22,7 @@ guest-details:
   guest-title: Author, speaker, and trainer
 - guest-name: Seasons of Scrum
   guest-title: ''
-  guest-photo: "/uploads/wf-guest-images-fi/seaasons-of-scrum-winter.png"
+  guest-photo: "/uploads/seaasons-of-scrum-winter.png"
   guest-links: []
 libsynUrl: https://directory.libsyn.com/episode/index/id/25664133
 

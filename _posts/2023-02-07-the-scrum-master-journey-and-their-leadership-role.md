@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2023-02-07
-title: The Scrum Master Journey and their Leadership Rolehttps://directory.libsyn.com/episode/index/id/25726041
+title: The Scrum Master Journey and their Leadership Role
 twitter-text: ''
 guest-details:
 - guest-name: Daria Bagina
@@ -312,4 +312,3 @@ Sometimes when we're trying to make a hire, we talk about it as a team, but havi
 **Voice outro:** Thank you for listening to the Agile and Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Camber Mast, L L c, and our executive producer is Rayma Daon.
 
 **Voice outro:** If there is a topic you would like Bill to cover, contact him directly at bill.Raymond@agileinaction.com.
-

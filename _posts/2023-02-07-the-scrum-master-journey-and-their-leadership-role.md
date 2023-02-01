@@ -40,7 +40,7 @@ Content goes here...
 
 **Bill Raymond:** If you were hiring a Scrum master, what are some of the traits that you might be looking for?
 
-**Daria Bagina:** **This is someone who is a people person, someone who really cares about others, someone who has patience, because change takes time. The **Scrum** master is there to help the whole organization become more agile, not just the team. **
+**Daria Bagina:** This is someone who is a people person, someone who really cares about others, someone who has patience, because change takes time. The Scrum master is there to help the whole organization become more agile, not just the team.
 
 **Voice Intro:** Welcome to the Agile in Action Podcast with Bill Raymond. Bill will explore how business disruptors are adopting agile techniques to gain a competitive advantage in this fast-paced technology driven market.
 
@@ -328,4 +328,3 @@ Sometimes when we're trying to make a hire, we talk about it as a team, but havi
 **Voice outro:** Thank you for listening to the Agile and Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Camber Mast, L L c, and our executive producer is Rayma Daon.
 
 **Voice outro:** If there is a topic you would like Bill to cover, contact him directly at bill.Raymond@agileinaction.com.
-

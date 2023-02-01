@@ -3,9 +3,13 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2023-02-07
-title: The Scrum Master Journey and their Leadership Role
+title: The Scrum Master journey and their leadership role
 twitter-text: ''
 guest-details:
+- guest-name: 'Sponsor: Spoke and Wheel'
+  guest-title: ''
+  guest-photo: "/uploads/ad-spoke-and-wheel.png"
+  guest-links: []
 - guest-name: Daria Bagina
   guest-title: Professional Scrum Trainer with Scrum.org and ScrumMastered
   guest-photo: "/uploads/daria-bagina.png"
@@ -22,6 +26,10 @@ guest-details:
     guest-link-url: https://www.scrum.org/team/ken-schwaber
   - guest-link-label: Jeff Sutherland
     guest-link-url: https://scrumguides.org/jeff.html
+- guest-name: Seasons of Scrum
+  guest-title: ''
+  guest-photo: "/uploads/seaasons-of-scrum-winter.png"
+  guest-links: []
 libsynUrl: https://directory.libsyn.com/episode/index/id/25726041
 
 ---

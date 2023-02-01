@@ -36,27 +36,38 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25726041
 
 ---
-Content goes here...
+The Scrum Master helps the whole organization become more agile.
+
+Today, Daria Bagina, Professional Scrum Trainer with [Scrum.org](https://www.scrum.org "https://www.scrum.org") and [ScrumMastered](https://scrummastered.com "https://scrummastered.com"), joins us for another episode in our Seasons of Scrum series. Daria shares the importance of a Scrum Master in leadership and with teams.
+
+Daria and Bill Raymond share stories and examples to help you learn:
+
+✅ What is agile and agility
+✅ Scrum roles
+✅ The role of the Scrum Master
+✅ Traits of a Scrum Master
+✅ The Scrum Master's role in organizational change
+✅ Tips for hiring a Scrum Master
 
 ## Transcript
+
 (transcripts are auto-generated, so please excuse the brevity)
 
 **Bill Raymond:** If you were hiring a Scrum Master, what are some of the traits that you might be looking for?
 
-**Daria Bagina:** This is someone who is a people person, someone who really cares about others, someone who has patience, because change takes time. The Scrum Master is there to help the whole organization become more agile, not just the team. 
+**Daria Bagina:** This is someone who is a people person, someone who really cares about others, someone who has patience, because change takes time. The Scrum Master is there to help the whole organization become more agile, not just the team.
 
 **Voice Intro:** Welcome to the Agile in Action Podcast with Bill Raymond. Bill will explore how business disruptors are adopting agile techniques to gain a competitive advantage in this fast-paced technology driven market.
 
 ### Introductions
 
-**Bill Raymond:** Hi, and welcome to the podcast. Today, I'm joined by Daria Bagina, professional Scrum trainer with Scrum.org. 
+**Bill Raymond:** Hi, and welcome to the podcast. Today, I'm joined by Daria Bagina, professional Scrum trainer with Scrum.org.
 
 **Bill Raymond:** Hi Daria, how are you today?
 
 **Daria Bagina:** Hi. Hello. Yeah, I'm doing good, thank you.
 
-**Bill Raymond:** Great. I am looking forward to this conversation today. We're going to talk about the journey of the Scrum Master and their role in agile leadership. 
-
+**Bill Raymond:** Great. I am looking forward to this conversation today. We're going to talk about the journey of the Scrum Master and their role in agile leadership.
 
 ### About Daria
 
@@ -64,10 +75,9 @@ Content goes here...
 
 **Daria Bagina:** Yes, of course. As Bill said, my name is Daria Bagina and my mission is to help professionals build high-performing teams using Scrum and Agile practices.
 
-**Daria Bagina:** So as a professional Scrum trainer with Scrum.org, that definitely helps me. I'm also an experienced Scrum Master and an educational content creator with my website, Scrummastered.com. 
+**Daria Bagina:** So as a professional Scrum trainer with Scrum.org, that definitely helps me. I'm also an experienced Scrum Master and an educational content creator with my website, Scrummastered.com.
 
-**Daria Bagina:** And I draw from my experience as a Scrum Master to mentor Scrum Masters as well as help organizations and teams with my consulting and coaching and continue to provide more practical informations for Scrum Masters to really get it right and help their teams become more high performing. 
-
+**Daria Bagina:** And I draw from my experience as a Scrum Master to mentor Scrum Masters as well as help organizations and teams with my consulting and coaching and continue to provide more practical informations for Scrum Masters to really get it right and help their teams become more high performing.
 
 ### What is Scrum.org?
 
@@ -75,15 +85,13 @@ Maybe you could share a little bit about what Scrum.org is.
 
 **Daria Bagina:** Yes, Scrum.org is an organization that has been founded by the co-creator of Scrum, Ken Schwaber. Ken Schwaber created the Scrum guide together with Jeff Sutherland, and since then they have been curating that. And Scrum.org is an institution that provides training as well as certification that is well recognized in the community.
 
-
 ### ScrumMastered
 
 **Bill Raymond:** Yeah, it's wonderful. And how about ScrumMastered?
 
 **Daria Bagina:** ScrumMastered is a place where I share my experiences and my practical materials. So I am focusing on sharing guides, templates, online courses, but from the point of view of actual Scrum in practice rather than just the theory or training on that level, but really sharing the real practical implementation of Scrum.
 
-This podcast is called, The Agile in Action Podcast. And anyone that's a regular listener has a tendency to understand what agile and Scrum means. 
-
+This podcast is called, The Agile in Action Podcast. And anyone that's a regular listener has a tendency to understand what agile and Scrum means.
 
 ### How Daria defines agile
 
@@ -95,20 +103,17 @@ For me, agile is a mindset, it's a different way of working that has come into p
 
 **Daria Bagina:** **And that's where agile came in with a new set of values and principles of how we work together.**
 
-
 ### The old vs the new way of thinking
 
 How might we see that in practice today? What might be that traditional way that you were talking about versus this new way of thinking?
 
 There are several things that I could mention here, but basically, what the agile brings to the table that we need to, we cannot just follow a plan and base our decisions on something that happened previously because the environment within which we are operating, it's rapidly changing. Instead of following our plans to the T, we are becoming more adaptable and flexible. We are changing to be able to respond to what customers need and the technology that we need to use to be able to actually keep the competitive advantage in the market.
 
-
 ### Collaboration is key
 
-**Daria Bagina:** So that is one piece of it, but there's more of course, right? We can talk about the need for collaboration between product development and customers, really bringing those two parts together. as well as collaboration between managers and employees. 
+**Daria Bagina:** So that is one piece of it, but there's more of course, right? We can talk about the need for collaboration between product development and customers, really bringing those two parts together. as well as collaboration between managers and employees.
 
-**Daria Bagina:** It's no longer, I'm your manager, just do what I told you to do. It's more managers drawing from their teams the knowledge that the teams have, and instead of monitoring their work and micromanaging, we're giving clear goals and letting them figure it out, right? That's where self-management comes in as well. 
-
+**Daria Bagina:** It's no longer, I'm your manager, just do what I told you to do. It's more managers drawing from their teams the knowledge that the teams have, and instead of monitoring their work and micromanaging, we're giving clear goals and letting them figure it out, right? That's where self-management comes in as well.
 
 ### What does Scrum mean to Daria?
 
@@ -116,7 +121,7 @@ There are several things that I could mention here, but basically, what the agil
 
 **Daria Bagina:** Scrum for me is a framework that helps you become more agile.
 
-The key word here is, a framework, so it is really a set of rules, the boundaries within which you can operate that has certain elements such as three roles, five Scrum events, and if you follow it and understand the underlying principles of that framework, you can become more agile, you can actually implement those agile ways of working in your team and in your organization. 
+The key word here is, a framework, so it is really a set of rules, the boundaries within which you can operate that has certain elements such as three roles, five Scrum events, and if you follow it and understand the underlying principles of that framework, you can become more agile, you can actually implement those agile ways of working in your team and in your organization.
 
 **Daria Bagina:** But the caveat here is that Scrum just gives you the framework. It doesn't tell you how to implement it. It doesn't actually have any information on that. It's very, I'd say, foundational only.
 
@@ -126,46 +131,41 @@ Yeah. And **it really comes back to understanding why you want to implement it, 
 
 **Daria Bagina:** **So they decide to do agile instead of being agile. They don't really know what it means. And it is hard to change the way we behave, the way we always used to do things in an organization and as part of a team. And now agile is all about that change of how we work, how we think, how we measure success**.
 
-
 ### What a Scrum team looks like
 
 **Bill Raymond:** Yeah, that's great insight. I really appreciate that. And now you mentioned with the Scrum framework, there are a set of team members that you define in there and there's a set of activities. Could you at a high level explain what that Scrum team looks like? And we are gonna be talking about the Scrum Master, so maybe you could also dig a little bit deeper into the role of the Scrum Master as well.
 
 **Daria Bagina:** Yes, of course.
 
-**Daria Bagina:** So in Scrum, the Scrum team consists of three roles, three very unique roles. Each of those has specific purpose they're trying to achieve. 
-
+**Daria Bagina:** So in Scrum, the Scrum team consists of three roles, three very unique roles. Each of those has specific purpose they're trying to achieve.
 
 ### The product owner
 
 **Daria Bagina:** It is **the product owner**. The product owner would be the person who is trying to create a connection with the customer and stakeholder and explain to the team what needs to be done. So it's about the 'what'.
 
-
 ### Developers
 
-**Daria Bagina:** Then you have **developers**, and when I say developers, I don't mean software engineers only, but think of it as product developers and people who are doing the work. So these people are responsible for transforming what product owner wants or needs to build into an actual product that can be then presented to the customer. And the developers can include many different roles and many different expertises, whatever really is needed in order to create a final product. 
-
+**Daria Bagina:** Then you have **developers**, and when I say developers, I don't mean software engineers only, but think of it as product developers and people who are doing the work. So these people are responsible for transforming what product owner wants or needs to build into an actual product that can be then presented to the customer. And the developers can include many different roles and many different expertises, whatever really is needed in order to create a final product.
 
 ### The Scrum Master
 
 **Daria Bagina:** And then **the **Scrum Master is the person who is there to support and coach the team. So the Scrum Master is an expert in Scrum, obviously, and understands the why behind Scrum as well as agile in general.
 
-**Daria Bagina:** And they're there to help the team implement Scrum by bringing in some practical view of that, of course, by teaching the team and being there to help them find the better way to becoming more effective and working better together as a team. 
+**Daria Bagina:** And they're there to help the team implement Scrum by bringing in some practical view of that, of course, by teaching the team and being there to help them find the better way to becoming more effective and working better together as a team.
 
 **Bill Raymond:** It almost sounds like a management role, the Scrum Master in this team.
 
-**Daria Bagina:** I would say, and this is, I guess that's that big change we're talking about, right when we are going from the traditional to agile, is that it's not a management role, it's a leadership role, right? And there is that change of view on how we work with teams. 
+**Daria Bagina:** I would say, and this is, I guess that's that big change we're talking about, right when we are going from the traditional to agile, is that it's not a management role, it's a leadership role, right? And there is that change of view on how we work with teams.
 
 **Daria Bagina:** The Scrum Master, same as product owner and developers on the team, they all are on the same level, so no one is anyone's manager in the hierarchy of the organization.
 
-**Daria Bagina:** And so the Scrum Master's role is one of a leader because they need to influence and help others without having any authority. 
+**Daria Bagina:** And so the Scrum Master's role is one of a leader because they need to influence and help others without having any authority.
 
 The future of work is, shall we say, stormy, and it looks like things are not changing anytime soon. So how do you weather these storms and stay competitive while continuing to innovate? Recent studies have shown that when you put psychological safety first, people will work at their highest IQ and be capable of analytical thinking and collaborative problem solving.
 
 Do you want to see these improvements in your organization? If so, I want to introduce you to Ala Weinberg, founder of Spoke and Wheel ala, and her talented team will perform a 90 day psychological safety sprint that will assess your culture against three critical areas. I suggest you set up a free 20 minute call with ALA and the spoke and wheel team.
 
 You can access this free call by visiting www.spokeandwheel.co/assess. That's like the spokes on a bicycle wheel, www.spokeandwheel.co/assess. When you sign up for the free call, mention the Agile and Action Podcast to receive a 10% discount on your psychological safety assessment.
-
 
 ### Problem-solving
 
@@ -177,10 +177,9 @@ So the Scrum Master is kind of in the same position. If there are some impedimen
 
 I think we've seen the Scrum Master role in many software development activities, right? And we are now seeing Scrum used in many different industries. We've had people on here, Andrea Fire, agile for Human Resources.
 
-**Bill Raymond:** We've had agile for marketing, manufacturing, and there's always this concept of having this person that can help drive the process, help improve the teams and also help remove impediments. 
+**Bill Raymond:** We've had agile for marketing, manufacturing, and there's always this concept of having this person that can help drive the process, help improve the teams and also help remove impediments.
 
 We can always say team member, I think we can all easily translate product owner, but Scrum Master is one that might be fairly unique.
-
 
 ### Traits of a Scrum Master
 
@@ -188,18 +187,17 @@ We can always say team member, I think we can all easily translate product owner
 
 I think this is, as you say, this is a new role and people don't actually know, well who am I hiring? Who would be this person, what exactly will they be doing day to day? And **going back to that coach example I gave you, it's really about this person being able to lead others.**
 
-** In terms of the traits, I'd say this is someone who is a people person, someone who really cares about others, who wants to help. And it's not about helping me achieve my personal goals as a **Scrum Master** but's really about how can I help the team, kind of giving away that success back to the team. **
+\** In terms of the traits, I'd say this is someone who is a people person, someone who really cares about others, who wants to help. And it's not about helping me achieve my personal goals as a **Scrum Master__ but's really about how can I help the team, kind of giving away that success back to the team. **
 
-**Daria Bagina:** **Someone who has patience, because change takes time. We're talking about big changes that we need to make in the organizations and the teams, so patience is so important here, and as well as courage. Someone who is outspoken, someone who can step up and speak up, especially when there is that, the bigger** **challenges in the organization. **
+**Daria Bagina:__ **Someone who has patience, because change takes time. We're talking about big changes that we need to make in the organizations and the teams, so patience is so important here, and as well as courage. Someone who is outspoken, someone who can step up and speak up, especially when there is that, the bigger__ **challenges in the organization. **
 
-**Bill Raymond:** **Because the **Scrum Master** is not only there to just help the team and just work with the team. The **Scrum Master** is there to help the whole organization become more agile, not just the team. And it means that they need to work on all different levels on their organization, and they need to be able to be the voice of reason, the voice that is unbiased, that kind of looks at the situation, and just tells what it is like, tells what they observe. So courage definitely is an important one**Those are great traits to have for someone that's going to play a sort of a leadership role like that. But speaking of leadership, I mean, certainly, I could imagine someone that is wanting to get into that role of a Scrum Master, it will probably take some time. I remember when I first started on my personal journey, you know, I thought I wanted to be a software developer.
+**Bill Raymond:** **Because the Scrum Master** is not only there to just help the team and just work with the team. The **Scrum Master** is there to help the whole organization become more agile, not just the team. And it means that they need to work on all different levels on their organization, and they need to be able to be the voice of reason, the voice that is unbiased, that kind of looks at the situation, and just tells what it is like, tells what they observe. So courage definitely is an important oneThose are great traits to have for someone that's going to play a sort of a leadership role like that. But speaking of leadership, I mean, certainly, I could imagine someone that is wanting to get into that role of a Scrum Master, it will probably take some time. I remember when I first started on my personal journey, you know, I thought I wanted to be a software developer.
 
-**Bill Raymond:** It turned out I wasn't the best software developer, but I understood the technology so well, and I really did understand how a customer's needs could be translated to that technology. And that kind of morphed, that skill that I had around communication, morphed into being a project manager. 
+**Bill Raymond:** It turned out I wasn't the best software developer, but I understood the technology so well, and I really did understand how a customer's needs could be translated to that technology. And that kind of morphed, that skill that I had around communication, morphed into being a project manager.
 
-**Bill Raymond:** And I remembered trying to follow every process, just like there's Scrum.org, that has the framework, the project management world has the project management body of knowledge or PMBOK, and there's all these rules that you play. And I remembered I tried to follow all those rules all at once. And usually, that failed. You know, project management is a industry that doesn't go away. It's not going away. But I think that a lot of times we can fail in trying to implement everything all at once. 
+**Bill Raymond:** And I remembered trying to follow every process, just like there's Scrum.org, that has the framework, the project management world has the project management body of knowledge or PMBOK, and there's all these rules that you play. And I remembered I tried to follow all those rules all at once. And usually, that failed. You know, project management is a industry that doesn't go away. It's not going away. But I think that a lot of times we can fail in trying to implement everything all at once.
 
 **Bill Raymond:** So it took me a while to realize that, Bill, as eager as you are, you're kind of at this sort of junior level and you need to progress up to someone that has a lot more of the skills and the experience in order to do that.
-
 
 ### The journey to becoming a Scrum Master
 
@@ -211,11 +209,11 @@ I think this is, as you say, this is a new role and people don't actually know, 
 
 And they will most likely be focusing on a lot of the practices, as you said, trying to implement all of those practices. So this is someone who, as you know, the model, the shoe hurry, maturity model that says, well, at the beginning when we don't know anything, we just follow the rules, we just follow the practices that were given to us and we cannot deviate.
 
-Because we don't know the bigger picture. And that is where I think the Scrum Master usually starts on the level of a team. 
+Because we don't know the bigger picture. And that is where I think the Scrum Master usually starts on the level of a team.
 
-**Daria Bagina:** But then as a Scrum Master grows and gets a bit more confidence, more understanding, learns some new agile practices and skills, they need to expand to the product level. 
+**Daria Bagina:** But then as a Scrum Master grows and gets a bit more confidence, more understanding, learns some new agile practices and skills, they need to expand to the product level.
 
-**Daria Bagina:** Because what the team does, we're not just trying to make the team more effective, we want to build products that customers love. Right? That's the whole point, and that's where the Scrum Master needs to take on more of that product approach and now work with the product owner, help the product owner become more effective and potentially maybe a product team, if there is a product team in the organization, and try to go from that project view to product view, right, where we are more concerned about what customers think. 
+**Daria Bagina:** Because what the team does, we're not just trying to make the team more effective, we want to build products that customers love. Right? That's the whole point, and that's where the Scrum Master needs to take on more of that product approach and now work with the product owner, help the product owner become more effective and potentially maybe a product team, if there is a product team in the organization, and try to go from that project view to product view, right, where we are more concerned about what customers think.
 
 **Daria Bagina:** then the next one would be, once again, extending your influence as a Scrum Master where you go to this organizational level or kind of the whole system, right? That's what the systems thinking, where it comes in here and the Scrum Master working, helping the whole organization.
 
@@ -227,11 +225,9 @@ I think that's maybe a common misconception when people are implementing Scrum o
 
 **Daria Bagina:** Yes, because you can't truly make just one part of the system effective, and hope that it's going to magically change everything, right? You actually need to change the whole system. And this is even sometimes one of the first things I say to companies that ask me to do consulting for them, is let's look at the whole system first. Are your teams organized in such a way that we can implement Scrum? Let's look at the bigger level, because if we don't have the system aligned with the values and principles we're trying to implement, that will be in constant conflict between the organization that is doing it the old way and the Scrum team that is trying to implement something completely new.
 
-
 ### Challenges for Scrum Masters
 
-I have to imagine that as the Scrum Master is progressing in their career, there are some challenges that they might face. 
-
+I have to imagine that as the Scrum Master is progressing in their career, there are some challenges that they might face.
 
 ### Marker
 
@@ -239,11 +235,11 @@ I have to imagine that as the Scrum Master is progressing in their career, there
 
 **Bill Raymond:** I'd read it.
 
-There are lots of obviously, a lot of challenges that we face. First of all, we're talking about change management. Once again we're talking about that big change. And **I think the first hurdle, especially the new **Scrum Master**s that see, is the pushback. People don't want to change, right?**
+There are lots of obviously, a lot of challenges that we face. First of all, we're talking about change management. Once again we're talking about that big change. And **I think the first hurdle, especially the new Scrum Master**s that see, is the pushback. People don't want to change, right?
 
-**Daria Bagina:** **So you're coming in, you say, Hey, I'm here to help you, I'm here to help you become more effective, build better products. And humans are creatures of habit. We like our little corner, we like to do whatever is working for us. Even if it's not the best way, it's the pain I know, right? And when we come in and we ask people to ** **go and take a step into uncertainty, basically we don't know what's going to happen, right? We don't know how we're going to do it like step by step so you get a lot of that pushback. I think that is one of the biggest challenges that a lot of the **Scrum Master**s face, because then they don't know, well, where do I go from here?**
+**Daria Bagina:** **So you're coming in, you say, Hey, I'm here to help you, I'm here to help you become more effective, build better products. And humans are creatures of habit. We like our little corner, we like to do whatever is working for us. Even if it's not the best way, it's the pain I know, right? And when we come in and we ask people to ** **go and take a step into uncertainty, basically we don't know what's going to happen, right? We don't know how we're going to do it like step by step so you get a lot of that pushback. I think that is one of the biggest challenges that a lot of the Scrum Master**s face, because then they don't know, well, where do I go from here?
 
-**They don't want to change or they think that they know better. And that is very, I think, hard and scary, especially for new **Scrum Master**s.**
+**They don't want to change or they think that they know better. And that is very, I think, hard and scary, especially for new Scrum Master**s.
 
 **Bill Raymond:** Yeah, that makes sense. And I guess there's also cultural differences too, where sometimes the defined approach that Scrum has may not work for an organization. I suppose they also need to have some flexibility there as well.
 
@@ -257,7 +253,7 @@ I was working with a client and we were going through an agile transformation, a
 
 **Bill Raymond:** And so they have to plan out what those emails look like. They have to create the copy, they have to run it through legal, but also there's some elements of what that email will be. What's the business unit? What is the categorization? What's the expected result from it and things like that. And every single time someone came up with a new idea, it all had to go through this whole committee.
 
-**Bill Raymond:** And I remember working with the Scrum Master and we were talking about this whole process flow, and we documented it, it was pages long. And finally, the Scrum Master said, you know what? I have an idea. We have some technology in house, how about we use this technology? 
+**Bill Raymond:** And I remember working with the Scrum Master and we were talking about this whole process flow, and we documented it, it was pages long. And finally, the Scrum Master said, you know what? I have an idea. We have some technology in house, how about we use this technology?
 
 **Bill Raymond:** And we worked together and created a form that someone would fill out with the, you know, it was 80-20 rule, right? Like 80% of the time we can capture the information that someone is going to require in order to move this forward. What we did was, we vastly reduced the number of meetings and re-trying to explain what it was that we're trying to get every single time.
 
@@ -273,7 +269,6 @@ Sometimes, if you already worked with many teams, you understand the dynamics, y
 
 And it's not even the specific practice really, it's more about understanding how teams work and trying to implement some small changes and practices that can help them in the long run.
 
-
 ### Support a Scrum Master needs
 
 **Bill Raymond:** One of the things that is always a challenge with an organization is that change management piece. How would you ask a team or leaders to support that Scrum Master? What is the growth support that a Scrum Master needs?
@@ -282,7 +277,7 @@ What I find often is that at the beginning, if you're trying to make a big chang
 
 **Daria Bagina:** And, **the way I usually convince the teams that, Hey, I'm here to actually help you and maybe you should listen to me sometimes, is I would start with something super small like, like this very simple change that I talked about.**
 
-** Once the teams start to see that, oh, that seems to be a very small change but it actually made my life so much easier. And then when they start seeing that positive change, now they are much more supportive of the **Scrum Master. 
+\** Once the teams start to see that, oh, that seems to be a very small change but it actually made my life so much easier. And then when they start seeing that positive change, now they are much more supportive of the **Scrum Master.
 
 **Daria Bagina:** The way I usually do that, I kind of go from the inside out, I build very strong relationships with the team, helping them understand what kind of value I can bring, and then these people are my best promoters in their organization because now they're going to their management, to other teams and saying, Hey, our Scrum Master doing something really great. You should have a Scrum Master too, And that is usually how that change propagates, right?
 
@@ -290,23 +285,21 @@ What I find often is that at the beginning, if you're trying to make a big chang
 
 **Bill Raymond:** That's great advice. Thank you. And speaking of advice,we have leaders that are listening to this podcast and they ask a lot of questions about Scrum and the role of the Scrum Master in particular. And certainly, that's one of the reasons for why we're talking to you today, because there are some large organizations looking to make this change, looking to implement Scrum, not just in IT or software development, but in many different areas.
 
-
 ### Takeaways for executives about the Scrum Master role
 
 **Bill Raymond:** But it is kind of hard to get your arm around this role and fully understand it. So what are some of the takeaways, the essential things that an executive or leader needs to know about this role?
 
 **Daria Bagina:** I think first of all, that what we talked about, I think during the whole podcast is that it's a leadership role.
 
-**Daria Bagina:** It's really someone who would be able to make decisions on their own, work independently, and of course, someone who has very good knowledge of Scrum and other agile practices, I'd say. 
+**Daria Bagina:** It's really someone who would be able to make decisions on their own, work independently, and of course, someone who has very good knowledge of Scrum and other agile practices, I'd say.
 
 **Daria Bagina:** Just remember that it's a role of a coach, a teacher, and if you're interviewing someone, these are the qualities that you need to look for. Will this person be able to teach the organization those new ways of working or not?
-
 
 ### Hiring a Scrum Master
 
 **Bill Raymond:** And to make sure that you, I guess I'm going to put air quotes up here, even though we're on a podcast, but to make sure that you do it right when you're making that hire, let's say this is your first time hiring a Scrum Master. What are some of the things that you might do to make sure that's a successful hire?
 
-**Daria Bagina:** I would say call an expert to help you. Honestly, I think that is extremely important, because if you hire someone who is not the right fit for their role or who doesn't understand the role, they're going to make the life of your team so much harder. And this is where all those stories and people coming from when they say, I hate Scrum. Scrum is the worst thing ever. Our Scrum Master is a terrible person, right? 
+**Daria Bagina:** I would say call an expert to help you. Honestly, I think that is extremely important, because if you hire someone who is not the right fit for their role or who doesn't understand the role, they're going to make the life of your team so much harder. And this is where all those stories and people coming from when they say, I hate Scrum. Scrum is the worst thing ever. Our Scrum Master is a terrible person, right?
 
 **Daria Bagina:** You don't want that. You don't want to create a precedent. Hire an expert, someone who knows, right? Professional Scrum trainer, someone who has that experience and would be able to help you with this first hire because it is so important.
 
@@ -316,7 +309,7 @@ Sometimes when we're trying to make a hire, we talk about it as a team, but havi
 
 **Daria Bagina:** Yes. Thank you for having me, it was really good to talk about this role, to share it and hopefully help some leaders hire better Scrum Masters next time.
 
-**Bill Raymond:** Yeah, absolutely. At the end of the day, we want successful teams, and to do that, we need to hire the right people and we also need to make sure that those teams are set up for success. So this is some great advice, I really appreciate your time. 
+**Bill Raymond:** Yeah, absolutely. At the end of the day, we want successful teams, and to do that, we need to hire the right people and we also need to make sure that those teams are set up for success. So this is some great advice, I really appreciate your time.
 
 **Bill Raymond:** Could you share with us, if it's okay for people to reach out to you?
 
@@ -326,9 +319,8 @@ Sometimes when we're trying to make a hire, we talk about it as a team, but havi
 
 **Bill Raymond:** Wonderful. And yes, absolutely, I will make sure that all of those links are on the agileinaction.com website. And also, of course, if you're listening to this in your podcast app right now, just go ahead and scroll down to the show notes thank you again so much for your time, Daria. This is a great conversation.
 
-**Daria Bagina:** Thank you. 
+**Daria Bagina:** Thank you.
 
 **Voice outro:** Thank you for listening to the Agile and Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Camber Mast, L L c, and our executive producer is Rayma Daon.
 
 **Voice outro:** If there is a topic you would like Bill to cover, contact him directly at bill.Raymond@agileinaction.com.
-

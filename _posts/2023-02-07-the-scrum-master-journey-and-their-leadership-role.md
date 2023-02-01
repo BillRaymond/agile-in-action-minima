@@ -43,11 +43,17 @@ Today, Daria Bagina, Professional Scrum Trainer with [Scrum.org](https://www.scr
 Daria and Bill Raymond share stories and examples to help you learn:
 
 ✅ What is agile and agility
+
 ✅ Scrum roles
+
 ✅ The role of the Scrum Master
+
 ✅ Traits of a Scrum Master
+
 ✅ The Scrum Master's role in organizational change
+
 ✅ Tips for hiring a Scrum Master
+
 
 ## Transcript
 

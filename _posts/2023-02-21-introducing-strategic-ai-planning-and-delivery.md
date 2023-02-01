@@ -29,7 +29,7 @@ guest-details:
   - guest-link-label: Mention the Agile in Action podcast for 10% off a psychological
       safety assessment
     guest-link-url: http://spokeandwheel.co/assess
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/25801338
 
 ---
 Content goes here...

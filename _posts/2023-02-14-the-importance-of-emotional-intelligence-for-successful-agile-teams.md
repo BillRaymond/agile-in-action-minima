@@ -15,7 +15,7 @@ guest-details:
   - guest-link-label: Orianda Solutions
     guest-link-url: https://www.linkedin.com/company/orianda-solutions/
   - guest-link-url: https://link.springer.com/content/pdf/10.1007/s10796-019-09962-6.pdf
-    guest-link-label: Referenced article
+    guest-link-label: Dr. Tan Trung (John) Luong's article
   - guest-link-label: Uthayasankar Sivarajah (article co-author)
     guest-link-url: https://www.bradford.ac.uk/staff/usivarajah
   - guest-link-label: Vishanth Weerakkody (article co-author)
@@ -23,7 +23,21 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25726125
 
 ---
-Content goes here...
+Why is emotional intelligence so important for agile teams?
+
+Dr. Tan Trung (John) Luong, Sr. Expert Consultant at Orianda Solutions AG, will help answer that question.
+
+Having written an essential article on Springer Media and pulling from years of personal experience, Dr. John shares stories and expertise with Bill Raymond to help you learn: 
+
+✅ The definition of emotional intelligence (or EI)
+
+✅ Why EI is important within agile teams
+
+✅ Why is Emotional intelligence important
+
+✅ The four dimensions of emotional intelligence
+
+✅ How you can lead EI initiatives in your organization
 
 ## Transcript
 

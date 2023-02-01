@@ -35,5 +35,6 @@ libsynUrl: ''
 Content goes here...
 
 ## Transcript
+
 (transcripts are auto-generated, so please excuse the brevity)
 transcript goes here...

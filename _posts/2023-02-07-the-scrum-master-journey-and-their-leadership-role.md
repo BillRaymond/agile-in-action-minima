@@ -6,10 +6,6 @@ date: 2023-02-07
 title: The Scrum Master journey and their leadership role
 twitter-text: ''
 guest-details:
-- guest-name: 'Sponsor: Spoke and Wheel'
-  guest-title: ''
-  guest-photo: "/uploads/ad-spoke-and-wheel.png"
-  guest-links: []
 - guest-name: Daria Bagina
   guest-title: Professional Scrum Trainer with Scrum.org and ScrumMastered
   guest-photo: "/uploads/daria-bagina.png"
@@ -26,6 +22,13 @@ guest-details:
     guest-link-url: https://www.scrum.org/team/ken-schwaber
   - guest-link-label: Jeff Sutherland
     guest-link-url: https://scrumguides.org/jeff.html
+- guest-name: 'Sponsor: Spoke and Wheel'
+  guest-title: Psychological safety assessment offer
+  guest-photo: "/uploads/ad-spoke-and-wheel.png"
+  guest-links:
+  - guest-link-label: Mention the Agile in Action podcast for 10% off a psychological
+      safety assessment
+    guest-link-url: http://spokeandwheel.co/assess
 - guest-name: Seasons of Scrum
   guest-title: ''
   guest-photo: "/uploads/seaasons-of-scrum-winter.png"

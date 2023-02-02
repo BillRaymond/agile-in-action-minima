@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="home">
+  {{ content }}
+
+{%- comment -%} Display the featured posts {%- endcomment -%}
+<h2 class="post-list-heading">{{ page.list_title | default: "Latest Agile in Action Podcast with Bill Raymond" }}</h2>
+{%- assign podcastLimit = null -%}
+{%- assign podcastOffset = 0 -%}
+{%- include podcast-posts.html -%}
+
+<a href="{{"/allpodcasts" | relative_url}}">See all podcasts >></a>
+<p></p>
+
+<p class="rss-subscribe">subscribe <a href="{{ site.data.configs.rssFeed }}">via RSS</a></p>
+</div>

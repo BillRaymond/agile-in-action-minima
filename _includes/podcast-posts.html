@@ -4,13 +4,16 @@
 {%- if page.url contains "admin" -%}
   {%- assign podcastPosts = site.posts
     | where_exp: 'podcastPost', 'podcastPost.guest-details != nil' 
+    | where_exp: 'podcastPost', 'podcastPost.date >= site.time'
+    | reverse
   -%}
-  <a href="{{"/" | relative_url}}"><< ⚠️ This is an admin page that shows future podcasts. Return to the home page. ⚠️</a>
+  {%- assign admin = true -%}
 {%- else -%}
   {%- assign podcastPosts = site.posts 
     | where_exp: 'podcastPost', 'podcastPost.date <= site.time' 
     | where_exp: 'podcastPost', 'podcastPost.guest-details != nil' 
-  -%}    
+  -%}
+  {%- assign admin = false -%}
 {%- endif -%}
 
 {%- comment -%}Display podcast posts{%- endcomment -%}
@@ -70,6 +73,9 @@
               </div>
             {%- endif -%}
         {%- else -%}
+          {%- if admin == true -%}
+            <h3>{{- podcastPost.date | date: date_format -}}</h3>
+          {%- endif -%}
           <a href="{{- cardLink -}}"><img src="{{- cardFileName -}}" alt="{{- podcastTitle -}}"></a>
           <h3><a class="post-link" href="{{cardLink}}">{{podcastTitle}}</a></h3>
         {%- endif -%}

@@ -21,8 +21,8 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/25805778
 ---
 Content goes here...
 
-
 ## Transcript
+
 (transcripts are auto-generated, so please excuse the brevity)
 
 You're a project manager, looking to transition into this new Scrum Master role what are some of the things that you need to think about and do?
@@ -31,10 +31,9 @@ You're a project manager, looking to transition into this new Scrum Master role 
 
 **Intro:** Welcome to the Agile Inaction Podcast with Bill Raymond. Bill will explore how business disruptors are adopting agile techniques to gain a competitive advantage in this fast-paced technology driven market.
 
-
 ### Remedies for a Scrum Master with a Waterfall Hangover
 
-**Bill Raymond:** Hi, and welcome to the podcast. Today I'm joined by Angela Johnson, certified Scrum trainer and author of the Scrum Master_ Files_. 
+**Bill Raymond:** Hi, and welcome to the podcast. Today I'm joined by Angela Johnson, certified Scrum trainer and author of the Scrum Master_ Files_.
 
 **Bill Raymond:** Hi Angela, how are you today?
 
@@ -48,7 +47,6 @@ You're a project manager, looking to transition into this new Scrum Master role 
 
 **Angela Johnson:** So we have West End Conference Center in the Twin Cities of Minneapolis, St. Paul. And I've owned the company for going on my 13th year this year. So a bit of an entrepreneur as well as being passionate about using my skills to help people become Scrum Masters.
 
-
 ### Collaborative leadership team
 
 **Bill Raymond:** Can you talk a little bit about your company?
@@ -58,7 +56,6 @@ You're a project manager, looking to transition into this new Scrum Master role 
 **Angela Johnson:** So I had to build a team of my own. And so we are this small mighty Scrum team here in Minnesota, helping all kinds of companies make this transition. Software, departments are popular software companies popularly use Scrum and agile. We have the benefit of bringing this to all kinds of companies that wanna change the way they do work.
 
 **Angela Johnson:** So we have a lot of non-software organizations that we work with as well.
-
 
 ### About Angela's career shift
 
@@ -76,7 +73,6 @@ I wanna get into this story about remedies for a Scrum Master with a waterfall h
 
 **Angela Johnson:** That's why I refer to it as a bit of that fog, right? That hangover hanging on.
 
-
 ### The Project Management Role
 
 **Bill Raymond:** Yeah. I can totally understand that, you know, as a project manager, and I wanna say I continue to be a project manager to this day. There's a lot of projects that I work on that are absolutely worth following that strict methodology that you're referring to, and I believe in that. But also I know that when we're working on especially extremely complex projects where you don't know exactly how you're going to implement things such as software development, using an adaptive approach like Agile is certainly much more efficient, I think.
@@ -85,7 +81,7 @@ I wanna get into this story about remedies for a Scrum Master with a waterfall h
 
 **Angela Johnson:** Absolutely. And one of the things I point out to people, none of these things are bad and none of these things are good. You know, I tend to be pretty colorful with my anecdotes and my phrases such as waterfall hangover, but I always respect people for their choices. When people say, I would like to use project management, I want to be a project manager, great, you have the gift of free will.
 
-**Angela Johnson:** That's your choice. Scrum is just a different choice on the menu. So I think sometimes when people meet someone like me, who has chosen to only work in an agile or a Scrum way. It can come across as a judgment and I never want that to be the case. I respect people for their choices because I like you, Scrums not always the greatest choice on the menu. It's not always the greatest thing since slice bread. 
+**Angela Johnson:** That's your choice. Scrum is just a different choice on the menu. So I think sometimes when people meet someone like me, who has chosen to only work in an agile or a Scrum way. It can come across as a judgment and I never want that to be the case. I respect people for their choices because I like you, Scrums not always the greatest choice on the menu. It's not always the greatest thing since slice bread.
 
 **Angela Johnson:** Project management. By definition, projects are temporary. Start and an end, they're a temporary endeavor, whether you look in the project management, body of knowledge or the dictionary.
 
@@ -99,12 +95,11 @@ I wanna get into this story about remedies for a Scrum Master with a waterfall h
 
 **Bill Raymond:** I can understand where you're coming from there, because very often the project manager role does not, they're not empowered typically to make many decisions. What they're there for is to make sure that everyone's working on what they need to be working on. That they're managing scope and budget and time.
 
-
 ### Plan and planning
 
 **Angela Johnson:** And one of the things that I share with mystudents that are really trying to figure out what's different between project management in Scrum or why are those Gantt charts not applicable in Scrum? What was helpful for me is really learning a lot of the history. And so one of the things I point out is that Gantt charts were invented in World War I, the person who invented that, artifact, so to speak, Henry L. Gantt, so it's named after him, of course.
 
-That became the popular way to show the plan. And in the United States military, that was a popular artifact. Well, along came Dwight D. Eisenhower years later, and he has this wonderful quote that if anybody searches for Eisenhower quotes you can find &quot; the plan is useless, but the art of planning is indispensable&quot;.
+That became the popular way to show the plan. And in the United States military, that was a popular artifact. Well, along came Dwight D. Eisenhower years later, and he has this wonderful quote that if anybody searches for Eisenhower quotes you can find " the plan is useless, but the art of planning is indispensable".
 
 **Angela Johnson:** So, from Eisenhower's point of view, he is like, the plan stale the minute it comes off the printer. The planning is the more important part so that we can adapt. So the respond to change over following a plan in the Agile manifesto was inspired by that Dwight D. Eisenhower quote. So when we talk about agility, adaptive ways of working, Scrum in particular embracing change the Gantt charts never were about that.
 
@@ -114,8 +109,7 @@ That became the popular way to show the plan. And in the United States military,
 
 **Angela Johnson:** And when people say, I don't know what a Gantt chart is, I usually say, bless you. You know, it's like you have nothing to unlearn. We're starting with a clean slate and not a hangover.
 
-
-### The responsibility of a Scrum Master 
+### The responsibility of a Scrum Master
 
 **Bill Raymond:** Right. And I think that's actually a good transition for us here because when we talk about the project management role, very often as organizations start to adopt agility, they also adopt some form of a framework. And that framework is very often something called Scrum. And there's many other types of frameworks, but they all have a fairly similar process where you're doing this work in a more iterative approach.
 
@@ -138,7 +132,6 @@ If you're coming from a role of a project manager, very often the role that you 
 **Angela Johnson:** It contributes to a condition called learned helplessness. If we start taking the ball away from our players, and so that's not something we'd want a Scrum Master to do. So that shift can really throw people for a loop, especially if as a project manager, they're like, well, wait a minute. I do put my hands all over different deliverables.
 
 **Angela Johnson:** I do have this administrative aspect of my job. Not anymore if it's in Scrum Mastery. Right. If you're going to be a Scrum Master.
-
 
 ### Challenges you might face when making that transition from project manager to Scrum master
 
@@ -192,9 +185,9 @@ If you're a project manager and you're familiar with everything that we talked a
 
 What are some core concepts that we need to realign in our mind?
 
-I always advise people skills, people skills, people skills. A talented Scrum Master needs, oh yeah, people skills. And so I had somebody literally say this to me in a workshop recently. He says, well, what if I don't really like working with people? And I said, thank you for your honesty, that would be a very self-aware exercise to go through before pursuing the job. 
+I always advise people skills, people skills, people skills. A talented Scrum Master needs, oh yeah, people skills. And so I had somebody literally say this to me in a workshop recently. He says, well, what if I don't really like working with people? And I said, thank you for your honesty, that would be a very self-aware exercise to go through before pursuing the job.
 
-**Bill Raymond:** Become an author. 
+**Bill Raymond:** Become an author.
 
 **Angela Johnson:** Right. Exactly. I'm a big proponent of education, so why don't we educate you on the role and then if you come out of this workshop with, you know, now that I know more about these people skills, this is not the role for me. That is just as valuable in my opinion, as saying, this is the role for me.
 
@@ -208,10 +201,9 @@ I always advise people skills, people skills, people skills. A talented Scrum Ma
 
 **Angela Johnson:** It's like, no, because the product owner is empowered, they have authority. They don't need to ask for permission to spend money, they don't need to ask for permission to cut scope. So tracking and being empowered are two different things. And that sometimes I think people don't understand that nuance.
 
-**Bill Raymond:** Right. That's really good advice. Thank you. 
+**Bill Raymond:** Right. That's really good advice. Thank you.
 
-
-### The transition to the Scrum Master role 
+### The transition to the Scrum Master role
 
 **Bill Raymond:** So let's talk about that formal transition then. You're a project manager, you're looking to transition into this new Scrum Master role in particular, what are some of the things that you need to think about and do?
 
@@ -245,7 +237,6 @@ And that I guess, goes right into the concept of psychological safety of people 
 
 **Bill Raymond:** Because I think it's, the stakes are too high to throw somebody into a job without that kind of experience. So maybe they wanna try it in a volunteer setting also, or job shadow and things like that. Anything that can get them that little taste of it, before the stakes are higher in a company, with a job and a salary and all those sorts of things.
 
-
 ### How can you reach out to Angela?
 
 This has been a great conversation with you today, Angela Johnson. If anyone wants to reach out to you and discuss this any further, would they be able to do that?
@@ -262,7 +253,7 @@ This has been a great conversation with you today, Angela Johnson. If anyone wan
 
 **Bill Raymond:** Perfect. And of course, we'll make sure that your LinkedIn profile and your website are available on the agileinaction.com website and also, of course, if you're listening to this in a podcast app right now, just scroll down to the description, the details, and you'll see the links there as well.
 
-**Bill Raymond:** I'll also put the Ken Schwaber book in there that you mentioned, so that if anyone wants to get started on this role, you can learn about how to unlearn project management and work in the role of a Scrum Master. 
+**Bill Raymond:** I'll also put the Ken Schwaber book in there that you mentioned, so that if anyone wants to get started on this role, you can learn about how to unlearn project management and work in the role of a Scrum Master.
 
 **Bill Raymond:** Angela Johnson, this has been a great conversation. Thank you so much.
 
@@ -273,4 +264,3 @@ This has been a great conversation with you today, Angela Johnson. If anyone wan
 **Outro:** Thank you for listening to the Agile and Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Camber Mast, L L c, and our executive producer is Rayma Daon.
 
 **Outro:** If there is a topic you would like Bill to cover, contact him directly at bill.Raymond@agileinaction.com.
-

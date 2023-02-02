@@ -8,7 +8,7 @@ twitter-text: ''
 guest-details:
 - guest-name: Daria Bagina
   guest-title: Professional Scrum Trainer with Scrum.org and ScrumMastered
-  guest-photo: "/uploads/daria-bagina.png"
+  guest-photo: "/uploads/daria-bagina-scrummastered-square.jpg"
   guest-links:
   - guest-link-url: https://scrummastered.com
     guest-link-label: ScrumMastered

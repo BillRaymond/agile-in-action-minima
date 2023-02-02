@@ -14,8 +14,12 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/angelajohnsonscrumtrainer/
   - guest-link-label: "\U0001F3E2 Angela's company: Collaborative Team Leadership"
     guest-link-url: https://collaborativeleadershipteam.com
+  - guest-link-label: "\U0001F4D6 Angela's book: The Scrum Master Files: Secrets Every
+      Coach Should Know"
+    guest-link-url: https://www.amazon.com/Scrum-Master-Files-Secrets-Should-ebook/dp/B097KFHB1H
   - guest-link-url: https://www.amazon.com/Agile-Project-Management-Developer-Practices-ebook/dp/B00JDMPOZW?ref_=ast_author_dp
-    guest-link-label: "\U0001F4D6 Agile Project Management with Scrum"
+    guest-link-label: "\U0001F4D6 Recommended reading: Agile Project Management with
+      Scrum"
 libsynUrl: https://directory.libsyn.com/episode/index/id/25805778
 
 ---
@@ -31,7 +35,7 @@ You're a project manager, looking to transition into this new Scrum Master role 
 
 **Intro:** Welcome to the Agile Inaction Podcast with Bill Raymond. Bill will explore how business disruptors are adopting agile techniques to gain a competitive advantage in this fast-paced technology driven market.
 
-### Remedies for a Scrum Master with a Waterfall Hangover
+### Remedies for a Scrum Master with a waterfall hangover
 
 **Bill Raymond:** Hi, and welcome to the podcast. Today I'm joined by Angela Johnson, certified Scrum trainer and author of the Scrum Master_ Files_.
 

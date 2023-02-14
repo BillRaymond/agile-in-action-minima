@@ -44,7 +44,7 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/25801338
 
 More than 70% of AI projects fail. Learn how not to be a statistic ⤵️
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EJ55OnpznLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <figcaption align = "center">This video was created in 15 minutes using (mostly) AI technologies. [Go here to learn more](#how-the-video-was-created).</figcaption>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJ55OnpznLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <figcaption align = "center">This video was created in 15 minutes using (mostly) AI technologies. Read on to learn how it was created</figcaption>
 
 Kathleen Walch and Ron Schmelzer, hosts of Cognilytica's AI Today podcast, share how you can deliver successful artificial intelligence projects.
 
@@ -64,7 +64,7 @@ In today's Agile in Action podcast, you will learn the following:
 
 ## How the video was created
 
-The script for this video was created using \[OpenAI's ChatGPT service\]([https://openai.com/blog/chatgpt/](https://openai.com/blog/chatgpt/ "https://openai.com/blog/chatgpt/")).
+The script for this video was created using [OpenAI's ChatGPT service](https://openai.com/blog/chatgpt/).
 
 **Here was the ChatGPT prompt:**
 

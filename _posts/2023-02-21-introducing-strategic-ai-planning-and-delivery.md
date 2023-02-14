@@ -40,11 +40,12 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25801338
 
 ---
-🔁 Podcast Swap!
+### 🔁 Podcast Swap!
+
+More than 70% of AI projects fail. Learn how not to be a statistic ⤵️
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EJ55OnpznLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-More than 70% of AI projects fail. Learn how not to be a statistic ⤵️
 
 Kathleen Walch and Ron Schmelzer, hosts of Cognilytica's AI Today podcast, share how you can deliver successful artificial intelligence projects.
 

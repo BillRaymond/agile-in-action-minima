@@ -109,7 +109,7 @@ The whole process took 15 minutes to complete.
 
 **Bill Raymond:** Today we're going to talk about strategic planning and delivery of AI projects. Before we get started, I'd love that if maybe you could introduce yourselves, maybe start with you, Kathleen.
 
-### Kathleen Mulch
+### Kathleen Walch
 
 **Kathleen Walch:** Sure. I'm Kathleen Walch. I am host of AI Today podcast and also a managing partner at Cognilytica. We have been running AI Today since 2017, now, actually so many years. And we cover AI Today exactly as the name suggests. We've seen other podcasts out there that sometimes talk about, you know, AI in the future, AI is sci-fi, or maybe cover hot topics and news.
 

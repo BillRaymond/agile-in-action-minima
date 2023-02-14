@@ -89,6 +89,9 @@
             with </strong><span class="guest-name" itemprop="name">{{guestName}}</span><br>
           {%- endfor -%}
         {%- endif -%}
+        {%- if admin == true -%}
+          {{ podcastPost.url | prepend: "https://agileinaction.com" }}
+        {%- endif -%}
       </li>
     {%- endfor -%}
   </ul>

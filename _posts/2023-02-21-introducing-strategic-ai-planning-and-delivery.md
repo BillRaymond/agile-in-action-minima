@@ -6,7 +6,7 @@ date: 2023-02-21
 title: Introducing strategic AI planning and delivery
 twitter-text: ''
 guest-details:
-- guest-name: "\U0001F501 AI Today podcast podcast swap"
+- guest-name: AI Today podcast swap
   guest-title: Bill Raymond, founder and host of the Agile in Action with Bill Raymond
     podcast
   guest-photo: "/uploads/new-ai-today-podcast-image.png"
@@ -44,12 +44,11 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/25801338
 
 More than 70% of AI projects fail. Learn how not to be a statistic ⤵️
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EJ55OnpznLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJ55OnpznLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <figcaption align = "center">This video was created in 15 minutes using (mostly) AI technologies. \[Go here to learn more\](#how-the-video-was-created).</figcaption>
 
 Kathleen Walch and Ron Schmelzer, hosts of Cognilytica's AI Today podcast, share how you can deliver successful artificial intelligence projects.
 
-Additionally, Bill Raymond will appear on the AI Today podcast, sharing his thoughts on using agile techniques to deliver these complex solutions. 
+Additionally, Bill Raymond will appear on the AI Today podcast, sharing his thoughts on using agile techniques to deliver these complex solutions.
 
 In today's Agile in Action podcast, you will learn the following:
 
@@ -62,6 +61,32 @@ In today's Agile in Action podcast, you will learn the following:
 ✅ The importance of data roles on AI teams
 
 ✅ Six iterations for creating an AI solution
+
+## How the video was created
+
+The script for this video was created using \[OpenAI's ChatGPT service\]([https://openai.com/blog/chatgpt/](https://openai.com/blog/chatgpt/ "https://openai.com/blog/chatgpt/")).
+
+**Here was the ChatGPT prompt:**
+
+"I am the podcast host for the Agile in Action with Bill Raymond podcast. My podcast is focused on helping teams and organizations improve the value they deliver to customers using agile techniques. Tomorrow, I am going to interview a team of people from the AI Today podcast. That AI Today podcast teaches their listeners on techniques that help deliver articial intelligence projects. Write the text for a trailer that introduces both podcasts in a positive light in the style of the 1980's and 1990's movies that start with "In a World" as if it was Don LaFontaine speaking."
+
+**Here is the resulting script:**
+
+In a world where technology advances at lightning speed, two powerful podcasts join forces to bring you the ultimate guide to success.
+
+From the Agile in Action with Bill Raymond podcast, learn how to improve the value your team delivers to customers using cutting-edge agile techniques.
+
+And from the AI Today podcast, discover the secrets to delivering artificial intelligence projects on time and on budget.
+
+Together, the Agile in Action and AI Today podcasts will take you on a journey to the forefront of innovation and help you stay ahead of the competition.
+
+Don't miss this dynamic duo, available now on your favorite podcast app.
+
+**Putting the video together**
+
+The resultant script was pasted into \[Descript\]([https://descript.com?lmref=p3tjuQ](https://descript.com?lmref=p3tjuQ "https://descript.com?lmref=p3tjuQ")), which (among many other things) can generate voice audio from text. Further, Descript generated the audio animation and the transcription. Descript also offers the use of royalty-free videos, which I added.
+
+The whole process took 15 minutes to complete.
 
 ## Transcript
 

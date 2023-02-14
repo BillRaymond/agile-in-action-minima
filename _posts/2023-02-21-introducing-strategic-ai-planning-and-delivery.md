@@ -6,21 +6,6 @@ date: 2023-02-21
 title: Introducing strategic AI planning and delivery
 twitter-text: ''
 guest-details:
-- guest-name: AI Today podcast swap
-  guest-title: Bill Raymond, founder and host of the Agile in Action with Bill Raymond
-    podcast
-  guest-photo: "/uploads/new-ai-today-podcast-image.png"
-  guest-links:
-  - guest-link-label: Cognilytica / AI & Data Today
-    guest-link-url: https://www.aidatatoday.com
-  - guest-link-label: AI Today podcast website
-    guest-link-url: https://www.aidatatoday.com/aitoday/
-  - guest-link-label: AI Today podcast on Apple Podcasts
-    guest-link-url: https://podcasts.apple.com/us/podcast/ai-today-podcast-artificial-intelligence-insights-experts/id1279927057
-  - guest-link-label: AI Today podcast on Spotify
-    guest-link-url: https://open.spotify.com/show/4z2M4S9e0K6yk3KB9XrO7h
-  - guest-link-label: AI Today podcast on Google Podcasts
-    guest-link-url: https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuYWlkYXRhdG9kYXkuY29tL2ZlZWQvcG9kY2FzdC8
 - guest-name: Kathleen Walch
   guest-photo: "/uploads/kathleen-walch.jpeg"
   guest-links:
@@ -37,6 +22,21 @@ guest-details:
     guest-link-url: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPyJLQjvX8AhUFElkFHTU7AzAQFnoECBIQAQ&url=https%3A%2F%2Fwww.cognilytica.com%2Faitoday%2F&usg=AOvVaw0VNps37GLxTuCZYhfDmhau
   - guest-link-label: Cognilytica
     guest-link-url: https://www.cognilytica.com
+- guest-name: AI Today podcast swap
+  guest-title: Bill Raymond, founder and host of the Agile in Action with Bill Raymond
+    podcast
+  guest-photo: "/uploads/new-ai-today-podcast-image.png"
+  guest-links:
+  - guest-link-label: Cognilytica / AI & Data Today
+    guest-link-url: https://www.aidatatoday.com
+  - guest-link-label: AI Today podcast website
+    guest-link-url: https://www.aidatatoday.com/aitoday/
+  - guest-link-label: AI Today podcast on Apple Podcasts
+    guest-link-url: https://podcasts.apple.com/us/podcast/ai-today-podcast-artificial-intelligence-insights-experts/id1279927057
+  - guest-link-label: AI Today podcast on Spotify
+    guest-link-url: https://open.spotify.com/show/4z2M4S9e0K6yk3KB9XrO7h
+  - guest-link-label: AI Today podcast on Google Podcasts
+    guest-link-url: https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuYWlkYXRhdG9kYXkuY29tL2ZlZWQvcG9kY2FzdC8
 libsynUrl: https://directory.libsyn.com/episode/index/id/25801338
 
 ---

@@ -84,7 +84,7 @@ Don't miss this dynamic duo, available now on your favorite podcast app.
 
 **Putting the video together**
 
-The resultant script was pasted into \[Descript\]([https://descript.com?lmref=p3tjuQ](https://descript.com?lmref=p3tjuQ "https://descript.com?lmref=p3tjuQ")), which (among many other things) can generate voice audio from text. Further, Descript generated the audio animation and the transcription. Descript also offers the use of royalty-free videos, which I added.
+The resultant script was pasted into [Descript](https://descript.com?lmref=p3tjuQ "Descript"), which (among many other things) can generate voice audio from text. Further, Descript generated the audio animation and the transcription. Descript also offers the use of royalty-free videos, which I added.
 
 The whole process took 15 minutes to complete.
 

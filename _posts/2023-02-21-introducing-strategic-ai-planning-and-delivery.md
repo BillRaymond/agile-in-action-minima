@@ -14,7 +14,7 @@ guest-details:
   - guest-link-label: Cognilytica
     guest-link-url: https://www.cognilytica.com
   guest-title: AI Today podcast host and Managing Partner at Cognolytica
-- guest-name: David Schmelzer
+- guest-name: Ron Schmelzer
   guest-title: AI Today podcast host and Managing Partner at Cognilytica
   guest-photo: "/uploads/ronald-schmelzer.jpeg"
   guest-links:

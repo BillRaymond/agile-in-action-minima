@@ -23,7 +23,21 @@ guest-details:
 libsynUrl: https://directory.libsyn.com/episode/index/id/25957869
 
 ---
-Content goes here...
+In today's bonus podcast, we are excited to have Marsha Acker, CEO of Team Catapult, back again!
+
+We are excited to be part of Marsha's journey by helping to launch her latest book: Build your Model for leading change. Here at the Agile in Action podcast, we want to offer you the best resources to help you with your career, so this is not a paid advertisement.
+
+Marsha and Bill Raymond discuss essential topics you will learn, including:
+
+✅ What is a model for change?
+
+✅ The four types of models
+
+✅ Examples of models
+
+✅ Ways to build your model
+
+✅ How Marsha and Bill work on their models
 
 ## Transcript
 

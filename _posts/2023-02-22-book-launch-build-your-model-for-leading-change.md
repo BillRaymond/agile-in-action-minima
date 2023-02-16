@@ -24,5 +24,7 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/25957869
 
 ---
 Content goes here...
+
 ## Transcript
+
 (transcripts are auto-generated, so please excuse the brevity)

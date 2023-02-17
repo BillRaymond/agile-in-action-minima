@@ -10,7 +10,7 @@ guest-details:
   guest-title: Certified Scrum Trainer, and Author of the Scrum Master Files
   guest-photo: "/uploads/angela-johnson.jpeg"
   guest-links:
-  - guest-link-label: "\U0001F4CD Angela on LinkedIn"
+  - guest-link-label: "\U0001F30E Angela on LinkedIn"
     guest-link-url: https://www.linkedin.com/in/angelajohnsonscrumtrainer/
   - guest-link-label: "\U0001F3E2 Angela's company: Collaborative Team Leadership"
     guest-link-url: https://collaborativeleadershipteam.com
@@ -20,10 +20,26 @@ guest-details:
   - guest-link-url: https://www.amazon.com/Agile-Project-Management-Developer-Practices-ebook/dp/B00JDMPOZW?ref_=ast_author_dp
     guest-link-label: "\U0001F4D6 Recommended reading: Agile Project Management with
       Scrum"
+- guest-name: Seasons of Scrum
+  guest-photo: "/uploads/seaasons-of-scrum-winter.png"
 libsynUrl: https://directory.libsyn.com/episode/index/id/25805778
 
 ---
-Content goes here...
+Angela Johnson shifted her career from project management to a waterfall delivery method to adaptive, agile approaches.
+
+Today, Angela and Bill share stories and examples of how to make a common role change: that of a project manager shifting their career to that of a Scrum Master.
+
+Here is what you will learn:
+
+✅ Defining the project manager and Scrum Master roles
+
+✅ Understand the stances of a Scrum Master
+
+✅ What you need to unlearn to be successful
+
+✅ Focus areas for your personal development
+
+✅ How to recognize agile anti-patterns
 
 ## Transcript
 

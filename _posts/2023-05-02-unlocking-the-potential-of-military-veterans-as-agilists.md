@@ -6,13 +6,13 @@ date: 2023-05-02
 title: Unlocking the potential of military veterans as agilists
 twitter-text: ''
 guest-details:
-- guest-name: MIke Whitaker
+- guest-name: Mike Whitaker
   guest-photo: "/uploads/mike-whitaker.jpeg"
   guest-links:
-  - guest-link-label: "\U0001F30E MIke on LinkedIn"
+  - guest-link-label: "\U0001F30E Mike on LinkedIn"
     guest-link-url: https://www.linkedin.com/in/mike-whitaker/
   - guest-link-url: https://appliedframeworks.com
-    guest-link-label: "\U0001F3E2 Appled Frameworks"
+    guest-link-label: "\U0001F3E2 Applied Frameworks"
   guest-title: ''
 libsynUrl: https://directory.libsyn.com/episode/index/id/25970097
 

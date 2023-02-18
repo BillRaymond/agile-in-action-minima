@@ -14,7 +14,7 @@ guest-details:
   guest-title: Consultant at Teamform
   guest-photo: "/uploads/martin-foster.jpeg"
   guest-links: []
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/25970355
 
 ---
 Content goes here...

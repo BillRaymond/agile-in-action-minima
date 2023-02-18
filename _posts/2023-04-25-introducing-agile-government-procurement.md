@@ -2,7 +2,7 @@
 layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2023-04-18
+date: 2023-04-25
 title: Introducing agile government procurement
 twitter-text: ''
 guest-details:

@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2023-04-18
-title: A deep-dive into the year-end Business Agility Report
+title: A deep-dive into the year-end 2022 Business Agility Report
 twitter-text: ''
 guest-details:
 - guest-name: Evan Leybourn

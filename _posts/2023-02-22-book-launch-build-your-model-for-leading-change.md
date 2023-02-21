@@ -16,8 +16,9 @@ guest-details:
     guest-link-url: https://www.linkedin.com/in/marsha-acker-3486a72/
   - guest-link-label: "\U0001F30E Team Catapult"
     guest-link-url: https://teamcatapult.org
-- guest-name: Build Your Model for Leading Change
-  guest-title: Marsha's latest book
+- guest-name: An introduction to Marsha’s latest book, Build Your Model for Leading
+    Change
+  guest-title: ''
   guest-photo: "/uploads/build-your-model-for-leading-change.png"
   guest-links: []
 libsynUrl: https://directory.libsyn.com/episode/index/id/26001630
@@ -217,4 +218,3 @@ Well, an easy place to go is buildyourmodel.com so you can download a free sampl
 **Bill Raymond:** Thank you. Good luck with your book launch.
 
 **Marcha Acker:** Thanks.
-

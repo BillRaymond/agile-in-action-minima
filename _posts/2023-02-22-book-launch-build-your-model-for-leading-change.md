@@ -48,7 +48,7 @@ Marsha and Bill Raymond discuss essential topics you will learn, including:
 
 **Bill Raymond:** Hi and welcome to the podcast. Today, I'm joined by Marsha Acker, CEO at Team Catapult and author of The Art and Science of Facilitation. And she's on the podcast today to talk about her new book which is Build Your Model for Leading Change.
 
-**Bill Raymond:** Hi, Marsha. How are you today?
+**Bill Raymond:** Hi, Marsha. How are you today? 
 
 **Marcha Acker:** I'm great, Bill. Thanks for having me.
 
@@ -66,17 +66,21 @@ Marsha and Bill Raymond discuss essential topics you will learn, including:
 
 Maybe you could just introduce yourself to folks that may not have heard your first podcast.
 
+
+### Introducing Marsha Acker
+
 **Marcha Acker:** Well, I am Marsha Acker and I describe myself as a facilitator of meaningful conversations and dialogue. I think that's probably one of the things that sits at the core of everything that I do, that we do at Team Catapult. I feel like there's so many opportunities in our lives to connect with people, create relationships that work and have really meaningful conversations.
 
-**Marcha Acker:** So I do that through facilitation, I work with executives and coaching and with leadership teams. Those are my primary ways of engaging and then of course we run workshops for coaches.
+**Marcha Acker:** So I do that through facilitation, I work with executives and coaching and with leadership teams. Those are my primary ways of engaging and then of course we run workshops for coaches. 
 
-### Why did you wrote the book?
+
+### Why did you wrote the book? 
 
 **Bill Raymond:** That's wonderful. And we're going to talk about what a model means in just a moment, but I think it would be good if maybe you just shared with us why you wrote the book in the first place.
 
 **Marcha Acker:** You know, I've had a long career in this whole world of change and I feel like I could draw you a timeline of all my relationships of how I've looked at change from my early days of being trained in software engineering and wanting to bring about change by bringing technology to the world.
 
-**Marcha Acker:** And all the way to now where I think about change as really focusing on our relationships and how we engage with others and how we communicate. So I wrote the book because I want to provide an opportunity and a way for people to get clear about why they do what they do.
+**Marcha Acker:** And all the way to now where I think about change as really focusing on our relationships and how we engage with others and how we communicate. So I wrote the book because I want to provide an opportunity and a way for people to get clear about why they do what they do. 
 
 **Marcha Acker:** And I think that's at the core of what sits behind the book in and of itself is I found for myself and I've found through coaching others that there's a tremendous amount of clarity that comes from us being able to, you know, a lot of us can tell, tell everybody sort of what we do step by step.
 
@@ -88,13 +92,13 @@ I just listed off a bunch of things that I do. We will each have a way of descri
 
 **Bill Raymond:** So this takes a lot of thinking about yourself and who you are. That's maybe not something we do every day.
 
-**Marcha Acker:** Yeah, I do think that there's a great gift in deepened self-awareness. If I had to list out all the reasons that I wrote the book, probably the key is, you know, they say you write the book that you need to read, and that was absolutely the case for me in writing this book.
+**Marcha Acker:** Yeah, I do think that there's a great gift in deepened self-awareness. If I had to list out all the reasons that I wrote the book, probably the key is, you know, they say you write the book that you need to read, and that was absolutely the case for me in writing this book. 
 
 **Marcha Acker:** It started as a opportunity to just sit down and reflect. Model building is something that I've been working on myself for a while. And we also guide other, we guide agile coaches through defining their own model for agile coaching. But there is something that happens when you go through an intentional process of really getting to know yourself.
 
-There are all kinds of phrases like "be the change that you want to see in the world" or "start with self" or self-awareness and self-management, are all part of you know, the way that we can bring presence in our leadership or in the work that we do.
+There are all kinds of phrases like &quot;be the change that you want to see in the world&quot; or &quot;start with self&quot; or self-awareness and self-management, are all part of you know, the way that we can bring presence in our leadership or in the work that we do. 
 
-**Marcha Acker:** But I struggled I think at times with okay, so be self-aware. Well, what does that mean and where do I start? And gosh, there are some days, like it feels like there are millions of models about self-awareness, you know, every corner that you turn. And the book is intended to be kind of this, it's not a book that you'd read from front to back, it's a guided workbook, it's a guided journal.
+**Marcha Acker:** But I struggled I think at times with okay, so be self-aware. Well, what does that mean and where do I start? And gosh, there are some days, like it feels like there are millions of models about self-awareness, you know, every corner that you turn. And the book is intended to be kind of this, it's not a book that you'd read from front to back, it's a guided workbook, it's a guided journal. 
 
 **Marcha Acker:** So I think about it as an offering of, if that's something that you're interested in, then here's a way to get started. You won't finish it in a weekend. It's a life's journey should you choose to accept the mission of going on that journey. But it's definitely a personal choice.
 
@@ -104,7 +108,7 @@ There are all kinds of phrases like "be the change that you want to see in the w
 
 **Marcha Acker:** So for me, when I think about change now, the way that I define change is, I'm very focused on behaviors and relationships. I think so much of how we move about in the world starts with the conversation that we can have with someone else. And I think conversations become sort of the railroad tracks that everything else sits on, and that takes relationships.
 
-**Marcha Acker:** So when I'm talking about change and my model for change, my focus is on behavior and conversation. And everything that I do is about how to bring about change in the conversation and the relationship.
+**Marcha Acker:** So when I'm talking about change and my model for change, my focus is on behavior and conversation. And everything that I do is about how to bring about change in the conversation and the relationship. 
 
 **Marcha Acker:** But for others, bringing about change might be a focus on process inside an organization.
 
@@ -122,19 +126,20 @@ It actually makes that it a whole lot easier. And I don't know if that's what yo
 
 **Bill Raymond:** Absolutely. And that's definitely something that we have been working on as a team and I have been working on, you know, personally trying to understand that. And that's definitely, you know, I think what I had to do was clear my plate so that I could think about that. I was spending too much time doing the day-to-day and spending my time on doing things that I didn't really love doing and that prevented me from being able to do that.
 
-**Marcha Acker:** Yes. And it's a really great example because there will be, you know, in that exploration of "why a podcast" will be a bit more of your thinking about the belief that, you know, a podcast may be the platform to reach lots of people and so you might have a "why" around wanting to impact people's thinking around agile or, you know, so there will be some connection to the "why" and that in your model, one of the mechanisms for doing that will be to bring about a podcast.
+**Marcha Acker:** Yes. And it's a really great example because there will be, you know, in that exploration of &quot;why a podcast&quot; will be a bit more of your thinking about the belief that, you know, a podcast may be the platform to reach lots of people and so you might have a &quot;why&quot; around wanting to impact people's thinking around agile or, you know, so there will be some connection to the &quot;why&quot; and that in your model, one of the mechanisms for doing that will be to bring about a podcast.
 
 **Marcha Acker:** And then the other thing that I hear potentially in your, maybe in your model for living is that to work crazy hours or try to juggle all the plates yourself can feel taxing. And so, you also might have a component where you set some boundaries around what you're willing to work or where you know the tasks that bring you joy.
 
 **In my model for living, joy is a real primary key decision maker for me in terms of what I would do, be it at home or at work. But I don't believe that I'm some machine that's designed to crank stuff out, even though I can get really caught in the, my calendar sort of, owning my life.**
 
-**Marcha Acker:** **But joy is a really important part for me, and so that appears in my model for living**.
+**Marcha Acker:** **But joy is a really important part for me, and so that appears in my model for living**. 
 
 **Marcha Acker:** So I hear you talking a little bit about your model for leading change, but also your model for a living.
 
 Just listening to you think about that or share that with me, it allows me to think about those things as well. And I know that you're trying to do that with this book
 
-### How can the book help you buid a personal model for change?
+
+### How can the book help you buid a personal model for change? 
 
 **Bill Raymond:** So how can the book help you build a personal model for change?
 
@@ -142,7 +147,7 @@ Just listening to you think about that or share that with me, it allows me to th
 
 **Marcha Acker:** Why do you do what you do? And that's sort of the first layer of beginning to deeply know yourself. And so that's one piece of awareness. And then, you know, there are exercises in the book about looking at other models that you might interact with or making notes about things that you run across.
 
-**Marcha Acker:** We run across them every day and every conversation that you're having with someone else, it's an opportunity to sort out what's in your model and maybe what's not in your model. So anytime you run across someone or something and you go, I don't really like this, or I'm not sure why this, why would we do this? Or, what's the purpose of this? Or, I don't like what they're doing, or I disagree really with that person and why they're, you know, what they're doing.
+**Marcha Acker:** We run across them every day and every conversation that you're having with someone else, it's an opportunity to sort out what's in your model and maybe what's not in your model. So anytime you run across someone or something and you go, I don't really like this, or I'm not sure why this, why would we do this? Or, what's the purpose of this? Or, I don't like what they're doing, or I disagree really with that person and why they're, you know, what they're doing. 
 
 **Marcha Acker:** Anytime you have that indicator of difference, I think it's data for you that there's something about that that's not in your model and then something that is in your model.
 
@@ -156,6 +161,7 @@ For some people it might be some real pithy sentences that help them hone in on 
 
 The workbook is designed though to just help prompt you to think about different aspects, different questions that might give you insight to some of those things.
 
+
 ### Elements of a model
 
 **Bill Raymond:** So if I'm a leader and I'm building a model, what might some of the elements of that look like?
@@ -163,6 +169,7 @@ The workbook is designed though to just help prompt you to think about different
 **Marcha Acker:** You know, I think the easiest place to start is where you see difference. So where you run across conflict or as a leader, what's something that you're struggling with at the moment? And what's underneath the struggle? So leaders trying to bring about change in a team or lead a large new initiative.
 
 **Marcha Acker:** Every time you run up against someone that you disagree with or something that you just are finding that you're having a hard time moving forward, I think there's data in that for you about your model. So it's never something that's going to be done in any particular timeframe, but I think the goal is where can you get clear about things for yourself? Finding those places of difference, and I think that's the place to start. Can youask yourself some questions or do some journaling, which I think is a really helpful way of uncovering some things that we think about what might be happening.
+
 
 ### After reading the book...
 
@@ -172,11 +179,11 @@ I think one of the greatest gifts that can come from the process of deeply knowi
 
 **Marcha Acker:** I think that model building has the ability to just lower the stakes, to be able to say Ah, I know what's happening here. I can make sense of this. And I know that in my model I do this really differently. Like I take, as you know, leaders, we will all have different models for leadership, values that are important to you. **You and I might have some similar values, but we also might have some values that don't overlap or feel like they create dissonance for us. And so when you and I can be in a conversation and be able to say, actually, well this is what's in my model and this is why I want to make this move or lead in this way, and you're able to say the same thing.**
 
-**Marcha Acker:** **Now we can talk about it, and it doesn't become personal. It becomes a conversation about what's important and why we're making that move**.
+**Marcha Acker:** **Now we can talk about it, and it doesn't become personal. It becomes a conversation about what's important and why we're making that move**. 
 
 **Marcha Acker:** **So I think the takeaways are clarity and confidence, being able to lower the stakes for yourself and navigate changes that are happening to us all around**.
 
-If I'm interested in your book, and I read through this, you said that some people might put together a painting, they might journal, they might put something into a PowerPoint deck.
+If I'm interested in your book, and I read through this, you said that some people might put together a painting, they might journal, they might put something into a PowerPoint deck. 
 
 Is it possible that we could find ourselves doing this and coming up with that, you know, I'm sort of treating this like it's a marketing presentation. How do I keep myself from saying: Here are the things that I think I want people to hear versus what I need to get down and start thinking about more deeply?
 
@@ -188,7 +195,7 @@ That's a really great question. And I think part of that is the process and the 
 
 **Marcha Acker:** And then comes the next more intentional decision, Okay, there's a different model here, there's a different model that this organization is deploying for change. And you can either say, and I'm okay with that, I see the difference, I can understand it, I know why they're doing that, and I can be with that.
 
-**Marcha Acker:** Or, you know what, I think this just isn't for me. It doesn't make them wrong. It just makes us different and I think I need to go find a different place. And so I think that's part of, I think that's an example of some of the clarity that can come.
+**Marcha Acker:** Or, you know what, I think this just isn't for me. It doesn't make them wrong. It just makes us different and I think I need to go find a different place. And so I think that's part of, I think that's an example of some of the clarity that can come. 
 
 **Bill Raymond:** It can really help you think about yourself and what it is that you want for yourself, not just for everyone else as well. One of the things that you said about this is that it's all about communication, right? It's about how you interact with others, but also these are your core values at some point, I suppose.
 
@@ -202,7 +209,7 @@ Well, an easy place to go is buildyourmodel.com so you can download a free sampl
 
 **Marcha Acker:** Yeah, the best way is LinkedIn. I try to be fairly responsive to people reaching out to me on LinkedIn, so just connect with me and send me a message there and I'll do my very best to respond within about 24 to 48 hours.
 
-**Bill Raymond:** That's great. Thank you. And of course, all these links will be on the agileinaction.com website. And if you're listening in a podcast app right now, just go ahead and go to the show notes, the details, and you will see those links there.
+**Bill Raymond:** That's great. Thank you. And of course, all these links will be on the agileinaction.com website. And if you're listening in a podcast app right now, just go ahead and go to the show notes, the details, and you will see those links there. 
 
 **Bill Raymond:** Marsha Acker, once again, your book is _Build Your Model for Leading Change_ and I really appreciate your spending the time with me today.
 
@@ -211,3 +218,8 @@ Well, an easy place to go is buildyourmodel.com so you can download a free sampl
 **Bill Raymond:** Thank you. Good luck with your book launch.
 
 **Marcha Acker:** Thanks.
+
+Thank you for listening to the Agile and Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Cabermast LLC, and our executive producer is Reama Dagasan.
+
+If there is a topic you would like Bill to cover, contact him directly at bill.Raymond@agileinaction.com.
+

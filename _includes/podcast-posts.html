@@ -86,7 +86,7 @@
             {%- if guestTitle.size > 0 -%}
               {%- assign guestName = guestName | append: ", " | append: guestTitle -%}
             {%- endif -%}
-            with </strong><span class="guest-name" itemprop="name">{{guestName}}</span><br>
+            <strong>with </strong><span class="guest-name" itemprop="name">{{guestName}}</span><br>
           {%- endfor -%}
         {%- endif -%}
         {%- if admin == true -%}

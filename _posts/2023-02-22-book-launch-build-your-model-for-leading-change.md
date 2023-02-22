@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2023-02-22
-title: Book Launch! Build your Model for Leading Change
+title: Book Launch! Build Your Model for Leading Change
 twitter-text: ''
 guest-details:
 - guest-name: Marsha Acker
@@ -222,4 +222,3 @@ Well, an easy place to go is buildyourmodel.com so you can download a free sampl
 Thank you for listening to the Agile and Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Cabermast LLC, and our executive producer is Reama Dagasan.
 
 If there is a topic you would like Bill to cover, contact him directly at bill.Raymond@agileinaction.com.
-

@@ -2,7 +2,7 @@
 layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2023-02-28
+date: 2023-03-07
 title: The leadership development journey
 twitter-text: ''
 guest-details:

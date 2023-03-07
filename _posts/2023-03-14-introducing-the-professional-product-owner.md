@@ -2,7 +2,7 @@
 layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2023-03-07
+date: 2023-03-14
 title: Introducing the Professional Product Owner
 twitter-text: ''
 guest-details:

@@ -6,7 +6,7 @@ date: 2023-03-21
 title: Introducing the Professional Product Owner
 twitter-text: ''
 guest-details:
-- guest-title: ''
+- guest-title: "Speaker, Author, and Change Agent"
   guest-photo: "/uploads/ralph-jocham.jpeg"
   guest-links:
   - guest-link-label: "\U0001F30E Ralph on LinkedIn"

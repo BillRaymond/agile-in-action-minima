@@ -2,8 +2,8 @@
 layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2023-03-21
-title: The value and promise of agile from a developer’s perspective
+date: 2023-03-28
+title: The value and promise of agile from a developer's perspective
 twitter-text: ''
 guest-details:
 - guest-name: Jonas Neumann

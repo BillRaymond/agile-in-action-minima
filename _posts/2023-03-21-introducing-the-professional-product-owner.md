@@ -6,17 +6,17 @@ date: 2023-03-21
 title: Introducing the Professional Product Owner
 twitter-text: ''
 guest-details:
--  guest-name: Ralph Jocham
-   guest-title: "Speaker, Author, and Change Agent"
-   guest-photo: "/uploads/ralph-jocham.jpeg"
-   guest-links:
-   - guest-link-label: "\U0001F30E Ralph on LinkedIn"
-     guest-link-url: https://www.linkedin.com/in/ralphjocham/
-   - guest-link-label: "\U0001F4D6 The Professional Product Owner: Leveraging Scrum
-     as a Competitive Advantage"
-     guest-link-url: https://www.amazon.com/Professional-Product-Owner-Leveraging-Competitive/dp/0134686470/ref=sr_1_1?crid=2CS2V0JU0XYY8&keywords=ralph+jocham&qid=1675725574&sprefix=ralph+jo%2Caps%2C620&sr=8-1
-   - guest-link-label: "\U0001F30E Scrum.org"
-     guest-link-url: https://scrum.org
+- guest-title: "Speaker, Author, and Change Agent"
+  guest-photo: "/uploads/ralph-jocham.jpeg"
+  guest-links:
+  - guest-link-label: "\U0001F30E Ralph on LinkedIn"
+    guest-link-url: https://www.linkedin.com/in/ralphjocham/
+  - guest-link-label: "\U0001F4D6 The Professional Product Owner: Leveraging Scrum
+      as a Competitive Advantage"
+    guest-link-url: https://www.amazon.com/Professional-Product-Owner-Leveraging-Competitive/dp/0134686470/ref=sr_1_1?crid=2CS2V0JU0XYY8&keywords=ralph+jocham&qid=1675725574&sprefix=ralph+jo%2Caps%2C620&sr=8-1
+  - guest-link-label: "\U0001F30E Scrum.org"
+    guest-link-url: https://scrum.org
+  guest-name: Ralph Jocham
 libsynUrl: https://directory.libsyn.com/episode/index/id/25850091
 
 ---

@@ -1,10 +1,19 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.custom.scripts": [
+  {
+    "title": "Create guest and featured images",
+    "id": "create-guest-and-featured-images",
+    "script": "./build-guest-and-featured-images.sh",
+    "command": "bash"
+  }
+  ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "podcast",
       "pageBundle": false,
-      "previewPath": null,
+      "previewPath": "'agile-in-action-podcast/'yyyy/MM",
+      "filePrefix": "yyyy-mm-dd",
       "fields": [
         {
           "title": "layout",
@@ -48,7 +57,14 @@
           "title": "Guest details",
           "name": "guest-details",
           "type": "block",
-          "fieldGroup": ["guest-details", "guest-links"]
+          "fieldGroup": [
+            "guest-details"
+          ]
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
         }
       ]
     }
@@ -64,7 +80,7 @@
   "frontMatter.taxonomy.fieldGroups": [
     {
       "id": "guest-details",
-      "labelField": "Guest details",
+      "labelField": "guest-name",
       "fields": [
         {
           "title": "Guest name",
@@ -81,14 +97,21 @@
         {
           "title": "Guest photo",
           "name": "guest-photo",
-          "type": "image",
-          "single": true
+          "type": "image"
+        },
+        {
+          "title": "Links",
+          "name": "guest-links",
+          "type": "block",
+          "fieldGroup": [
+            "guest-links"
+          ]
         }
       ]
     },
     {
       "id": "guest-links",
-      "labelField": "Guest links",
+      "labelField": "guest-link-label",
       "fields": [
         {
           "title": "Guest link label",
@@ -97,7 +120,7 @@
           "single": true
         },
         {
-          "title": "Guest link url",
+          "title": "Guest link URL",
           "name": "guest-link-url",
           "type": "string",
           "single": true

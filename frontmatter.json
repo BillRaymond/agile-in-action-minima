@@ -70,7 +70,7 @@
     }
   ],
   "frontMatter.framework.id": "jekyll",
-  "frontMatter.content.publicFolder": "uploads",
+  "frontMatter.content.publicFolder": "/uploads",
   "frontMatter.content.pageFolders": [
     {
       "title": "Podcast Post",

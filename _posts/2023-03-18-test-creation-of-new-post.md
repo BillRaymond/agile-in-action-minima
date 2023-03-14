@@ -2,7 +2,7 @@
 layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2023-18-15T16:20:44.000Z
+date: 2023-03-18T16:20:44.000Z
 title: test creation of new post
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/25801338

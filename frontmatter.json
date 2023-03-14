@@ -1,0 +1,110 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string",
+          "default": "podcast-post"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "string",
+          "default": "agile-in-action-podcast"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string",
+          "default": "Bill Raymond"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "twitter-text",
+          "name": "twitter-text",
+          "type": "string"
+        },
+        {
+          "title": "libsynUrl",
+          "name": "libsynUrl",
+          "type": "string"
+        },
+        {
+          "title": "Guest details",
+          "name": "guest-details",
+          "type": "block",
+          "fieldGroup": ["guest-details", "guest-links"]
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "uploads",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Podcast Post",
+      "path": "[[workspace]]/_posts"
+    }
+  ],
+  "frontMatter.taxonomy.fieldGroups": [
+    {
+      "id": "guest-details",
+      "labelField": "Guest details",
+      "fields": [
+        {
+          "title": "Guest name",
+          "name": "guest-name",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Guest title",
+          "name": "guest-title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Guest photo",
+          "name": "guest-photo",
+          "type": "image",
+          "single": true
+        }
+      ]
+    },
+    {
+      "id": "guest-links",
+      "labelField": "Guest links",
+      "fields": [
+        {
+          "title": "Guest link label",
+          "name": "guest-link-label",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Guest link url",
+          "name": "guest-link-url",
+          "type": "string",
+          "single": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": []
+}

@@ -13,7 +13,7 @@
       "name": "podcast",
       "pageBundle": false,
       "previewPath": "'agile-in-action-podcast/'yyyy/MM",
-      "filePrefix": "yyyy-mm-dd",
+      "filePrefix": "yyyy-MM-dd",
       "fields": [
         {
           "title": "layout",

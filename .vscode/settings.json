@@ -3,7 +3,7 @@
     "frontMatter.content.autoUpdateDate": false,
     "frontMatter.content.fmHighlight": false,
     "frontMatter.framework.startCommand": "bundle exec jekyll serve --livereload --future",
-    "frontMatter.content.publicFolder": "[[workspace]]/uploads",
+    "frontMatter.content.publicFolder": "/",
     "[markdown]": {
     }
 }

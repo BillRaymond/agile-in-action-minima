@@ -7,7 +7,7 @@ title: Introducing the Professional Product Owner
 twitter-text: ''
 guest-details:
   - guest-name: Ralph Jocham
-    guest-title: Speaker, Author, and Change Agent
+    guest-title: Speaker, Author, and Change Agent at Scrum.org and effective agile. GmbH
     guest-photo: /uploads/ralph-jocham.jpeg
     guest-links:
       - guest-link-label: "\U0001F30E Ralph on LinkedIn"

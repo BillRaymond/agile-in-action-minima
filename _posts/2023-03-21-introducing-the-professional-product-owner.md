@@ -6,24 +6,38 @@ date: 2023-03-21
 title: Introducing the Professional Product Owner
 twitter-text: ''
 guest-details:
-- guest-name: Ralph Jocham
-  guest-title: "Speaker, Author, and Change Agent"
-  guest-photo: "/uploads/ralph-jocham.jpeg"
-  guest-links:
-  - guest-link-label: "\U0001F30E Ralph on LinkedIn"
-    guest-link-url: https://www.linkedin.com/in/ralphjocham/
-  - guest-link-label: "\U0001F4D6 The Professional Product Owner: Leveraging Scrum
-      as a Competitive Advantage"
-    guest-link-url: https://www.amazon.com/Professional-Product-Owner-Leveraging-Competitive/dp/0134686470/ref=sr_1_1?crid=2CS2V0JU0XYY8&keywords=ralph+jocham&qid=1675725574&sprefix=ralph+jo%2Caps%2C620&sr=8-1
-  - guest-link-label: "\U0001F30E Scrum.org"
-    guest-link-url: https://scrum.org
+  - guest-name: Ralph Jocham
+    guest-title: Speaker, Author, and Change Agent
+    guest-photo: /uploads/ralph-jocham.jpeg
+    guest-links:
+      - guest-link-label: "\U0001F30E Ralph on LinkedIn"
+        guest-link-url: https://www.linkedin.com/in/ralphjocham/
+      - guest-link-label: "\U0001F30E Scrum.org"
+        guest-link-url: https://scrum.org
+      - guest-link-label: "\U0001F4D6 The Professional Product Owner: Leveraging Scrum as a Competitive Advantage"
+        guest-link-url: https://www.amazon.com/Professional-Product-Owner-Leveraging-Competitive/dp/0134686470/ref=sr_1_1?crid=2CS2V0JU0XYY8&keywords=ralph+jocham&qid=1675725574&sprefix=ralph+jo%2Caps%2C620&sr=8-1
 libsynUrl: https://directory.libsyn.com/episode/index/id/25850091
-
+type: podcast
 ---
-Content goes here...
+Successful product delivery starts with Evidence-Based Management
+
+Today, Ralph Jocham will introduce the Product Owner role in Scrum teams. Ralph shares the importance of delivering products based on Vision, Value, and Validation. Ralph and Bill also compare project and product-based delivery for complex work.
+
+In this podcast, you will learn the following:
+
+✅ The role of the Product Owner
+
+✅ The importance of the Product Owner's focus on value
+
+✅ A primer on Evidence-based Management (EBM)
+
+✅ How to scale the Product Owner role
+
+✅ How leaders can support the Product Owner role
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)
+
 ### Introduction
 
 **Bill Raymond:** Hi, and welcome to the podcast. Today, I'm joined by Ralph Jocham, speaker, author, and change agent. Hi Ralph, how are you today?

@@ -36,7 +36,8 @@
         {
           "title": "date",
           "name": "date",
-          "type": "datetime"
+          "type": "datetime",
+          "isPublishDate": true
         },
         {
           "title": "title",

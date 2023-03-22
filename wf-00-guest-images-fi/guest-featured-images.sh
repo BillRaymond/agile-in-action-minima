@@ -43,17 +43,10 @@ set -e -x&#10;
     Original photo will look something like this:
         /uploads/guest-image.jpeg
 {%- endcomment -%}
-{%- assign photoTarget = detail.guest-photo -%}
+{%- assign photoSource = detail.guest-photo | prepend: '..' -%}
+echo "photoSource: {{photoSource}}"&#10;&#10;
+{%- assign photoTarget = photoSource -%}
 echo "Original photoTarget: {{photoTarget}}"&#10;&#10;
-
-{%- comment -%}
-    Prepend so the file looks something like this:
-    ../uploads/guest-image.jpeg
-{%- endcomment -%}
-{%- assign photoTarget = photoTarget 
-    | prepend: ".."
--%}
-echo "photoTarget with .. prepend: {{photoTarget}}"&#10;
 
 {%- comment -%}
     Set the target folder for the guest photo
@@ -78,12 +71,8 @@ echo "photoTargetExtSize: {{photoTargetExtSize}}"&#10;
     | slice: 0, photoTargetExtSize
     | append: 'png'
 -%}
-
 echo "photoSource: {{photoSource}}"&#10;
 echo "photoTarget: {{photoTarget}}"&#10;
-
-
-exit&#10;
 
 {%- comment -%}
     ########## Start guest photo conversion process

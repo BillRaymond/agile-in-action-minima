@@ -8,14 +8,14 @@ twitter-text: ""
 libsynUrl: ""
 guest-details:
   - guest-name: Maximilian Kupi
-    guest-title: Computational Social Science Researcher at the Hertie School
+    guest-title: PhD Researcher at the Hertie School's Centre for Digital Governance in Berlin
     guest-links: []
-    guest-photo: /uploads/Maximilian Kupi.jpeg
+    guest-photo: /uploads/Maximilian-Kupi.jpeg
     fieldGroup: guest-details
   - guest-name: Keegan McBride
-    guest-title: Departmental Research Lecturer in AI, Government, and Policy at Oxford Internet Institute
+    guest-title: Departmental Research Lecturer in AI, Government, and Policy at the Oxford Internet Institute
+    guest-photo: /uploads/Keegan-McBride.jpeg
     fieldGroup: guest-details
-    guest-photo: /uploads/Keegan McBride.jpeg
 type: podcast
 ---
 Content goes here

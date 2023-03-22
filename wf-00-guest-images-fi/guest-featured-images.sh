@@ -6,10 +6,15 @@ layout: shell
 # -x Echo all the commands as they run, not just echos
 set -e -x&#10;
 
-{%- comment -%} note: make sure to run chmod +x script-name in the final solution.sh {% endcomment %}
-{%- comment -%} create guest images for reuse on featured images {% endcomment %}
-{%- comment -%} Resize and crop the guest image so it is square, has a border, and has a shadow {% endcomment %}
-{%- comment -%} Make sure you have a root folder structure like this: /uploads/wf-guest-images-fi {% endcomment %}
+{%- comment -%} 
+    note: make sure to run chmod +x script-name in the final solution.sh
+    purpose: Create guest images for reuse on featured images
+    Resize and crop the guest image so it is square, has a border, and has a shadow
+    
+    Dependencies
+    1. ImageMagick
+    2. There is a root folder structure like this: /uploads/wf-guest-images-fi
+{% endcomment %}
 
 {%- comment -%} only get posts where there are guest details (guest photos) {%- endcomment -%}
     {%- assign validPosts = site.posts 
@@ -18,7 +23,7 @@ set -e -x&#10;
 {%- comment -%} Determines whether to rebuild all featured images or just recents {%- endcomment -%}
     {%- assign recreateAllFi = site.data.configs.wfRecreateGuestImages -%}
 
-{%- comment -%} decide what posts to update (all or current date and future date) {%- endcomment -%}
+{%- comment -%} Get the list of appropriate images to convert {%- endcomment -%}
     {%- if recreateAllFi == true -%}
             {%- assign posts = validPosts -%}
     {%- else -%}
@@ -26,30 +31,67 @@ set -e -x&#10;
                 | where_exp: 'post', 'post.date >= site.time' -%}
     {%- endif -%}
 
+{%- comment -%}
+    Get the appropriate posts to process (posts contain the list of guest photos)
+    For testing purposes, add a limit like this: for post in posts limit: 1
+{%- endcomment -%}
 {%- for post in posts -%}
 {%- for detail in post.guest-details -%}
-{%- comment -%}
-    Set the location of the source (original) image
-    The file will start with a slash (/), so remove that
-{%- endcomment -%}
-{%- assign photoSource = detail.guest-photo 
-    | remove_first: "/" -%}
 
 {%- comment -%}
-    Set the target location for the final file
-        1. Get the filename of the source photo
-        2. Remove the file extension
-        3. Add the png extension
-        4. Pre-pend with the location to store the image
-{%- endcomment -%} 
-{%- assign photoTarget = detail.guest-photo 
-    | split: '/' | last 
-    | split: '.' | first
-    | append: '.png' 
-    | prepend: 'uploads/wf-guest-images-fi/'
+    ########## Define the photoTarget
+    Original photo will look something like this:
+        /uploads/guest-image.jpeg
+{%- endcomment -%}
+{%- assign photoTarget = detail.guest-photo -%}
+echo "Original photoTarget: {{photoTarget}}"&#10;&#10;
+
+{%- comment -%}
+    Prepend so the file looks something like this:
+    ../uploads/guest-image.jpeg
+{%- endcomment -%}
+{%- assign photoTarget = photoTarget 
+    | prepend: ".."
+-%}
+echo "photoTarget with .. prepend: {{photoTarget}}"&#10;
+
+{%- comment -%}
+    Set the target folder for the guest photo
+    The folder will look something like this
+    ../uploads/wf-guest-images-fi/guest-image.jpeg
+{%- endcomment -%}
+{%- assign photoTarget = photoTarget 
+    | replace: '/uploads/', '/uploads/wf-guest-images-fi/'
+-%}
+echo "photoTarget with new url: {{photoTarget}}"&#10;
+
+{%- comment -%}
+    Set the target file type as png
+    The resulting structure should look like this
+    ../uploads/wf-guest-images-fi/guest-image.png
+{%- endcomment -%}
+{%- assign photoTargetExt = photoTarget | split: '.' | last -%}
+echo "photoTargetExt: {{photoTargetExt}}"&#10;
+{%- assign photoTargetExtSize = photoTarget.size | minus: photoTargetExt.size -%}
+echo "photoTargetExtSize: {{photoTargetExtSize}}"&#10;
+{%- assign photoTarget = photoTarget 
+    | slice: 0, photoTargetExtSize
+    | append: 'png'
 -%}
 
-{%- comment -%} *** START guest photo conversion process *** {%-endcomment-%}
+echo "photoSource: {{photoSource}}"&#10;
+echo "photoTarget: {{photoTarget}}"&#10;
+
+
+exit&#10;
+
+{%- comment -%}
+    ########## Start guest photo conversion process
+    Convert the original source file to png
+    Resize the image, while centering content
+    Add a border
+    Save to the photoTarget filename and folder
+{%-endcomment-%}
 echo "* START Converting guest photo: {{photoSource}}"
 convert {{photoSource}} &#96;# load the guest's photo&#96;&#92;
     -resize 250x250^ &#96;# load template background image&#96;&#92;

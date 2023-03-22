@@ -75,7 +75,7 @@ sh -c "bundle exec jekyll build --future"
 
 echo "#################################################"
 echo "Define script variables for the Guest Image Creator script"
-WF_GUEST_IMAGES_DIR="$env_workspace_directory" # the workflow folder the code will run from
+WF_GUEST_IMAGES_DIR="$env_workspace_directory/wf-00-guest-images-fi" # the workflow folder the code will run from
 WF_GUEST_IMAGES_SITE="$env_workspace_directory/_site/wf-00-guest-images-fi" #The location of the Jekyll-generated folder
 WF_GUEST_IMAGES_FILE="guest-featured-images.sh" # the script filename
 WF_GUEST_IMAGES_SCRIPT="$WF_GUEST_IMAGES_SITE/$WF_GUEST_IMAGES_FILE" # the full script folder and filename
@@ -107,7 +107,9 @@ sh -c "chmod +x $WF_FI_IMAGES_SCRIPT"
 
 echo "#################################################"
 echo "Run the guest images workflow script"
+cd $WF_GUEST_IMAGES_DIR
 sh $WF_GUEST_IMAGES_SCRIPT
+cd ..
 
 echo "#################################################"
 echo "Run the featured image workflow script"

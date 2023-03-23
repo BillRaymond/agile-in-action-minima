@@ -7,29 +7,48 @@ title: The value and promise of agile from a developer's perspective
 twitter-text: ""
 guest-details:
   - guest-name: Jonas Neumann
-    guest-title: Full Stack Developer at Accenture
+    guest-title: Full Stack Developer at Accenture and author on Medium
     guest-photo: /uploads/jonas-neumann.jpeg
     guest-links:
-      - guest-link-label: 📍 Jonas on LinkedIn
+      - guest-link-label: 🌎 Jonas on LinkedIn
         guest-link-url: https://www.linkedin.com/in/jonas-neumann-10a077129/
+        fieldGroup: guest-links
       - guest-link-label: 🏢 Accenture
         guest-link-url: https://www.accenture.com
+        fieldGroup: guest-links
+      - guest-link-label: 📝 Jonas on Medium
+        guest-link-url: https://medium.com/@jonas.a.neumann
+        fieldGroup: guest-links
+      - guest-link-label: "📃 Article: The fundamental misunderstanding that is destroying agile"
+        guest-link-url: https://medium.com/twodigits/the-fundamental-misunderstanding-that-is-destroying-agile-5ae4153a1231
+        fieldGroup: guest-links
+      - guest-link-url: https://agileinaction.com/agile-in-action-podcast/2020/08/10/team-topologies-and-obsession-over-a-rapid-flow-of-change.html
+        guest-link-label: 🎙️ Team topologies and an obsession over a rapid flow of change
+        fieldGroup: guest-links
+      - guest-link-label: 📖 Accelerate
+        guest-link-url: https://www.amazon.com/Accelerate-Building-Performing-Technology-Organizations/dp/B07BMBYHXL/ref=sr_1_1?crid=8YNYJ0TA40O9&keywords=accelerate+jean+kim&qid=1679533450&sprefix=accelerate+jean+ki%2Caps%2C219&sr=8-1
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 libsynUrl: https://directory.libsyn.com/episode/index/id/25850280
 type: podcast
 ---
-Rather than pushing uncertainty away, embrace it ⤵️
+Rather than pushing uncertainty away, embrace it! ⤵️
+
+Today, Bill Raymond speaks with guest Jonas Neumann, who will cover various software development and agile topics.
 
 In this podcast, you will learn the following:
 
-✅ Topic1
+✅ The promise of agile in software development
 
-✅ Topic2
+✅ How organizations can adopt agile
 
-✅ Topic3
+✅ Breaking down planning and budgeting barriers
 
-✅ Topic4
+✅ Dealing with uncertainty
 
-✅ Topic5
+✅ Measuring work based on value
+
+✅ How to foster fun, safe, and effective software development teams
 
 
 ## TranscriptContent goes here...

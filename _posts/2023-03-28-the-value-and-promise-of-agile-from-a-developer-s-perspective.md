@@ -51,7 +51,7 @@ In this podcast, you will learn the following:
 ✅ How to foster fun, safe, and effective software development teams
 
 
-## TranscriptContent goes here...
+## Transcript
 (transcripts are auto-generated, so please excuse the brevity)
 
 **Bill Raymond:** Hi, and welcome to the podcast.

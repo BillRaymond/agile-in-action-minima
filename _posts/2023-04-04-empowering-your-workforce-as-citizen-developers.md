@@ -14,8 +14,12 @@ guest-details:
         guest-link-url: https://www.linkedin.com/in/thephilsimon/
       - guest-link-label: 🌎 Phil's website
         guest-link-url: http://philsimon.com
-      - guest-link-label: "📖 Low-Code/No-Code: Citizen Developers and the Surprising Future of Business Applications (The Future of Work)"
+      - guest-link-label: "📖 Low-Code/No-Code: Citizen Developers and the Surprising Future of Business Applications"
         guest-link-url: https://www.amazon.com/dp/B0BL2RTFQQ?philsim-20
+      - guest-link-label: 🏪 Phil Simon on Amazon
+        guest-link-url: https://www.amazon.com/stores/Phil-Simon/author/B002FP9IBA?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 libsynUrl: https://directory.libsyn.com/episode/index/id/25850583
 type: podcast
 ---

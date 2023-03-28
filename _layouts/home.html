@@ -17,7 +17,10 @@ layout: default
 {%- assign displaySmall = true -%}
 {%- include podcast-posts.html -%}
 
-<a href="{{"/allpodcasts" | relative_url}}">See all podcasts >></a>
+{% assign numGuests = site.posts  
+    | where_exp: 'podcastPost', 'podcastPost.guest-details != nil' 
+%}
+<a href="{{"/allpodcasts" | relative_url}}">See all {{numGuests.size}} podcasts >></a>
 <p></p>
 
 <p class="rss-subscribe">subscribe <a href="{{ site.data.configs.rssFeed }}">via RSS</a></p>

@@ -12,7 +12,13 @@ title: All podcast posts
 
 {%- comment -%} Display the featured post {%- endcomment -%}
 <h2 class="post-list-heading">{{ page.list_title | default: "All Agile in Action podcasts" }}</h2>
+
 <a href="{{"/" | relative_url}}"><< Return home</a>
+{% assign numGuests = site.posts  
+    | where_exp: 'podcastPost', 'podcastPost.guest-details != nil' 
+%}
+
+Showing {{numGuests.size}} podcasts
 {%- assign podcastLimit = 1 -%}
 {%- assign podcastOffset = 0 -%}
 {%- include podcast-posts.html -%}

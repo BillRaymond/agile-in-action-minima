@@ -4,5 +4,6 @@
 
 layout: home
 title: Home
+featuredImage: "/assets/agile-in-action-logos/agile-in-action-large-horizontal.png"
 permalink: /index
 ---

@@ -4,25 +4,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{site.title | escape}}</title>
   {% comment %} begin seo {% endcomment %}
-  {%- assign card-filename = page.path | 
-      split: '/' | 
-      last | 
-      split: '.' | 
-      first | 
-      append: '.png' | 
-      prepend: '/uploads/wf-featured-images/' | 
-      absolute_url -%}
-  {%- if card-filename -%}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@billraymonde" />
-    <meta name="twitter:title" content="{{- page.title -}}">
-    <meta name="twitter:image" content="{{- card-filename -}}">
-    <meta property="og:image" content="{{- card-filename -}}">
-    <meta property="og:description" content="{{- page.title -}}"/>
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="675">  
+  {%- comment -%} If this is a podcast post, get the generated featured image {%- endcomment -%}
+  {%- assign card-filaneme = "" -%}
+  {%- if page.layout == "podcast-post" -%}
+    {%- assign card-filename = page.path | 
+        split: '/' | 
+        last | 
+        split: '.' | 
+        first | 
+        append: '.png' | 
+        prepend: '/uploads/wf-featured-images/' | 
+        absolute_url -%}
   {%- endif -%}
+
+  {% comment %} If not a podcast, use the featuredImage in a layout {% endcomment %}
+  {%- if page.featuredImage -%}
+    {%- assign card-filename = page.featuredImage | absolute_url -%}
+  {%- endif -%}
+
+  {% comment %} Display a default featured image if no other exists {% endcomment %}
+  {%- if page.layout != "podcast-post" and page.featuredImage == nil -%}
+    {%- assign card-filename = site.data.configs.defaultFeaturedImage | absolute_url -%}
+  {%- endif -%}
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@billraymonde" />
+  <meta name="twitter:title" content="{{- page.title -}}">
+  <meta name="twitter:image" content="{{- card-filename -}}">
+  <meta property="og:image" content="{{- card-filename -}}">
+  <meta property="og:description" content="{{- page.title -}}"/>
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">  
   {% comment %} end seo {% endcomment %}
   <link rel="icon" href="{{- site.data.configs.logo-favicon | relative_url -}}" type="image/x-icon">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">

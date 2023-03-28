@@ -19,6 +19,9 @@ guest-details:
       - guest-link-label: 🏪 Phil Simon on Amazon
         guest-link-url: https://www.amazon.com/stores/Phil-Simon/author/B002FP9IBA?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true
         fieldGroup: guest-links
+      - guest-link-label: "📖 Phil's latest book The Nine: The Tectonic Forces Reshaping the Workplace"
+        guest-link-url: https://www.philsimon.com/books/the-nine/
+        fieldGroup: guest-links
     fieldGroup: guest-details
 libsynUrl: https://directory.libsyn.com/episode/index/id/25850583
 type: podcast

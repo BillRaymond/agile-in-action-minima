@@ -10,9 +10,9 @@ guest-details:
     guest-title: "Phil Simon, Author, Low-Code/No-Code: Citizen Developers and the Surprising Future of Business Applications (The Future of Work) and collaboration"
     guest-photo: /uploads/phil-simon.jpeg
     guest-links:
-      - guest-link-label: \U0001F4CD Phil on LinkedIn
+      - guest-link-label: 🌎 Phil on LinkedIn
         guest-link-url: https://www.linkedin.com/in/thephilsimon/
-      - guest-link-label: 📍 Phil's website
+      - guest-link-label: 🌎 Phil's website
         guest-link-url: http://philsimon.com
       - guest-link-label: "📖 Low-Code/No-Code: Citizen Developers and the Surprising Future of Business Applications (The Future of Work)"
         guest-link-url: https://www.amazon.com/dp/B0BL2RTFQQ?philsim-20

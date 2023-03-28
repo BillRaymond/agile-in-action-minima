@@ -7,7 +7,7 @@ title: Empowering your workforce as citizen developers
 twitter-text: ""
 guest-details:
   - guest-name: Phil Simon
-    guest-title: "Phil Simon, Author, Low-Code/No-Code: Citizen Developers and the Surprising Future of Business Applications (The Future of Work) and collaboration"
+    guest-title: "Phil Simon, Author, Low-Code/No-Code: Citizen Developers and the Surprising Future of Business Applications"
     guest-photo: /uploads/phil-simon.jpeg
     guest-links:
       - guest-link-label: 🌎 Phil on LinkedIn

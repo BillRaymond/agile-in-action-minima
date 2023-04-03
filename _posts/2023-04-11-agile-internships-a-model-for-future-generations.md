@@ -7,7 +7,7 @@ title: 'Agile internships: A model for future generations'
 twitter-text: ''
 guest-details:
 - guest-name: Robert J. Khoury
-  guest-title: CEO at Agile Rainmakers | Author of How to Intern Successfully
+  guest-title: CEO at Agile Rainmakers, Author of How to Intern Successfully
   guest-photo: "/uploads/rob-khoury.png"
   guest-links:
   - guest-link-label: "🌎 Rob on LinkedIn"

@@ -2,7 +2,7 @@
 # -e Exit immediately if a command exits with a non-zero status
 # -x Echo all the commands as they run, not just echos
 
-cd /workspaces/agile-in-action-minima
+# cd /workspaces/agile-in-action-minima
 
 # ############################################################
 echo "build guest images based on"

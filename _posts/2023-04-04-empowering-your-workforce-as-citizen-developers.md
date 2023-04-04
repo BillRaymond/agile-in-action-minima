@@ -10,18 +10,8 @@ guest-details:
     guest-title: "Phil Simon, Author, Low-Code/No-Code: Citizen Developers and the Surprising Future of Business Applications"
     guest-photo: /uploads/phil-simon.jpeg
     guest-links:
-      - guest-link-label: 🌎 Phil on LinkedIn
-        guest-link-url: https://www.linkedin.com/in/thephilsimon/
       - guest-link-label: 🌎 Phil's website
         guest-link-url: http://philsimon.com
-      - guest-link-label: "📖 Low-Code/No-Code: Citizen Developers and the Surprising Future of Business Applications"
-        guest-link-url: https://www.amazon.com/dp/B0BL2RTFQQ?philsim-20
-      - guest-link-label: 🏪 Phil Simon on Amazon
-        guest-link-url: https://www.amazon.com/stores/Phil-Simon/author/B002FP9IBA?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true
-        fieldGroup: guest-links
-      - guest-link-label: "📖 Phil's latest book The Nine: The Tectonic Forces Reshaping the Workplace"
-        guest-link-url: https://www.philsimon.com/books/the-nine/
-        fieldGroup: guest-links
     fieldGroup: guest-details
 libsynUrl: https://directory.libsyn.com/episode/index/id/25850583
 type: podcast
@@ -54,9 +44,7 @@ In this podcast, you will learn the following:
 
 **Speaker:** Welcome to the Agile in Action Podcast with Bill Raymond. Bill will explore how business disruptors are adopting agile techniques to gain a competitive advantage in this fast-paced technology driven market.
 
-**Bill Raymond:** Hi and welcome to the podcast. Today, I'm joined by Phil Simon, probably the world's leading independent expert on technology and collaboration.
-
-**Bill Raymond:** Hi, Phil. How are you today?
+**Bill Raymond:** Hi and welcome to the podcast. Today, I'm joined by Phil Simon, Hi, Phil. How are you today?
 
 **Phil Simon:** Hey Bill, thanks for having me on. How are you?
 
@@ -337,13 +325,11 @@ In this podcast, you will learn the following:
 
 **Phil Simon:** So these tools can actually make our lives a lot easier. We just have to give them a shot.
 
-**Bill Raymond:** Yeah, that's a great way to wrap up the podcast. Phil Simon, it's been great having you on this conversation today. I really appreciate your introducing us to this concept of low-code, no-code and the citizen developer. If anyone that's listening to the podcast wants to reach out to you, how might they do that?
+**Bill Raymond:** I really appreciate your introducing us to this concept of low-code, no-code and the citizen developer. If anyone that's listening to the podcast wants to reach out to you, how might they do that?
 
 **Phil Simon:** Pretty easy philsimon.com.
 
-**Bill Raymond:** All right, cool. And on there I will make sure that on the Agileinaction.com website that philsimon.com link will be provided. And if you're in an app just scroll down to the show notes and you'll see it right there and you can reach out to Phil. 
-
-**Bill Raymond:** Phil, thank you so much for your time today.
+**Bill Raymond:** Thank you for your time today.
 
 **Phil Simon:** Thank you, Bill. I enjoyed it. 
 

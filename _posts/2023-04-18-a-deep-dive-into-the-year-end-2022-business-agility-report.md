@@ -9,30 +9,70 @@ guest-details:
   - guest-name: Evan Leybourn
     guest-title: Co-founder and CEO, Business Agility Institute
     guest-photo: /uploads/evan.jpg
-    guest-links: []
+    guest-links:
+      - guest-link-url: https://www.linkedin.com/in/evanleybourn/
+        guest-link-label: 🌎 Evan Leybourn on LinkedIn
+        fieldGroup: guest-links
+      - guest-link-label: 🌎 Business Agiity Institute
+        guest-link-url: https://businessagility.institute
+        fieldGroup: guest-links
+      - guest-link-label: "📖 2022 Business Agility Report: Business in the New Normal"
+        guest-link-url: https://businessagility.institute/learn/2022-business-agility-report-business-in-the-new-normal/727
+        fieldGroup: guest-links
+    fieldGroup: guest-details
   - guest-name: Martin Foster
     guest-title: Consultant at Teamform
     guest-photo: /uploads/martin-foster.jpeg
-    guest-links: []
+    guest-links:
+      - guest-link-label: 🌎 Martin Foster on LinkedIn
+        guest-link-url: https://www.linkedin.com/in/martinfoster/
+        fieldGroup: guest-links
+      - guest-link-label: 🌎 TeamForm
+        guest-link-url: https://www.teamform.co
+      - guest-link-label: "📖 2022 Business Agility Report: Business in the New Normal"
+        guest-link-url: https://businessagility.institute/learn/2022-business-agility-report-business-in-the-new-normal/727
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 libsynUrl: https://directory.libsyn.com/episode/index/id/25970355
 type: podcast
 ---
-Content goes here...
+The drive to business agility never ends, but there are inflection points ⤵️
+
+Evan Leybourn and Martin Foster review the changes, trends, predictive indicators, and insight that form a global view of organizations' business agility journey.
+
+In this podcast, you will learn the following:
+
+✅ The purpose and design of the Business Agility report
+
+✅ Global trends in business agility
+
+✅ Predictive indicators
+
+✅ Time to benefit
+
+✅ Challenges in achieving sustainable business agility
+
+🔭 Changes we see on the horizon
 
 ## Transcript
 
 (transcripts are auto-generated, so please excuse the brevity)
 
+
 ### Intro clip
 
-**Bill Raymond:** I don't know if this is an internationally-known term, but you know, the red tape, the things that kind of slow things down comes back again. And I think a lot of people are worried that, of course we don't want to run people through the ringer like we had to in the pandemic, that wasn't sustainable to constantly just have people working 24/7 to change systems. But we do want to keep that excitement going and that constant change and regularly adding value for our customers.
+**Bill Raymond:** I don't know if this is an internationally-known term, the red tape, the things that kind of slow things down comes back again. Of course we don't want to run people through the ringer like we had to in the pandemic, But we do want to keep that excitement going regularly adding value for our customers.
 
-**Evan Leybourn:** Just because an organization is doing SCRUM, SAFe, LESS, Kanban, whatever. There's no strong correlation between doing agile and business agility or the key indicators of business agility.
+**Martin Foster:** That's a hundred percent what came through in the Long Form Commentary in 2020. 
+
+**Martin Foster:** And then in 2021 what we like started feeling is this going to be a lasting change? So we asked that specific question. Do you think this mechanism will hold? And at that point in time, people were telling us like, yep, 
+
+**Martin Foster:** We can move faster than we did beforehand and we believe this change is going to be long-lasting. In other words, it won't snap back. 
 
 
 ### Intro
 
-**Speaker:** Welcome to the Agile in Action Podcast with Bill Raymond. Bill will explore how business disruptors are adopting agile techniques to gain a competitive advantage in this fast-paced technology driven market.
+**Speaker:** Welcome to the Agile in Action Podcast with Bill Raymond. Bill will explore how business disruptors are adopting agile techniques to gain a competitive advantage in this fast-paced technology driven market. 
 
 **Bill Raymond:** Hi and welcome to the podcast. Today, I'm joined by Evan Leybourn, co-founder and CEO of the Business Agility Institute and Martin Foster, consultant at Team Form. 
 

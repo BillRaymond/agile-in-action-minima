@@ -2,7 +2,7 @@
     {%- assign podcastGuests = page.guest-details -%}
     {%- if podcastGuests.size > 0 -%}
         {%- for guest in podcastGuests -%}
-            <h3>{{- guest.guest-name -}}</h3>
+            <h3>{{- guest.guest-name -}},&nbsp;{{- guest.guest-title -}}</h3>
             <ul>
             {%- for link in guest.guest-links -%}
                 <li>

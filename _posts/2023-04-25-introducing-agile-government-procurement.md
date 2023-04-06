@@ -34,32 +34,17 @@ John and Bill share examples and personal stories that help assess the right del
 In this podcast, you will learn the following:
 
 ✅ The procurement process
+
 ✅ An agile decision-making process
+
 ✅ The procurement team's perspective
+
 ✅ The contractor's perspective
+
 ✅ Delivering successful proposals for complex systems
+
 🎉 Concrete examples to deliver the best solutions
 
-🎧Listen now
-Agile in Action website: https://agileinaction.com/agile-in-action-podcast/2023/04/25/introducing-agile-government-procurement.html
-Apple Podcasts: https://apple.co/3e35K9O
-Google: https://bit.ly/3sFYpBe
-Spotify: https://spoti.fi/3e40d34
-
-Don't spend 💰 $10 million for a 💵 $1 million solution on your next procurement 👇 
-
-Today, John Stenbeck, a best-selling author and a leader in the (U.S.) Government contracting space talks about how to define agile procurements.
-
-John and Bill share examples and personal stories that help assess the right delivery approach for federal procurements.
-
-In this podcast, you will learn the following:
-
-✅ The procurement process
-✅ An agile decision-making process
-✅ The procurement team's perspective
-✅ The contractor's perspective
-✅ Delivering successful proposals for complex systems
-🎉 Concrete examples to deliver the best solutions
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)

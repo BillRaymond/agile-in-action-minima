@@ -7,7 +7,7 @@ title: A deep-dive into the year-end 2022 Business Agility Report
 twitter-text: ""
 guest-details:
   - guest-name: Evan Leybourn
-    guest-title: Co-founder and CEO, Business Agility Institute
+    guest-title: Cofounder and Head of Thought-Leadership & Advocacy
     guest-photo: /uploads/evan.jpg
     guest-links:
       - guest-link-url: https://www.linkedin.com/in/evanleybourn/

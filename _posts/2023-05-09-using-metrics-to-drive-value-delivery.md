@@ -22,7 +22,7 @@ type: podcast
 ---
 It is time to measure 👏🏽 team success with customer-focused, value-driven 📈 metrics
 
-In today's podcast, we are thrilled to have @Dave Witkin, Founder, and Managing Principal at @Packaged Agile, join us for a lively discussion on metrics that matter for team success.
+In today's podcast, we are thrilled to have Dave Witkin, Founder, and Managing Principal at Packaged Agile, join us for a lively discussion on metrics that matter for team success.
 
 If your primary measure of team success is velocity and story points, I propose you shift that to customer-focused, value-driven metrics. In today's podcast, Bill and Dave share stories and examples of metrics that can help you drive customer success.
 

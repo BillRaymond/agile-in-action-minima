@@ -2,12 +2,12 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd",
   "frontMatter.custom.scripts": [
-  {
-    "title": "Create guest and featured images",
-    "id": "create-guest-and-featured-images",
-    "script": "./build-guest-and-featured-images.sh",
-    "command": "bash"
-  }
+    {
+      "title": "Create guest and featured images",
+      "id": "create-guest-and-featured-images",
+      "script": "./build-guest-and-featured-images.sh",
+      "command": "bash"
+    }
   ],
   "frontMatter.taxonomy.contentTypes": [
     {
@@ -72,7 +72,7 @@
     }
   ],
   "frontMatter.framework.id": "jekyll",
-  "frontMatter.content.publicFolder": "/uploads",
+  "frontMatter.content.publicFolder": "/",
   "frontMatter.content.pageFolders": [
     {
       "title": "Podcast Post",
@@ -131,5 +131,9 @@
     }
   ],
   "frontMatter.taxonomy.tags": [],
-  "frontMatter.taxonomy.categories": []
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.content.autoUpdateDate": false,
+  "frontMatter.content.fmHighlight": false,
+  "frontMatter.framework.startCommand": "bundle exec jekyll serve --livereload --future",
+  "frontMatter.preview.host": "http://127.0.0.1:4000"
 }

@@ -23,6 +23,9 @@ guest-details:
       - guest-link-label: "📄 Agile Development for Digital Government Services: Challenges and Success Factors"
         guest-link-url: https://www.researchgate.net/profile/Keegan-Mcbride/publication/351917923_Agile_Development_for_Digital_Government_Services_Challenges_and_Success_Factors/links/60afd19f92851c168e47e95b/Agile-Development-for-Digital-Government-Services-Challenges-and-Success-Factors.pdf
         fieldGroup: guest-links
+      - guest-link-label: "📄 Untangling Agile Government: On the Dual Necessities of Structure and Agility"
+        guest-link-url: https://www.researchgate.net/publication/348807042_Untangling_Agile_Government_On_the_Dual_Necessities_of_Structure_and_Agility
+        fieldGroup: guest-links
     fieldGroup: guest-details
   - guest-name: Maximilian Kupi
     guest-photo: /uploads/Maximilian-Kupi.jpeg
@@ -31,8 +34,17 @@ guest-details:
       - guest-link-label: 🌎 Maximilian on LinkedIn
         guest-link-url: https://www.linkedin.com/in/maximiliankupi/
         fieldGroup: guest-links
+      - guest-link-url: http://www.maximiliankupi.com
+        guest-link-label: 🌎 Maximilian's website
+        fieldGroup: guest-links
+      - guest-link-url: https://www.hertie-school.org/en/research/faculty-and-researchers/profile/person/kupi
+        guest-link-label: 🏫 Maximilian's profile at Hertie School
+        fieldGroup: guest-links
       - guest-link-url: https://www.researchgate.net/profile/Keegan-Mcbride/publication/351917923_Agile_Development_for_Digital_Government_Services_Challenges_and_Success_Factors/links/60afd19f92851c168e47e95b/Agile-Development-for-Digital-Government-Services-Challenges-and-Success-Factors.pdf
         guest-link-label: "📄 Agile Development for Digital Government Services: Challenges and Success Factors"
+        fieldGroup: guest-links
+      - guest-link-label: "📄 Untangling Agile Government: On the Dual Necessities of Structure and Agility"
+        guest-link-url: https://www.researchgate.net/publication/348807042_Untangling_Agile_Government_On_the_Dual_Necessities_of_Structure_and_Agility
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast

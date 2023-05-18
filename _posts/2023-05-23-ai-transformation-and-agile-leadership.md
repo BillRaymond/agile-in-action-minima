@@ -115,7 +115,7 @@ So a lot of applications like that, that we use in all over the... you know, agr
 
 **Bill Raymond:** That's really amazing. How many of these scenarios that you're talking about need custom software development versus there's just already some sort of AI out there, some products that they can use?
 
-**Zorina Alliata:** That is a very good question. So there are already, for example, I'm going to speak from Amazon point of view, which I'm the most familiar with. We haveso-called AI services, and these are pre-trained models that for computer vision that I was talking about, called for example Amazon Recognition,Comprehend, Extract, all of these already exist, so you just call them like you would call an API and it already knows and it translates, it transcribes, it understands sentiment, it does all those things automatically.
+**Zorina Alliata:** That is a very good question. So there are already, for example, I'm going to speak from Amazon point of view, which I'm the most familiar with. We haveso-called AI services, and these are pre-trained models that for computer vision that I was talking about, called for example Amazon Rekognition, Comprehend, Textract, all of these already exist, so you just call them like you would call an API and it already knows and it translates, it transcribes, it understands sentiment, it does all those things automatically.
 
 So they did, we did manage to automate quite a bit of, you know, some of the work that is going in machine learning. But also there is a lot of custom work every time, and that is because the data that we all have is so different, right? So the source of data, it's always, you have to understand what is there.
 

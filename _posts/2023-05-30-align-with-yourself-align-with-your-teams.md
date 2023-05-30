@@ -26,7 +26,7 @@ guest-details:
     fieldGroup: guest-details
 type: podcast
 ---
-🎙️ Align your actions with purpose to 🏆 achieve personal agility
+🎙️ Align your actions with your purpose to 🏆 achieve personal agility
 
 We are excited to have Peter B. Stevens, creator of The Personal Agility System, as a guest on today's podcast. Peter shares how reflecting on your personal goals will help you on your path to agility.
 

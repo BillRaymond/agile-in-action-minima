@@ -17,6 +17,9 @@ guest-details:
       - guest-link-label: 🌎 Personal Agility Institute
         guest-link-url: https://personalagilityinstitute.org
         fieldGroup: guest-links
+      - guest-link-label: 🌎 Leadership Development with Personal Agility
+        guest-link-url: https://saat-network.ch/our-solutions/leadership-development-with-personal-agility
+        fieldGroup: guest-links
       - guest-link-label: "📖 Personal Agility: Unlocking Purpose, Alignment, and Transformation"
         guest-link-url: https://www.amazon.com/Personal-Agility-Unlocking-Alignment-Transformation/dp/1957600152/ref=asc_df_1957600152/?tag=hyprod-20&linkCode=df0&hvadid=632124635211&hvpos=&hvnetw=g&hvrand=11016710315048867739&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1014221&hvtargid=pla-1928678400185&psc=1
         fieldGroup: guest-links

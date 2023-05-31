@@ -65,7 +65,7 @@ And since then I started my own consulting business for design ops and building 
 **Marya Triandafellos:** Thank you so much.
 
 
-### [00:02:11] About product design team
+### [00:02:11] About product design teams
 
 **Bill Raymond:** Yeah. Now we're going to be talking about design ops, but maybe the best way to start is to talk about what are product designers?
 
@@ -91,7 +91,7 @@ All three different expertise would be on the team, and that team is working to 
 The designers will use that design thinking approach to make sure that they understand what the challenge is and how to get to an outcome.
 
 
-### [00:04:10] What you mean by design op?
+### [00:04:10] What you mean by design ops?
 
 **Bill Raymond:** Very cool. And now that we know what a designer is, can you define what you mean by design Ops 
 

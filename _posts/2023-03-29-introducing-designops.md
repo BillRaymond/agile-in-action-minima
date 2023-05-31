@@ -17,11 +17,11 @@ guest-details:
     fieldGroup: guest-details
 type: podcast
 ---
-Integrate DesignOps into your design process to unlock the full potential of your team and craft products that make a genuine impact
+Integrate DesignOps to unlock the full potential of your team and craft products that make a genuine impact.
 
-I am excited to be a guest on the @Agile in Action with Bill Raymond podcast, where I define DesignOps. Whether you work at a growing startup or large organization, I share how you can improve your products and increase team efficiency using DesignOps principles.
+In today's podcast, Marya Triandafellos defines DesignOps principles to improve your products and increase team efficiency.
 
-Throughout the podcast, @Bill Raymond and I share stories and ideas that will help familiarize you with DesignOps and how it can help your organization.
+Throughout the podcast, Marya and Bill share stories and ideas that will help familiarize you with DesignOps and how it can help your organization.
 
 In this podcast, you will learn the following:
 
@@ -33,8 +33,6 @@ In this podcast, you will learn the following:
 
 🎉 How to introduce DesignOps into your organization
 
-
-Content goes here...
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)

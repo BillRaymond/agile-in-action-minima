@@ -13,7 +13,7 @@ guest-details:
         guest-link-url: https://www.linkedin.com/in/marya/
         fieldGroup: guest-links
     guest-photo: /uploads/marya-triandafellos.jpeg
-    guest-title: Author, Speaker, and Visual Artist
+    guest-title: DesignOps Consultant, Author, Speaker, and Visual Artist
     fieldGroup: guest-details
 type: podcast
 ---

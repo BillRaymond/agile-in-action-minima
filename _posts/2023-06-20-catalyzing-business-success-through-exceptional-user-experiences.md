@@ -25,7 +25,7 @@ type: podcast
 ---
 🎙️ Superior user experiences will fuel your business 🚀 growth
 
-Satyam Kantamneni, author of User Experience Design: A Practical Playbook to Fuel Business Growth joins Bill Raymond in today's podcast. Satyam shares the importance of a user-centric culture as a competitive advantage. Whether you build a product or offer a service, you will learn how your users will learn how thoughtfully curating a user's experience can give you a competitive edge. 
+Satyam Kantamneni, author of User Experience Design: A Practical Playbook to Fuel Business Growth joins Bill Raymond in today's podcast. Satyam shares the importance of a user-centric culture as a competitive advantage. Whether you build a product or offer a service, you will learn how thoughtfully curating a user's experience can give you a competitive edge. 
 
 Throughout the podcast, Satyam and Bill Raymond share stories and real-life examples that bring these concepts to life and inspire you to adopt these ideas.
 

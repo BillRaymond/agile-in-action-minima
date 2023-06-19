@@ -14,7 +14,7 @@ guest-details:
       - guest-link-label: 🌎 Aino on LinkedIn
         guest-link-url: https://www.linkedin.com/in/ainovongecorry/
         fieldGroup: guest-links
-      - guest-link-label: "🌎 Aiono's website: Metadeveloper"
+      - guest-link-label: "🌎 Aino's website: Metadeveloper"
         guest-link-url: https://metadeveloper.com
         fieldGroup: guest-links
       - guest-link-label: "📖 Aino's book: Retrospectives Antipatterns"

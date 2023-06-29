@@ -8,22 +8,39 @@ twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/27318264
 guest-details:
   - guest-name: Jan Otterbach
-    guest-title: Vice President and Business Agility Lead at Elavon-Europe US Bank
+    guest-title: Vice President and Business Agility Lead at Elavon Europe / US Bank
     guest-photo: /uploads/jan-otterbach.jpeg
     guest-links:
       - guest-link-label: 🌎 Jan on LinkedIn
         guest-link-url: https://www.linkedin.com/in/janotterbach/
         fieldGroup: guest-links
-      - guest-link-label: 🌎 Business Agility Institute
-        guest-link-url: https://businessagility.institute
+      - guest-link-label: 📄 Business Agility Institute – Overview of Domains of Business Agility & Associated Behaviours
+        guest-link-url: https://businessagility.institute/domains/overview
         fieldGroup: guest-links
-      - guest-link-label: ▶️ Jan's Agile Business Consortium talk
+      - guest-link-label: ▶️ Agile Business Awards - Elavon Europe - It's not about Agile
         guest-link-url: https://www.agilebusiness.org/resource/agile-business-awards-elavon-europe-it-s-not-about-agile.html
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
 ---
+🎙️ Focus 🧘, Customer 🧍, and Collaboration 🤝 are major drivers for success in Elavon / US Bank's shift to Agility
 
+In today's podcast, Jan Otterbach talks about the importance of behavioral change when adopting agile principles.
+
+Working at Elavon Europe / US Bank, Jan's team focuses on behavioral change, thinking about new ways to work, and building teams from a place of trust and psychological safety. All that has paid off by adding value for the bank and being recognized with a prestigious Agile Business Consortium 🏆 award.
+
+Sharing real-world examples, Jan Otterbach and Bill Raymond discuss the real potential of agile, including organizational units outside the traditional software development roles.
+
+In this podcast, you will learn the following:
+
+✅ Why our Elavon Europe / US Bank team is making the shift to agile
+
+
+✅ How we started our journey and where we are today
+
+✅ How we successfully delivered value to our vendors in record time
+
+🎉 The three behaviors we focus on every day (and I believe you should too)
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)
@@ -45,17 +62,17 @@ So focus customer collaboration has been my mantra. There's post-its on my scree
 
 Today, we're going to talk about behavioral change and how that is the heart of agile change. But before we get started, could you introduce yourself please?
 
-[00:01:10] **Jan Otterbach:** Sure. So I'm business agility lead for Elevon Europe and we're part of uS Bank, which to our American listeners here will be a household name, to, to those in other parts of the world, so it's a huge American bank in around 70,000 people working for it. And we're basically the European card payments.
+[00:01:10] **Jan Otterbach:** Sure. So I'm business agility lead for Elavon Europe and we're part of uS Bank, which to our American listeners here will be a household name, to, to those in other parts of the world, so it's a huge American bank in around 70,000 people working for it. And we're basically the European card payments.
 
 so if you have a flower shop and you have a card machine, or if you want to take payments on your website, that's what we do. And because we're in payments, everything's automated. And technology's changing rapidly, and we need to move with customer demand real quick. So, agility and being responsive, listening to customers matters a lot in our industry.
 
 that's me and that's us.
 
-[00:01:49] **Bill Raymond:** Before we get started, I know you joined Elevon doing one thing and then you moved into this current role. Uh, be interesting to get a little bit of a picture of the history that you've had at the company.
+[00:01:49] **Bill Raymond:** Before we get started, I know you joined Elavon doing one thing and then you moved into this current role. Uh, be interesting to get a little bit of a picture of the history that you've had at the company.
 
-[00:02:02] **Jan Otterbach:** Yes, and I'm probably quite the unlikely agile coach in that, for the last decade before coming an Agile coach, about a year and a bit ago, I, was working in technology audit and risk management and, even before joining Elevon, I was a technology auditor in Colton with kpmg, first in Germany, then in Ireland, and it was always focused on.
+[00:02:02] **Jan Otterbach:** Yes, and I'm probably quite the unlikely agile coach in that, for the last decade before coming an Agile coach, about a year and a bit ago, I, was working in technology audit and risk management and, even before joining Elavon, I was a technology auditor in Colton with kpmg, first in Germany, then in Ireland, and it was always focused on.
 
-Technology change risk compliance. And that's then basically what I picked up at Elevon as well. I was taking care of technology audits, looking at technology risk. And obviously in a business where people are not leaving parking garages, if our business doesn't work, nor buying anything in shops, these tech risks matter a whole lot.
+Technology change risk compliance. And that's then basically what I picked up at Elavon as well. I was taking care of technology audits, looking at technology risk. And obviously in a business where people are not leaving parking garages, if our business doesn't work, nor buying anything in shops, these tech risks matter a whole lot.
 
 So I would've been working on our technology function for four years before switching over about a year and a half ago to becoming an agile coach, which in fairness, at the time, I didn't really know what that was. I got hired anyways lucky me. And, I've been having an awesome time since.
 

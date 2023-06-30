@@ -43,7 +43,7 @@ In this podcast, you will learn the following:
 
 ✅ The mindset for hiring people into your team
 
-🎉 How we use AI to get work done
+🎉 How we use AI to get work done faster
 
 
 👇 Sign up now for free access to Bill's _How to Maximize AI Virtual Summit_. 👇

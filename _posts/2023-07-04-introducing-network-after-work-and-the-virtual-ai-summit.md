@@ -14,11 +14,11 @@ guest-details:
       - guest-link-label: 🌎 Tatiana on LinkedIn
         guest-link-url: https://www.linkedin.com/in/tatianamaldonado/
         fieldGroup: guest-links
-      - guest-link-label: Network After Work
+      - guest-link-label: 🌎 Network After Work
         guest-link-url: https://networkafterwork.com
         fieldGroup: guest-links
       - guest-link-url: https://www.eventbrite.com/e/how-to-maximize-ai-virtual-summit-tickets-666570017867?aff=ebdssbdestsearch
-        guest-link-label: Bill's free Virtual AI Presentation at the AI Summit on July 18, 2023 at 1:00 pm Eastern Time
+        guest-link-label: 🗓️ Bill's free Virtual AI Presentation at the AI Summit on July 18, 2023 at 1:00 pm Eastern Time
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast

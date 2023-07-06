@@ -2,7 +2,7 @@
 layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2023-07-18
+date: 2023-07-11
 title: To AI or not to AI?
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/27282945

@@ -8,7 +8,7 @@ twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/27282945
 guest-details:
   - guest-name: Jay Palat
-    guest-title: Independent AI adoption consultant and writer
+    guest-title: AI Adoption Consultant and Writer
     guest-photo: /uploads/jay-palat.jpeg
     guest-links:
       - guest-link-label: 🌎 Jay on LinkedIn

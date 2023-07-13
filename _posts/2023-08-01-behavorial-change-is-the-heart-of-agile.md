@@ -2,7 +2,7 @@
 layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2023-07-25
+date: 2023-08-01
 title: Behavorial change is the heart of agile
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/27318264

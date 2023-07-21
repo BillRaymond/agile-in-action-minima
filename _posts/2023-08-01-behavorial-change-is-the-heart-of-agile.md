@@ -9,7 +9,7 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/27318264
 guest-details:
   - guest-name: Jan Otterbach
     guest-title: Vice President and Business Agility Lead at Elavon Europe / US Bank
-    guest-photo: /uploads/jan-otterbach.jpeg
+    guest-photo: /uploads/jan-otterbach-2.jpeg
     guest-links:
       - guest-link-label: 🌎 Jan on LinkedIn
         guest-link-url: https://www.linkedin.com/in/janotterbach/
@@ -34,7 +34,6 @@ Sharing real-world examples, Jan Otterbach and Bill Raymond discuss the real pot
 In this podcast, you will learn the following:
 
 ✅ Why our Elavon Europe / US Bank team is making the shift to agile
-
 
 ✅ How we started our journey and where we are today
 

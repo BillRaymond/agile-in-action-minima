@@ -27,19 +27,17 @@ type: podcast
 
 We are excited to have Debbie Levitt, Founder of Delta CX and author of Customers Know You Suck, as a guest on today's podcast. 
 
-In this episode, Debbie shares her passion for customer-focused teams and accountability. Bill and Debbie share relatable customer and user experience stories so you can learn the concepts.
+Bill and Debbie share relatable stories highlighting the challenges of maintaining a customer-centric focus, the need for early research and testing, and the importance of accountability in delivering high-quality products. 
 
 Here is what you will learn: 
 
-✅ How to measure success 
+✅ The importance of tying work to real customer problems and pain points
 
-✅ The costs of poor quality 
+✅ The need for early research and testing to ensure you are building the right solutions
 
-✅ The importance of having a problem statement 
+✅ The role of accountability in driving better outcomes for customers 
 
-✅ How to break the cycle of mediocrity and create better products 
-
-🎉 How to ensure that teams remain customer-focused!
+🎉 How to ensure your teams remain customer-focused!
 
 
 ## Transcript

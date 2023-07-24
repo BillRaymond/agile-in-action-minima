@@ -8,7 +8,7 @@ twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/27532752
 guest-details:
   - guest-name: Debbie Levitt
-    guest-title: "Founder and Principal at Delta CX, Author of Customers Know You Suck: Actionable CX Strategies to Better Understand, Attract, and Retain Customers"
+    guest-title: "CXO at Delta CX, Author of Customers Know You Suck: Actionable CX Strategies to Better Understand, Attract, and Retain Customers"
     guest-photo: /uploads/debbie-levitt.jpeg
     guest-links:
       - guest-link-label: 🌎 Debbie's website
@@ -18,7 +18,7 @@ guest-details:
         guest-link-url: https://www.linkedin.com/in/debbielevitt/
         fieldGroup: guest-links
       - guest-link-label: "📖 Debbie's book: Customers Know You Suck: Actionable CX Strategies to Better Understand, Attract, and Retain Customers"
-        guest-link-url: https://www.amazon.com/Customers-Know-You-Suck-Actionable/dp/0974696013/ref=sr_1_2_sspa?keywords=customers+know+you+suck&qid=1689964750&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
+        guest-link-url: https://cxcc.to/ckys
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast

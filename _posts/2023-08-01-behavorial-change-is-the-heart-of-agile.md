@@ -33,13 +33,13 @@ Sharing real-world examples, Jan Otterbach and Bill Raymond discuss the real pot
 
 In this podcast, you will learn the following:
 
-✅ Why our Elavon Europe / US Bank team is making the shift to agile
+✅ Why the Elavon Europe / US Bank team is making the shift to agile
 
-✅ How we started our journey and where we are today
+✅ How they started their journey and where we are today
 
-✅ How we successfully delivered value to our vendors in record time
+✅ How they successfully delivered value to their vendors in record time
 
-🎉 The three behaviors we focus on every day (and I believe you should too)
+🎉 The three behaviors they focus on every day (and believe you should too)
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)

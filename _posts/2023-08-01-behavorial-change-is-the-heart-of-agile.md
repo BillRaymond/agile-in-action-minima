@@ -33,7 +33,7 @@ Sharing real-world examples, Jan Otterbach and Bill Raymond discuss the real pot
 
 In this podcast, you will learn the following:
 
-✅ Why the Elavon Europe / US Bank team is making the shift to agile
+✅ Why Elavon Europe / US Bank is making the shift to agile
 
 ✅ How they started their journey and where we are today
 

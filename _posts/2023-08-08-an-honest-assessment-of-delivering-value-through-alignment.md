@@ -8,13 +8,13 @@ twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/27617382
 guest-details:
   - guest-name: Jonathon Hensley
-    guest-title: "CEO of Emerge and Author of Alignment: Overcoming  internal sabotage and digital product failure"
+    guest-title: "CEO of EMERGE and Author of Alignment: Overcoming  internal sabotage and digital product failure"
     guest-photo: /uploads/Jonathon-Hensley.jpeg
     guest-links:
       - guest-link-label: 🌎 Jonathon on LinkedIn
         guest-link-url: https://www.linkedin.com/in/jonathonhensley/
         fieldGroup: guest-links
-      - guest-link-label: 🌎 Emerge Interactive
+      - guest-link-label: "🌎 Jonathon's company: EMERGE"
         guest-link-url: https://www.emergeinteractive.com
         fieldGroup: guest-links
       - guest-link-url: https://www.amazon.com/Alignment-Overcoming-internal-sabotage-digital-ebook/dp/B08ZKPKQ6X/ref=sr_1_2?crid=10K36A3W6NFPF&keywords=jonathon+hensley&qid=1689205765&sprefix=jonathon+hensley%2Caps%2C280&sr=8-2
@@ -25,7 +25,7 @@ type: podcast
 ---
 🎙️ Delivering value starts with alignment
 
-We are excited to introduce you to Jonathon Hensley, CEO of Emerge Interactive and Author of Alignment, to share the importance of delivering value through alignment and how it can lead to successful product development.
+We are excited to introduce you to Jonathon Hensley, CEO of EMERGE and Author of Alignment, to share the importance of delivering value through alignment and how it can lead to successful product development.
 
 Jonathon and Bill explore the concepts of alignment in the context of value creation to create products that meet customers' needs. By sharing stories and real-world examples, Jonathon shares the four levels of alignment and the importance of each.
 

@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2023-08-08
-title: An honest assessment of delivering value through alignment
+title: "Amplify your impact: Unleash the power of alignment to deliver value"
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/27617382
 guest-details:

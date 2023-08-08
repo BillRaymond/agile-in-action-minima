@@ -56,7 +56,9 @@ And who's gonna pay for that the most? Is gonna be the customer.
 
 [00:00:37] **Speaker:** Welcome to the Agile in Action Podcast with Bill Raymond. Bill will explore how business disruptors are adopting agile techniques to gain a competitive advantage in this fast-paced technology driven market.
 
-### Podcast interview [00:00:50] **Bill Raymond:** Hi, and welcome to the podcast. Today I'm joined by Jonathan Hensley, CEO of Emerge, and the author of Alignment: Overcoming Internal Sabotage and Digital Product Failure. Hi, Jonathan, how are you today?
+### Podcast interview [00:00:50]
+
+**Bill Raymond:** Hi, and welcome to the podcast. Today I'm joined by Jonathan Hensley, CEO of Emerge, and the author of Alignment: Overcoming Internal Sabotage and Digital Product Failure. Hi, Jonathan, how are you today?
 
 [00:01:04] **Jonathon Hensley:** I'm doing great, Bill. Thanks so much for having me. I've really been looking forward to this.
 

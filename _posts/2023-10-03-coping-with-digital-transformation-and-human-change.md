@@ -5,7 +5,7 @@ author: Bill Raymond
 date: 2023-10-03
 title: Coping with digital transformation and human change
 twitter-text: ""
-libsynUrl: "https://directory.libsyn.com/episode/index/id/28162754"
+libsynUrl: https://directory.libsyn.com/episode/index/id/28162754
 guest-details:
   - guest-name: Pia Wendelbo
     guest-title: CEO of Scandinavian Change Agents
@@ -22,6 +22,7 @@ guest-details:
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
+youtubeurl: https://youtu.be/yVetSg_l-QI
 ---
 
 🎙️ Indispensable guidance for leaders in the throws of digital transformation

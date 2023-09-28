@@ -56,6 +56,11 @@
           "type": "string"
         },
         {
+          "title": "youtubeurl",
+          "name": "youtubeurl",
+          "type": "string"
+        },
+        {
           "title": "Guest details",
           "name": "guest-details",
           "type": "block",

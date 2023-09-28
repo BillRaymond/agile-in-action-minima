@@ -6,7 +6,7 @@ If no player, add a title stating as such
         {%- assign player-id = page.libsynUrl | split: '/' | last -%}
         {%- if player-id -%}
         {% comment %} <h2>Listen now</h2> {% endcomment %}
-        <br>
+        <h4>Listen now</h4>
             <iframe class="podcast-player"
                 style="border: none" 
                 src="//html5-player.libsyn.com/embed/episode/id/{{player-id}}/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/f49f1c/"
@@ -20,6 +20,6 @@ If no player, add a title stating as such
                 msallowfullscreen>
             </iframe>
         {%- else -%}
-            <h2>No audio link found</h2>
+            <h4>No audio link found</h4>
         {%- endif -%}
     </div>

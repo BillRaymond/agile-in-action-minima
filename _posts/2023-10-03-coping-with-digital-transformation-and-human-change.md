@@ -22,14 +22,14 @@ guest-details:
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
-youtubeurl: https://youtu.be/yVetSg_l-QI
+youtubeurl: https://www.youtube.com/watch?v=yVetSg_l-QI
 ---
 
 🎙️ Indispensable guidance for leaders in the throws of digital transformation
 
 Pia Wendelbo, CEO of Scandinavian Change Agents, provides insights to help you successfully navigate digital transformation in your organization. Pia will explain how you must take a holistic view beyond implementing new technology.
 
-You will learn critical leadership traits like getting the big picture view, anticipating failure points, and understanding the neuroscience and habits required to change behaviors. Pia and I share stories and practical guidance to help you effectively deliver change.
+You will learn critical leadership traits like getting the big picture view, anticipating failure points, and understanding the neuroscience and habits required to change behaviors. Pia and Bill share stories and practical guidance to help you effectively deliver change.
 
 Here is what you will learn:
 

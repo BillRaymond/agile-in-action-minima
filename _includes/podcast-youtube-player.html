@@ -1,0 +1,14 @@
+{%- comment -%}
+If applicable, display the YouTube video
+
+{%- endcomment -%}
+    <div class="podcast-youtube-player" itemprop="podcastYouTubePlayer">
+        {%- assign player-id = page.youtubeurl | split: '?v=' | last -%}
+        {%- if player-id -%}
+        <h4>Watch now (here is a <a href="https://www.youtube.com/watch?v={{player-id}}">direct link</a>)</h4>
+        <iframe id="ytplayer" type="text/html" width="300" height="168.75"
+            src="https://www.youtube.com/embed/{{player-id}}"
+            frameborder="0" allowfullscreen>
+        </iframe>
+        {%- endif -%}
+    </div>

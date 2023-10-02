@@ -143,9 +143,16 @@ convert fi-template.png &#96;# load template background image&#96;&#92;&#10;
 {%- comment -%} ** STEP 6: Save a version without a play icon  {%- endcomment -%}
 +write {{cardFileNameNoExtension | append: '-no-play.png'}} &#92;&#10;
 
-{%- comment -%} ** STEP FINAL: Save the file with a play icon {%- endcomment -%}
+{%- comment -%} ** STEP FINAL: Save the file with a YouTube or Play icon {%- endcomment -%}
+{%- if post.youtubeurl -%}
+-page +972+448 fi-play-icon-youtube.png &#96;# load YouTube icon image&#96;&#92;
+-layers flatten &#92;
+{{cardFileNameNoExtension | append: '.png'}}&#10;
+echo "* FINISH {{postTitleForEcho}}"&#10;&#10;
+{%- else -%}
 -page +972+448 fi-play-icon.png &#96;# load play icon image&#96;&#92;
 -layers flatten &#92;
 {{cardFileNameNoExtension | append: '.png'}}&#10;
 echo "* FINISH {{postTitleForEcho}}"&#10;&#10;
+{%- endif -%}
 {%- endfor -%}

@@ -9,7 +9,7 @@ libsynUrl: ""
 youtubeurl: ""
 guest-details:
   - guest-name: Pamela Meyer
-    guest-title: Navigating change and evolving with purpose
+    guest-title: "Author of Staying in the Game: Leading and Learning with Agility for a Dynamic Future, leadership agility expert, and keynote speaker"
     guest-photo: /uploads/pamela-meyer.jpeg
     guest-links:
       - guest-link-label: 🌎 Pamela Meyer's website
@@ -27,7 +27,32 @@ guest-details:
     fieldGroup: guest-details
 type: podcast
 ---
-Content goes here...
+🎙️Unpack the essentials of embodied agile leadership so you can thrive amidst constant change
+
+In today's podcast, we share this insightful conversation with leadership agility expert Pamela Meyer about her latest book, "Staying in the Game: Leading and Learning with Agility for a Dynamic Future."
+
+Pamela and Bill share practical advice for how leaders can cultivate the mindsets and practices needed to stay agile, resilient, and continuously learning amidst constant change.
+
+Here is what you will learn:
+
+✅ The four dynamics for staying agile: meaningful identity, community, competition, and commitment
+
+✅ Why leaders need a learning vs. controlling mindset
+
+✅ Examples of agile leaders in action
+
+🎉 How to avoid losing momentum by connecting to your intrinsic motivations
+
+🎥 Watch now
+YouTube: 
+
+🎧 Listen now
+Agile in Action website: 
+Apple Podcasts: https://apple.co/3e35K9O
+Google: https://bit.ly/3sFYpBe
+Spotify: https://spoti.fi/3e40d34
+
+#agile #podcast #interview #podcastinterview #leadership #leadershipdevelopment #agiletransformation #agileorganization #agileteams #productmanagement #product #projectmanagement #engineering #programmanagement #informationtechnology #education #scrum #agileframeworks #teams #learning #change #organizationalchange #help #team #digitaltransformation #changemanagement #leadership #resilience #learning #change
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)

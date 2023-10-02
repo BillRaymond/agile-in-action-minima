@@ -5,8 +5,8 @@ author: Bill Raymond
 date: 2023-10-10
 title: Navigating change and evolving with purpose
 twitter-text: ""
-libsynUrl: ""
-youtubeurl: ""
+libsynUrl: "https://directory.libsyn.com/episode/index/id/28201091"
+youtubeurl: "https://youtu.be/FjMbVuAyWzg"
 guest-details:
   - guest-name: Pamela Meyer
     guest-title: "Author of Staying in the Game: Leading and Learning with Agility for a Dynamic Future, leadership agility expert, and keynote speaker"
@@ -43,16 +43,6 @@ Here is what you will learn:
 
 🎉 How to avoid losing momentum by connecting to your intrinsic motivations
 
-🎥 Watch now
-YouTube: 
-
-🎧 Listen now
-Agile in Action website: 
-Apple Podcasts: https://apple.co/3e35K9O
-Google: https://bit.ly/3sFYpBe
-Spotify: https://spoti.fi/3e40d34
-
-#agile #podcast #interview #podcastinterview #leadership #leadershipdevelopment #agiletransformation #agileorganization #agileteams #productmanagement #product #projectmanagement #engineering #programmanagement #informationtechnology #education #scrum #agileframeworks #teams #learning #change #organizationalchange #help #team #digitaltransformation #changemanagement #leadership #resilience #learning #change
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)

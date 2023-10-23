@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2023-10-24
-title: "Cultivating Excellence: Leadership and Organizational Cultures"
+title: "Cultivating Excellence: Leadership and Organizational Culture"
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28206005
 youtubeurl: https://www.youtube.com/watch?v=0zRhgENK5sw

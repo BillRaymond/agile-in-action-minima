@@ -6,28 +6,28 @@ date: 2023-10-31
 title: "Bridging AI data science and engineering: A personal journey"
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28424264
-youtubeurl: ""
+youtubeurl: https://youtu.be/LdDasrMOJLs
 guest-details:
-    - guest-name: Christos Hadjinikolis
-      guest-title: Machine Learning Engineer at Vortexa
-      guest-photo: /uploads/Christos-Hadjinikolis.jpeg
-      guest-links:
-          - guest-link-label: 🌎 Christos on LinkedIn
-            guest-link-url: https://www.linkedin.com/in/christoshadjinikolis/
-            fieldGroup: guest-links
-          - guest-link-url: https://christos-hadjinikolis.github.io
-            guest-link-label: 🌎 Christos' website
-            fieldGroup: guest-links
-          - guest-link-label: 🏢 Vortexa
-            guest-link-url: https://www.vortexa.com
-            fieldGroup: guest-links
-          - guest-link-label: 🧑‍🏫 Andrew Ng, Coursera trainer mentioned in the podcast
-            guest-link-url: https://www.coursera.org/instructor/andrewng
-            fieldGroup: guest-links
-          - guest-link-label: 🎙️ Mentioned Agile in Action podcast with Jeffrey Frederick and Douglas Squirrel
-            guest-link-url: https://agileinaction.com/agile-in-action-podcast/2021/03/16/transform-your-conversations-transform-your-culture.an-interview-with-douglas-squirrel-and-jeffrey-fredrick.html
-            fieldGroup: guest-links
-      fieldGroup: guest-details
+  - guest-name: Christos Hadjinikolis
+    guest-title: Machine Learning Engineer at Vortexa
+    guest-photo: /uploads/Christos-Hadjinikolis.jpeg
+    guest-links:
+      - guest-link-label: 🌎 Christos on LinkedIn
+        guest-link-url: https://www.linkedin.com/in/christoshadjinikolis/
+        fieldGroup: guest-links
+      - guest-link-url: https://christos-hadjinikolis.github.io
+        guest-link-label: 🌎 Christos' website
+        fieldGroup: guest-links
+      - guest-link-label: 🏢 Vortexa
+        guest-link-url: https://www.vortexa.com
+        fieldGroup: guest-links
+      - guest-link-label: 🧑‍🏫 Andrew Ng, Coursera trainer mentioned in the podcast
+        guest-link-url: https://www.coursera.org/instructor/andrewng
+        fieldGroup: guest-links
+      - guest-link-label: 🎙️ Mentioned Agile in Action podcast with Jeffrey Frederick and Douglas Squirrel
+        guest-link-url: https://agileinaction.com/agile-in-action-podcast/2021/03/16/transform-your-conversations-transform-your-culture.an-interview-with-douglas-squirrel-and-jeffrey-fredrick.html
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 type: podcast
 ---
 🤝 Unlock the full potential of your AI and ML teams

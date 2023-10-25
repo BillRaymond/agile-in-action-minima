@@ -10,7 +10,7 @@ youtubeurl: https://youtu.be/LdDasrMOJLs
 guest-details:
   - guest-name: Christos Hadjinikolis
     guest-title: Machine Learning Engineer at Vortexa
-    guest-photo: /uploads/Christos-Hadjinikolis.jpeg
+    guest-photo: /uploads/christos-hadjinikolis-v2.jpeg
     guest-links:
       - guest-link-label: 🌎 Christos on LinkedIn
         guest-link-url: https://www.linkedin.com/in/christoshadjinikolis/

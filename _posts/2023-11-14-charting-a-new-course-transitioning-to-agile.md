@@ -18,7 +18,7 @@ guest-details:
       fieldGroup: guest-details
 type: podcast
 ---
-🤿 Dive into the waterfall, return to sure with 💨 agility
+🤿 Dive into the waterfall, return to shore with 💨 agility
 
 We are thrilled to have David Abodunrin, Agile Coach and Scrum Master, discuss his transition from waterfall to agility on today's podcast.
 

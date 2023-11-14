@@ -2,7 +2,7 @@
 layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
-date: 2023-11-15
+date: 2023-11-14
 title: "Charting a New Course: Transitioning to Agile"
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28567378

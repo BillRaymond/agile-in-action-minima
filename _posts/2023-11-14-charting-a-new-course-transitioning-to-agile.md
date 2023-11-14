@@ -8,14 +8,14 @@ twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28567378
 youtubeurl: https://www.youtube.com/watch?v=IrdaeTtmYrY
 guest-details:
-    - guest-name: David Abodunrin
-      guest-title: Agile Coach and SCRUM Master
-      guest-photo: /uploads/David-Abodunrin.jpeg
-      guest-links:
-          - guest-link-url: https://www.linkedin.com/in/david-abodunrin-47915b57/
-            guest-link-label: 🌎 David on LinkedIn
-            fieldGroup: guest-links
-      fieldGroup: guest-details
+  - guest-name: David Abodunrin
+    guest-title: Agile Coach and SCRUM Master
+    guest-photo: /uploads/David-Adeoye-Abodunrin.jpeg
+    guest-links:
+      - guest-link-url: https://www.linkedin.com/in/abodunrinadeoyedavid
+        guest-link-label: 🌎 David on LinkedIn
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 type: podcast
 ---
 🤿 Dive into the waterfall, return to shore with 💨 agility

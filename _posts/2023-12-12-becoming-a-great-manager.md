@@ -15,7 +15,7 @@ guest-details:
       - guest-link-label: 🌎 Jack on LinkedIn
         guest-link-url: https://www.linkedin.com/in/jackaskeels/
         fieldGroup: guest-links
-      - guest-link-label: "🌎 Jack's company: Agency Agile"
+      - guest-link-label: "🌎 Jack's company: AgencyAgile"
         guest-link-url: https://agencyagile.com
         fieldGroup: guest-links
       - guest-link-label: "📖 Jack's book: UNMANAGED"
@@ -34,7 +34,7 @@ guest-details:
 type: podcast
 ---
 
-Jack Skeels, CEO of Agency Agile, shares valuable insights on agile leadership in the Agile in Action with Bill Raymond Podcast. Jack discusses the transformative power of teams and productivity through the lens of his new book, "UNMANAGED."
+Jack Skeels, CEO of AgencyAgile, shares valuable insights on agile leadership in the Agile in Action with Bill Raymond Podcast. Jack discusses the transformative power of teams and productivity through the lens of his new book, "UNMANAGED."
 
 Bill and Jack discuss the hidden costs of management and how a manager can focus their role on growth and empowering teams.
 
@@ -52,7 +52,7 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 ### [00:00:00] Introduction and Guest Background
 
-**Bill Raymond:** Hi, and welcome to the Agile in Action podcast with Bill Raymond. Today, I'm joined by Jack Skeels, founder of Agency Agile and author of Unmanaged: Master the Magic of Creating Empowered and Happy Organizations.
+**Bill Raymond:** Hi, and welcome to the Agile in Action podcast with Bill Raymond. Today, I'm joined by Jack Skeels, founder of AgencyAgile and author of Unmanaged: Master the Magic of Creating Empowered and Happy Organizations.
 
 **Bill Raymond:** Hi, Jack, how are you today?
 
@@ -62,7 +62,7 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 **Jack Skeels:** Oh, sure. I'm a let's see, I'll rewind a little bit. I know you and I have some some common history in this way. Started out as a software developer, a programmer, as they used to call them back then. And I quickly became a project manager, management consultant, ended up at a think tank, RAND Corporation, where I was a senior analyst for several years and worked on how knowledge worker organizations should optimally operate and the like.
 
-**Jack Skeels:** And then back out in the real world of actually over the last 20 plus years proved out a lot of the ideas that, that are in the research. And that's the genesis of my new book as well. And of course, our practice here at Agency Agile.
+**Jack Skeels:** And then back out in the real world of actually over the last 20 plus years proved out a lot of the ideas that, that are in the research. And that's the genesis of my new book as well. And of course, our practice here at AgencyAgile.
 
 **Bill Raymond:** Thank you very much for that. And by the way, the book is great. You were nice enough to give me a copy of it and I can't say how good a read it is. So thank you for writing that and sharing that with the community.
 
@@ -321,7 +321,7 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 **Bill Raymond:** Exactly. For those that can't see it and they're on the podcast, it's a nice bright blue cover with bold yellow text that says unmanaged and you can purchase it wherever you can purchase your books. But, before we wrap up, Jack Skeels, how might people be able to reach you?
 
-**Jack Skeels:** Oh yeah. The best way to reach me at LinkedIn, happy to connect with you. And if you have questions and the like, and also of course, Agency Agile is our consultancy that helps with basically all the techniques that I, and more of the identified in the book. So you can contact us at either place. We'd love to hear from you, of course.
+**Jack Skeels:** Oh yeah. The best way to reach me at LinkedIn, happy to connect with you. And if you have questions and the like, and also of course, AgencyAgile is our consultancy that helps with basically all the techniques that I, and more of the identified in the book. So you can contact us at either place. We'd love to hear from you, of course.
 
 **Jack Skeels:** And thank you by the way, Bill, just a wonderful to chat with you again. 
 
@@ -331,7 +331,7 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 **Jack Skeels:** I like to think it got better. How about you?
 
-**Bill Raymond:** Yeah, absolutely. I think we actually covered some more interesting areas and I appreciate that. But if you need to, if you would like to reach Jack Skeels, he just provided his LinkedIn and Agency Agile links, and of course, I will make sure that those are on the https://agileinaction.com website. And wherever you're watching or reading this, just go into the comments, the show notes, and you'll see the links there as well. Thank you once again, Jack Skeels. It was a great conversation.
+**Bill Raymond:** Yeah, absolutely. I think we actually covered some more interesting areas and I appreciate that. But if you need to, if you would like to reach Jack Skeels, he just provided his LinkedIn and AgencyAgile links, and of course, I will make sure that those are on the https://agileinaction.com website. And wherever you're watching or reading this, just go into the comments, the show notes, and you'll see the links there as well. Thank you once again, Jack Skeels. It was a great conversation.
 
 **Jack Skeels:** Thanks, Bill. A real pleasure.
 

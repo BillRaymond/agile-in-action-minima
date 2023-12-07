@@ -6,7 +6,7 @@ date: 2023-12-12
 title: Becoming a Great Manager
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28965038
-youtubeurl: ""
+youtubeurl: https://www.youtube.com/watch?v=Pf8cwJLie44
 guest-details:
   - guest-name: Jack Skeels
     guest-title: Author of UNMANAGED, CEO of AgencyAgile

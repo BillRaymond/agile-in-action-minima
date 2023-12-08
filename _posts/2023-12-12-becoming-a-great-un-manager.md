@@ -6,7 +6,7 @@ date: 2023-12-12
 title: Becoming a Great Un-manager
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28965038
-youtubeurl: https://www.youtube.com/watch?v=Pf8cwJLie44
+youtubeurl: https://www.youtube.com/watch?v=4ObSAa2jREM
 guest-details:
   - guest-name: Jack Skeels
     guest-title: Author of UNMANAGED, CEO of AgencyAgile
@@ -50,9 +50,10 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 (transcripts are auto-generated, so please excuse the brevity)
 
 
+
 ### [00:00:00] Introduction and Guest Background
 
-**Bill Raymond:** Hi, and welcome to the Agile in Action podcast with Bill Raymond. Today, I'm joined by Jack Skeels, founder of AgencyAgile and author of Unmanaged: Master the Magic of Creating Empowered and Happy Organizations.
+**Bill Raymond:** Hi, and welcome to the Agile in Action podcast with Bill Raymond. Today, I'm joined by Jack Skeels, founder of AgencyAgile and author of UNMANAGED: Master the Magic of Creating Empowered and Happy Organizations.
 
 **Bill Raymond:** Hi, Jack, how are you today?
 
@@ -77,7 +78,7 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 ### [00:01:37] Understanding Agile and Agility
 
-**Bill Raymond:** We're going to talk about two core topics today. One of them is the cost of management and the other is managing in the context of what you call and refer to as unmanaged. Before we get into that, I always like to ask the question, what is agile and agility mean to you?
+**Bill Raymond:** We're going to talk about two core topics today. One of them is the cost of management and the other is managing in the context of what you call and refer to as UNMANAGED. Before we get into that, I always like to ask the question, what is agile and agility mean to you?
 
 **Jack Skeels:** Wow. It's, that's, we could do a whole podcast on that one, of course, and you do all the time, right? I, I think those are two, two very different ideas, and even Agile, I do a lot about this in the book, is that we use overloaded words a lot, and Agile is one of those, right? Agile means anything from classic software Agile to Doing things that kind of look like software agile, even if it's not the right thing to do, or saying that you're doing agile when you're not really doing it, there's a whole gamut.
 
@@ -108,12 +109,12 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 **Jack Skeels:** I was doing some managing. I wanted to call a meeting. He's like, don't call meetings. Let people produce widgets. So this very sharp contrast between is my job as a manager to manage. Or is it my job as a manager to actually ensure productivity, which may not require much managing, right? 
 
-**Bill Raymond:** It's probably worth mentioning right now. We talked about agility and we talked about project driven organizations, and now we're talking about managers and unmanaged, I think it's really important to state right now that we are not trying to say that agile in some of its forms or project management in some of its forms aren't bad, right? We're not trying to say one way or the other, and we're not saying that we shouldn't have managers. 
+**Bill Raymond:** It's probably worth mentioning right now. We talked about agility and we talked about project driven organizations, and now we're talking about managers and UNMANAGED, I think it's really important to state right now that we are not trying to say that agile in some of its forms or project management in some of its forms aren't bad, right? We're not trying to say one way or the other, and we're not saying that we shouldn't have managers. 
 
 
-### [00:07:40] The Concept of Unmanaged
+### [00:07:40] The Concept of UNMANAGED
 
-**Bill Raymond:** I think that's probably worth mentioning up front because the next topic of our conversation is what did you, what you mean by unmanaged?
+**Bill Raymond:** I think that's probably worth mentioning up front because the next topic of our conversation is what did you, what you mean by UNMANAGED?
 
 **Jack Skeels:** Yeah. And so I'm gonna, I'm gonna follow your lead with the other part of it real quickly. Do you need managers? Yes, of course you need managers. There, there are key managerial functions and the like. One of the things I go into in the book, A lot is that complex, chaotic project driven organizations tend to bring in other people into managerial roles.
 
@@ -129,7 +130,7 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 **Jack Skeels:** Are you just trying to make things bad? Every manager is trying to do a good job and most managers love the idea that they could be helpful. The problem is in a way, it's server too many cooks in the kitchen thing too much help in getting the job done is not helping to get the job done.
 
-**Jack Skeels:** That's the key idea behind unmanaged. And I opened with a vignette like that, where we talk about. A huge project that I was, that I happened to take over when it was just about full disaster mode. And literally the way we saved the project was to relieve the project of over managing. That's the idea of unmanaged.
+**Jack Skeels:** That's the key idea behind UNMANAGED. And I opened with a vignette like that, where we talk about. A huge project that I was, that I happened to take over when it was just about full disaster mode. And literally the way we saved the project was to relieve the project of over managing. That's the idea of UNMANAGED.
 
 
 ### [00:10:38] The Role of a Manager
@@ -200,7 +201,7 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 **Bill Raymond:** Yeah. And I think you and I have both seen this maybe even more than normal because we're both consultants, right? So if you're working on a project in your organization, you probably have that one project and maybe another tertiary one, you do that for six or eight months and then you do another one as consultants, we're regularly. kicking off new projects and we're watching, all of these scopes of work, if you will, go out to customers. And I absolutely was that person, the optimistic one. I consider myself to be a very optimistic person. And so I always think well, we can do this faster then the rest of the team thinks that we can. And one of the challenges of course, was that we thought we're implementing packaged software. And that's the wrong way to think about it. 
 
-**Bill Raymond:** I was thinking about that as we're implementing package software, we have the experts on this package software. We can come in and we can do it. But one of the things that we don't realize, and that's the thing where I had to step back, and this was one of my big, unmanaged moments, if you will, was that I realized we're not implementing software. What we're doing is implementing change in an organization.
+**Bill Raymond:** I was thinking about that as we're implementing package software, we have the experts on this package software. We can come in and we can do it. But one of the things that we don't realize, and that's the thing where I had to step back, and this was one of my big, UNMANAGED moments, if you will, was that I realized we're not implementing software. What we're doing is implementing change in an organization.
 
 **Bill Raymond:** That organization, if they want to be more productive using our software, that means that we have to introduce productivity gains. And that means that we have to maybe change the way people work. It might mean we need to change roles. It might mean that the culture needs to change. And so there's all these other elements behind that, and it ends up being a much larger and complex thing.
 
@@ -317,9 +318,9 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 **Bill Raymond:** I think you've got a copy of it there. There it is.
 
-**Jack Skeels:** you don't confuse it with all the other unmanaged out there. Yeah, exactly.
+**Jack Skeels:** you don't confuse it with all the other UNMANAGED out there. Yeah, exactly.
 
-**Bill Raymond:** Exactly. For those that can't see it and they're on the podcast, it's a nice bright blue cover with bold yellow text that says unmanaged and you can purchase it wherever you can purchase your books. But, before we wrap up, Jack Skeels, how might people be able to reach you?
+**Bill Raymond:** Exactly. For those that can't see it and they're on the podcast, it's a nice bright blue cover with bold yellow text that says UNMANAGED and you can purchase it wherever you can purchase your books. But, before we wrap up, Jack Skeels, how might people be able to reach you?
 
 **Jack Skeels:** Oh yeah. The best way to reach me at LinkedIn, happy to connect with you. And if you have questions and the like, and also of course, AgencyAgile is our consultancy that helps with basically all the techniques that I, and more of the identified in the book. So you can contact us at either place. We'd love to hear from you, of course.
 
@@ -331,7 +332,7 @@ Bill and Jack discuss the hidden costs of management and how a manager can focus
 
 **Jack Skeels:** I like to think it got better. How about you?
 
-**Bill Raymond:** Yeah, absolutely. I think we actually covered some more interesting areas and I appreciate that. But if you need to, if you would like to reach Jack Skeels, he just provided his LinkedIn and AgencyAgile links, and of course, I will make sure that those are on the https://agileinaction.com website. And wherever you're watching or reading this, just go into the comments, the show notes, and you'll see the links there as well. Thank you once again, Jack Skeels. It was a great conversation.
+**Bill Raymond:** Yeah, absolutely. I think we actually covered some more interesting areas and I appreciate that. But if you need to, if you would like to reach Jack Skeels, he just provided his LinkedIn and AgencyAgile links, and of course, I will make sure that those are on the https://agileinaction.com website. Or just go into the comments, the show notes, and you'll see the links there as well. Thank you once again, Jack Skeels. It was a great conversation.
 
 **Jack Skeels:** Thanks, Bill. A real pleasure.
 

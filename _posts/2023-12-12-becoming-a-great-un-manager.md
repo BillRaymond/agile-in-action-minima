@@ -3,7 +3,7 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2023-12-12
-title: Becoming a Great Manager
+title: Becoming a Great Un-Manager
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28965038
 youtubeurl: https://www.youtube.com/watch?v=Pf8cwJLie44

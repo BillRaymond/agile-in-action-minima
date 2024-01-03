@@ -6,14 +6,43 @@ date: 2024-01-09
 title: Creating great internship programs
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/29316263
-youtubeurl: ""
+youtubeurl: https://www.youtube.com/watch?v=GhN7uxPLSpM
 guest-details:
-    - guest-name: Robert J. Khoury
-      guest-title: "Author of Intern Management: Principles for Designing an Exceptional Internship"
-      guest-photo: /uploads/robert-j-khoury.jpeg
-      fieldGroup: guest-details
+  - guest-name: Robert J. Khoury
+    guest-title: "Author of Intern Management: Principles for Designing an Exceptional Internship"
+    guest-photo: /uploads/robert-j-khoury-3.png
+    guest-links:
+      - guest-link-label: 🌎 Robert Khoury's website
+        guest-link-url: http://www.robertjkhoury.com/
+        fieldGroup: guest-links
+      - guest-link-label: 🌎 Robert's company, Agile Rainmakers
+        guest-link-url: https://www.agilerainmakers.com
+        fieldGroup: guest-links
+      - guest-link-label: 💬 Robert on LinkedIn
+        guest-link-url: https://www.linkedin.com/in/robertkhoury/
+        fieldGroup: guest-links
+      - guest-link-label: 💬 Robert on Instgram
+        guest-link-url: https://www.instagram.com/robertkhouryauthor
+        fieldGroup: guest-links
+      - guest-link-label: "📖 Robert's latest book: Intern Management: Principles for Designing an Exceptional Internship"
+        guest-link-url: https://www.amazon.com/Intern-Management-Principles-Exceptional-Internship/dp/1962984001/ref=sr_1_2?crid=36P45942L81FZ&keywords=robert+khoury&qid=1704235402&sprefix=robert+khoury%2Caps%2C222&sr=8-2
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 type: podcast
 ---
+🌱 Cultivate success by leading with dignity with your internship programs.
+
+Robert Khoury, CEO of Agile Rainmakers, discusses his new book, "Internship Management: Principles for Designing an Exceptional Internship."
+
+In this podcast, you will learn the following:
+
+✅ The nine principles to creating a great internship program
+
+✅ How to foster a positive, enriching environment for continuous learning and growth
+
+✅ The importance of 'dignity' in internships for a respectful and growth-centric experience.
+
+🎉 Real-world examples to help you build a world-class internship program
 
 
 ## Transcript

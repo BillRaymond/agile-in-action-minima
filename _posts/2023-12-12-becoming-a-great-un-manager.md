@@ -6,7 +6,6 @@ date: 2023-12-12
 title: Becoming a Great Un-manager
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28965038
-youtubeurl: https://www.youtube.com/watch?v=4ObSAa2jREM
 guest-details:
   - guest-name: Jack Skeels
     guest-title: Author of UNMANAGED, CEO of AgencyAgile
@@ -32,6 +31,7 @@ guest-details:
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
+youtubecode: 4ObSAa2jREM
 ---
 
 Jack Skeels, CEO of AgencyAgile, shares valuable insights on agile leadership in the Agile in Action with Bill Raymond Podcast. Jack discusses the transformative power of teams and productivity through the lens of his new book, "UNMANAGED."

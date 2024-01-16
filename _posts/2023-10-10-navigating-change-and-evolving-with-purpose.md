@@ -5,8 +5,8 @@ author: Bill Raymond
 date: 2023-10-10
 title: Navigating change and evolving with purpose
 twitter-text: ""
-libsynUrl: "https://directory.libsyn.com/episode/index/id/28201091"
-youtubeurl: "https://www.youtube.com/watch?v=FjMbVuAyWzg"
+libsynUrl: https://directory.libsyn.com/episode/index/id/28201091
+youtubecode: FjMbVuAyWzg
 guest-details:
   - guest-name: Pamela Meyer
     guest-title: "Author of Staying in the Game: Leading and Learning with Agility for a Dynamic Future, leadership agility expert, and keynote speaker"

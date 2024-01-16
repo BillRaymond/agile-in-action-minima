@@ -22,7 +22,7 @@ guest-details:
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
-youtubeurl: https://www.youtube.com/watch?v=yVetSg_l-QI
+youtubecode: yVetSg_l-QI
 ---
 
 🎙️ Indispensable guidance for leaders in the throws of digital transformation

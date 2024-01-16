@@ -6,7 +6,6 @@ date: 2023-11-14
 title: "Charting a New Course: Transitioning to Agile"
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28567378
-youtubeurl: https://www.youtube.com/watch?v=IrdaeTtmYrY
 guest-details:
   - guest-name: David Abodunrin
     guest-title: Agile Coach and SCRUM Master
@@ -17,6 +16,7 @@ guest-details:
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
+youtubecode: IrdaeTtmYrY
 ---
 🤿 Dive into the waterfall, return to shore with 💨 agility
 

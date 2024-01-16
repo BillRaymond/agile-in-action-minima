@@ -6,7 +6,6 @@ date: 2023-10-31
 title: "Bridging AI data science and engineering: A personal journey"
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28424264
-youtubeurl: https://www.youtube.com/watch?v=LdDasrMOJLs
 guest-details:
   - guest-name: Christos Hadjinikolis
     guest-title: Machine Learning Engineer at Vortexa
@@ -29,6 +28,7 @@ guest-details:
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
+youtubecode: LdDasrMOJLs
 ---
 🤝 Unlock the full potential of your AI and ML teams
 

@@ -6,7 +6,6 @@ date: 2024-01-09
 title: Creating great internship programs
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/29316263
-youtubeurl: https://www.youtube.com/watch?v=GhN7uxPLSpM
 guest-details:
   - guest-name: Robert J. Khoury
     guest-title: "Author of Intern Management: Principles for Designing an Exceptional Internship"
@@ -29,6 +28,7 @@ guest-details:
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
+youtubecode: GhN7uxPLSpM
 ---
 🌱 Cultivate success by leading with dignity with your internship programs.
 

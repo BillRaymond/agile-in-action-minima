@@ -6,7 +6,6 @@ date: 2023-10-24
 title: "Cultivating Excellence: Leadership and Organizational Culture"
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/28206005
-youtubeurl: https://www.youtube.com/watch?v=0zRhgENK5sw
 guest-details:
   - guest-name: Chuck Mollor
     guest-photo: /uploads/chuck-mollor.jpeg
@@ -23,6 +22,7 @@ guest-details:
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
+youtubecode: 0zRhgENK5sw
 ---
 🎙️ Learn how to cultivate 🥇 excellence in leadership and organizational cultures
 

@@ -56,8 +56,8 @@
           "type": "string"
         },
         {
-          "title": "youtubeurl",
-          "name": "youtubeurl",
+          "title": "youtubecode",
+          "name": "youtubecode",
           "type": "string"
         },
         {

@@ -6,26 +6,26 @@ date: 2024-01-23
 title: "Career Progression: Working above the waterline"
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/29443743
-youtubeurl: https://www.youtube.com/watch?v=h7cwb_2Vw7Q
 guest-details:
-    - guest-name: Luke Pivac
-      guest-title: Luke Pivac, Delivery Lead at Westpac and author of An Agile Playbook for Technical Communicators
-      guest-photo: /uploads/luke-pivac.jpeg
-      guest-links:
-          - guest-link-url: https://www.linkedin.com/in/lukepivac/
-            guest-link-label: 🌎 Luke on LinkedIn
-            fieldGroup: guest-links
-          - guest-link-url: https://leanpub.com/agileplaybookfortechnicalcommunicators
-            guest-link-label: "📖 Luke's book: An Agile Playbook for Technical Communicators"
-            fieldGroup: guest-links
-          - guest-link-label: 🏦 Westpac
-            guest-link-url: https://www.westpac.com.au
-            fieldGroup: guest-links
-          - guest-link-url: https://agileinaction.com/agile-in-action-podcast/2021/06/08/a-day-in-the-life-of-a-scrum-master-with-michele-magnardini-at-sage.html
-            guest-link-label: "🎙️ Recommended listening: A day in the life of a SCRUM Master with Michele Magnardini"
-            fieldGroup: guest-links
-      fieldGroup: guest-details
+  - guest-name: Luke Pivac
+    guest-title: Luke Pivac, Delivery Lead at Westpac and author of An Agile Playbook for Technical Communicators
+    guest-photo: /uploads/luke-pivac.jpeg
+    guest-links:
+      - guest-link-url: https://www.linkedin.com/in/lukepivac/
+        guest-link-label: 🌎 Luke on LinkedIn
+        fieldGroup: guest-links
+      - guest-link-url: https://leanpub.com/agileplaybookfortechnicalcommunicators
+        guest-link-label: "📖 Luke's book: An Agile Playbook for Technical Communicators"
+        fieldGroup: guest-links
+      - guest-link-label: 🏦 Westpac
+        guest-link-url: https://www.westpac.com.au
+        fieldGroup: guest-links
+      - guest-link-url: https://agileinaction.com/agile-in-action-podcast/2021/06/08/a-day-in-the-life-of-a-scrum-master-with-michele-magnardini-at-sage.html
+        guest-link-label: "🎙️ Recommended listening: A day in the life of a SCRUM Master with Michele Magnardini"
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 type: podcast
+youtubecode: h7cwb_2Vw7Q
 ---
 ⏫ Making the shift from an individual contributor to a leader
 

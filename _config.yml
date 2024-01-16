@@ -28,7 +28,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   how teams work.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.agileinaction.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: billraymonde
 github_username:  BillRaymond
 linkedin_username: williamraymond
 

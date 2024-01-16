@@ -2,15 +2,6 @@
     "attribute": "Social badges",
     "items": [
         {
-            "title": "Twitter",
-            "url": "https://twitter.com/billraymonde",
-            "alt": "Folllow Bill Raymond on Twitter",
-            "type": "png",
-            "imageUrl": "/assets/social-badges/badge-twitter.png",
-            "display": true,
-            "orderby": 4
-        },
-        {
             "title": "By appointment",
             "url": "https://calendly.com/billraymond/30min?month=2022-06",
             "alt": "Book a 30-minute meting with Bill Raymond",

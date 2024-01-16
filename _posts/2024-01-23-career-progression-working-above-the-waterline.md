@@ -25,7 +25,7 @@ guest-details:
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
-youtubecode: h7cwb_2Vw7Q
+youtubecode: u5Mg8-wGk7E
 ---
 ⏫ Making the shift from an individual contributor to a leader
 

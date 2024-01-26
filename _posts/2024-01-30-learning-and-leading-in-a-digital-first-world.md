@@ -5,27 +5,38 @@ author: Bill Raymond
 date: 2024-01-30
 title: Learning and Leading in a digital-first world
 twitter-text: ""
-libsynUrl: ""
-youtubecode: ""
+libsynUrl: https://directory.libsyn.com/episode/index/id/29669423
+youtubecode: u5Ghsi6r9Uc
 guest-details:
-    - guest-name: Sophia Matveeva
-      guest-title: CEO & Founder, Tech for Non-Techies
-      guest-photo: /uploads/Sophia-Matveeva.jpeg
-      guest-links:
-          - guest-link-label: 🎙️ Tech for Non-Techies podcast
-            guest-link-url: https://www.techfornontechies.co/blog
-            fieldGroup: guest-links
-          - guest-link-label: 🌎 Sophia on LinkedIn
-            guest-link-url: https://www.linkedin.com/in/sophia-matveeva-556365a/
-            fieldGroup: guest-links
-          - guest-link-label: 🌎 Tech for Non-Techies website
-            guest-link-url: https://www.techfornontechies.co/
-            fieldGroup: guest-links
-      fieldGroup: guest-details
+  - guest-name: Sophia Matveeva
+    guest-title: CEO & Founder, Tech for Non-Techies
+    guest-photo: /uploads/Sophia-Matveeva.jpeg
+    guest-links:
+      - guest-link-label: 🎙️ Tech for Non-Techies podcast
+        guest-link-url: https://www.techfornontechies.co/blog
+        fieldGroup: guest-links
+      - guest-link-label: 🌎 Sophia on LinkedIn
+        guest-link-url: https://www.linkedin.com/in/sophia-matveeva-556365a/
+        fieldGroup: guest-links
+      - guest-link-label: 🌎 Tech for Non-Techies website
+        guest-link-url: https://www.techfornontechies.co/
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 type: podcast
 ---
+🔮 Future-proof skills by Blending tech fluency with business strategy
 
-Content goes here...
+Sophia Matveeva, CEO of Tech for Non-Techies, shares the importance of business leaders learning to speak tech to succeed in this Digital Age.
+
+Sophia emphasizes the need for a collaborative ecosystem where tech and business fluently interact, enhancing product development and driving business outcomes.
+
+Here is what you will learn:
+
+✅ Bridging the gap between technical and non-technical professionals
+✅ Why modern education systems must evolve to meet the demands of the digital age
+✅ The impact of AI and other technological disruptions on job markets and how they pave the way for new skills and opportunities
+🎉 Next steps you can take to begin learning how to work with technical teams
+
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)
 

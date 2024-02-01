@@ -6,22 +6,22 @@ date: 2024-02-06
 title: Promoting efficiency and accuracy in Agile Teams with AI
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/29742853
-youtubecode: YZLtetknfK4
+youtubecode: Z9BVmvTeLUQ
 guest-details:
-    - guest-photo: /uploads/Headshot.jpeg
-      guest-name: Aaron Upright
-      guest-title: Co-founder of Zenhub and Head of Marketing
-      guest-links:
-          - guest-link-url: https://www.linkedin.com/in/aaronupright/
-            guest-link-label: 🌎 Aaron on LinkedIn
-            fieldGroup: guest-links
-          - guest-link-label: 🌎 Zenhub
-            guest-link-url: https://www.zenhub.com
-            fieldGroup: guest-links
-          - guest-link-label: "📑 Aaron's article: Agile AI: Will artificial intelligence end agile as we know it?"
-            guest-link-url: https://blog.zenhub.com/agile-ai-will-artificial-intelligence-end-agile/#:~:text=Will%20AI%20put%20an%20end,the%20way%20it%20does%20today.
-            fieldGroup: guest-links
-      fieldGroup: guest-details
+  - guest-photo: /uploads/aaron-upright.jpeg
+    guest-name: Aaron Upright
+    guest-title: Co-founder of Zenhub and Head of Marketing
+    guest-links:
+      - guest-link-url: https://www.linkedin.com/in/aaronupright/
+        guest-link-label: 🌎 Aaron on LinkedIn
+        fieldGroup: guest-links
+      - guest-link-label: 🌎 Zenhub
+        guest-link-url: https://www.zenhub.com
+        fieldGroup: guest-links
+      - guest-link-label: "📑 Aaron's article: Agile AI: Will artificial intelligence end agile as we know it?"
+        guest-link-url: https://blog.zenhub.com/agile-ai-will-artificial-intelligence-end-agile/#:~:text=Will%20AI%20put%20an%20end,the%20way%20it%20does%20today.
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 type: podcast
 ---
 🚀 The human still decides, while the AI provides
@@ -44,6 +44,7 @@ In this podcast, you will learn the following:
 (transcripts are auto-generated, so please excuse the brevity)
 
 
+
 ### [00:00:00] Introducing Aaron Upright
 
 **Bill Raymond:** Hi, and welcome to the Agile in Action podcast with Bill Raymond. Today I'm joined by Aaron Upright. Hi, Aaron. How are you today?
@@ -53,31 +54,31 @@ In this podcast, you will learn the following:
 **Bill Raymond:** Yeah. I'm looking forward to talking to you today. We're going to talk about promoting efficiency and accuracy in agile teams using AI. 
 
 
-### [00:00:18] The Origin and Evolution of ZenHub
+### [00:00:18] The Origin and Evolution of Zenhub
 
-**Bill Raymond:** And You are the co founder of ZenHub and you are also the Head of Marketing.
+**Bill Raymond:** And You are the co founder of Zenhub and you are also the Head of Marketing.
 
 **Bill Raymond:** Can you introduce yourself a little bit more so our audience can learn some more about you?
 
-**Aaron Upright:** Yeah like you mentioned, I am the Co-founder and Head of Marketing of ZenHub. We are an agile project management and road mapping tool that's built for software teams. And ZenHub got its start in a pretty unique way. We didn't actually set out to go and build a product. We sat out sought out to go and solve a problem that we had for ourselves when it came to how we were managing our projects, which was we felt it was always very disconnected from the code and where as engineers, we were spending a lot of our time.
+**Aaron Upright:** Yeah like you mentioned, I am the Co-founder and Head of Marketing of Zenhub. We are an agile project management and road mapping tool that's built for software teams. And Zenhub got its start in a pretty unique way. We didn't actually set out to go and build a product. We sought out to go and solve a problem that we had for ourselves when it came to how we were managing our projects, which was we felt it was always very disconnected from the code and where as engineers, we were spending a lot of our time.
 
-**Aaron Upright:** The original version of ZenHub that we actually went and built was a very simple Chrome plugin for GitHub. To bring a lot of project management elements to that platform and really turn GitHub from a very simple issue tracking tool into a kind of fully fledged project management tool that we could use to track the priority and progress of our issues.
+**Aaron Upright:** The original version of Zenhub that we actually went and built was a very simple Chrome plugin for GitHub. To bring a lot of project management elements to that platform and really turn GitHub from a very simple issue tracking tool into a kind of fully fledged project management tool that we could use to track the priority and progress of our issues.
 
-**Aaron Upright:** ZenHub hasevolved a lot over time, which I'm sure we'll talk about in the the podcast here today. But that's a bit about me and a bit about where ZenHub got its start.
+**Aaron Upright:** Zenhub hasevolved a lot over time, which I'm sure we'll talk about in the the podcast here today. But that's a bit about me and a bit about where Zenhub got its start.
 
 
-### [00:01:19] The Role of AI in Agile Teams
+### [00:01:18] The Role of AI in agile Teams
 
 **Bill Raymond:** At this point, everyone in the audience has probably learned that we're going to be talking about software development, but I think this is going to be important for anyone that's looking to manage an agile team. There's all this conversation about whether or not artificial intelligence is going to replace engineering.
 
-**Bill Raymond:** I think we're going to come to the conclusion that it won't, at least not in any kind of near term situation, right? But we are going to talk about how AI can improve the efficiency of Agile teams. 
+**Bill Raymond:** I think we're going to come to the conclusion that it won't, at least not in any kind of near term situation, right? But we are going to talk about how AI can improve the efficiency of agile teams. 
 
 
-### [00:01:50] Understanding the Workflow of a Software Development Team
+### [00:01:49] Understanding the Workflow of a Software Development Team
 
 **Bill Raymond:** Now I guess it would probably be useful if you could just take a moment and talk about the typical workflow of a software development team at a high level.
 
-**Aaron Upright:** Rather than thinking about a specific methodology or specific framework and trying to support that, what we really tend to focus on at ZenHub is: what are those common jobs to be done that every software team has to perform and every software team has to do to some level in order to deliver software to customers?
+**Aaron Upright:** Rather than thinking about a specific methodology or specific framework and trying to support that, what we really tend to focus on at Zenhub is: what are those common jobs to be done that every software team has to perform and every software team has to do to some level in order to deliver software to customers?
 
 **Aaron Upright:** It usually involves the team coming together on a daily basis to discuss what's being worked on, where the blockers are. Sometimes in scrum that's called a daily standup or daily scrum, even if you're not a scrum team, teams tend to practice that ritual on a daily basis. We often see teams come together every couple of weeks to talk about their process, what's gone well, what's not going well.
 
@@ -91,11 +92,11 @@ In this podcast, you will learn the following:
 
 **Aaron Upright:** Yeah. Again, just to come back to those jobs to be done. We're really looking at, where are teams spending the majority of their time and how can we use automation in AI to make those teams more efficient? So you talked about some of the products that exist out there in the market where 
 
-**Aaron Upright:** a bot or a note taker that then would translate, conversation points from a meeting into a Jira ticket or into a ZenHub ticket even those are great. And I think those definitely serve a place in the market, but let's say you're not very efficient at running a teen standup and that standup goes on for 45 minutes.
+**Aaron Upright:** a bot or a note taker that then would translate, conversation points from a meeting into a Jira ticket or into a Zenhub ticket even those are great. And I think those definitely serve a place in the market, but let's say you're not very efficient at running a teen standup and that standup goes on for 45 minutes.
 
 **Aaron Upright:** It's great to have a note taker there that's translating all those action items into tickets. But it's not really addressing what we see as a fundamental problem, which is your standup is taking 45 minutes. And so a lot of the AI and automation that we built into our product, and really how we think about leveraging those two technologies is really aimed at how do we help teams be more efficient.
 
-**Aaron Upright:** And that's really, our ethos at ZenHub is how do we help unlock the productivity of software teams and unlock the team members to spend time on, on work that really matters. So for developers, how do we do everything in our power to help them spend less time in planning meetings and more time actually writing code and developing software?
+**Aaron Upright:** And that's really, our ethos at Zenhub is how do we help unlock the productivity of software teams and unlock the team members to spend time on, on work that really matters. So for developers, how do we do everything in our power to help them spend less time in planning meetings and more time actually writing code and developing software?
 
 **Aaron Upright:** We're gonna be a scrum master on the team or a project manager. How do we help that person better prepare for a sprint planning meeting or better prepare for a daily standup so that meeting can be run more efficiently. And instead of taking an hour and a half to plan a sprint, they can plan that sprint in 30 minutes, go on with their day, and then invest that time into creative ways to help the team or unblock the team on something that they might be blocked on.
 
@@ -121,7 +122,7 @@ In this podcast, you will learn the following:
 **Aaron Upright:** We think really not only cuts down on the amount of meetings but it helps people be more efficient and reduces context switching as well. 
 
 
-### [00:07:21] The Role of AI in Sprint Planning and Reviews
+### [00:07:20] The Role of AI in Sprint Planning and Reviews
 
 **Bill Raymond:** We tend in agile teams to plan for a week, maybe two weeks, maybe not more than three. We try to plan that work out so that we can then step back and do something like a sprint review and check and make sure that we're still on track, and we're meeting our objectives, and we still understand their outcomes, and all that good stuff.
 
@@ -133,7 +134,7 @@ In this podcast, you will learn the following:
 
 **Aaron Upright:** If you've done the hard work of grooming your backlog, making sure the highest priority issues are at the top, making sure all that work has been estimated appropriately by the team, then the actual act of planning a sprint is just math, right? How many issues can you actually bring into that sprint that satisfy that relative velocity.
 
-**Aaron Upright:** So one of the things we've actually done in our product to start to build some automation into sprint planning, we've actually given teams the opportunity to automatically build what we call a sprint candidate. So it'll take their backlog, ZenHub will select up to the first 20 story points or 30 story points.
+**Aaron Upright:** So one of the things we've actually done in our product to start to build some automation into sprint planning, we've actually given teams the opportunity to automatically build what we call a sprint candidate. So it'll take their backlog, Zenhub will select up to the first 20 story points or 30 story points.
 
 **Aaron Upright:** We'll form a sprint candidate around that and we'll hand that off to the product manager or scrum master and say you can do the rest of the 20%, right? You can pick and choose maybe which issues you want to include or don't want to include, but 80 percent of the work has already been done for you as opposed to having to start from scratch, go create a sprint manually.
 
@@ -147,7 +148,7 @@ In this podcast, you will learn the following:
 
 **Aaron Upright:** Hey, all of this work touched on our API. All this work and it touched on our back end systems. There's maybe some miscellaneous issues or some tech debt that we introduced in there as well. With the click of a button in our product, we've made that possible to try to reduce the amount of manual effort and manual time that teams need to spend on that.
 
-**Bill Raymond:** Oh, so that's great. So it's almost like, uh, you're going to walk into that sprint review meeting and this sort of virtual helper has helped you sort out what the review is going to look like. And it's also called out some of the things that are going to be very important to chat about.
+**Bill Raymond:** Oh, so that's great. It's almost like, you're going to walk into that sprint review meeting and this virtual helper has helped you sort out what the review is going to look like. And it's also called out some of the things that are going to be very important to chat about.
 
 **Aaron Upright:** Yeah. And we see that as a great starting point for the agenda for a sprint review meeting, right? I still think there's a huge value in getting the team together, reviewing work, celebrating wins. Sprint reviews are an exciting time. Everyone gets to come together and showcase what they've been working on.
 
@@ -160,7 +161,7 @@ In this podcast, you will learn the following:
 **Bill Raymond:** It all needs to be broken down and estimated. 
 
 
-### [00:12:21] The Potential of AI in Estimating Work
+### [00:12:19] The Potential of AI in Estimating Work
 
 **Bill Raymond:** Can you talk a little bit about what that process looks like and then how you're seeing AI support that?
 
@@ -170,9 +171,9 @@ In this podcast, you will learn the following:
 
 **Aaron Upright:** How complex is this particular task relative to other historical tasks that we've done or maybe accomplished at some prior time? And that's where I think we see a big opportunity for AI in our product to help support that, which is leveraging AI to go find those similar issues, right? And then come up with a comparative estimate based on how complex those previous issues were.
 
-**Aaron Upright:** That's something we're really interested in investing in. It's something that is in the works, not something that we have live in our product, but we think it can be really powerful where, maybe you have a ZenHub agent that's sitting in on a planning poker meeting. For those of you that aren't familiar with planning poker, a ritual where the team comes together and everyone provides their estimate on how complex a piece of work can be.
+**Aaron Upright:** That's something we're really interested in investing in. It's something that is in the works, not something that we have live in our product, but we think it can be really powerful where, maybe you have a Zenhub agent that's sitting in on a planning poker meeting. For those of you that aren't familiar with planning poker, a ritual where the team comes together and everyone provides their estimate on how complex a piece of work can be.
 
-**Aaron Upright:** We've thought about what if ZenHub could sit in on that meeting and be a participant in that planning poker? Offer up its own estimate based on historical work that we've seen the team accomplish and how complex that work is. It's been something we've been thinking a lot in an area that personally really fascinates me because estimation is one of the most contentious things in software development.
+**Aaron Upright:** We've thought about what if Zenhub could sit in on that meeting and be a participant in that planning poker? Offer up its own estimate based on historical work that we've seen the team accomplish and how complex that work is. It's been something we've been thinking a lot in an area that personally really fascinates me because estimation is one of the most contentious things in software development.
 
 **Aaron Upright:** Oftentimes there's a lot of disagreements and a lot of people that don't always see eye to eye on things. So if we can come in and provide that more objective lens and use AI to kind of power that estimate, again, we think that can really help facilitate that event that teams do.
 
@@ -182,18 +183,18 @@ In this podcast, you will learn the following:
 
 **Bill Raymond:** And then that button would run some code in the background, but it turned out we had all these layers of security. And then of course there was internationalization, localization. And so this button took four and a half weeks. And I remembered I moved on in that project, and we're maybe a year later, we're still working on some fairly big elements of that.
 
-**Bill Raymond:** And guess what, the question of a button came up again, and putting that in there. We had a turnover in the development team. And no one knew about that. So they were all estimating a week again. So I love this idea of the agent come back and say, &quot;Hey, wait a minute, there's proof back here that this is actually not a one, a simple task, but it's actually something that was, it's going to take multiple sprints to complete.&quot;
+**Bill Raymond:** And guess what, the question of a button came up again, and putting that in there. We had a turnover in the development team. And no one knew about that. So they were all estimating a week again. So I love this idea of the agent come back and say, &quot;Hey, wait a minute, there's proof back here that this is actually not a &quot;1&quot;, a simple task, but it's actually something that was, it's going to take multiple sprints to complete.&quot;
 
 **Aaron Upright:** Exactly. A human being is not going to have that recollection. They may not remember, you might've moved on from the company, you might've moved teams and now it's a whole new team of developers that are coming together to I don't know, rebuild that experience or partially rebuild that experience.
 
 **Aaron Upright:** This happens a ton in large enterprises that we work with as well, where oftentimes, one team is building a component that another team has already built, and could just be intersourced or re-leveraged, or maybe they're building it, but in a slightly different environment or in a slightly different way.
 
-**Aaron Upright:** I think there's a lot of skepticism when it comes to software development and project management in general. I think if we were just to say, &quot;Hey, ZenHub thinks that this issue is a story point value of the three, or we think it's a medium t-shirt size,&quot; and we didn't give any explanation of how we came up with that, I think people rightfully would sayI'm not sure I can trust that, or how did it come up with that estimate? But if we can say we came up with a story point estimate of three. We thought this was a medium based on these three or four other issues that we looked at.
+**Aaron Upright:** I think there's a lot of skepticism when it comes to software development and project management in general. I think if we were just to say, &quot;Hey, Zenhub thinks that this issue is a story point value of the &quot;3&quot;, or we think it's a medium t-shirt size,&quot; and we didn't give any explanation of how we came up with that, I think people rightfully would sayI'm not sure I can trust that, or how did it come up with that estimate? But if we can say we came up with a story point estimate of &quot;3&quot;, we thought this was a medium based on these three or four other issues that we looked at.
 
 **Aaron Upright:** That not only helps provide more trust and explainability, but it also gives the humans that are then going to go and do that work and come up with their own estimates, maybe some reference points that they might not have found. 
 
 
-### [00:16:41] The Importance of Values in AI Implementation
+### [00:16:39] The Importance of Values in AI Implementation
 
 **Bill Raymond:** Yeah, I think that actually leads into something that I've been thinking about a lot lately, and you and I did touch on this the last time we chatted, it's around values and how you focus AI in your product. It's interesting, you sit down and you use ChatGPT, for example, and you just ask it a question and it seems to magically know the answer.
 
@@ -225,24 +226,24 @@ In this podcast, you will learn the following:
 
 **Bill Raymond:** But, then you go and you share this information with the CFO or you share it with the marketing team. Those terminologies may not mean as much to them.
 
-**Bill Raymond:** I watched one of the developers actually take some of their agreed upon, prioritized, and money making features and had to re-explain it for their different audiences, and then they can put that into a deck, tweak the content, and then share that with everyone. And that to me is a great approach that you're taking, which is give me that little head start, give you that 80% so that I can make that 20% really good and still communicate with the other human beings on my team.
+**Bill Raymond:** I watched one of the developers take some of their agreed upon, prioritized, and money making features and re-explain it for their different audiences, and then they can put that into a deck, tweak the content, and then share that with everyone. And that to me is a great approach that you're taking, which is give me that little head start, give you that 80% so that I can make that 20% really good and still communicate with the other human beings on my team.
 
 **Aaron Upright:** Exactly. Yeah. And it really comes back again to that core principle of how do we make teams more productive? How do we help teams save time? How do we help individuals on that team save time and reduce the amount of just overhead that typically comes with running agile process so that they could focus on that work that really matters.
 
 
-### [00:21:40] The Mindset for Building AI into Your Product
+### [00:21:38] The Mindset for Building AI into Your Product
 
-**Bill Raymond:** I think we'll have a number of software developers listening to this podcast. If you're thinking about putting AI into your product, you just gave us some really good insight, thinking about the experiences, making sure that you're never formally just making a decision on someone's behalf, giving that human the ability to move things forward.
+**Bill Raymond:** I think we'll have a number of software developers listening to this podcast. You just gave us some really good insight, thinking about the experiences, making sure that you're never formally just making a decision on someone's behalf, giving that human the ability to move things forward.
 
-**Bill Raymond:** But what is the mindset that you should take when you're building this type of AI into your product?
+**Bill Raymond:** What is the mindset that you should take when you're building AI into your product?
 
-**Aaron Upright:** I think it comes back to any new technology that you're adopting is like really thinking about the problem that you're trying to solve, right? We can embed ChatpGPT into anything these days. But if it's not solving a core problem or addressing a pain point that someone has, what value is it really providing within the product other than it's a cool new technology we're taking advantage of and maybe we look a little bit more innovative in the next solution or tool that's out there. Before we went on this journey with AI, [we] really thought about what are the problems that we're trying to solve for here?
+**Aaron Upright:** I think it comes back to any new technology that you're adopting is like really thinking about the problem that you're trying to solve, right? We can embed ChatpGPT into anything these days. But if it's not solving a core problem or addressing a pain point that someone has, what value is it really providing within the product other than it's a cool new technology we're taking advantage of and maybe we look a little bit more innovative in the next solution or tool that's out there. Before we went on this journey with AI, we really thought about what are the problems that we're trying to solve for here?
 
 **Aaron Upright:** What's the feedback that we're hearing from our customers where we think AI can help address that accuracy issue or that categorization issue that might be perennially coming up from teams, right? So those are the things we really thought about before we just went down this path of incorporating AI into our product.
 
-**Aaron Upright:** We also thought about, how can we take some of this kind of grunt work off of teams, not only because it reduces friction for them, but maybe it makes other parts of our product more powerful. 
+**Aaron Upright:** We also thought about how can we take some of this kind of grunt work off of teams, not only because it reduces friction for them, but maybe it makes other parts of our product more powerful. 
 
-**Aaron Upright:** For example, we, one of the first experiences that we built was AI-suggested labels, right? You type in the description and the title of an issue, and we'll generate some labels based on your existing set of labels that you use. We'll maybe suggest that it's a bug if you're using language that indicates that there's an error or a problem that a user's encountering. That's an easy example, right?
+**Aaron Upright:** For example, one of the first experiences that we built was AI-suggested labels, right? You type in the description and the title of an issue, and we'll generate some labels based on your existing set of labels that you use. We'll maybe suggest that it's a bug if you're using language that indicates that there's a problem that a user's encountering. That's an easy example, right?
 
 **Aaron Upright:** But that categorization of work that otherwise would be manual and extra overhead for a team to do, not only helps reduce clicks and improve efficiency, but it makes a lot of the other experiences in our product way more valuable. 
 
@@ -264,11 +265,11 @@ In this podcast, you will learn the following:
 
 **Bill Raymond:** To me, this is an opportunity for AI to handle some of the: &quot;Oh, I think you're trying to accomplish this. Let me see if I can help you with it.&quot;
 
-**Aaron Upright:** Yeah, a hundred percent. And our product team probably won't appreciate me saying this, but I think, as a product that's been in the market for nine years, we already have, a lot of different features and functionality. Some might call that bloat. We want it to be very careful before we just added new experiences on that for the sake of leveraging a cool technology.
+**Aaron Upright:** Yeah, a hundred percent. And our product team probably won't appreciate me saying this, but I think, as a product that's been in the market for nine years, we already have a lot of different features and functionality. Some might call that bloat. We want it to be very careful before we just added new experiences on that for the sake of leveraging a cool technology.
 
-**Aaron Upright:** That's why we really came back to do, how do we embed this into things that people are doing every day in our product, to make those experiences fundamentally better and easier for teams.
+**Aaron Upright:** That's why we really came back to how do we embed this into things that people are doing every day in our product, to make those experiences fundamentally better and easier for teams.
 
-**Bill Raymond:** What are some of the things that you learned at ZenHub that a software developer can take away to start improving their processes with AI?
+**Bill Raymond:** What are some of the things that you learned at Zenhub that a software developer can take away to start improving their processes with AI?
 
 **Aaron Upright:** That's a really good question. I think a lot of it, again, comes back to that concept I talked about of what goal, are you trying to accomplish? What is the problem you're trying to solve? I'm getting really clear on that. And again, not just with, AI, but with any new technology that you would be embedding into a product.
 
@@ -289,15 +290,19 @@ In this podcast, you will learn the following:
 **Aaron Upright:** Really, come to them with unpolished early experiences and make sure that what you're building, is satisfying or answering a question they have or satisfying a challenge, or problem that they have, that was something that was really big in terms of how we we built with AI.
 
 
-### [00:29:56] Conclusion and Contact Information
+### [00:29:49] Conclusion and Contact Information
 
 **Bill Raymond:** Aaron Upright, Is there some way that people can reach out to you if they'd like to talk to you about this further?
 
 **Aaron Upright:** Yeah. I love to connect with people on LinkedIn. So if you want to connect with me there, I'm Aaron Upright on LinkedIn. Send me a request and love to talk about a lot of these same topics and what we're seeing in our customers and how they're dealing with agile transformations and digital transformations, so I'm happy to chat and connect with anyone there.
 
-**Bill Raymond:** Great. And I will share that link, and I'll also share the article that we saw that actually caught our attention that had us reach out to you, which was &quot;Will AI End Agile As We Know It?&quot; Good clickbait title, but it's actually a good read. I kinda like it and also we'll share the link to ZenHub.
+**Bill Raymond:** Great. And I will share that link, and I'll also share the article that we saw that actually caught our attention that had us reach out to you, which was &quot;Will AI End agile As We Know It?&quot; 
 
 **Bill Raymond:** So all that information will be on the https://agileinaction.com website. It'll also be in the show notes of your podcast app or in the description if you're watching this video on YouTube. Aaron Upright, thank you so much for your time today!
 
-**Aaron Upright:** Yeah. Thanks so much for having me really appreciate it.
+**Aaron Upright:** Yeah. Thanks so much for having me. Really appreciate it!
+
+**Speaker:** Thank you for listening to the Agile in Action Podcast with Bill Raymond. Subscribe now to stay current on the latest trends in team, organization, and agile techniques. Please take a moment to rate and comment to help us grow our community. This podcast is produced in affiliation with Cambermast LLC, and our executive producer is Reama Dagasan.
+
+**Speaker:** If there is a topic you would like Bill to cover, contact him directly at Bill.Raymond@agileinaction.com.
 

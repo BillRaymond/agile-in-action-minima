@@ -10,7 +10,7 @@ youtubecode: eAViv1Q873Q
 guest-details:
   - guest-name: James "Murph" Murphy
     guest-title: Founder of Afterburner and Managing Partner at Afterburner Capital
-    guest-photo: /uploads/james-murphy.jpeg
+    guest-photo: /uploads/james-murphy-v2.png
     guest-links:
       - guest-link-label: 🌎 James on LinkedIn
         guest-link-url: https://www.linkedin.com/in/flawlessexecution/

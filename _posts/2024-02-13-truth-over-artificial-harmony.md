@@ -209,7 +209,7 @@ In this podcast, you will learn the following:
 
 **James Murphy:** But, we've got so many case studies.
 
-**James Murphy:** I guess the one is one of my favorites is we got a call from Coach Tom Coughlin, who was the coach of the New York Giants at the time, and they were trying to make a run at the Super Bowl. And he called us during their bi-week, and they had just lost, I think, to the Bills. And he called up and said, Murph, I read your book, Flawless Execution, and I'm on the debrief chapter, and I really think this could help our team.
+**James Murphy:** I guess the one is one of my favorites is we got a call from Coach Tom Coughlin, who was the coach of the New York Giants at the time, and they were trying to make a run at the Super Bowl. And he called us during their BYE week, and they had just lost, I think, to the Bills. And he called up and said, Murph, I read your book, Flawless Execution, and I'm on the debrief chapter, and I really think this could help our team.
 
 **James Murphy:** We have Eli Manning this year, and Justin Tuck, and I really thought we were going to be contenders for Super Bowl. This is 2012, by the way. Can you fly up and talk to me about this? So I do and he goes, this is incredible Murph. Why don't you bring your team next week? I'm going to take an hour out of our practice schedule, have everybody come into our auditorium.
 

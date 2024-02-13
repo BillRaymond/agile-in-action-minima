@@ -18,6 +18,9 @@ guest-details:
       - guest-link-label: 🌎 James' website
         guest-link-url: http://jamesdmurphy.com
         fieldGroup: guest-links
+      - guest-link-label: 📩 Contact James on Minnect
+        guest-link-url: https://app.minnect.com/expert/JamesMurphy
+        fieldGroup: guest-links
       - guest-link-label: "📖 James' book: Flawless Execution"
         guest-link-url: https://www.amazon.com/Flawless-Execution-Techniques-Americas-Business/dp/0060834161/ref=sr_1_1?crid=1CHGYFIQGNN63&keywords=flawless+execution&qid=1707414637&sprefix=flawless+exec%2Caps%2C226&sr=8-1
         fieldGroup: guest-links

@@ -5,8 +5,8 @@ author: Bill Raymond
 date: 2024-02-27
 title: In retrospect, this [Scrum] event should have been fun
 twitter-text: ""
-libsynUrl: ""
-youtubecode: ""
+libsynUrl: https://directory.libsyn.com/episode/index/id/30081418
+youtubecode: WZZ7xCR-g0I
 guest-details:
     - guest-name: Paulo Caroli
       guest-title: Speaker, Author, and Advisor at Thoughtworks
@@ -27,7 +27,7 @@ guest-details:
       fieldGroup: guest-details
 type: podcast
 ---
-Today, Paulo Caroli, an author, speaker, and advisor at Thoughtworks, shares the transformative power of retrospectives in fostering continuous improvement within agile teams.
+Paulo Caroli, an author, speaker, and advisor at Thoughtworks, shares the transformative power of retrospectives in fostering continuous improvement within agile teams.
 
 Learn how retrospectives are the cornerstone for continuous improvement, enabling teams to reflect, learn, and grow. 🌱
 

@@ -3,13 +3,13 @@ layout: podcast-post
 categories: agile-in-action-podcast
 author: Bill Raymond
 date: 2024-03-12
-title: Avoid the "Undocumented Pipes" problem by slicing your work
+title: Avoid the 'Undocumented Pipes' problem by slicing your work
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/30260338
 youtubecode: pQk7wUP4k-U
 guest-details:
     - guest-name: Anton Skornyakov
-      guest-title: Author of The Art of Slicing Work, Certified Scrum Trainer, Co-founder and managing director of Agile.coach
+      guest-title: Author of The Art of Slicing Work, Certified Scrum Trainer, Co-founder and Managing Director of Agile.coach
       guest-photo: /uploads/Anton-Skornyakov.png
       guest-links:
           - guest-link-label: 💬 Contact Anton

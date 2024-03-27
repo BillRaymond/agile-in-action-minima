@@ -1,6 +1,0 @@
-jobs:
-  example_job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get the repository owner
-        run: echo "Repository owner is ${{ github.repository_owner }}"

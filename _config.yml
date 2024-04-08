@@ -31,7 +31,6 @@ url: "https://www.agileinaction.com" # the base hostname & protocol for your sit
 github_username:  BillRaymond
 linkedin_username: williamraymond
 
-
 plugins:
   - jekyll-paginate
 

@@ -12,7 +12,7 @@ guest-details:
       guest-title: "Delivery & Agile Leadership Expert and Author of Agile for Non-Software Teams"
       guest-links:
           - guest-link-url: http://heardonpodcast.agilefornonsoftwareteams.com
-            guest-link-label: 🔖 Your free copy of Chapter 4 from Agile for Non-Software Team
+            guest-link-label: 🔖 Your free copy of Chapter 4 from Agile for Non-Software Teams
             fieldGroup: guest-links
           - guest-link-url: https://www.linkedin.com/in/gilbroza
             guest-link-label: 🌎 Gil on LinkedIn

@@ -9,29 +9,29 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/30680228
 youtubecode: FoTL1KKyRws
 guest-details:
     - guest-name: Gil Broza
-      guest-title: "Author of Agile for Non-software teams and Founder of 3PVantage and "
+      guest-title: "Delivery & Agile Leadership Expert and Author of Agile for Non-Software Teams"
       guest-links:
-          - guest-link-url: http://heardonpodcast.agilefornonsoftwareteams.com/
-            guest-link-label: 🔖 Your free copy of Chapter 4 from Agile for Non-software Team
+          - guest-link-url: http://heardonpodcast.agilefornonsoftwareteams.com
+            guest-link-label: 🔖 Your free copy of Chapter 4 from Agile for Non-Software Team
             fieldGroup: guest-links
-          - guest-link-url: https://www.linkedin.com/in/gilbroza/
+          - guest-link-url: https://www.linkedin.com/in/gilbroza
             guest-link-label: 🌎 Gil on LinkedIn
             fieldGroup: guest-links
           - guest-link-label: "🌎 Gil's company: 3PVantage"
             guest-link-url: https://3pvantage.com
             fieldGroup: guest-links
-          - guest-link-label: "📖 Gil's book: Agile for Non-software Teams"
-            guest-link-url: https://3pvantage.com/afnst-book/
+          - guest-link-label: "📖 Gil's book: Agile for Non-Software Teams"
+            guest-link-url: http://www.agilefornonsoftwareteams.com
             fieldGroup: guest-links
       fieldGroup: guest-details
       guest-photo: /uploads/gil-broza.jpg
 type: podcast
 ---
-Gil Broza shares how Non-software teams can use agile principles to transform how they deliver customer value.
+Gil Broza shares how Non-Software teams can use agile principles to transform how they deliver customer value.
 
 In this podcast, you will learn the following:
 
-✅ How Agile principles apply to non-software teams
+✅ How Agile principles apply to Non-Software teams
 
 ✅ Common challenges and solutions for implementing Agile outside of tech
 
@@ -39,7 +39,6 @@ In this podcast, you will learn the following:
 
 🎉 The transformative power of Agile for team dynamics and project management
 
-Use the following link to receive a free chapter of Gil's book, contact Gil, read the transcription, and much more:
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)
@@ -83,9 +82,6 @@ Use the following link to receive a free chapter of Gil's book, contact Gil, rea
 **Gil Broza:** So really those four values are adaptation, customer collaboration. So really a two way street between the doers of the work and the people who benefit from it. Early and frequent value delivery and probably most importantly, putting people first. So you have capital A agility when you optimize your way of working to those four values. 
 
 **Bill Raymond:** We can easily list out those four values and say, yeah, we've got those covered. But how do you ponder how you're going to be agile using those values?
-
-
-
 
 ### [00:03:10] The Essence of Agile: Beyond the Visible Tactics
 

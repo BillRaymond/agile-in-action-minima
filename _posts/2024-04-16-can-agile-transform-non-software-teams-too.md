@@ -43,7 +43,6 @@ In this podcast, you will learn the following:
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)
 
-
 ### [00:00:00] Welcome to Agile in Action with Gil Broza
 
 **Speaker:** Welcome to the Agile in Action Podcast with Bill Raymond.

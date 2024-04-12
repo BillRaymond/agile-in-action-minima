@@ -9,7 +9,7 @@ libsynUrl: https://directory.libsyn.com/episode/index/id/30680228
 youtubecode: FoTL1KKyRws
 guest-details:
     - guest-name: Gil Broza
-      guest-title: "Delivery & Agile Leadership Expert and Author of Agile for Non-Software Teams"
+      guest-title: "Author of Agile for Non-Software Teams and Delivery & Agile Leadership Expert"
       guest-links:
           - guest-link-url: http://heardonpodcast.agilefornonsoftwareteams.com
             guest-link-label: 🔖 Your free copy of Chapter 4 from Agile for Non-Software Teams

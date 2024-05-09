@@ -67,6 +67,10 @@ jobs:
           cd ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
           echo 'Here is a list of the files in ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}'
           ls -la
+          echo 'bundle install'
+          bundle install
+          echo 'bundle update'
+          bundle update
           "
       
       - name: Print workflow completion

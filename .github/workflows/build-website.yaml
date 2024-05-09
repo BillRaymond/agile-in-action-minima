@@ -11,6 +11,10 @@ concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true # this workflow stops other concurrent workflows from running
 
+
+#! TODO: Add .nojekyll to target
+#! TODO: Add CNAME with agileinaction.com to target
+
 jobs:
   build:
     name: Jekyll build and push
@@ -26,7 +30,7 @@ jobs:
       BUILD_TEMP_CONTAINER: temp-container
       BUILD_TEMP_IMAGE: temp-image:latest
       SOURCE_WEBSITE_LOCATION: ./public
-      TARGET_TEMP_REPO_FOLDER: temp-public 
+      TARGET_TEMP_REPO_FOLDER: temp-public
 
     steps:
       - name: Print environment variables
@@ -55,9 +59,11 @@ jobs:
           load: true
           tags: ${{ env.BUILD_TEMP_IMAGE }} # temporary image name and tag
       
-      - name: Print completion
+      - name: Print workflow completion
         run: |
           echo "Workflow complete"
+
+
 
 ## How to install this workflow
 #   This workflow will copy the Jekyll website from this repo to another.

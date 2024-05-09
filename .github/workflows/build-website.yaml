@@ -52,12 +52,22 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Build the source Docker image
-        uses: docker/build-push-action@v5 # This workflow uses "build", not "push"
+        uses: docker/build-push-action@v5 # This workflow uses "build", not "push", despite the name
         with:
           context: .
           file: ./Dockerfile # Open the dockerfile in this GitHub repo
           load: true
           tags: ${{ env.BUILD_TEMP_IMAGE }} # temporary image name and tag
+      
+      - name: Build the Jekyll image
+        run: |
+          docker run --name ${{ env.BUILD_TEMP_CONTAINER }} -v ${{ github.workspace }}:${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }} ${{ env.BUILD_TEMP_IMAGE }} /bin/bash -c "
+          echo 'Make it okay to run git commands in the source folder'
+          git config --global --add safe.directory ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
+          cd ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
+          echo 'Here is a list of the files in ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}'
+          ls -la
+          "
       
       - name: Print workflow completion
         run: |

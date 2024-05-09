@@ -22,7 +22,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"eliostruyf.vscode-front-matter"
+				"eliostruyf.vscode-front-matter",
+				"github.vscode-github-actions"
 			]
 		}
 	}

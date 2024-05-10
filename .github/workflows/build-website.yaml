@@ -63,11 +63,13 @@ jobs:
       
       - name: Build the Jekyll site
         run: |
+          # Use the existing WF_CURRENT_DATE_TIME environment variable
           docker run --name ${{ env.BUILD_TEMP_CONTAINER }} \
-                     -e TZ=$(cat /etc/timezone) \  # Overrides the Dockerfile TZ setting with that of the GitHub Action's Runner
+                     -e "WF_CURRENT_DATE_TIME=${{ env.WF_CURRENT_DATE_TIME }}" \
                      -v ${{ github.workspace }}:${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }} \
-                        ${{ env.BUILD_TEMP_IMAGE }} /bin/bash -c "
-          echo 'Docker current date and time: $(date -u +"%Y-%m-%dT%H:%M:%SZ")'
+                        ${{ env.BUILD_TEMP_IMAGE }} \
+          /bin/bash -c "
+          echo 'Docker current date and time: $WF_CURRENT_DATE_TIME'
           echo 'Make it okay to run git commands in the source folder'
           git config --global --add safe.directory ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
           cd ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
@@ -79,6 +81,7 @@ jobs:
           bundle update
           bundle exec jekyll build --future
           "
+  
       
       - name: Print workflow completion
         run: |

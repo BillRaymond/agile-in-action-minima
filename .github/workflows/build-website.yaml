@@ -72,7 +72,8 @@ jobs:
           set -e
           echo 'Docker container date:'
           date +'%Y-%m-%dT%H:%M:%S%z'
-          echo 'Docker container timezone (TZ): ' $TZ
+          echo 'Docker container timezone (TZ):'
+          echo $TZ
           echo 'WF_CURRENT_DATE_TIME value: $WF_CURRENT_DATE_TIME'
           echo 'Make it okay to run git commands in the source folder'
           git config --global --add safe.directory ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}

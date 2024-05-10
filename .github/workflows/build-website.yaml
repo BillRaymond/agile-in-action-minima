@@ -47,11 +47,6 @@ jobs:
           echo "TARGET_TEMP_REPO_FOLDER: $TARGET_TEMP_REPO_FOLDER"
           echo "WF_CURRENT_DATE_TIME: $WF_CURRENT_DATE_TIME"
 
-      - name: Exit workflow for testing purposes
-        run: |
-          echo "Ending workflow prematurely for testing purposes"
-          exit 1 # This command will fail the step and stop the workflow
-
       - name: Checkout source repo
         uses: actions/checkout@v4
 
@@ -68,8 +63,11 @@ jobs:
       
       - name: Build the Jekyll site
         run: |
-          docker run --name ${{ env.BUILD_TEMP_CONTAINER }} -v ${{ github.workspace }}:${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }} ${{ env.BUILD_TEMP_IMAGE }} /bin/bash -c "
-          echo 'Docker current date and time: $(date)'
+          docker run --name ${{ env.BUILD_TEMP_CONTAINER }} \
+                     -e TZ=$(cat /etc/timezone) \  # Overrides the Dockerfile TZ setting with that of the GitHub Action's Runner
+                     -v ${{ github.workspace }}:${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }} \
+                        ${{ env.BUILD_TEMP_IMAGE }} /bin/bash -c "
+          echo 'Docker current date and time: $(date -u +"%Y-%m-%dT%H:%M:%SZ")'
           echo 'Make it okay to run git commands in the source folder'
           git config --global --add safe.directory ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
           cd ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
@@ -87,8 +85,13 @@ jobs:
           echo "Workflow complete"
 
 
+# #* Utility: Use this code after any step to exit/fail the workflow
+# - name: Exit workflow for testing purposes
+#   run: |
+#     echo "Ending workflow prematurely for testing purposes"
+#     exit 1 # This command will fail the step and stop the workflow
 
-## How to install this workflow
+#? How to install this workflow
 #   This workflow will copy the Jekyll website from this repo to another.
 #   To do so, you will need a Personal Access Token.
 #   If you have not already created a token, then follow these steps:

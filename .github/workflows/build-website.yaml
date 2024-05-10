@@ -67,10 +67,7 @@ jobs:
           # Use the existing WF_CURRENT_DATE_TIME environment variable
           docker run --name ${{ env.BUILD_TEMP_CONTAINER }} \
                      -e "TZ"=${{ env.WF_TZ }} \
-                     -e LANG=en_US.UTF-8 \
-                     -e LANGUAGE=en_US:en \
-                     -e LC_ALL=en_US.UTF-8 \
-                     -e 'WF_CURRENT_DATE_TIME="${{ env.WF_CURRENT_DATE_TIME }}"' \
+                     -e "WF_CURRENT_DATE_TIME"=${{ env.WF_CURRENT_DATE_TIME }} \
                      -v ${{ github.workspace }}:${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }} \
                         ${{ env.BUILD_TEMP_IMAGE }} /bin/bash -c "
           echo 'Docker container's date:'
@@ -95,7 +92,12 @@ jobs:
         run: |
           echo "Workflow complete"
 
-#? possibly put this back in the container: 
+#? possibly put this back in the container? 
+#? Need to make sure locale and tzdata are in the Dockerfile
+#? Or it will error out
+# -e LANG=en_US.UTF-8 \
+# -e LANGUAGE=en_US:en \
+# -e LC_ALL=en_US.UTF-8 \
 
 
 # #* Utility: Use this code after any step to exit/fail the workflow

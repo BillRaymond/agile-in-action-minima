@@ -32,7 +32,7 @@ jobs:
       SOURCE_WEBSITE_LOCATION: ./public
       TARGET_TEMP_REPO_FOLDER: temp-public
       WF_CURRENT_DATE_TIME: ${{ github.event.head_commit.timestamp }}
-      TZ: 'America/Los_Angeles' # Set the timezone to Pacific Time
+      WF_TZ: 'America/Los_Angeles' # Set the timezone to Pacific Time
 
     steps:
       - name: Print environment variables
@@ -66,11 +66,17 @@ jobs:
         run: |
           # Use the existing WF_CURRENT_DATE_TIME environment variable
           docker run --name ${{ env.BUILD_TEMP_CONTAINER }} \
-                     -e "WF_CURRENT_DATE_TIME=${{ env.WF_CURRENT_DATE_TIME }}" \
+                     -e "TZ"=${{ env.WF_TZ }} \
+                     -e LANG=en_US.UTF-8 \
+                     -e LANGUAGE=en_US:en \
+                     -e LC_ALL=en_US.UTF-8 \
+                     -e "WF_CURRENT_DATE_TIME=${{ env.WF_CURRENT_DATE_TIME }}" # in case we need it \
                      -v ${{ github.workspace }}:${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }} \
                         ${{ env.BUILD_TEMP_IMAGE }} \
           /bin/bash -c "
-          echo 'Docker current date and time: $WF_CURRENT_DATE_TIME'
+          Echo 'Docker container's date:'
+          date +'%Y-%m-%dT%H:%M:%S%z'
+          echo 'WF_CURRENT_DATE_TIME value: $WF_CURRENT_DATE_TIME'
           echo 'Make it okay to run git commands in the source folder'
           git config --global --add safe.directory ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
           cd ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
@@ -89,6 +95,8 @@ jobs:
       - name: Print workflow completion
         run: |
           echo "Workflow complete"
+
+#? possibly put this back in the container: 
 
 
 # #* Utility: Use this code after any step to exit/fail the workflow

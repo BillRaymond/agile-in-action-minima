@@ -89,17 +89,15 @@ jobs:
           bundle exec jekyll build --future
           "
 
+      - name: Cleanup Temporary Docker Resources
+        run: |
+          docker stop ${{ env.BUILD_TEMP_CONTAINER }} || true
+          docker rm ${{ env.BUILD_TEMP_CONTAINER }} || true
+          docker rmi ${{ env.BUILD_TEMP_IMAGE }} || true
+
       - name: Print workflow completion
         run: |
           echo "Workflow complete"
-
-#? possibly put this back in the container? 
-#? Need to make sure locale and tzdata are in the Dockerfile
-#? Or it will error out
-# -e LANG=en_US.UTF-8 \
-# -e LANGUAGE=en_US:en \
-# -e LC_ALL=en_US.UTF-8 \
-
 
 # #* Utility: Use this code after any step to exit/fail the workflow
 # - name: Exit workflow for testing purposes

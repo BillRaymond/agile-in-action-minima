@@ -70,7 +70,7 @@ jobs:
                      -e LANG=en_US.UTF-8 \
                      -e LANGUAGE=en_US:en \
                      -e LC_ALL=en_US.UTF-8 \
-                     -e "WF_CURRENT_DATE_TIME=${{ env.WF_CURRENT_DATE_TIME }}" # in case we need it \
+                     -e 'WF_CURRENT_DATE_TIME="${{ env.WF_CURRENT_DATE_TIME }}"' \
                      -v ${{ github.workspace }}:${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }} \
                         ${{ env.BUILD_TEMP_IMAGE }} /bin/bash -c "
           echo 'Docker container's date:'

@@ -71,11 +71,11 @@ jobs:
                         ${{ env.BUILD_TEMP_IMAGE }} \
           /bin/bash -c "
           echo 'Docker current date and time: $WF_CURRENT_DATE_TIME'
-          echo 'Run Python script to display current date and time'
-          python3 ./print-date-time.py
           echo 'Make it okay to run git commands in the source folder'
           git config --global --add safe.directory ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
           cd ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
+          echo 'Run Python script to display current date and time'
+          python3 print-date-time.py
           echo 'Here is a list of the files in ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}'
           ls -la
           echo 'bundle install'

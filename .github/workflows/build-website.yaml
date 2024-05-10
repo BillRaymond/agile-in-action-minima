@@ -31,7 +31,7 @@ jobs:
       BUILD_TEMP_IMAGE: temp-image:latest
       SOURCE_WEBSITE_LOCATION: ./public
       TARGET_TEMP_REPO_FOLDER: temp-public
-      WF_CURRENT_DATE_TIME: $(date -u +"%a %b %d %T UTC %Y") # Set the current date and time in the specified format
+      WF_CURRENT_DATE_TIME: ${{ github.env.date }} # Use the output from the step to set the current date and time
 
     steps:
       - name: Print environment variables

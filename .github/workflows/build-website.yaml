@@ -3,7 +3,7 @@ on:
     branches:
       - main # trigger the workflow when changes are pushed on the `main` branch
   schedule:
-    - cron: '30 7 * * *' # trigger every day at 00:30 ex 12:30 am
+    - cron: '30 7 * * *' # trigger every day at 00:30 ex 12:30 am PT
   workflow_dispatch: # allow the ability to trigger the workflow manually
 name: Build Agile in Action website
 
@@ -32,6 +32,7 @@ jobs:
       SOURCE_WEBSITE_LOCATION: ./public
       TARGET_TEMP_REPO_FOLDER: temp-public
       WF_CURRENT_DATE_TIME: ${{ github.event.head_commit.timestamp }}
+      TZ: 'America/Los_Angeles' # Set the timezone to Pacific Time
 
     steps:
       - name: Print environment variables
@@ -70,6 +71,8 @@ jobs:
                         ${{ env.BUILD_TEMP_IMAGE }} \
           /bin/bash -c "
           echo 'Docker current date and time: $WF_CURRENT_DATE_TIME'
+          echo 'Run Python script to display current date and time'
+          python3 ./print-date-time.py
           echo 'Make it okay to run git commands in the source folder'
           git config --global --add safe.directory ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
           cd ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}

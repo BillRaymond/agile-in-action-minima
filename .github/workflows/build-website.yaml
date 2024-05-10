@@ -31,7 +31,7 @@ jobs:
       BUILD_TEMP_IMAGE: temp-image:latest
       SOURCE_WEBSITE_LOCATION: ./public
       TARGET_TEMP_REPO_FOLDER: temp-public
-      WF_CURRENT_DATE_TIME: $(date "+%Y-%m-%d %H:%M:%S") # The Docker image will also display a date and time. Use this to compare for debugging purposes
+      WF_CURRENT_DATE_TIME: $(date -u +"%a %b %d %T UTC %Y") # Set the current date and time in the specified format
 
     steps:
       - name: Print environment variables
@@ -46,6 +46,11 @@ jobs:
           echo "SOURCE_WEBSITE_LOCATION: $SOURCE_WEBSITE_LOCATION"
           echo "TARGET_TEMP_REPO_FOLDER: $TARGET_TEMP_REPO_FOLDER"
           echo "WF_CURRENT_DATE_TIME: $WF_CURRENT_DATE_TIME"
+
+      - name: Exit workflow for testing purposes
+        run: |
+          echo "Ending workflow prematurely for testing purposes"
+          exit 1 # This command will fail the step and stop the workflow
 
       - name: Checkout source repo
         uses: actions/checkout@v4

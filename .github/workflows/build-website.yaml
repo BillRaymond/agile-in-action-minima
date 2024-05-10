@@ -36,16 +36,16 @@ jobs:
     steps:
       - name: Print environment variables
         run: |
-          echo "WORKSPACE_PATH: ${WORKSPACE_PATH}"
-          echo "REPO_NAME: ${REPO_NAME}"
-          echo "GITHUB_PAT: ${GITHUB_PAT}"
-          echo "REPO_OWNER: ${REPO_OWNER}"
-          echo "TARGET_REPO: ${TARGET_REPO}"
-          echo "BUILD_TEMP_CONTAINER: ${BUILD_TEMP_CONTAINER}"
-          echo "BUILD_TEMP_IMAGE: ${BUILD_TEMP_IMAGE}"
-          echo "SOURCE_WEBSITE_LOCATION: ${SOURCE_WEBSITE_LOCATION}"
-          echo "TARGET_TEMP_REPO_FOLDER: ${TARGET_TEMP_REPO_FOLDER}"
-          echo "WF_CURRENT_DATE_TIME: ${WF_CURRENT_DATE_TIME}"
+          echo "WORKSPACE_PATH: $WORKSPACE_PATH"
+          echo "REPO_NAME: $REPO_NAME"
+          echo "GITHUB_PAT: $GITHUB_PAT"
+          echo "REPO_OWNER: $REPO_OWNER"
+          echo "TARGET_REPO: $TARGET_REPO"
+          echo "BUILD_TEMP_CONTAINER: $BUILD_TEMP_CONTAINER"
+          echo "BUILD_TEMP_IMAGE: $BUILD_TEMP_IMAGE"
+          echo "SOURCE_WEBSITE_LOCATION: $SOURCE_WEBSITE_LOCATION"
+          echo "TARGET_TEMP_REPO_FOLDER: $TARGET_TEMP_REPO_FOLDER"
+          echo "WF_CURRENT_DATE_TIME: $WF_CURRENT_DATE_TIME"
 
       - name: Checkout source repo
         uses: actions/checkout@v4
@@ -64,7 +64,7 @@ jobs:
       - name: Build the Jekyll site
         run: |
           docker run --name ${{ env.BUILD_TEMP_CONTAINER }} -v ${{ github.workspace }}:${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }} ${{ env.BUILD_TEMP_IMAGE }} /bin/bash -c "
-          echo "Docker current date and time: $(date)"  # print current datetime in container
+          echo 'Docker current date and time: $(date)'
           echo 'Make it okay to run git commands in the source folder'
           git config --global --add safe.directory ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}
           cd ${{ env.WORKSPACE_PATH }}${{ env.REPO_NAME }}

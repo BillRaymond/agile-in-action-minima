@@ -1,5 +1,9 @@
 FROM billraymond/agile-in-action-minima-docker-image:latest
 
+RUN pip install --no-cache \
+    pandas \
+    numpy
+
 # RUN echo "#################################################"
 # RUN echo "set default environment variables"
 # RUN echo "ARG is accessible only when building the image"

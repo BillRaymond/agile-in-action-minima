@@ -5,23 +5,23 @@ author: Bill Raymond
 date: 2024-05-28
 title: Avoid traps along the value trail
 twitter-text: ""
-libsynUrl: ""
+libsynUrl: https://directory.libsyn.com/episode/index/id/31424052
 youtubecode: ""
 guest-details:
-    - guest-name: David Pereira
-      guest-title: CEO, omoqo GmbH and Author of Untrapping Product Teams
-      guest-photo: /uploads/david-pereira-v2.jpeg
-      guest-links:
-          - guest-link-label: David on LinkedIn
-            guest-link-url: https://www.linkedin.com/in/davidavpereira/
-            fieldGroup: guest-links
-          - guest-link-label: David's website
-            guest-link-url: https://www.d-pereira.com
-            fieldGroup: guest-links
-          - guest-link-label: "David's book: Untrapping Product Teams"
-            guest-link-url: https://www.d-pereira.com/untrapping-product-teams
-            fieldGroup: guest-links
-      fieldGroup: guest-details
+  - guest-name: David Pereira
+    guest-title: CEO, omoqo GmbH and Author of Untrapping Product Teams
+    guest-photo: /uploads/david-pereira-v2.jpeg
+    guest-links:
+      - guest-link-label: David on LinkedIn
+        guest-link-url: https://www.linkedin.com/in/davidavpereira/
+        fieldGroup: guest-links
+      - guest-link-label: David's website
+        guest-link-url: https://www.d-pereira.com
+        fieldGroup: guest-links
+      - guest-link-label: "David's book: Untrapping Product Teams"
+        guest-link-url: https://www.d-pereira.com/untrapping-product-teams
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 type: podcast
 ---
 Are you feeling trapped because your product is not delivering value?
@@ -46,42 +46,42 @@ In this podcast, you will learn:
 
 ### [00:00:00] Introductions
 
-**Bill Raymond AI:** Welcome to the Agile in Action podcast. I am your host, Bill Raymond, and today I'm joined by David Pereira.
+**Bill Raymond:** Welcome to the Agile in Action podcast. I am your host, Bill Raymond, and today I'm joined by David Pereira.
 
-**Bill Raymond AI:** David, how are you today?
+**Bill Raymond:** David, how are you today?
 
 **David Pereira:** I'm doing great.
 
-**Bill Raymond AI:** Wonderful. 
+**Bill Raymond:** Wonderful. 
 
 
 ### [00:00:09] Introducing Background and Achievements
 
-**Bill Raymond AI:** David, you are the CEO of omoqo GmbH, which offers native cloud solutions for cargo terminals. You're the keynote speaker and you are the author of a new book. You just released titled Untrapping Product Teams. David, is there anything else you'd like to share about yourself, with our audience today?
+**Bill Raymond:** David, you are the CEO of omoqo GmbH, which offers native cloud solutions for cargo terminals. You're the keynote speaker and you are the author of a new book. You just released titled Untrapping Product Teams. David, is there anything else you'd like to share about yourself, with our audience today?
 
 **David Pereira:** Sure. Thanks for the introduction. And one thing that I love doing is blogging. So I'm also the author of the Untrapping Product Teams newsletter, which people can benefit for free and consume some insights. 
 
 **David Pereira:** weekly.
 
-**Bill Raymond AI:** That's a great newsletter, by the way, I do follow all of your writing and you are an excellent writer and you always have some great ideas to share with people. So I appreciate your supporting the community. 
+**Bill Raymond:** That's a great newsletter, by the way, I do follow all of your writing and you are an excellent writer and you always have some great ideas to share with people. So I appreciate your supporting the community. 
 
 
 ### [00:00:55] Exploring the Role of a Product Manager
 
-**Bill Raymond AI:** So today we are going to talk about avoiding the traps down the value trail and we'll get into what that means as we get into this.
+**Bill Raymond:** So today we are going to talk about avoiding the traps down the value trail and we'll get into what that means as we get into this.
 
-**Bill Raymond AI:** But one of the things that. We will be talking about is what the role of a product manager is and their role as it relates to value. So could you give us a quick overview of that role, the product manager?
+**Bill Raymond:** But one of the things that. We will be talking about is what the role of a product manager is and their role as it relates to value. So could you give us a quick overview of that role, the product manager?
 
 **David Pereira:** Sure. I will give my version. So what I perceive a product manager is the one who uncover what drives value and lead teams to enable that to happen. So that entails experimentation, trial and error, and ditching solutions that don't work and stick with the ones that 
 
 **David Pereira:** work. It's a lot of work to do it. It goes from a strategy to delivery.
 
-**Bill Raymond AI:** Great. Thank you. 
+**Bill Raymond:** Great. Thank you. 
 
 
 ### [00:01:47] Product Manager vs. Product Owner: Definitions and Differences
 
-**Bill Raymond AI:** And I think one of the most common questions that I get when. Our listeners reach out and send me an email is what is the difference between a product manager and a product owner. So since I have you on the call, I'd love to hear your thoughts on that topic.
+**Bill Raymond:** And I think one of the most common questions that I get when. Our listeners reach out and send me an email is what is the difference between a product manager and a product owner. So since I have you on the call, I'd love to hear your thoughts on that topic.
 
 **David Pereira:** Of course, this goes into interpretation depending on the context and so on. And even in my life, I changed my definition several times. When I started, I would say a product owner is the responsible for doing it. things right and the product manager defines what the right things are. And that's how I worked in the beginning of my career.
 
@@ -93,7 +93,7 @@ In this podcast, you will learn:
 
 **David Pereira:** today.
 
-**Bill Raymond AI:** It's interesting, I guess you can't have strategy with no prioritization, but you still need prioritization. So who best to manage both of those is that product manager? Is it, I think what you're saying.
+**Bill Raymond:** It's interesting, I guess you can't have strategy with no prioritization, but you still need prioritization. So who best to manage both of those is that product manager? Is it, I think what you're saying.
 
 **David Pereira:** Yeah, and I always try imagining a soccer game. Suppose you would have one coach responsible for the strategy and another responsible for the game itself. That would not work because the one who is in the game within the players was not part of defining the strategy, but actually is the one responsible for ensuring the team is going to win the game or achieve the best result possible.
 
@@ -102,15 +102,15 @@ In this podcast, you will learn:
 
 ### [00:04:34] Untrapping Product Teams: Understanding Traps
 
-**Bill Raymond AI:** You just released a book. It's titled Untrapping Product Teams. Before we get into untrapping product teams, let's define what a trap is,
+**Bill Raymond:** You just released a book. It's titled Untrapping Product Teams. Before we get into untrapping product teams, let's define what a trap is,
 
 **David Pereira:** A trap is something that blocks you or slows you down. from doing what you should be doing. Something that distracts you from creating value and may even hurt you from doing that. The problem is that sometimes we don't even know we are trapped and that's what happens. Some traps are very clear.
 
 **David Pereira:** Sometimes we want to achieve something and we cannot get there. And then we realize that there is something on the way. For example, you cannot talk to the customer because someone is blocking you to talk to the customer. That's a clear trap you can see. But then I say about an order, you have a huge backlog. At first glance, you may say, that's good. Everything is clear. We know what to do, but actually that is a trap because when you have a bloated backlog, you get so focused on the past instead of looking into the future and adapting according to your learning. So trap is a distraction. It's something that you don't want to have when you are creating value.
 
-**Bill Raymond AI:** We're going to talk about how we define value in just a minute, but I'd like to drill down on this a little bit more because, we all do this, right? We work day to day. We have our backlog of things that we're doing. We're getting the work done and we feel like we're moving forward.
+**Bill Raymond:** We're going to talk about how we define value in just a minute, but I'd like to drill down on this a little bit more because, we all do this, right? We work day to day. We have our backlog of things that we're doing. We're getting the work done and we feel like we're moving forward.
 
-**Bill Raymond AI:** I understand what you're saying about value, but I guess the There might be some inflection point where we should recognize that we are in these traps. Can you share some things that come to your mind when you say that maybe you're falling into these traps? 
+**Bill Raymond:** I understand what you're saying about value, but I guess the There might be some inflection point where we should recognize that we are in these traps. Can you share some things that come to your mind when you say that maybe you're falling into these traps? 
 
 **David Pereira:** Sure, it can happen without knowing, as I said, I believe that no company will be perfect. They will have different things that distract teams. For now, I have worked for more than 10 companies and I have seen different traps on the way. But one thing, the beginning of my career, I got promoted because I helped the team increase velocity and we keep delivering more and more sprint after sprint we got it right how to make delivery accelerate and that was nice to me I was excited. It was nice to see the graph just pumping pumping and so on until I realized actually to delivery more feature didn't mean create more value.
 
@@ -119,7 +119,7 @@ In this podcast, you will learn:
 
 ### [00:07:20] Defining Value in Product Management
 
-**Bill Raymond AI:** Let's hear your definition of value.
+**Bill Raymond:** Let's hear your definition of value.
 
 **David Pereira:** Sure. So value for me, it's two sides. It will be a transaction. So customers collect value when we do one of the three things. We solve a pain they have. We deliver on the need they want to cover, or we deliver on a wish. Let me elaborate a little bit on this with some aspects here. For example, I live in Germany.
 
@@ -139,22 +139,22 @@ In this podcast, you will learn:
 
 **David Pereira:** So that's how it collects. And once we understand this equation, what value means for our customers, each product has a different definition for that or a different way of delivering value. Then we can figure out what we need to do to deliver on that.
 
-**Bill Raymond AI:** We talked about wishes and we talked about adding customer value. Sometimes it's very clear. The customer demands a certain thing. And sometimes you need to think ahead. What is the future of our product or service going to look like?
+**Bill Raymond:** We talked about wishes and we talked about adding customer value. Sometimes it's very clear. The customer demands a certain thing. And sometimes you need to think ahead. What is the future of our product or service going to look like?
 
-**Bill Raymond AI:** And can we reinvent ourselves or reinvent our product and things like that? And that's when you start to get into thinking about value that no one really quite knew that they needed. 
+**Bill Raymond:** And can we reinvent ourselves or reinvent our product and things like that? And that's when you start to get into thinking about value that no one really quite knew that they needed. 
 
 
 ### [00:11:00] Incorporating AI and Innovation: Adding Real Value
 
-**Bill Raymond AI:** I, for example, look at a lot of products right now that are throwing AI into their products. And they think that they're adding value and they can just charge me an extra upcharge a month because there's AI in the product, but very often the AI actually gets in my way more than helps.
+**Bill Raymond:** I, for example, look at a lot of products right now that are throwing AI into their products. And they think that they're adding value and they can just charge me an extra upcharge a month because there's AI in the product, but very often the AI actually gets in my way more than helps.
 
-**Bill Raymond AI:** I'm thinking specifically you're a writer, so I think you'll appreciate this. I am as well. I have some writing tools at my disposal and one of them incorporated all these interesting AI features, but what they would do is just overwrite what I'm writing. 
+**Bill Raymond:** I'm thinking specifically you're a writer, so I think you'll appreciate this. I am as well. I have some writing tools at my disposal and one of them incorporated all these interesting AI features, but what they would do is just overwrite what I'm writing. 
 
-**Bill Raymond AI:** It's saying, oh, see what you wrote, I'm going to write something better or what have you. That to me isn't adding value, but I think in their minds they thought that they were. And I feel like sometimes we get on this train of here's the new shiny thing. The, there's a browser now there's apps now there's AI.
+**Bill Raymond:** It's saying, oh, see what you wrote, I'm going to write something better or what have you. That to me isn't adding value, but I think in their minds they thought that they were. And I feel like sometimes we get on this train of here's the new shiny thing. The, there's a browser now there's apps now there's AI.
 
-**Bill Raymond AI:** And I think it's interesting. You almost have to step back when you're creating value from these things and say, but what really matters to our customer, but also we know this is going to be the future. So I'm curious to hear your thoughts on. Yes, there is a big, shiny new thing. Yes, customers are expecting it to be in your product, but no, the customers probably don't fully know where it belongs in the product.
+**Bill Raymond:** And I think it's interesting. You almost have to step back when you're creating value from these things and say, but what really matters to our customer, but also we know this is going to be the future. So I'm curious to hear your thoughts on. Yes, there is a big, shiny new thing. Yes, customers are expecting it to be in your product, but no, the customers probably don't fully know where it belongs in the product.
 
-**Bill Raymond AI:** How do you think about adding value to a customer when you're quite not quite sure what exactly that thing will be?
+**Bill Raymond:** How do you think about adding value to a customer when you're quite not quite sure what exactly that thing will be?
 
 
 
@@ -173,9 +173,9 @@ In this podcast, you will learn:
 
 **David Pereira:** Because that was distracting me. I don't want Grammarly to do that, I want Grammarly to make me a better writer. So great products help you do a job and make you better at that. But to enable someone to do that, it means you need to have a deep understanding of the problem space, instead of moving straight ahead to the solution space.
 
-**Bill Raymond AI:** And I think that's interesting. And one of the things that does get exciting is when you unlock this new customer potential and you've said, oh, we found a way to do this new thing, create this new app think about the future and, redefine how our product works and things like that, those are really exciting times.
+**Bill Raymond:** And I think that's interesting. And one of the things that does get exciting is when you unlock this new customer potential and you've said, oh, we found a way to do this new thing, create this new app think about the future and, redefine how our product works and things like that, those are really exciting times.
 
-**Bill Raymond AI:** And that gets people super excited to build more on top of that product and keep adding customer value. But that initial excitement, everyone getting in and saying let's do this thing together and adding feature after feature, you can get right back into that trap state again, can't you?
+**Bill Raymond:** And that gets people super excited to build more on top of that product and keep adding customer value. But that initial excitement, everyone getting in and saying let's do this thing together and adding feature after feature, you can get right back into that trap state again, can't you?
 
 **David Pereira:** Yes, very easily. And that is the misunderstanding, because there are many people that think that that a great product is the one you have nothing to add. So it has all the features that are necessary. And I say, it's different, a great product, it's the one you have nothing to remove because it does a job done super well.
 
@@ -185,7 +185,7 @@ In this podcast, you will learn:
 
 **David Pereira:** Because if it's rational, then you are relying on luck. The person needs to understand. rationalize and use it. But if it's natural, they just go and use it. That's the reason that some apps becomes, became so popular. For example, Tinder swipe right or left, and then you may have a match or not. And it's a very simple app, but it became popular because it became natural the way it is. So the core is let's not start bloating our product. Let's focus on a problem worth solving and solve it in a good way. But not everyone is so excited about this stage of growing the problem, understanding and solving it better, making it more natural instead of rational.
 
-**Bill Raymond AI:** And we talked a lot about the role of the product manager taking on some of this, but really the entire team needs to be involved, don't they?
+**Bill Raymond:** And we talked a lot about the role of the product manager taking on some of this, but really the entire team needs to be involved, don't they?
 
 **David Pereira:** Yes, of course, I'm talking about product manager, but if you remember the beginning I said, uncovers what creates value and lead the teams to create value. And what I say, we don't need separated roles of product managers and product owners. That entails that software engineers are part of the problem understanding and the solution definition.
 
@@ -197,11 +197,11 @@ In this podcast, you will learn:
 
 **David Pereira:** And if it's not viable, you create something awesome, but then the business won't fly
 
-**Bill Raymond AI:** I was recently talking to a designer and they said to me, you need to covet every screen you design, because I was thinking about that in, in response to your Uber point, you open up the app and right there, it says, where are you going? Where do you want to go?
+**Bill Raymond:** I was recently talking to a designer and they said to me, you need to covet every screen you design, because I was thinking about that in, in response to your Uber point, you open up the app and right there, it says, where are you going? Where do you want to go?
 
-**Bill Raymond AI:** Maybe it already understands where you're at right now. And all it needs to know is where do you want to go? But you, if you go and put a whole bunch of other features on top of that, maybe it's three screens to get there. People aren't going to want to do that. Now there's friction.
+**Bill Raymond:** Maybe it already understands where you're at right now. And all it needs to know is where do you want to go? But you, if you go and put a whole bunch of other features on top of that, maybe it's three screens to get there. People aren't going to want to do that. Now there's friction.
 
-**Bill Raymond AI:** And what they're saying is covet the screens. Covet the capabilities of the product. So that when you're adding it, it doesn't feel like you're making the customer do more work. And if they do more work, then that means they should hopefully get more out of it than they put in. I'm curious what do you think about that particular thought process?
+**Bill Raymond:** And what they're saying is covet the screens. Covet the capabilities of the product. So that when you're adding it, it doesn't feel like you're making the customer do more work. And if they do more work, then that means they should hopefully get more out of it than they put in. I'm curious what do you think about that particular thought process?
 
 **David Pereira:** It reminds me in one of the place I was, we had a situation with the customer service. They were overloaded with requests and I went to talk to them to understand what was going on and what surprised me 50 percent of the requests like cancellations refunds changing bank data could be done in my account. The users were able to do that.
 
@@ -216,13 +216,13 @@ In this podcast, you will learn:
 
 ### [00:21:20] Untrapping Product Teams: Strategies for Improvement
 
-**Bill Raymond AI:** I'm curious you've explained what it feels like to be in a trapped state and how to untrap yourself and how to think through that and the mindset that's required. But let's just say for a moment that and I think a lot of people might relate to this that are on product teams.
+**Bill Raymond:** I'm curious you've explained what it feels like to be in a trapped state and how to untrap yourself and how to think through that and the mindset that's required. But let's just say for a moment that and I think a lot of people might relate to this that are on product teams.
 
-**Bill Raymond AI:** Let's just say for a minute that you do want to do that. Step back. You want to untrap yourselves. You're saying, we're prioritizing features and we're not sure the value and that can happen and that's real. And it's okay that happens. It's just the fact that you recognize it and you're going to fix it.
+**Bill Raymond:** Let's just say for a minute that you do want to do that. Step back. You want to untrap yourselves. You're saying, we're prioritizing features and we're not sure the value and that can happen and that's real. And it's okay that happens. It's just the fact that you recognize it and you're going to fix it.
 
-**Bill Raymond AI:** But sometimes you've already filled the product up and some of the team members might feel that the product is getting a little bloated now. So how do you step back to do this untrapping with this knowledge that maybe you've over engineered for all the features, but you've delivered that to the customer.
+**Bill Raymond:** But sometimes you've already filled the product up and some of the team members might feel that the product is getting a little bloated now. So how do you step back to do this untrapping with this knowledge that maybe you've over engineered for all the features, but you've delivered that to the customer.
 
-**Bill Raymond AI:** How did, how do you address that?
+**Bill Raymond:** How did, how do you address that?
 
 **David Pereira:** Yeah, about untrapping product teams, you need to prioritize actually which trap you want to overcome. So what I like suggesting is, let's step back now. And have a health check, and you can have the health check in different flight levels. You can look at the company, the strategy, discovery, delivery, and then you say, where are we here?
 
@@ -238,9 +238,9 @@ In this podcast, you will learn:
 
 **David Pereira:** And you take this as a marathon, not a sprint. It's something that will take time. And here we are not talking about months. There's a big chance, depending on how trapped you are. We're talking about a few years to change everything for scenario, but you can see a small improvement. It's like compound interest in the beginning is slow, but then it gets big and nice.
 
-**Bill Raymond AI:** Sometimes we hear customers, they can get loud. I'm one of them, right? This is the new feature I want in a product that I love. And I share that information and maybe there's a website that you can go on to say, I would like to see this feature.
+**Bill Raymond:** Sometimes we hear customers, they can get loud. I'm one of them, right? This is the new feature I want in a product that I love. And I share that information and maybe there's a website that you can go on to say, I would like to see this feature.
 
-**Bill Raymond AI:** And people vote on it, and they do plus one. And people say, yes, we need this now, exclamation mark! And then you start to see, oh, this is something we really need to look into. I do think, though, as much as people want a feature, and as much as they might be frustrated that feature doesn't exist, I think they're okay waiting a little bit longer, so long as it's done right.
+**Bill Raymond:** And people vote on it, and they do plus one. And people say, yes, we need this now, exclamation mark! And then you start to see, oh, this is something we really need to look into. I do think, though, as much as people want a feature, and as much as they might be frustrated that feature doesn't exist, I think they're okay waiting a little bit longer, so long as it's done right.
 
 **David Pereira:** Yes, the core is understanding what is that feature for. So what do you enable the customer to do? Because when the customer asks for a feature, it means the customer is trying to achieve something. And if we jump exactly to the feature, I like making the doctor example. As a patient, I go to the doctor and say, hey, I have some pain here on my back, and I'm here today because I just want you to operate me.
 
@@ -253,13 +253,13 @@ In this podcast, you will learn:
 
 ### [00:27:00] Closing Thoughts and How to Reach David Pereira
 
-**Bill Raymond AI:** This has been a great conversation, David Pereira, I really appreciate everything that you've shared today. Before we wrap up, could you share how people might be able to reach you?
+**Bill Raymond:** This has been a great conversation, David Pereira, I really appreciate everything that you've shared today. Before we wrap up, could you share how people might be able to reach you?
 
 **David Pereira:** Sure. So you can reach me out on LinkedIn. I'm quite available there. Also, you can find more about me in my website. There you'll find courses as well as my book with a sample. So you can get the book sample there for free. So that's how you can reach out to me.
 
-**Bill Raymond AI:** Wonderful. And I will make sure I provide all of those links on the https://agileinaction.com website. If you're watching this video on YouTube, or if you're listening to the podcast in a podcast app, just go down there to the show notes, the description, and you will find all of those links to reach David along with the full transcript of this podcast. 
+**Bill Raymond:** Wonderful. And I will make sure I provide all of those links on the https://agileinaction.com website. If you're watching this video on YouTube, or if you're listening to the podcast in a podcast app, just go down there to the show notes, the description, and you will find all of those links to reach David along with the full transcript of this podcast. 
 
-**Bill Raymond AI:** David Pereira, thank you so much for your time today. I really appreciate it!
+**Bill Raymond:** David Pereira, thank you so much for your time today. I really appreciate it!
 
 **David Pereira:** Thank you. It's a pleasure being here.
 

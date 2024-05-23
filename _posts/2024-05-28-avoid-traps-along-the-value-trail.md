@@ -6,7 +6,7 @@ date: 2024-05-28
 title: Avoid traps along the value trail
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/31424052
-youtubecode: ""
+youtubecode: N9u-dsvOhSU
 guest-details:
   - guest-name: David Pereira
     guest-title: CEO, omoqo GmbH and Author of Untrapping Product Teams

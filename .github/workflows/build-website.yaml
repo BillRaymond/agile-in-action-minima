@@ -40,4 +40,4 @@ jobs:
 #       Github->Repositories->[your repo]->Settings->
 #       Secrets->Actions->New repository secret->
 #       Name: same as the PAT (ex JEKYLL_PAT)
-#       Value: Paste the generated token into the value
+#       Value: Paste the generated token into the valuere

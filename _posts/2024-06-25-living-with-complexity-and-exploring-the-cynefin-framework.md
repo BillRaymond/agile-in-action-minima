@@ -6,7 +6,7 @@ date: 2024-06-25
 title: Living with complexity and exploring the Cynefin framework
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/31810172
-youtubecode: https://youtu.be/UilC0iv4tYE
+youtubecode: UilC0iv4tYE
 guest-details:
   - guest-name: Douglas Squirrel
     guest-title: Author of Agile Conversations

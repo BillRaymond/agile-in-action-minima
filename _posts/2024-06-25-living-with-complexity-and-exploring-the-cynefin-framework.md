@@ -6,7 +6,7 @@ date: 2024-06-25
 title: Living with complexity and exploring the Cynefin framework
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/31810172
-youtubecode: ""
+youtubecode: https://youtu.be/UilC0iv4tYE
 guest-details:
   - guest-name: Douglas Squirrel
     guest-title: Author of Agile Conversations
@@ -20,6 +20,9 @@ guest-details:
         fieldGroup: guest-links
       - guest-link-label: Agile Conversations
         guest-link-url: https://www.amazon.com/Agile-Conversations-Transform-Your-Culture/dp/B086D5RBWS/ref=sr_1_1?dib=eyJ2IjoiMSJ9.DJwNcuN5QlbnkfmoUjZOKvlsjDKobQEVOHXOlIL6Y3MudzH5kY8LLOPRReBS_SfDlBgYhgBsGexNOBXEfggamJQYqxdQjFihGrLQ5UpDAKBztkgrgES0G4Uq75F6PCH4puUGuC78xbBQ0qid8E1EWZniPSNWoskHZkMe_p5IBIbNn6CYYv_Ru4dq8Msf6JoX7slyln5-voVnDZLu6bRw_x4TPGtFLL4JVjQH8HBo9R8.pFIFm925Fcbf0c4BGzV0sIu9UZbFk6ZXR5nGkb1NT18&dib_tag=se&hvadid=580750471136&hvdev=c&hvlocphy=1014221&hvnetw=g&hvqmt=e&hvrand=4981642288342079413&hvtargid=kwd-1277392506390&hydadcr=22564_13493296&keywords=agile+conversations+book&qid=1718812046&sr=8-1
+        fieldGroup: guest-links
+      - guest-link-label: The Cynefin Framework
+        guest-link-url: https://thecynefin.co/about-us/about-cynefin-framework/
         fieldGroup: guest-links
     fieldGroup: guest-details
 type: podcast
@@ -40,7 +43,8 @@ In this podcast, you will learn the following:
 
 🎉 Strategies to make tech teams more profitable
 
-## Transcript(transcripts are auto-generated, so please excuse the brevity)
+## Transcript
+(transcripts are auto-generated, so please excuse the brevity)
 
 ### Introducing Douglas Squirrel
 

@@ -24,26 +24,7 @@
 			"extensions": [
 				"eliostruyf.vscode-front-matter",
 				"github.vscode-github-actions",
-				"aaron-bond.better-comments",
-				"ms-python.python",
-				"donjayamanne.python-extension-pack",
-				"donjayamanne.python-environment-manager",
-				"ms-toolsai.jupyter",
-				"ms-toolsai.vscode-jupyter-slideshow",
-				"ms-toolsai.jupyter-keymap",
-				"ms-toolsai.vscode-jupyter-cell-tags",
-				"ms-toolsai.vscode-jupyter-powertoys",
-				"ms-azuretools.vscode-docker",
-				"shd101wyy.markdown-preview-enhanced",
-				"demystifying-javascript.python-extensions-pack",
-				"bierner.markdown-mermaid",
-				"yzhang.markdown-all-in-one",
-				"bierner.markdown-emoji",
-				"bierner.markdown-checkbox",
-				"bierner.emojisense",
-				"mathematic.vscode-pdf",
-				"peakchen90.open-html-in-browser",
-				"Postman.postman-for-vscode"
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	}

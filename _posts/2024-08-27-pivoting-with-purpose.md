@@ -31,13 +31,14 @@ Bill Raymond chats with Vazgen Tadevosyan and Edik Baghdasaryan about their bold
 
 Vazgen and Edik dive deep into their journey, sharing the lessons learned from balancing consulting services with product development. From overcoming technical challenges to keeping their team motivated, they provide actionable insights for anyone considering a similar pivot or looking to succeed in a highly competitive industry.
 
-✅ Discover the challenges of scaling and the importance of domain-specific expertise
+
+✅ Discover how Edik and Vazgen created a consulting company to help clients scale
 
 ✅ Learn how to maintain client trust while pivoting your business
 
-✅ Hear how they tackled team dynamics and flexibility during their transition
+✅ How to ensure flexible and dynamic teams during a time of transition
 
-🎉 Get inspired by their passion for gaming and how it fueled their new venture
+🎉 Learn how to fund your own gaming-focused company using consulting services business
 
 ## Transcript
 (transcripts are auto-generated, so please excuse the brevity)

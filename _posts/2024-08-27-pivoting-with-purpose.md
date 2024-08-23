@@ -8,22 +8,28 @@ twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/32661002
 youtubecode: XUv3SHoXgK0
 guest-details:
-    - guest-name: Edik Baghdasaryan
-      guest-title: CTO at Milies
-      guest-photo: /uploads/Edik-Baghdasaryan.jpeg
-      guest-links:
-          - guest-link-label: Edik onLinkedIn
-            guest-link-url: https://www.linkedin.com/in/edik-baghdasaryan/
-            fieldGroup: guest-links
-      fieldGroup: guest-details
-    - guest-name: Vazgen Tadevosyan
-      guest-title: Co-Founder & CEO at Milies
-      guest-photo: /uploads/vazgen-tadevosyan.jpeg
-      guest-links:
-          - guest-link-label: Vazgen on LinkedIn
-            guest-link-url: https://www.linkedin.com/in/tadevosyan-vazgen
-            fieldGroup: guest-links
-      fieldGroup: guest-details
+  - guest-name: Edik Baghdasaryan
+    guest-title: Co-founder & CTO
+    guest-photo: /uploads/Edik-Baghdasaryan.jpeg
+    guest-links:
+      - guest-link-label: Edik onLinkedIn
+        guest-link-url: https://www.linkedin.com/in/edik-baghdasaryan/
+        fieldGroup: guest-links
+      - guest-link-url: https://d2qqm704.na1.hs-salescrm-engage.com/Ctc/UB+23284/d2qQm704/Jks2-6qcW69sMD-6lZ3l7W4hB9_h6q-ndlW1kllGQ7RJsm4N6psywm3sDBJV4HQRm1hfTC9W7H__v9349SR-W6V2ktY2Y2x04W8jlHW37-jcnFW7RWghM3gjz5JW43MZ4Y2bMSl0W7y5ty31W9lbTW4bgn2B2zqyCYW4lCb2p1pbtK8W8D9RMm1FNt5VW4vcFtg2hg-J5W1hbFnJ7wdW-JW5kKPdN4DVWmVN2tRL_gpLwYRW5nVs8S43xVTRW9dzsSG7FfX7WW5Sr2Ry5p8kLVf1L9N_K04
+        guest-link-label: Milies
+        fieldGroup: guest-links
+    fieldGroup: guest-details
+  - guest-name: Vazgen Tadevosyan
+    guest-title: Co-Founder & CEO at Milies
+    guest-photo: /uploads/vazgen-tadevosyan.jpeg
+    guest-links:
+      - guest-link-label: Vazgen on LinkedIn
+        guest-link-url: https://www.linkedin.com/in/tadevosyan-vazgen
+        fieldGroup: guest-links
+      - guest-link-label: Milies
+        guest-link-url: https://d2qqm704.na1.hs-salescrm-engage.com/Ctc/UB+23284/d2qQm704/Jks2-6qcW69sMD-6lZ3l7W4hB9_h6q-ndlW1kllGQ7RJsm4N6psywm3sDBJV4HQRm1hfTC9W7H__v9349SR-W6V2ktY2Y2x04W8jlHW37-jcnFW7RWghM3gjz5JW43MZ4Y2bMSl0W7y5ty31W9lbTW4bgn2B2zqyCYW4lCb2p1pbtK8W8D9RMm1FNt5VW4vcFtg2hg-J5W1hbFnJ7wdW-JW5kKPdN4DVWmVN2tRL_gpLwYRW5nVs8S43xVTRW9dzsSG7FfX7WW5Sr2Ry5p8kLVf1L9N_K04
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 type: ""
 fmContentType: podcast
 ---

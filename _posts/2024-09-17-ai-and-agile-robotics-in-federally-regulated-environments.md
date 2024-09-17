@@ -12,7 +12,7 @@ guest-details:
       guest-title: Program Manager, US Navy Expeditionary Missions Program Office (PMS 408) at NAVSEA
       guest-photo: /uploads/captain-jon-haase.jpeg
       guest-links:
-          - guest-link-label: Captain Jon Haase on LinkedIN
+          - guest-link-label: Captain Jon Haase on LinkedIn
             guest-link-url: https://www.linkedin.com/in/jon-j-h-05513623/
             fieldGroup: guest-links
       fieldGroup: guest-details

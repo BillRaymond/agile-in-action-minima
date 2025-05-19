@@ -260,4 +260,3 @@ In this episode of the Agile in Action Podcast, Professor Adam Boddison, CEO of 
 **Bill Raymond:** Thank you again Professor Adam Boddison for being on the podcast today. I really appreciate it! 
 
 **Adam Boddison:** Thank you. It's been a pleasure!
-

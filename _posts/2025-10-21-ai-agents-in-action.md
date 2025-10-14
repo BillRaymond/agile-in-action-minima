@@ -6,7 +6,7 @@ date: 2025-10-21
 title: "AI Agents in Action: Making Teams Leaner and Faster"
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/38581190
-youtubecode: bLcqkwrT12I
+youtubecode: gnpHYfYWowE
 guest-details:
   - guest-photo: /uploads/bill-ryan.jpeg
     guest-name: Bill Ryan

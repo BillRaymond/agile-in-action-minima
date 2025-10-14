@@ -5,20 +5,20 @@ author: Bill Raymond
 date: 2025-10-21
 title: "AI Agents in Action: Making Teams Leaner and Faster"
 twitter-text: ""
-libsynUrl: ""
+libsynUrl: https://directory.libsyn.com/episode/index/id/38581190
 youtubecode: bLcqkwrT12I
 guest-details:
-    - guest-photo: /uploads/bill-ryan.jpeg
-      guest-name: Bill Ryan
-      guest-title: Founder and Partner at Velocity Advisors
-      guest-links:
-          - guest-link-url: https://velocityadvisors.ai
-            guest-link-label: Velocity Advisors
-            fieldGroup: guest-links
-          - guest-link-label: LinkedIn
-            guest-link-url: https://www.linkedin.com/in/billryanatvelocity/
-            fieldGroup: guest-links
-      fieldGroup: guest-details
+  - guest-photo: /uploads/bill-ryan.jpeg
+    guest-name: Bill Ryan
+    guest-title: Founder and Partner at Velocity Advisors
+    guest-links:
+      - guest-link-url: https://velocityadvisors.ai
+        guest-link-label: Velocity Advisors
+        fieldGroup: guest-links
+      - guest-link-label: LinkedIn
+        guest-link-url: https://www.linkedin.com/in/billryanatvelocity/
+        fieldGroup: guest-links
+    fieldGroup: guest-details
 type: ""
 fmContentType: podcast
 ---

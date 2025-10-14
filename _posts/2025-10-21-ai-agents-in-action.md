@@ -34,9 +34,7 @@ You’ll learn how to start implementing AI agents with minimal technical knowle
 * No-code agent creation
 * Three Horizon Approach to scaling AI
 
-**Transcript**
-# 132-bill-ryan-agentic-ai
-
+## Transcript
 
 ### [00:00:00] Introduction and Guest Welcome
 

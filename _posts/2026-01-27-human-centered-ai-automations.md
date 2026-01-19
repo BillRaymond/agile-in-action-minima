@@ -6,7 +6,7 @@ date: 2026-01-27
 title: Human-centered AI automations
 twitter-text: ""
 libsynUrl: https://directory.libsyn.com/episode/index/id/39791550
-youtubecode: IKTW9FD8oAc
+youtubecode: jimR6UC5U6I
 guest-details:
   - guest-name: Bill Ryan
     guest-title: Co-founder, Sync(d) AI
@@ -241,4 +241,3 @@ And we'd happy to, to connect and chat more.
 **Bill Raymond:** Yeah, totally. 
 
 **Bill Ryan:** All right. 
-

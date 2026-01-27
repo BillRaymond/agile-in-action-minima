@@ -24,7 +24,6 @@ fmContentType: podcast
 ---
 # Human-centered AI automations
 
-
 ### [00:00:00] Introduction
 
 **Bill Raymond:** Hi, and welcome to the Agile in Action Podcast. I'm Bill Raymond, and today I am joined by Bill Ryan. Hi Bill, how are you today? 
